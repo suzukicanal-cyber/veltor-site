@@ -1,0 +1,4633 @@
+[
+ {
+  "id": 7713,
+  "slug": "bmw-s-1000-rr-race-package-2022-7713",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR Race Package",
+  "raw": "BMW S1000RR Race Package",
+  "year": 2022,
+  "km": 18000,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1511000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-21T12:56:46+00:00",
+  "features": [
+   "Квикшифтер Comine",
+   "Ветровое стекло Puig",
+   "Защита двигателя GB Racing"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Дополнительное оборудование и тюнинг"
+   },
+   {
+    "k": "li",
+    "t": "Двунаправленный квикшифтер Comine"
+   },
+   {
+    "k": "li",
+    "t": "Ветровое стекло Puig"
+   },
+   {
+    "k": "li",
+    "t": "Защита двигателя GB Racing"
+   },
+   {
+    "k": "li",
+    "t": "Карбоновые элементы RCM (PPF-плёнка)"
+   },
+   {
+    "k": "li",
+    "t": "Слайдеры рамы Rightech"
+   },
+   {
+    "k": "li",
+    "t": "Двухканальный видеорегистратор"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальное пассажирское сиденье"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальные пассажирские подножки"
+   },
+   {
+    "k": "warn",
+    "t": "Падение на месте и повреждения отдельных деталей. После падения имеются царапины на глушителе, боковом зеркале и грузике руля"
+   },
+   {
+    "k": "warn",
+    "t": "На обтекателе повреждений нет, поскольку падение произошло после оклейки"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/NE-aByFgXjsEONqLi0ppuWshiCB915UZcNYcbCxDvD7QqwlNraQ7X3G_x64nKPfvTOkIwKSEL9xaV7-jGsJMbp6zjcgwME_zauvAnDyJU9CtPFXjXawBdilyRGfqPO9QKHUh0nQiWc0TX-HjNJBdnEKou1THDIY1VyWunGFwmDrlZEniUPQzqYuDLrWwALlqxbi0ChoVWHK-Fl13rUNnoJ8mWNmygsifsBhacwqfFvPqUg1AbDygzEAeWRmo4m2aNxDykkygkWToM__OzoovFB9w9HH4pc_JZ1X3Qw4T8X8C05dmLE0HG30hUBkFz_c3Um1zqpS3JlKJwl0CB6CEKQ.jpg",
+   "https://cdn5.telesco.pe/file/X_QTRW40HggCwD-8_XunQLg-zQUBpBSgh8cQgmUOGcTWv-cw701ArThE4dfjd0jTIotmh0wRcIB7_LMSJmRcNgB46d798Xe85gQHpIjrhPDy_PWzpuF-GbCuMgPvwzh4AFj7Ba5AVPIRtRh1zR8Fglfwm_K-2PEsobDjkRDIE9T3rxXEbTg6289esrXniTdwAG_vFlTbUHXnKq_MpwpSA6TPRp4jgLpoXb9oQ1jCIfsA7iCRqXEItMK0Qi1zwd0g9DrmOU4q6EvteuJaW1O1mQ2bAzy3LlNGQAkj_m0YxNSj7xAqBqt4gPlr87g387aqiWVb0K_zjIOE6PvsJV72-Q.jpg",
+   "https://cdn5.telesco.pe/file/S9Yy1gFZBkgoKcF6zAdi3qq5354axI37AH8xv7HOhKVOTBOH-TJ0JcEymeWwxb0ke8HAbfICs-Kzk7bcJmbIzTOjg9JsIUBmw-18FPK3GF860sdHVl7glABq9R0BEtNEYdFWNQ9uNRUScWqQbZ-UVcbadEOUc22WsyXlI-aL-cUvp_PAZeGfEj26JLCojQyq_YdOerkXOhPx9bMJVpKR4phLe_4aoUc-lvfPoUAHhFMGqzRHzhU4vnN7zozPCw_Y5BM41pyBdCmOIhWdIfJLrlzVLckT8QSlC1Sh55Eh_KsZBOCmbe_Rg_qx4blwyrYajnmGxydi5ypLsFiCQJSM_w.jpg",
+   "https://cdn5.telesco.pe/file/iJOIWMZ0CCIhdGlPY6uB_1Y3Y93OZ6Nf0iNbxor7XBSqe7EBiZI_NzhRLrYdjT3af8DOzt7CT32z_xsv4oYmlPRmerVCipcYWSF-_FxkDAL08w-s4n_Ap1ZAK7zdG-J4NMavWoo2YUSQteqqVlpd-wuvHnEJNdB7_HBCgH83Pv-abqAK2Mwf9gJTVk-O7O2hZd4WTvfzr5lFXd_Ll9biQAaCUqH5dLdqAIWt6Jl8RkRxJKgJCTdSxQKUdM3NzO162zQ84AboS8gJ_V_Xx_XUfLskzzo8ZxndgJ4XU8r0J2-dzto2Pf5_K8kRfbZ6CkurkyyV0Yol2vuqpeRLQvAklg.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7713"
+ },
+ {
+  "id": 7708,
+  "slug": "ducati-multistrada-1200-s-touring-2016-7708",
+  "type": "moto",
+  "brand": "Ducati",
+  "model": "Multistrada 1200",
+  "name": "Ducati Multistrada 1200 S Touring",
+  "raw": "DUCATI MULTISTRADA 1200 S TOURING",
+  "year": 2016,
+  "km": 13000,
+  "volume": "1198 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1025000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-21T01:10:44+00:00",
+  "features": [
+   "Подвеска Ducati Skyhook (DSS)",
+   "Несколько режимов езды",
+   "ABS и трекшн-контроль DTC"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Комплектация и оснащение"
+   },
+   {
+    "k": "li",
+    "t": "Электронная подвеска Ducati Skyhook Suspension (DSS)"
+   },
+   {
+    "k": "li",
+    "t": "Несколько режимов езды"
+   },
+   {
+    "k": "li",
+    "t": "ABS и трекшн-контроль Ducati DTC"
+   },
+   {
+    "k": "li",
+    "t": "Круиз-контроль"
+   },
+   {
+    "k": "li",
+    "t": "Бесключевой запуск"
+   },
+   {
+    "k": "li",
+    "t": "Цветная TFT-панель приборов"
+   },
+   {
+    "k": "li",
+    "t": "Регулируемое ветровое стекло"
+   },
+   {
+    "k": "li",
+    "t": "Боковые кофры"
+   },
+   {
+    "k": "li",
+    "t": "Центральный кофр"
+   },
+   {
+    "k": "li",
+    "t": "Защитные дуги двигателя"
+   },
+   {
+    "k": "li",
+    "t": "Защита двигателя"
+   },
+   {
+    "k": "li",
+    "t": "Крепление для смартфона"
+   },
+   {
+    "k": "h",
+    "t": "Дополнительно"
+   },
+   {
+    "k": "li",
+    "t": "Комплект креплений для боковых кофров"
+   },
+   {
+    "k": "li",
+    "t": "Передняя и задняя резина — состояние 100% по объявлению"
+   },
+   {
+    "k": "li",
+    "t": "Проведена техническая проверка"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/sdI11nsrh3uB0TiROL9KcOWVUW49f-AeU3FTHS9XfuIcbxZQnDP9SWuJEqNHQLIpK16rzbAJWIhzhhYuzbhmmKEpdj9GX0kpzR2cbLDlsIs09s_2dTpG7_QcxJ_Pf-x4W-b7S6bwQtEmXNNB7rI_OS_5s1dheIpfdZ0jwgnWviHgx_A7VJdvW-y0y-XFEdPIZ3eU2NEH4WyyYWPMneXqP0uZf1gUKjgZDb_mB4EI1AQwcFIyeWivrpZRdDMmKOABPcDqutiCbVrkZHByKzlw5znlmBoUv5tzBUPDwBOCsBftXlvGy5cAu9CQOK7w43EEcrb5p0gkS-_G-BwFX3IF2g.jpg",
+   "https://cdn5.telesco.pe/file/i0h1D4QkUYl8_79C1Q1Jpla3XuqVe2gZW2DwoA8Dn6iHkgA7ItC9QF6eG0t-pSZXIdRV8j_KYEt3ug_c04LOt5t3_M-091h_7r9Iy-u3nCXezofIEBrTB9s3u-x_20Vx5TETQ-exrjb6FY21iCSDUKY4ia7AT1v4P0iha504ZMilIxyy552kBGeCJTdP2MtSdeQXT7PvysKBVrxe9v5r3iSJD_10eO3W4CSDcpy1WmDGwNzsD7EstHi2rt4Mnr2DXF8oSOLaTaTne8-70L6fRtRxr-OSvkP4XBQUXMZVT8wi-GEdTQSddmcwV3JSKubv9d01BrkRASytfaGpoVFhUA.jpg",
+   "https://cdn5.telesco.pe/file/ff-9fLLMesNoogeSmvUNqG-VoYf60XMRJFgg5xPGtHJMFljCrgZpL5IIYoYsrV71lqCqybnxSalr157Vo1TpoZkNrE6wTMWmUwDn7auGYl8Bs2HRBVBVCx_FusxJ8r2mR_42EGj1mU9tuJXe-n26KXH0W-4p7Ys40m-awB_NRFBFH3he35f6G9JTYT2lXqDwTzUCd5M47EUfoyAscAIr3ssjvpAg3c-WjJQjeCmVYNtJgtHzqWoR0TUhk-7Kpxf7eI7Of525xht9tWiyTkjf9JnA03y4VRwkjqDOm4mvh_BwPYWu8jAGWy4leIZiaJq_ZW5mETWJR0mS61NRYvY2fQ.jpg",
+   "https://cdn5.telesco.pe/file/c8GptXRiTr_L7bkLRjvnXN4UJGxeIbJQmOJsu-9J12xvttcg5CDkZjM6tokFtRyt3pS0AUzWOF6o-i-T_SS2JlpP3ujXe3EA8hRlNDO16tED7XL0W90_XklD_lqfz2Slhereb7l7DYYHRC82GwjBQncUoPeErb9MF7tnDVdLcilCr7Xifl71ZbyFfA-bWfy1ICUGdg2tSesVrA6vC_1-BGhglKSpeTfMIrxn5_VXiXSRVbSoeq_qOtWTzvOAtJQnYaPBxrnb_t5xXdEMBvUJ_VCEfXo4bUYQHdaJDM-PLpq7c33ORGJR3ZE8Jgi6oKqBtA_ywF4jTFBz7PmzVEIJ8w.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7708"
+ },
+ {
+  "id": 7704,
+  "slug": "ducati-xdiavel-v4-2024-7704",
+  "type": "moto",
+  "brand": "Ducati",
+  "model": "XDiavel V4",
+  "name": "Ducati XDiavel V4",
+  "raw": "Ducati XDiavel V4",
+  "year": 2024,
+  "km": 432,
+  "volume": "1158 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2256000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-21T01:06:51+00:00",
+  "features": [
+   "Видеорегистратор",
+   "Слайдеры рамы Evotech",
+   "Рычаги Ducati Performance"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Установленный тюнинг"
+   },
+   {
+    "k": "h",
+    "t": "все дополнительные компоненты установлены в Ducati Seoul"
+   },
+   {
+    "k": "li",
+    "t": "Видеорегистратор"
+   },
+   {
+    "k": "li",
+    "t": "Слайдеры рамы Evotech"
+   },
+   {
+    "k": "li",
+    "t": "Фрезерованные рычаги тормоза и сцепления Ducati Performance"
+   },
+   {
+    "k": "li",
+    "t": "Грипсы с подогревом"
+   },
+   {
+    "k": "li",
+    "t": "Защитная накладка бака Ducati Performance"
+   },
+   {
+    "k": "li",
+    "t": "Слайдеры передней вилки Ducati by Rizoma"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/FWtEN3DDalDybQ_o76beigSIMBuO_xDh5dqRNceEIxgZ1zylTXYo_Hy0Wq1ssUcza3UNcuoxD_3zBiXrGVwb79pjyIi61-_VcW2crqbtM_RhN8s94VuFMbz_I7zehENvNWxBK4F6FGy_ClHJgd4hSiR_RAZylE9nOzIQQk9AvvjMC8vT_xBHvTtF9tgRqpdpCFn7OseYPOuFhzrKwSqXXCyEGiAt1rgOThNkKxhqAEdTeWwiUVvZNO9byGNOHM4oRLw4xNvZmj6b2PyCADmyMNISs2sbS4WmWaHjzk0QYwMtyadtBrDszfHu5R8aBSUQocgVRFHbPPfWuRw1qxpjlA.jpg",
+   "https://cdn5.telesco.pe/file/OTS1blR9IwCeDCbONpdDQI3WgHBNWfuDAGCStQpE1rsB0a0VZ0XjnNYS0j8CUA4_W8sZ80gGdRsCcZWnYyoZnOLwSvK1V0bkSWmIoVT1RNFg1Li6JSiZ3ZRklsXBPJ1Uou6b5FrhfUUpSkvvFX2bUXODSlPb1M0aK71yC5_5iJ3rPUzE1MOVgxXEKMg7FTIt-yGJHeyBjOT5BahiBJ-3l1RMgkgKf20t7KUCRPkiBwF3WSJnlbkzSNKsy24jTkBSwtrkZNyOcnAwuc6yfH9W0l5PsKLPUSPizitiacLw9dRZkVK3vwinCbIL5wBVosa70Bb5oSW5tg4tbCEi8yebzg.jpg",
+   "https://cdn5.telesco.pe/file/bSDgLQDmce2iXFSsNW360FtKR7UDTzOzfSWKrZW0T_lV2q4nxaJQohfvPfscUSDDXvVp7ivkKIZ18t0K1EtxHCYxi6Mt3M30-qD5iFLA_EmiNxbMYYnko987cwCZrAoQUW0o1G2qMT5HHA7slmJTNA_vUmeH7iptRMYNTEnekqZIClSyWaS27aX5Cs5Ccf5nS1f27L2Wp1z8Nc-OmNL5JNufj4l4zqgya7K0MHtn3cL7F3uMG-LPMp4kw64iMrhpQ0a8b6nyrhJ9OGxfhiTlSi0hPUVLWYvKzPAMw2nxFp6JwVqQk4tdUZlOhOjisGPXUjK_MzG_bUvO1CGntUkVxg.jpg",
+   "https://cdn5.telesco.pe/file/sfauPvTo-x_5c22zMu0i7niY6rT1AF9dhhaWFcvhP4VJrDOiKzS5rI7tZbL7hDgIwTbfykb1B_k_67TzKKS0SMXMy_HJK_MUIUS6fbV-tWIsclopdM9cAbwlwC44NcCElnHxhTuaZsk8_nuUN-DWg7zBgKd8Nq56HHCA0y0a_2u3JVMavFiFNecnCc9XDhPwBC9z6KMD_tRKDOXJIi_DZE1psri_fOI5TxYbcLjIFdys3vxywNXQTE70PrPFXaN068HDCfroNQrwztJ4LK9eTFZ1LgOxh5ed46CSEanwnGFJ8pqZxQGhRhYXi4D2eQXFrrt7b8BKLqtbZpuexFFYSw.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7704"
+ },
+ {
+  "id": 7700,
+  "slug": "ducati-xdiavel-v4-2026-7700",
+  "type": "moto",
+  "brand": "Ducati",
+  "model": "XDiavel V4",
+  "name": "Ducati XDiavel V4",
+  "raw": "Ducati XDiavel V4",
+  "year": 2026,
+  "km": 244,
+  "volume": "1158 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 3055000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-21T01:03:27+00:00",
+  "features": [
+   "Цвет Burning Red",
+   "Тюнинг на 8 млн вон"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "В цвете Burning Red, в тюнинг вложено 8 миллионов вон"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/Tf-1geEwlU3-fQY4ShTAvkHn_uGihz4NaOGxRI6fX9aYCdfzRTaZBsgpZa1XvZRNLUsMhMYZbaSdxmjAEZXnZUmQQufxrju-WVl9CnBcwiitI_Nbfy_mb6qEHAvDlzMIbz3d6y-jsAsuFsSKGd0RsHLJYlEvwU7aAG84sHNJLRcTFeDXJAxs6SnTB-dPxw8bYQAKSqD8v8l6thD3C3d02Jaw0MxYLJaErEUbEI-hYUMrVYvPJWwbg7o8bL95ipXdtb2_nSUMbOV7wq2rJJpQNzHiAunKGh7GA-txkcQls--_WisnujUxxp1ZMdBohk6oSF1MvHE3SAworPpYoVhPAQ.jpg",
+   "https://cdn5.telesco.pe/file/Uj-Gw4ShrvSHG8KQSxvjFWxW6o7dhUkbtAPwmVyVjP0EMelYuB1uTDgmYm1SjfMYFHoLQNk9erMjlhfh5SHhtbqt3MjtP7IRqYJktZQ-gswXKTk7mEdQKBTmcnsFrUudQehMXXictdrP3YeKDve5xk7jD56M6KcX5I6LbmcU_Po95X_TMZVQnRB6HP8-XhUukMgR3Wc9DBDimIiFTEIdHFZE0gpmI5JqdhvkC7c2npSLbwnyZWVb3q2jfCz45zEp-y2igJjM3DpkHQCPkZiwOBph8eJ887tAqcdilU-2sacQ5109oOJGIydE4N4OlawApDmNmg15O8oeNSxOMyDUWQ.jpg",
+   "https://cdn5.telesco.pe/file/CzGgZ4UvOVQsk64imGKxlxb2CAr2Q45Ezi_5xhYAePmiH3yp7kggXTQh-LOQx_fDGdGjGScnSWi1dqB7ntBjmER9OJb8U3NNSZm27338F0oIK2SAfSkMaoVCb1ysHJN1tXVCQfgRxbzGhZZ9eB9xXd02yVHkbxjnkFJTX_RrwTCV0PT7UxD8akrjRbinSL7wLDhmUloj3lmojA8kxBQIi94YGFXQdbOb_1I-bnkgLMwgavWGj9ORD1IR3Fzan89nvQbe_rrHkWUio1digYMSYvoRSJH7TcdKMneEx5v43qNFWI_buezaL5Cw7JvLpHlxj4pX603bBdvdOvCMhwWVYQ.jpg",
+   "https://cdn5.telesco.pe/file/HJI2_TDzrxfVzRtjWC9xSA-SW0yexRyRrltIfMC1tUoSFIBSTbt_akaedUTKiGaMwt9C7gjMHDSIeOeVgas0L-nY98tTkgXdGJlcK4dFSESX5TgoHA8JIDwI08GEh1Z3SmgnGcxxXMOVymgnl4yyCz4bV8XccBLx7sOyowMzP_jVrEV7g-m0TpybmWFTxXllVVFig2uSVUzLXdaeWXACb9nAgbl4bHpFrGYbjic0ErzHFkMYxRbJfJ6ZB4zPatfQSfCYM_1qfpMMu27K67Z6GVjnKP58SZs-01YYEHHMhysy4yBjVNcNRXsjIsiSiWO55RtedC7qalJ5NelUJHsRvQ.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7700"
+ },
+ {
+  "id": 7696,
+  "slug": "harley-davidson-fat-bob-114-2022-7696",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Fat Bob 114",
+  "name": "Harley-Davidson Fat Bob 114",
+  "raw": "Harley-Davidson Fat Bob 114",
+  "year": 2022,
+  "km": 5135,
+  "volume": "1868 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1498000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-21T00:56:23+00:00",
+  "features": [
+   "Двухканальный видеорегистратор",
+   "Беспроводная зарядка ALUS",
+   "Грипсы с подогревом"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Установленный тюнинг"
+   },
+   {
+    "k": "li",
+    "t": "Двухканальный видеорегистратор"
+   },
+   {
+    "k": "li",
+    "t": "Беспроводная зарядка ALUS"
+   },
+   {
+    "k": "li",
+    "t": "Грипсы с подогревом"
+   },
+   {
+    "k": "li",
+    "t": "Левая боковая сумка"
+   },
+   {
+    "k": "li",
+    "t": "Комплект дополнительных подножек для пассажира"
+   },
+   {
+    "k": "li",
+    "t": "Защита двигателя"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/ABOJIZJchv5cOZIM_0DLPHCPKP5Jb3zT7FizsjFZ7v8fUDhyjGVhz_Tf0QQsAKsGuC_to1Dyox4_fIC2_m2YyF2GfEtYMsHFLeWhXXAzDZ3y178TUlHBIvXyh5LRU268YySLVispkL030UMBpMiADBwqCULqLryGnCRKWp0Gj-hjJReyUectNQYPWPSefhZXmOyAmXGLMqWtbCizDUmCdI1Pp2_XmcdRLqGvBOutw4vRQcpfpQ-bNqEu6Xdfde106Nl5Poa634fMNoCE5xYLsSJT60LWEg7mB57-qq9sov9mhKM_AX9xtNZgfRS_gVraFFoofyCrqbGKkPTE13Jbpw.jpg",
+   "https://cdn5.telesco.pe/file/aZwWNvAQ-8RlkYhHy9HagRV27ld2Xnkcmj8kNl4LVn204fgoul2yI3dbwsveeBGESWzKlw9vySnQgbFmzlHu95XV5NkqkoYL3dlf2kMxzA5p8ZrRDMCOJTExIhp_BcTj-eP43robP0fDRFrokQC2pEw78cN8Gw8sJT2qxXTLCAJGUyDK4R4qEUk0n6ZgD44v3AkD1VVlXurwFi8ZTtn-RdU3cltJvLFYPUYzplOCi8zt6POfWjwPihX95u9iRAOsmwPe_PaH_CQ_VuqNzvzy1HXL6EkV7R2uj8Qv6EXQ5Q1ui1jpbGWM40c9nrvQecIJF9-zNG8aTm-o69r-Nuz4VA.jpg",
+   "https://cdn5.telesco.pe/file/dTelEol7nbCwNBZCb0DRLaje5GvH8af6njtPU2AZQXrNUL-uYCmh-S7Vgz56PGxi9s71x45REGTHQtZFTDuF1jeTmbmrbKW6rGbhkwn0BCUeZlNcRMv_6Yh53JU3uECvEZRhnpHkCCNxNskScDDkvBAYKLOj_dHtH-mUWPsJ2odc7UmMx_ORMYOkJSJIAxE0aTFTBnGoTaj4ngcyfMed3pionAQP6PGr9CudYsRCx49EpjEvxvzXnHi0HXnX0LI3NA1a_ykqfEF-sa1c6OJazJSesI1qdRT6_yMYYfScIXi3xMVhytAbQlPyalQtmvSDSGHU8cd5jfHR9BeFnNjs5w.jpg",
+   "https://cdn5.telesco.pe/file/nBnZJxUxFUWBBU8mFMYcSSc8qNuHTFMTI522rlSpd25fYrOq0duN2grlNFEHf1HS_isws2pim6KRkFYouk2sMWJn-5pBrnbYQ89cy9zS-LMVAV4POpYphDNHfCxfnkpjL1Q0jiwUorX5C2Nv8atYB3H36bCN_hv02tNfmhrHDhRY21Lm5UNWyEUIVvt2k8F2zP0DKShMBsrShPRX9EhLigpyco7fIXsjG-JUa_zDtswfV0tp4YWdnCcbl6fitT4Px9M_5U2cJ6vfE2PVJ9vVZjtlyYqmukfyt6BHSpqhzALshpej1DPEc490-k0PJqY5STy6y9WzZm-nEGpMYTD2qA.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7696"
+ },
+ {
+  "id": 7692,
+  "slug": "harley-davidson-fat-bob-114-2022-7692",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Fat Bob 114",
+  "name": "Harley-Davidson Fat Bob 114",
+  "raw": "Harley-Davidson Fat Bob 114",
+  "year": 2022,
+  "km": 3040,
+  "volume": "1868 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2075000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-21T00:51:56+00:00",
+  "features": [
+   "Выхлоп S&S Grand National",
+   "Руль Drag Bar",
+   "Обтекатель Memphis Shades"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Установленный тюнинг на 18 млн ₩ (примерно 70% от нынешней стоимости мотоцикла)"
+   },
+   {
+    "k": "h",
+    "t": "Дорогие технические доработки"
+   },
+   {
+    "k": "li",
+    "t": "Выхлопная система S&S Grand National — с оформленным изменением конструкции"
+   },
+   {
+    "k": "li",
+    "t": "Широкий руль Drag Bar с заменёнными тросами и проводкой"
+   },
+   {
+    "k": "li",
+    "t": "Передний обтекатель Memphis Shades Road Warrior"
+   },
+   {
+    "k": "li",
+    "t": "Регулируемая задняя подвеска Legend"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальная сумка Harley-Davidson"
+   },
+   {
+    "k": "li",
+    "t": "Впускная система Arlen Ness"
+   },
+   {
+    "k": "li",
+    "t": "Рычаги тормоза и сцепления Arlen Ness"
+   },
+   {
+    "k": "li",
+    "t": "Зеркала и грипсы Arlen Ness"
+   },
+   {
+    "k": "li",
+    "t": "Защитные дуги Highway Crash Bar"
+   },
+   {
+    "k": "h",
+    "t": "Электроника и дополнительное оснащение"
+   },
+   {
+    "k": "li",
+    "t": "Двухканальный видеорегистратор GNET MVR G1 PRO"
+   },
+   {
+    "k": "li",
+    "t": "Беспроводная зарядка телефона ALUS S"
+   },
+   {
+    "k": "li",
+    "t": "LED-подсветка двигателя и заднего колеса"
+   },
+   {
+    "k": "li",
+    "t": "LED-противотуманные фары с выключателем"
+   },
+   {
+    "k": "li",
+    "t": "LED-поворотники"
+   },
+   {
+    "k": "li",
+    "t": "Дополнительный свет и аксессуары"
+   },
+   {
+    "k": "h",
+    "t": "Внешний тюнинг"
+   },
+   {
+    "k": "li",
+    "t": "Термостойкое матово-чёрное покрытие выпускного коллектора"
+   },
+   {
+    "k": "li",
+    "t": "Тёмное ветровое стекло"
+   },
+   {
+    "k": "li",
+    "t": "Защита фары"
+   },
+   {
+    "k": "li",
+    "t": "Кастомные крышки, кронштейны, крепёж и декоративные элементы"
+   },
+   {
+    "k": "h",
+    "t": "Обслуживание"
+   },
+   {
+    "k": "li",
+    "t": "Установлены новые Michelin спереди и сзади"
+   },
+   {
+    "k": "li",
+    "t": "Проведена диагностика сканером без ошибок"
+   },
+   {
+    "k": "li",
+    "t": "Заменена тормозная жидкость"
+   },
+   {
+    "k": "li",
+    "t": "Очищена и обслужена впускная система"
+   },
+   {
+    "k": "li",
+    "t": "Пройден техосмотр в 2025 году"
+   },
+   {
+    "k": "li",
+    "t": "Мотоцикл хранится в помещении с поддержанием заряда аккумулятора"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/ESObvJtQYCbpKorTRWX35voB_itHrPla0U-F52Kw-NbNliLod4kx6ZPSgTVyrov9bczveBso_MdOP7_aSwaoruze0Aj4s3ytlGhZKLPya1phW0HSX0QGQCeXiBnHJocF35tN36eZGerIlVRTVbCl0O19Lm2azBcpIhzx3aNIJu98lOy3Y0HLsJXfnORYEQzyl5G_63rzX2kg0JYwPKMj1Eoa4tLoQ5mxFv23x5pdoAr8vlk_PpYGPxTmuf_EQBhXNPtdu_xH7pXrRVEe2D3rOUzu1mmCtA3VqRlJMBmzp4YjtAt8xsrx5SqnE8y4htEeyp6rVGOz_vIbZgyRVsF-2g.jpg",
+   "https://cdn5.telesco.pe/file/eqLdCrFpnu0Yv6tqGvTptTw_HP3I57o5xe6rb2NELY7DIJHgtW1Z4LL3vLmMVAJJd48S31gpCZriYkTC_-hOUu7NqXAzElLCbW3pnTYXblv96snnCwevm3YesY6AMbPNWWHTNVzNtjoDgn1TyvoRhuwZIn_PE4zneyTUzu9sxl8bH3ZjiUVIIv1d2pvgNVAdhueEmD6bsEDXcTfQ8KhgIKB3DaJ1a0EAkOk6DPZJBRgH9xxt9cJz22cEFjISwf3Zm-ivvz_jDU0bDktthmcTx9ztttTZnDUjDGFi9Fs_8dqRrcskKzTc-tu8_AQFTW0PF7dQbMebkcWbrSbc9OfADw.jpg",
+   "https://cdn5.telesco.pe/file/gbUT2zd9fU59_8jNLCn-oY9rDR6zv6Ba8Q8yhtuli6i7jKACX9cxEDWH4WP7-PunRbeklmv6zuY18zXjApJMLLDPiG0ntElK8CQeHF3MCmcewYWE2bbYrJ56M7tIbqhXnSKWVkRyAEBBtaP0l0OFDSQ9GUx9yckzwvjC8cfgzGx_SDn64v_oO6lPutendVD5h2fOM7CZV1sK91xMu9Q5PCVp4buKYsEkYLoiimU1LEO4wLFbDIInns2ngjpwAOz1v2ubci-oCkrklErsxoz6aAdrCkGAAmjLCAFWY-Deqg4-Nv8nhwadx-QsjmntVpf9ywR5lvsyU6NfSjZaKigjuw.jpg",
+   "https://cdn5.telesco.pe/file/ZKJymVQNpB8iDPKNbeg-MO8UNFrdZz2Yxju34OCm5uBPvCvA_C-pfSnJmD84wPK2P4VLbzA6eORhge0mFRdaiervs0xIKBmKwC7F-hftpTpr_iVxQDp_6FVdt58D9hRHlS0mtkC-ul-B--NTUEz5QRkmBzp8wWi5_LhOPjunCLBsPZH85Ag5GeC12hysj-4J8R8ZfThTrvkQljwdqstyi4f7L9KEf0eKBeQCP4JhTZU14k9FtIAdg0lMKgniUmt8OCZJkaRanqdnQ3pPvVpwVCHsgmthfwM3fuY3p19EGBCKaD4UTwvasHEFVSXeYbk5-Njf6OnGCZqqB-Kds4WRGQ"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7692"
+ },
+ {
+  "id": 7688,
+  "slug": "bmw-m-1000-xr-competition-2024-7688",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "M 1000 XR",
+  "name": "BMW M 1000 XR Competition",
+  "raw": "BMW M 1000 XR Competition",
+  "year": 2024,
+  "km": 8822,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2879000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-21T00:38:00+00:00",
+  "features": [
+   "Слайдеры рамы Evotech",
+   "Слайдеры осей",
+   "Защита радиатора"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Установленное оборудование"
+   },
+   {
+    "k": "li",
+    "t": "Evotech — оригинальные слайдеры рамы"
+   },
+   {
+    "k": "li",
+    "t": "Слайдеры передней и задней оси"
+   },
+   {
+    "k": "li",
+    "t": "Радиаторная решётка (защита радиатора)"
+   },
+   {
+    "k": "li",
+    "t": "Gilles Tooling — оригинальные регулируемые рычаги"
+   },
+   {
+    "k": "li",
+    "t": "RCM — оригинальная карбоновая защита двигателя, новая"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/NCfMWjWzEla_-FaKEbLvd-uq0XfIOfhjCp18QNHM8vdN9agBWMJTFs0XhfUegze5eMdPiH67RbMfV0-8HTSdZDbyg0_18490bPKlMLW0Tefq-WumH6QnFRBz4I-6wmZq6UknVSBP3jfGeBXBhFppEcLKxjFYxYtnJgrSPItOX4e7ib_-AMB54YTX8o5nalfbh-3WUO-WTti15OeWLEcb-C-1QfZK5fNgHPSR6sk-Z8A_VipHWBAWMPI2dg1h25HehJ9qJzpc_M_hlqYGD_NEni2wAUBdqulZLeEyinkfzgRhtt2IvCoT8ClU-3NutEIOXUq2SL8MjCQbuyG-dY8_1g.jpg",
+   "https://cdn5.telesco.pe/file/jZisV9XftEjW6nTP7u-EJUpWjeM-vrnyL58s7rY668g1bGUFp8nSCcGYfX5YrTbdHSNuvTY7WzTz8K80NIFp3RJkPiEx7ch9Y1nxs6dQiFYxO2ZTdmMhyohekKKV80CagaNHNo0AXx3GQIoictvhm5Ls7rMjURH_C_J-dff46SGEXLIcXdO6INZLwCsHL-CaA1pAEHTKyF1Uv9mdZiDVFXr_R4aU0DJe86Ar0w9K7glSeNyEWpMOimLhx-AndWwCK_--Q2Z5jXWcbjBvrUMojQmAUE5hy_BeKjZ8ZHbeeKgJXu4T5oetI1qubtpEAdNzayygeUsKhZDz7gMZm0NceQ.jpg",
+   "https://cdn5.telesco.pe/file/Aa9ad7hrJZ6pP-LPQEs962y_xPfcm8EJDVukR6FclRRU-a6iZjLgnBd1CKupDKtqytOEIjOmtyvS_zv4ZK5b285GK5gSE1rnhXTiojmSFGOf7READ__rMjBeR2I6gIaJbkuLTWSH9xGNbXgQa_K-w8p8H5hLMYgxxu4VDnxmK467Md0_yWN9cMbq0Pgmt6m5N68Ooi9n_A9pVAiu6PAKAMXO6kCa8uRza2cn7VUaVwns5Mq4CKyV5bdQCmEJevk_HUSvZr9YeZtWPTEJc5bNAedGiB_YCyyC973qCE9moFOAcW9d1-zAu_gkdVxQC37gXajiCSrJxSN5FxuNHn9erg.jpg",
+   "https://cdn5.telesco.pe/file/hh-y6Qrno_YG_8laWn0ERE2dJQZ4IgMnuAxToZ6py528vXzUvoRe_aSz3i4WV68sTDex2v7hfAHFnAvwy-pkx5CCoTI97J-ZmA5mcTMDSaMRL3XqkMOUTmX0RpqBnYkuOBHSPMey9DtxE-5qKLpCKUBSSW7B9VO4Gu_oKUZzYixOgH53klGJ5LyfqJsti9HNGOIdp0IFeEL5QRkPsyQCp6kgnPfSVtBEHJiR1GGkd_0eoiOGim2HlBdBbsCRAfCaor7ogCm1ljaokWzJRwLGtA0LOAeEfldsE5jhpUWtAgGBFLPUeuupQgmzu4tdGXFOHJ_Kto6qen4r6gqIUNRCNw.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7688"
+ },
+ {
+  "id": 7684,
+  "slug": "bmw-s-1000-r-abs-pro-2018-7684",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 R",
+  "name": "BMW S 1000 R ABS Pro",
+  "raw": "BMW S1000R ABS Pro",
+  "year": 2018,
+  "km": 17676,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 903000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-21T00:31:12+00:00",
+  "features": [
+   "Глушитель SC-Project",
+   "Оригинальный Akrapovič в комплекте",
+   "Видеорегистратор"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Установленный тюнинг"
+   },
+   {
+    "k": "li",
+    "t": "Глушитель SC-Project (установлен)"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальный Akrapovič (прилагается)"
+   },
+   {
+    "k": "li",
+    "t": "Видеорегистратор"
+   },
+   {
+    "k": "li",
+    "t": "Крепление для телефона"
+   },
+   {
+    "k": "li",
+    "t": "Защитные слайдеры"
+   },
+   {
+    "k": "li",
+    "t": "Ветровое стекло"
+   },
+   {
+    "k": "li",
+    "t": "Мотоцикл без ДТП"
+   },
+   {
+    "k": "li",
+    "t": "Рама и рулевое управление без отклонений"
+   },
+   {
+    "k": "li",
+    "t": "Холодный и горячий запуск без проблем"
+   },
+   {
+    "k": "li",
+    "t": "Двигатель и коробка передач исправны"
+   },
+   {
+    "k": "li",
+    "t": "Электроника работает, ошибок на приборной панели нет"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/txdmVIPGQb6exM1SenRm4KuxPX4x1pFsyr8R__GwKzoFKkSWIbT3d2ngGJO5WH42mUJrC0spOh0pAbmcpC1BpDt9Jq1XD-xLKJ56FLUU2O_HbS4qKOwx_vhghQc1aP8Q1gCEmv41LPldi1WjiQAWpX33gwGee4h_CWQ8bTrK05FNxbgGD74UujFChE_nbqy8iqjmmt_S6p7ezpBAUiZrddzycEWLz-axja5VXNW8aS3kiA6xBbtVCTLqASTkUx1m58TRoIAVurT-MM6kV5j3P5LU-A7TMlOTTSb7CesaOd2CAO9N-dtTUDP7u_VRcPnda4mzzLBltVOYXGDvHXar3g.jpg",
+   "https://cdn5.telesco.pe/file/vZcLx3UvdknHIqFcdLBOT_4Z5S3oEuC_PgAbyIShUDaG4001oOUnRLnFYfVywrVnhxx7Kik_OBU9j8DxU1Byuc8nH2BR5npgo5DsTvvEt2oibO7bjpVIsRH1yhhHd5bFt6b6RzkkhMTcFhTSGytJF7tlVyT7ZLk5GUvoLweKC5Tbj_vVWlTZrHR0Jc_aNe4dPDWOkWdFNdsa982Hq2A0kFeo6o78wlwVKbdnQEX7SmzZrosxXOkkdZQdT3HzDUASPzm88yT2DhEaLtUggxO0OFefCtNnaW3yndzNl9gOkUSq_E8zDlPa96DdJ3QqaDeQo3nCmzA7scdp5w1AFwKhnA.jpg",
+   "https://cdn5.telesco.pe/file/C0OS0yMs3SKzs6i5ZNv-qJDvt18Q5wJ1Vuc0s4g59ZJvB0XVGR7CahAAaP2_kWkPYa8N4qLsKwly-5hl7tmK4XRmSn3udf5bNY49BNlUTnvsV6KX6gkrwvtRhfJXGjYHEjc8kRoxxuZMcxgYSaZYYtyZsQ8BTB-sgL9X5bdGzg6biH9CNZZmaWP4wfaHKydMgyWsT_mIQuJuTkx_bqYHbCbOTHX5w2CaipUads2wsowRWAdk4ZCHhAl1-cGPH0XGv_3eDx9GDoUQCUn76cQn0IBPU8x7BfYDMr2hgKIBIcEXp-o2hrSTWjH8G3yHs84mwgLxlrQ_Epcc6shX9T0eDw.jpg",
+   "https://cdn5.telesco.pe/file/OvjElx6S-MFvuWCj4Ye1GBuqFJjPpMWuvIRJKT2IxdaOiL_hpoWKWWBlqpoowOCMkkc_K7I7Bnd5gtJTTxqZfGIcGVS7248Ot_WVLSQksrKyTP-63EpCkFaA4qVMK8TxA-ve9eJ_EtWaqUkE5YT1QAN6v1thUZFpA02nCFPgNoN-O_A_OtVSwaSkus3emdqfllsYRDdSMxbNWYVuC_uJZqZcNdpXzxWjqUrZUtYHFJX4wtIlW6_hSmldbpShWQVftKcI5RoKsgj0JXGh6zgQ0yRpr869i9uEfdCb3kOzmFTBSOizgOUYad7iPLWZ6DTLWV0lGMUKMrZFwOxGNjgaqg.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7684"
+ },
+ {
+  "id": 7674,
+  "slug": "bmw-x7-xdrive40d-2024-7674",
+  "type": "car",
+  "brand": "BMW",
+  "model": "X7",
+  "name": "BMW X7 xDrive40d",
+  "raw": "BMW X7 40d",
+  "year": 2024,
+  "km": 38708,
+  "volume": "3.0 л",
+  "power": "340 л.с.",
+  "drive": "полный",
+  "gearbox": "автомат",
+  "price": 12137000,
+  "priceLabel": "под ключ в Москве",
+  "date": "2026-10-20T12:26:24+00:00",
+  "features": [
+   "Кожаные сиденья",
+   "Электрорегулировка передних сидений",
+   "Электрорегулировка задних сидений"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Салон и сиденья"
+   },
+   {
+    "k": "li",
+    "t": "Кожаные сиденья"
+   },
+   {
+    "k": "li",
+    "t": "Электрорегулировка передних сидений (водитель и пассажир)"
+   },
+   {
+    "k": "li",
+    "t": "Электрорегулировка задних сидений"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев передних и задних сидений"
+   },
+   {
+    "k": "li",
+    "t": "Вентиляция передних сидений"
+   },
+   {
+    "k": "li",
+    "t": "Память настроек водительского и пассажирского сидений"
+   },
+   {
+    "k": "li",
+    "t": "Массаж сидений"
+   },
+   {
+    "k": "li",
+    "t": "Задние шторки"
+   },
+   {
+    "k": "h",
+    "t": "Подвеска и управление"
+   },
+   {
+    "k": "li",
+    "t": "Электронно-управляемая подвеска (ECS)"
+   },
+   {
+    "k": "li",
+    "t": "Подруливание задних колёс"
+   },
+   {
+    "k": "li",
+    "t": "Электрорегулировка рулевой колонки"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев руля"
+   },
+   {
+    "k": "li",
+    "t": "Подрулевые лепестки переключения передач"
+   },
+   {
+    "k": "li",
+    "t": "Адаптивный круиз-контроль"
+   },
+   {
+    "k": "li",
+    "t": "Проекционный дисплей (HUD)"
+   },
+   {
+    "k": "h",
+    "t": "Комфорт и внешний вид"
+   },
+   {
+    "k": "li",
+    "t": "Панорамная крыша (люк)"
+   },
+   {
+    "k": "li",
+    "t": "Светодиодные фары"
+   },
+   {
+    "k": "li",
+    "t": "Электропривод багажника"
+   },
+   {
+    "k": "li",
+    "t": "Доводчики дверей"
+   },
+   {
+    "k": "li",
+    "t": "Электроскладывание зеркал"
+   },
+   {
+    "k": "li",
+    "t": "Электрохромное зеркало заднего вида"
+   },
+   {
+    "k": "li",
+    "t": "Легкосплавные диски"
+   },
+   {
+    "k": "li",
+    "t": "Рейлинги на крыше"
+   },
+   {
+    "k": "li",
+    "t": "Бесключевой доступ и запуск"
+   },
+   {
+    "k": "li",
+    "t": "Дистанционный ключ"
+   },
+   {
+    "k": "li",
+    "t": "Электростеклоподъёмники"
+   },
+   {
+    "k": "li",
+    "t": "Автоматический климат-контроль"
+   },
+   {
+    "k": "h",
+    "t": "Мультимедиа"
+   },
+   {
+    "k": "li",
+    "t": "Штатная навигация"
+   },
+   {
+    "k": "li",
+    "t": "Bluetooth"
+   },
+   {
+    "k": "li",
+    "t": "USB"
+   },
+   {
+    "k": "li",
+    "t": "Центральный мультимедийный дисплей"
+   },
+   {
+    "k": "h",
+    "t": "Безопасность"
+   },
+   {
+    "k": "li",
+    "t": "Камеры кругового обзора 360°"
+   },
+   {
+    "k": "li",
+    "t": "Камера заднего вида"
+   },
+   {
+    "k": "li",
+    "t": "Передние и задние парктроники"
+   },
+   {
+    "k": "li",
+    "t": "Контроль слепых зон"
+   },
+   {
+    "k": "li",
+    "t": "Предупреждение о выходе из полосы"
+   },
+   {
+    "k": "li",
+    "t": "ABS, ESP, TCS"
+   },
+   {
+    "k": "li",
+    "t": "Датчики давления в шинах"
+   },
+   {
+    "k": "li",
+    "t": "Передние, боковые и шторочные подушки безопасности"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/bt3DNRu5nDwYRB3bpIvb-14In42z4z16qhybD_wh0Jo8fVpEBTHjdI4ttdl2Tl7nN_3M1E13l26BPUqhnUvLaLHcoU2aDyON1n9SY-T46obMxZCFZte3kY45dJGQAeu9Xx8kgKIyObN_EdaKJckV2hfPujpYlJaWO3jEf1StiG2LYDytcvtDWW_p7qnl2mKs9O_4SshxUUHjvAnSDVKMKwX6tN7ltSVpFryjGU6e8x-5a3Fz1dCVkYh2S771B6MQQ1RAJhcBZjAiTeEBWrcS5_S8jdgU70VSvspSCyLdeZ9469YUGN-GyVvVUMtsNSZD7GS90wGsNv0BFWFFe6gm9Q.jpg",
+   "https://cdn5.telesco.pe/file/RblCIeOgQNuWOBFAu8P7oZ25eDzwJzF-qAPvntE7YTZQFupFoUNEJPj6E3QQEO2c5XTE0Yf5QrXRjSoyC1oMK02GMJDXtSAtJTTFvvHl7ZgcseEdqki8cJZodYnNedTB378Zon6rMCuSwQ78IJ66mu85IUb7prGo5sDHamBcK8IRSfcpDbYfyqUFp-xsQSp4jZszCNDofx3TTbALvkEAYAC2kLIDHHZbDC8IwCVIisVvrwFwIzQnl74iWK9lXTAh1OjwaFWVe0Mut8p1bSTdOXCMAmHdjt7kF52DYbUiqNVp8mkJFqF1g1hqp3zkI5tYdNJDzEavsyVENbFVL3NzYg.jpg",
+   "https://cdn5.telesco.pe/file/YewWi3rNLX4Su7W9jcpWkQ4ZYrGMV0bEqCkmfy77NcGtXKHy3vnwOxQ4bM_7ThMYjZpCsT4OvYy-IssIwcMyG_Z5kRYvKpkzFPc_ZnC_txWoZw0HF6YHl0i1NJTMHRfJU_bSuARxyiWhw3ro9AtjfckDyRS0HzoTFFZ5RMWw1weKnvasrezlUa4Jrha5Tvtx236rT-CUImUug6jnxWunON9lM7Q4dL20-2rARRvQyQMf5sVTG5b4DkQ7X1CqVGCOqppsOpnjQBZbppC4dOXBss8Cm_UBlC1MUyRCHnsNPtkCMX7ckKJZGSlbEQGxqi078fj8SAXwb1ycZmjqUE5rfg.jpg",
+   "https://cdn5.telesco.pe/file/BiRRJvt_fEmiRKeAOS4MHVL7wyPYhEpblNE-R-P4NMdfmfTfEWPZL4EhhY6b4CoL-qh0seGxe8QxrwwdsW-GQnK0r5bttJHxBJQjPiNeHnBSRpRlNOn_TTpkmJ5ED36Enk4Er7QfLUDsAL1cTORFo8OLE1hYJE1Gzm3Fg6BIrhcfn5iRk5fp8hq3aCVZ-aZIzsFUl1eZeLhOGIkicH8Xdo3YU7ffeawJwpyqrUuCY1PClM7iRpLRP8HeaBwQTCTpKed9vFcaP1S1u6zsmlIbPUyTIpP6KjxknQyVYpKbFd-XSx43zih98w4RPcvig34_Y-wgm2yntRclJ37GDMl0Gg.jpg",
+   "https://cdn5.telesco.pe/file/StC9YE4w1rxvq_J_ghroVqcFD9vuwhDgGIFYGQCWW-1_lAKCYEOUI6Li4_SEilR5Hp3-siDs489t8vKrIgfP70nf_q_sO1HrjsKfXZua_hN-0qIKWDvHvDYoPhhr9a56u0yETn5LNu_BGyGzjZHzqOP0ybOw6zd9rN1Un4GRv7Tk55nQ6PgawLMwO6ieaGLKUvQqCjEQUd-PwQ_czWyTi7dOem0fOKeqgkyJbNQjBpl2Rgz2qXHEKfRednn79gsKLcF7iTxe265i9xyQec9KYQ0tQ9wIoQe10HSmfr4EwIb8vA1XbraMxXeXzaElpQ7Q4iwl5iUtO3G0fGKNJWqk1g.jpg",
+   "https://cdn5.telesco.pe/file/K_eJbzBHl7KKXrK1VE-ubkwvrzYHEP-vEW8gocoos1B7a4DpZQS-7eUEwGcjL7S6ynDUKyq9fiMokWF4c6UKs-BZYfNN_EyiCSnMa8AjJfFnl8FZBHT7YMGY5xdTN-9NJ_JvwHbkttDGZbqxOBzDOAqFp64-GzvsHkqazWm1GrmlJdf3hQXAQgj1bKrUtVKUm_2hDBgkVKvf2DJJcLFh9zzzND4noo3Gah8S7sZyCHq4KCINnRI_8jiXVAI64aCgyMD-BL6EZ7Qd5OUH_JLWXT1LOQ4ESnpf2QpUjzMM_msiCxVV4ndPsdOvoyJqYmzYuWyaJGD1HEY_40ni1CcROQ.jpg",
+   "https://cdn5.telesco.pe/file/Y5Q4o8MSIoj2Nn_rGAvOAAqenjGpiXEHDt-lI9XfFMwP1MDGdTHCROjG1V2NkPp_RmEHAAMOESYD2eAy3fXbU-D7ralDU6tncVAWqzVM93ibMvw9hFbP-Baca7Gut_tWBpKCObv-Hxer04315GSTCeWWJH7ITO1RBKrtKH8fa025XObYug91HMxQwEcZlATshryaN6o3m2EtdgkWmT18tUIStXW2-tTIYn7C-2XPPgNhnRC1ORfyUD7xmwr3yirierMhps2XPvLrpjLVvArGPFC9Ldo34vQCX5hMEYcUqjL2gMcaJFz_uxqpdFjhpm--JIjTrFFAm60GLTifKBgNcA.jpg",
+   "https://cdn5.telesco.pe/file/F6TQce5as8EvuEByI7qS35zhmGLWByzrh9pIGL8gFistSAVPsEdbTTDTJ1o-ATGa92XQWAXCuJ73riUzAD5AUt0AKjWhoREVOMVFAipG2Xc5jVvHmAyzeYemZD8OEiJjQspJ-s6mbYwBbY7BUPAhz0ynXMCgkMhE75VvvSXkBWojfKk0Kwfhyqq65EkcnYfUHDo5tfv1P0dlbKvKiDICUwH3RQn6DqCdRU0eTea1960tqH8HMkPndGUi8Rnm_ol0SAVR1QFmvzWvNwcaFFkd-xB9cDfSS9GYouJXV-GmAYSefYhcbse9MK94LYm6r2kjkcEcxPUviJCDGY-MJZ_vsw.jpg",
+   "https://cdn5.telesco.pe/file/gAKBhAUHkglO2T6cAwbUWROtscAA-lc-Ow0r2ZtFuHJph1nD4pS0m0CliimbbR0BkSdokecNXUH0aFQ3_CPZNhXgSXIEPLMQRdvMpFPZ7kWYxpr5Mzle8w5PoM2mDpN1I8-G3A1trnKTrM0uC38M1oTVK7WEtgCNf3_gOB7alV7H0UGOvxf62SIGX03mXZ54BnajuLSkBUDqbqTrDKpwVQQe7T8O1GlSgjfyBIE2L5SqaopwdGHSt6ljbbUg7gr5itkOL1S2vr6vbtWVPi-bZ1frLHtE_-m25D9GpPSqaljN8EBxvyXGZ3mkzrf5md7AHhAuL_AsuewnFf6zhYEW8Q.jpg",
+   "https://cdn5.telesco.pe/file/pJkzbxR2Imj82biD0KWnkcCT4vl1Cd3IKAmG_B11FGDc9UdYy2ATLHAFmYAld6UkNu2GiudkchSRwFxnL9BwkmcEH-FLnLP5IZcwLYOq0IJv0QP5C9_LIw7uIGZlIzm8hYbqEyOWoQRbP-4TQeUdJ7sQiBgWe5nMRb71-W2QmzStN9M_VOB1DLy9LWcbw5NyUaiklUZGB-yj1NUoo6XkFmvpw-AlgORG3tVkoV5rvp4tGD7h0DDotd9PsaORqCWJyrxYA5RbfMlCQR5otifUCVVCQB0NwNhgsLARWaOpGo8XDmlbkuEBQOG52ZlUCz3zvBT3s-I3_6b8cujfQg1aiA.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/7/7674"
+ },
+ {
+  "id": 7670,
+  "slug": "harley-davidson-fat-bob-114-2022-7670",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Fat Bob 114",
+  "name": "Harley-Davidson Fat Bob 114",
+  "raw": "Harley-Davidson Fat Bob 114",
+  "year": 2022,
+  "km": 5135,
+  "volume": "1868 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1544000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-20T10:01:53+00:00",
+  "features": [
+   "Двухканальный видеорегистратор",
+   "Зарядное крепление Quad Lock",
+   "Подогрев ручек"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Установленное оборудование"
+   },
+   {
+    "k": "li",
+    "t": "Двухканальный видеорегистратор"
+   },
+   {
+    "k": "li",
+    "t": "Беспроводное зарядное крепление для телефона от Quad Lock"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев ручек руля"
+   },
+   {
+    "k": "li",
+    "t": "Левая боковая сумка"
+   },
+   {
+    "k": "li",
+    "t": "Многофункциональная спинка для пассажира"
+   },
+   {
+    "k": "li",
+    "t": "Защитные дуги двигателя"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/FJKOnXaYW0VyCII3yjpvlvXgcrKd_OmuQTup0byHOFsqZdzf0qC7Ps5CctSAEjFT2mpCE0x1yT9sQKjIMVGU2vhqYN9KBEBSchWJL4NV_XYbqrrJyqS2X_3sofov9qNFEWsFLkPQomXjOZrrSU_LPsl7Lczd-i46RRUiPvfIkk-gkV-eZRGTpT33nHfoCqcDQdrmzV9gE2G2RWyhxP8FpeYblluua-ZmQyn8ewXqPA8W-hlwUK1pQrHTMss45DCDcaUrfiSkmRXx_SiL-bgxyhi2e60QQypYxFHpASPGz4ha6mInlnUQ_LeM_zK_HfR68kstSoasYlCzvZmL6mdEfA.jpg",
+   "https://cdn5.telesco.pe/file/h6iu9c6RN0eNouCQSmTguWXXjdBK_aSS4NfrPK_o_8MCqqmFHMbtJOBrzOl6NLfJAsvfsoVutYnTRkdNcc16tXjkMsMXtMm5lqICTow2zxJX71jwOdNAFLfh3aFKfh72y0ioNztDM2QsKwgiLf5eZuYQRZ-_dFZmusYbfPk_UQU04s-7s0WXDrvDb-31kcdYS0f9tDsiT9RjLYfBgQouBZzsFmnbqLQ-SO0JBADwT9gLRLWXtqGbefcLptef4WeeiBRmHowaRZZRasgcfNXRKlWkcNdPxPGElPDIFHrpWG-o_3ao1ULPKOX2qAlRplQdd_EWdoARQu5B2ilmxz6hpA.jpg",
+   "https://cdn5.telesco.pe/file/hJJHH-VBGbQAMEbeJtzaB3qqkzuJTsA07HPCNAYalga7UXMS9nkvcwTTIJzF0gpcugM4MUdadqb-JxPNIESww4HA6gwe3nGx8zu6fpDnamCtT5uE-Hug4NN1CeO-kidAzsU4rg7C4vJ6EkZcXAAm1cB2G-y9A0oypgI9bd2t31tGwIpE2JDMP5oEv_6L7FKxaeZrB-TPwT2y7gbKPCZyg1ffBbQ_efSp4aIaDHKlshQMQug4Hh6Xmfs041fJBELkXoSR6BPK06epGc8Cu-MzPo68Y0-qcnvgmv1ziEfPWgN_-99z1dAFMkZ-V-MzzfGBtk4FZRYdffqwy8OfgxvI7A.jpg",
+   "https://cdn5.telesco.pe/file/RHNLCj5A82j-CquZdBiZUxC1t1NFddHxAzljs2ru9vgSx79uCCpc2-KaGlxSfNy0suLtJhpTVbwJ56zsucILAtHpCxL4d2BI7E0Zc_40O1wuOaHpmTkO_SWD72biSMbxWpNutAWdGuMVfpMhs77am3Qok9_SwZ3tLEVUK1Kdo4vJnIK2j5I_EYcW5ndcGsuywiXdw3CHP19MGL5dL8p3XnOTVPCSbrINWroLd18swp2LWQQnJk3cTZM9j0dbP73UxQx8JvJisd2p-hZI1pyXFD6Yb-U9e42cWLKk_cFj7yZhSlPq1sNVL3771VDSWi1bc3FTjNC0qK2_PWF1vHi19A.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7670"
+ },
+ {
+  "id": 7666,
+  "slug": "harley-davidson-fat-bob-114-2022-7666",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Fat Bob 114",
+  "name": "Harley-Davidson Fat Bob 114",
+  "raw": "Harley-Davidson Fat Bob 114",
+  "year": 2022,
+  "km": 12000,
+  "volume": "1868 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1420000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-20T09:55:14+00:00",
+  "features": [
+   "Защитные дуги двигателя",
+   "Двухканальный видеорегистратор",
+   "Android Auto"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Дополнительное оборудование"
+   },
+   {
+    "k": "li",
+    "t": "Защитные дуги двигателя"
+   },
+   {
+    "k": "li",
+    "t": "Двухканальный видеорегистратор"
+   },
+   {
+    "k": "li",
+    "t": "Android Auto"
+   },
+   {
+    "k": "li",
+    "t": "Крепление для телефона"
+   },
+   {
+    "k": "li",
+    "t": "Кастомное сиденье"
+   },
+   {
+    "k": "li",
+    "t": "Спинка пассажира"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев ручек"
+   },
+   {
+    "k": "li",
+    "t": "Боковая сумка"
+   },
+   {
+    "k": "li",
+    "t": "Подножки и другие доработки"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/dcbnSh9lzidPf-4_HgKy_sp1zRaIkalGav9TZQLEywn7VCkUCNLo3R--QqxVirGaRsgkZxAX3m3r48w44CDtr10iJBQEHPO-fgfdA6ZYWkSB7XgE_c3UDzyYDehL-ZJPRoW5Mfq0BQI6SwbB21klnemlJUyYTl1R6Nrqyn3tQEfWEDT0N26dGuyTwf3oHMo_tM47ESDHtoQrgKwF4hDyFMdi0EhDuHyqif7CctFaitKz1CnjPf3x9TnwkytXBxFOXhpbwa52wpLD0k6iMrRloWnlW4dYiG5E4O0ddZUnfT7-R-SIoxvTiEc6iFmBdPniu620RDx9-_LvV4Hw4sliig.jpg",
+   "https://cdn5.telesco.pe/file/v345nTy6MLdCaBCSV6hxl8usi2B9P2RIHQ_3APaZthShCmgJqgkiKOC5l1fiRyh8DZr39hltOOASsDPQ2lM6rT4jAF49P_ELrUSb8j_vh6AE9AELdXgzCrasouK28oUJeaB9F-p9PHsS9JQdATajQZbkYUamRSD7tDGfCE7EqejJEUN7CYH-3XfeQdN4gAcQSPFVF2L4cIcqov7uienGothPgVxIYnYzC43Pljg3cXt9gpVfXk6CB7Y55QrA3GO12EiRshYQIYDMSecF25gK4dwfLSwraD58hIwi3tg1z43W8WGn9ghOGyz-9Mio7oLbsDsiFjWgTYFIsvyhMPHr-Q.jpg",
+   "https://cdn5.telesco.pe/file/tEQxVIPkLqUAhnAlXYBA1icopDktO4QrNbt7jDugrmhYkyHLSZkQyIVcwpGrYy6NrJH_nTntMv8LLQ3sIIVhCQ4lfwTMdMWgrcVzr76RoqyDV-7EqLIWKhg3Ig3I0gOzadz6Cb053hBDYJf3Munihq2x9MbgshtxIEGHb-C_FrLXMKDJbzcgD1ixAD4nLaG6FPnv9LAfjaKiyjwhGr8qRTwO4LnUmJBHuT2zTgZSRzwwGTuzEUTvjVEa5wwaIgCj-HxdFsZBV0q__0-TlVcEmIJPWESc0Z3P4VoYy1uUD2h0V4a5xA-o5YmTVrUjRMIbUc44D6cOCrfHFpuar_nMhg.jpg",
+   "https://cdn5.telesco.pe/file/c2QnJGgevtk8K9gpFor3XtqzaEJSmYhBNM5jpmH7o0w-7Yc0pnD2Ul7cQDJhJXmmUuijwz1KblEe58DVE-pSCrh1hUVeeCqGqJ1NXxuhdK-5gzRzGoDpM8It5sdVuw2Nf8fRPK47ekIlU4FLppWbNk1oiVFkg6WXehRMHow7lV-yVYoWGnyVvUN8ylNrnjqFRq8RlRyEw4JPHGHqldXfCkEOANc-67PiWhbBqIXpz-aRF5I8jurDQtHy2YvdsyOKyUDe59DDSAvw9SGD-hyznB1shdvpzIZaVTeNIJLWlvbA8hM_am1ZPHZHWlkWjF-N-ejWsFLkrETGb1AhjTVRRw.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7666"
+ },
+ {
+  "id": 7596,
+  "slug": "ducati-monster-821-2020-7596",
+  "type": "moto",
+  "brand": "Ducati",
+  "model": "Monster 821",
+  "name": "Ducati Monster 821",
+  "raw": "DUCATI MONSTER 821",
+  "year": 2020,
+  "km": 17000,
+  "volume": "821 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 900000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-20T02:11:54+00:00",
+  "features": [
+   "Полный выхлоп Akrapovič",
+   "Суппорты Brembo",
+   "Слайдеры рамы Evotech"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Оригинальная полная выхлопная система Akrapovič"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальные тормозные суппорты Brembo спереди и сзади"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальные слайдеры рамы Evotech"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальные защитные элементы заднего маятника Evotech"
+   },
+   {
+    "k": "li",
+    "t": "Держатель телефона SP Connect с зарядкой"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальный USB-порт Ducati"
+   },
+   {
+    "k": "li",
+    "t": "Боковые зеркала на концах руля, слева и справа"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/LYWstM1n7XR3jNxPEaJpIU1R-dc_8qy7TpEKraKX3ig3EZEIcDHXCWgfmfpXOVObZYJF_R01w74A2j-QA6IEPoZwQnbCXpOiRvGocidANXaDQk-DFKyhvofTDyZSeqKc7pyI88665JwD-as6KhJlFyuW-Iorkl-VNVpt66G6o2Ing_-KiY55l8KTkI0icmhvqpyC_Dx6DUU1vzMIE4px4lZXTJOMQYzz6MFtMGyuiSv-z9ZCOFzpVZdAvpvUYkssv15j5jklLgQbmwvAUIWNfNhPhhAY9pquYt4nlOcQRwntJI1Z3HmdB8StpCbFu8vMeIgZ_7gpMx8lXVt90X7JRQ.jpg",
+   "https://cdn5.telesco.pe/file/T0Q2CjyjAJwGTQsIUSIDj-kJUm5WI7x85tbqszVLz8fsrsyiL61lvhQ_Xweb3-_0p1gnk5bxag2-gUT1cAZHFtDLOO7rQ-KaavzsWDivd91AXXw5tCw-O93gjYkkl3lZj79YOq1NzXevtw4hgsKZ1LEw_vMLOqH8frSYbTZ1PRblxmPpo71UTWGCBeN5ZgV-NnVQfZ7kF1yIN-PGOIzxCzYfMJHQlbwtI_v1lgC0WV2_q6svHFRR7T8uFi51k7TpksMJEeKCRZKN_fmrnzNLFwB3p125XUPCi92B6Nd4JmRm7wCDtPnIcd641aJrrbiLfuhpKJ-_L1h0E33K3Nt9Pw.jpg",
+   "https://cdn5.telesco.pe/file/nhRbPiTdoc1hv2Tx51vG0wdiG4q1hVMmtH2ZnokEPaFy9K417TRpBwmY3PjICM7L79wGoXwfnrD9FSp6oiyvlAKDTk9Gs5bnBwjOjhRTRS0uGJM5c1Py-eqy7qcMUcqbU9eRSpq6TIwmMLxKvHm9u-JhjmmxjQASRKyzlwrasxH5O28GaDmjMdKUckIFI8fNBWKd5UugGeitJvw9D_NdtEvXsjPOax1ahaxLkRxYtLH0WTtjlI09qTu6Z9QqA0ImBsqdWmQnUuK69PKe_GrHOd2M7b6doaEGaCPn6e9Npk067PfF0HDhnNcY9NKsRa6ZmD0Lqicbg4pj0Jmy82dv8w.jpg",
+   "https://cdn5.telesco.pe/file/hQPa3XYnHgcZjlwCBMnIhaOhRu9I-0VwJiG_7kgP4Wfia2umVaNpStUWm3_kVORzZxYJGLU1HAJij14rYFKwIhgObDxey6bcEBSEZdEHAKpN9aD5is7i8gOUUhQO-8QRop4CwGTEZARojfzE8Z_TsIPFqS9Uk8YiDasykMd-Nbz_L3cZbQ_83-vdheeGeSD6fa4DrVYGEF17K2FBhNAhyWpRpCtfb4F3KDwQRpoS7TZCbCVAyt7RoGEEKAfSUg5LD4vkvV-K2V8YUCVAB7Agqa13btEjb6RvVVNUZ3qiPSxT9q4tWDA45vkdF5IqVJrOcHTUompyG8oBAnjowvyaLw.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7596"
+ },
+ {
+  "id": 7576,
+  "slug": "kia-ray-2022-7576",
+  "type": "car",
+  "brand": "Kia",
+  "model": "Ray",
+  "name": "Kia Ray",
+  "raw": "Kia Ray",
+  "year": 2022,
+  "km": 25312,
+  "volume": "1.0 л",
+  "power": "76 л.с.",
+  "drive": "передний",
+  "gearbox": "автомат",
+  "price": 1409000,
+  "priceLabel": "под ключ в Москве",
+  "date": "2026-10-20T01:27:09+00:00",
+  "features": [
+   "Электроскладывание зеркал",
+   "Легкосплавные диски",
+   "Подогрев руля"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Электрически складывающиеся боковые зеркала"
+   },
+   {
+    "k": "li",
+    "t": "Легкосплавные диски"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев рулевого колеса"
+   },
+   {
+    "k": "li",
+    "t": "Управление мультимедиа на руле"
+   },
+   {
+    "k": "li",
+    "t": "Электростеклоподъёмники"
+   },
+   {
+    "k": "li",
+    "t": "Электроусилитель руля"
+   },
+   {
+    "k": "li",
+    "t": "Центральный замок с дистанционным управлением"
+   },
+   {
+    "k": "li",
+    "t": "Система Smart Key — бесключевой доступ"
+   },
+   {
+    "k": "li",
+    "t": "Автоматический дальний свет (High Beam Assist)"
+   },
+   {
+    "k": "h",
+    "t": "Сиденья"
+   },
+   {
+    "k": "li",
+    "t": "Кожаная обивка"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев передних сидений"
+   },
+   {
+    "k": "li",
+    "t": "Вентиляция водительского сиденья"
+   },
+   {
+    "k": "h",
+    "t": "Мультимедиа"
+   },
+   {
+    "k": "li",
+    "t": "Навигация"
+   },
+   {
+    "k": "li",
+    "t": "8-дюймовая навигационная система (дополнительная опция)"
+   },
+   {
+    "k": "li",
+    "t": "Передний мультимедийный экран"
+   },
+   {
+    "k": "li",
+    "t": "Bluetooth"
+   },
+   {
+    "k": "li",
+    "t": "USB"
+   },
+   {
+    "k": "li",
+    "t": "Автоматическое включение фар"
+   },
+   {
+    "k": "li",
+    "t": "Автоматический кондиционер"
+   },
+   {
+    "k": "h",
+    "t": "Безопасность"
+   },
+   {
+    "k": "li",
+    "t": "Передние подушки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "Боковые подушки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "Шторки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "ABS — антиблокировочная система"
+   },
+   {
+    "k": "li",
+    "t": "TCS — антипробуксовочная система"
+   },
+   {
+    "k": "li",
+    "t": "ESC — система стабилизации"
+   },
+   {
+    "k": "li",
+    "t": "TPMS — контроль давления в шинах"
+   },
+   {
+    "k": "li",
+    "t": "Задние парковочные датчики"
+   },
+   {
+    "k": "li",
+    "t": "Камера заднего вида"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/Xi5k1eNcgFaU4RdJCQ8Uxv-qGsQjt12ZfbyPEagnLRL8L4TKe1anO-Kh1K06n-9N-XjHKvLgI8jgmIvvPsqzAhccuQtg9Nt7rOWH3rFlWbYQH2X5wr8NZgPwz_i1pB-MWgQSMz8ut3iBJ6O7IF4EGrd495nxYL8N6M6PuhgHjXAYlR-l4yLwn32QkbwSfiKqmN12aiVxAH6zkLP_Rx357Y_s_TraqlDr8hIfHeQTk5aWor9W9qyPsv9fxKmX-QqWhku4VIUihQsjGBj43bQVlTmiqTTIVDQfC2izvjdTl_j1McV-Upo8MZyx104VNk7Y1wC1OTDz3gIR6t1UkYvenQ.jpg",
+   "https://cdn5.telesco.pe/file/fxToRHXb2TeFaH_NCEXxlCb1M-pREajYZ050k_710e7vp7omEKLc-syaFTzNQkYwlmFf9LIrUNbVGmuodJU9JWp5_JNUe62Et1EFpnWeRsU8O5jOueZC1MELS2txktVfhrIHIU3JkLUlsKGm-yqQa4hGx27n5w6ortJbakyuub1QEuf6pm0p3TTASthqS_mD4vlIUpnrnwR9jHtOgvTHWckISTP5Rdet5kUM7X5abBjgY-JQCHle8qyeHOuyPqv5P7zt6AAdJX76REyKIXJAqf-yj5xAOfGds1EqZRc_3_TvTkat4kFnc1r3TTf__-nT7uFO_miD_5rAEZu4YoyPbw.jpg",
+   "https://cdn5.telesco.pe/file/prNbqKJeN420J8OLptWSC_HIusjkAUao4XWHn0EQfrP2blSO6f3qlH_GmMaFYcNn9p3tV8nPUnSBPz4RyI4Kn3dnxacuCc3lSUg8YruvbaK-YqEDwOqO1nDHWe8FDhWwNc07shSt6zXpmwbEGz9Ouy_1V4bJPpMvFW-Sp-D8Edww_zPg6Ix4BhfdsHNODhzB_xQBLdkZCo8N0hM_o08oNwZGxh3uGG6M2Sw6niptFHX3BL4NPdPPkemKu4yCK5F0_jpMhlvqnHGU9CNrKGJ6RAs0u281fFDmAeCj7apWOwhDn7d54fIWE8zf8btgMdBXNwTHuUewq8thm7uuYtwdyQ.jpg",
+   "https://cdn5.telesco.pe/file/ggexq1s1S5QUZhAPypSCOe_uv0vnKZtUPqeN7HVwIk0Q14sGxmUpqI3vgp_p1KJcPXUmTLSC8ZdDO4J2LsVVk-guGEPv9IXRuOw9RwQRUskF7hiIBBgEYbO9tDQfwDdMFPxjtod_bvEQ8D7ZtmYznmgd5k2cGJRUXVxDsY4MszWEuPxn1PiQkGxl5cRzDYd1im3CJ5LIXSUWF6d2zjMFtbaZaEi6anw5ZrtJSEJJg3zZydttd9ssTDyAhZVuzG-GxAANvn5YJ229MzjifW1521F5nklz11xoUHejw8PufCnuvB6uBI7A98FPOEySiJDJQX5HyUn9kJOwSfq-ioIO-Q.jpg",
+   "https://cdn5.telesco.pe/file/rzZUfeqRM39STN4b563DuK3mN9DGowJ-RRY6YjRySWylHbPj8XUBAmPqtl8p2HuI34lQg1DQkSCmbUd-PPw9L7msLBI-Ne4H_67lmH82_FbXgUkfO-eTlWSnOduvTA0feEkUKSRQM0_IlkyFJvcOOH7T83Hlu8MWoRjX8dCdddcYyvNsqPWHyqBJlWjwCir5wSpyMxU4tGwJDci4LnfusFCz2vWl1yMEhcVqXWvTZY26v9uKXo0NL0mK63Rtf71KbEx3e-rc01qPuimqVPA6aklCEzG8UZ06QOb8z_ACCENPwraJtKyPqrIWo-DX0RrgrFhehrcUGUqYJz5r2NoN2g.jpg",
+   "https://cdn5.telesco.pe/file/abnvJ8AE8dymr2dQW-elYLX3EDPA_yVxxj5olttdH5LlIjqpqH7AYPdOqr05rpm9TuTQqic3rgZshD5grFK-vk1hDVP8cITnUumqgWxVh6QckEbVsDDzlJTLALct1c7os6QoRdpk1Ei6AGSYvsnFKFrqGoLDB2pGHm8aDqxy9Gxiwx4APHkBDQqvrUt-4AiHfsjevE0cQMhwSjJKVNukcBr_SErfizYvbqN6LcFg4CejXovooUgQ2gLWl1CMHUsrryHe1puF9eXnSnIgXc0sTgK1sbCws4Z08r-jCFtXe6LmlTXjjgkK5bfE8CMLe4OE9WNG6PMpCjG4EjDXdMb8zg.jpg",
+   "https://cdn5.telesco.pe/file/IrIElUhH6RwJpaWDIui0tZk8qxW7ruoXtdaZ7Ci5ZNL2vOLUQam8U1l3KpJvZJ4l4dy2Yr4livf1Szfo_E83Zbgep0a-ktCnLpBWlxjq-tGxv49hjwKCsPZdpxuVNcw6qTo0lvt1FeS3-q5X3MIRMjIpMBWrcFL1UnH9ITwQQbK54nn1ogw-Hd7jY-F55SRQRd-e_n0GjihTbHay0kbqazx67Iff3u5nmZgtZ8lOyuMqVV-dCFBmEjGTNGwevzNqIhqvBQGHfTgazFLE_xH5MYRZGeUBw69GwXN_M7QZRWxIaGQ-D5eLbFLxevFEvsgu2D6VJaDLX-M5RteNqm-gPA.jpg",
+   "https://cdn5.telesco.pe/file/M9fsCEb3wiVBNLbCugKc5KakC6462rQ41q_oeNpRdVor6ymHoZ9lDp3kRwAfe0rYNP21E1A_6DeKK3HTvxf5LdJN3omSR6zinBBF8lAsvM7CR2hLc6xR1CLEtUqI523_aRMzTfD4yDkQaqI3-uj7I3yD_qT6t6aF4kCqlVOPr4UkiMJTTl9Y1O7SS0h0Pz-jnlR8awEdKn2OFIVYU5bcQxLbuRBvLHEASWagqMJXXs1P_hUrkxq7LZ4WeVsGeTb41fPgakCJ5Y6Xb3BJ9W0sHiBxJgA_Y6gDHiz5A4NXYnu9TKUtA9C7CLKydKNBHR2cAkt5JK3rrgymAmfOx1m_xg.jpg",
+   "https://cdn5.telesco.pe/file/NQw9VwcAsAGKLpuQ0YY1SkWl2YS2cMnVoRn2GszyCoHdZBWV3DujDJXOXDtXyWkU9RRxhMMLA34ts2zkjKxhJGt1eGcm0tjcD7Te7GsaLOAuUH6O_JOrv-5qv6D6DReyTiA-gQE39fo4ND543qSBLN0SmDXa_Yyh8B4CwlbC7L7G_aqYcu4Lkxg1sj9VH7xIvNXfH86Zg5b-C4P_CJkfQ9rE5p4j7tmEll1wv0ps-O3etEuHlfKJoi0W4WkVUjyF3hzc_TqJo1vHlM0cwrkbPOrHIz-jB5wdkxk_3rNPb7SBvUYaAoj8MLxeDIrjvpZooesCqPQlxrN9oby0m7YQAQ.jpg",
+   "https://cdn5.telesco.pe/file/M3y4wyESjXNBx4IUgq4smhj0fm7izo-YETJnQ_5__wdtAbw_-TwBHuuJ8kGmtaCaEy6Pro6jUeQnRB6xB13-_BNxUx_eWlYBxDZkx_T8zbjuhxFeVkBgTMOoi9Rjjv0ZfWV9lhk5xOuvg01qNXD9ryaskwGzV0NwBM-Yq0tCTxvBzWJNpJewIzSv4N0VCr9-E8xPpfKYYrTrPlbolqprMHhAXw6B_goKoZlZFPf7rhah9chhf-k_CEIyrMYhhtJrLnza6mh3h7QsTiQwnpfCjMtMDvBwrtEBel1FNpbKpLseG9de8aH5VKK9RCMn977VtFA5W1yi9lqcXW-meyuDUA.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/7/7576"
+ },
+ {
+  "id": 7557,
+  "slug": "bmw-s-1000-rr-m-package-2026-7557",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR M Package",
+  "raw": "BMW S1000RR M Package",
+  "year": 2026,
+  "km": 932,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2552000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-19T23:45:31+00:00",
+  "features": [
+   "M Package",
+   "Глушитель Akrapovič",
+   "Слайдеры вилки BMW"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Комплектация и дополнительные аксессуары"
+   },
+   {
+    "k": "li",
+    "t": "M Package"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальный глушитель Akrapovič"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальные слайдеры передней вилки BMW"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальные слайдеры маятника BMW"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальные защитные накладки на рычаги BMW"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальная защита правого двигателя BMW"
+   },
+   {
+    "k": "li",
+    "t": "Защитные слайдеры рамы Gilles Tooling"
+   },
+   {
+    "k": "li",
+    "t": "Подножки Gilles Tooling"
+   },
+   {
+    "k": "li",
+    "t": "Комплект защиты двигателя GB Racing"
+   },
+   {
+    "k": "li",
+    "t": "Коннектор SP Connect"
+   },
+   {
+    "k": "li",
+    "t": "Высокоскоростной зарядный порт"
+   },
+   {
+    "k": "li",
+    "t": "Защитная накладка бака и боковые накладки для коленей"
+   },
+   {
+    "k": "li",
+    "t": "Карбоновый элемент (какой именно — не уточняется)"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальное сиденье BMW из чистой кожи, по словам продавца"
+   },
+   {
+    "k": "li",
+    "t": "Видеорегистратор ZINNET спереди и сзади"
+   },
+   {
+    "k": "li",
+    "t": "Два ключа и руководство пользователя"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/ix3nyKa5ersvnJuLBGz0tdR4_7SSjzXxG9f7Y-DKLX7rDv5PlMnz1c1lUABI5bKb5tfDMxwVx0E9vUJ2TLnIL4nfWvN7gemtyk3ZGzpt8hzSXu5n3FL6cQimHrnEmYNiuy4oDrSmD2JKwqtlNMqXeJ63tfzyYRCygZ-RcRFLM2O7w9l9wmvIT3PsShPMNfQrukyk-62S8wvcXZ07ZfWID5jSIbxc58bZR_ogCxij8r4Yezm968q4Emy6hgkpxmYGccPaBt5mvjdIiTeCDdPvt-htsVrEYjwDjfI6OsrdXw6HEUA1Q0mLNZrigHocYCRGumiZ1VZA0fff6fOuH42IMA.jpg",
+   "https://cdn5.telesco.pe/file/c8mvKCynAqYCUKsRgE9i_x_Enw7zGLcJ5an4A32TVvC9NBHmPLdLD9jEvEOrxAAntd8qwqUWnAakVikhDjRvOCB_LlQy5Ppc-N3-WQaP9uLO8ThJaOtWqNcbnW4P91x8iUYTP5lqGQjYw3xfVGWnfjLZAyKD0manPxz9w4ejoX3soFEvuN2bdVHt4p_KfFCqgxEGsfBPEPUxOZsCTbSoY0R7YtkBEcvhg5ETq25ot4RshgEpqiMVNhSIDI6Nb9wTQwviNIP7tGJXOj1wJzYkEauuutc6pXse3o77yNYk1V64zj4G5Va2g1DZ_-bSsqIPVST92bOqXTF9n6Nkj9ZDZw.jpg",
+   "https://cdn5.telesco.pe/file/L6wpQlSwsNUdl9awf7aihob4dP7buQuX4FHrh0ZDTMF7wthlP5Pn23vhq34ePrI3NfxeR6SdkesbWGPTSIpMhLQN3y8rLPWBu66hAFPWkSxvgOHNOwlHaG3JEbAu6vPOeBuXoKKWaHZ_jVKoZnGxjvddrmiOQFputfSvLmbE8LHpHScgcbC9ksW2MFXn_v7VwAdG36q1Fy2H-CNbfpy8LvauO_v-B-DVpwadp-7dm0q2cbMu7N2O2ixSC_tbZ3qtAvlWqojA9frQoLoJwXVG7uewwV2GNU-G0GPAZNYjx9rRKHJVL2MAVKLZJ1DIZFtxi9QRbZTGh0vCDLb5-h7waA.jpg",
+   "https://cdn5.telesco.pe/file/dIJmMC48ap3LnyF_VmC6th98vHUVjjPf2_bD7OXVSxEjR4gz0qP38SA1RpmyHQjjYx2GJxWzLGqFn-DvsUxYkzxSTlsCrKb2G7DJi2_0qS4txe1a7rQStiTxMa1_YxjFHb2Cs0oITUzbzB087myJJs59OiOd011QN724QYRhKH4uaXdqNDVxfKMSzWbH-iQmRYc0pIhaXYWYauWZM2H8eFtI4MAquxPcI_QLJrA-sTPZZ_ypTi60bySrOxMR5U5Hmw43M6KUYHCopDGyzEPuRKI5vd1lj3e3a3Ysvcf40qe5-bvEcD08AeaHObmsbiez9XHrFJhPHk01Xq_TWuFJlA.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7557"
+ },
+ {
+  "id": 7543,
+  "slug": "bmw-r-1250-gs-adventure-2023-7543",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "R 1250 GS Adventure",
+  "name": "BMW R 1250 GS Adventure",
+  "raw": "BMW R1250GS Adventure",
+  "year": 2023,
+  "km": 18000,
+  "volume": "1254 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2108000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-19T16:06:45+00:00",
+  "features": [
+   "Три алюминиевых кофра",
+   "Доп. свет и защитные дуги",
+   "Круиз-контроль"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Три алюминиевых кофра"
+   },
+   {
+    "k": "li",
+    "t": "Дополнительный свет и защитные дуги"
+   },
+   {
+    "k": "li",
+    "t": "Круиз-контроль"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев ручек"
+   },
+   {
+    "k": "li",
+    "t": "ABS и TCS"
+   },
+   {
+    "k": "li",
+    "t": "Видеорегистратор на два канала"
+   },
+   {
+    "k": "li",
+    "t": "Защита фары"
+   },
+   {
+    "k": "li",
+    "t": "Дополнительная защита мотоцикла"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/l06-T0heoQKF_LNEpnV5V8IikQVfNt_aGC3AdqnhsWF2gDnaGz3-vUOAmheMWS-UbY2m5W9BNf-g4ccysDpR1pXjDAw43KoJIZDTFiPBrPeKXacOSSoa8RK4yyl80enwQbN2E08A4CffqvM2717m7fXjOoGXqI5XS93jfK0n6LCuW6lVloWKfQbuyUmrsdviOhkOOBkcnAcitO0T6lEtTobhHo_iiTTiRHRpdr-vrzuWcarNecpKBp2qELjlnEnYg-2TKIFd5UhMHPT7rnmRO1QavzbGSWlm-qqiP98HI8GdopMLkHLNdJEugBSLdR00sYNirrhEczxhUbL4Itavwg.jpg",
+   "https://cdn5.telesco.pe/file/Tvu4SkBVOVjQ1l3w0bnMsqL8lSB5Vedeiw3eSOBOe0kFF8nUQ7bDUJbZdTRwiM99yXiG-C_FzTs85UjnGVVjB0n4L5sJYwiMab5NKGPqn6gjK0Ccg2Mmo8_-poJgbs_8uFVBTeGHTx0KUCBD3aLsO47gdUelIoglJBoaxIN3Wrz8n2b7QpKUYD9nOsrwZNNpeHQF7d6SqYUjxAwZuSn5S9F8Fz_fSzhqQqOU3lgjj1rFvRf6AmPzQv-DAyqfDBp4KbX-pCePIafmjx4DXo6pLZuPLZ54PIX1I41rNHSiGM2UMz4qVXEFeOFgrTxxJlGqkaBQjhJnDqTzCTHY9tVPNw.jpg",
+   "https://cdn5.telesco.pe/file/aFjbaCQGAiO6hdnwkBOVvLDxTf6k3lfTUE1S-aze_3tCOh3p8BLgMEfm78xr7EyWeAFDs80bt4dFyVpA1564LOfkD0iqJPLBBhjrluUgD64unIuaWY9rUtxgdfA8iSsbn-SGHqQYhX_XT5gIbt6RaV-7FPTbsnNRWhcVRNZ1gewC3AI0D8RDGAohIa3kijVaoEqmqVLSXPtSYWC-TLAsvo17DxF7G3UXvQUkXvwgAiRjQIZzSSxGiowjxpU0o48-mEEIcb8Tb0tVbJR7x2JfsXQ7apo3IDjIVXet1N4k_zsnEwKI_M9d0w44tbuTSiqHjWKl3xd64zDld4KCoYsf8Q.jpg",
+   "https://cdn5.telesco.pe/file/uuCzMY4wtqH6ovbNYpH1yxgwasxj87cSaXx-9ucLS8PsiIVlnKDpFZTshNksAILnbg7ryaYNfCM22LNgSI5uo9zWAW0MRFUThr8nmn5reZb1ky86fC6m90oS37lo8wmSPZOJjeDFIkFOb-HwQ4d6vQ6DujKdxkx_HaaVOKZk8uw6Ezn0fn8BlevWnExCQkSPHHOPof_dp52m3pdadCtByvtr1LDhdemXGzIV_Dy2Fnilzo4_b9wBBRoFVPbUR21Fdaovx8-zVrhn48E4cU2R82H42J-jIxTcAECcMKdBP4xhFmS9tN_5bZrs8z30kQvlQQ4zp8QWOjN8odc_TzL7dQ.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7543"
+ },
+ {
+  "id": 7538,
+  "slug": "triumph-rocket-3-2021-7538",
+  "type": "moto",
+  "brand": "Triumph",
+  "model": "Rocket 3",
+  "name": "Triumph Rocket 3",
+  "raw": "Triumph Rocket 3",
+  "year": 2021,
+  "km": 11915,
+  "volume": "2458 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1667000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-19T14:13:56+00:00",
+  "features": [
+   "Новая передняя шина",
+   "Двухканальный видеорегистратор",
+   "Двигатель без посторонних шумов"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Передняя шина заменена на новую"
+   },
+   {
+    "k": "li",
+    "t": "Установлен двухканальный видеорегистратор"
+   },
+   {
+    "k": "li",
+    "t": "Двигатель работает ровно, посторонних шумов нет"
+   },
+   {
+    "k": "li",
+    "t": "Расходные материалы имеют хороший остаточный ресурс"
+   },
+   {
+    "k": "li",
+    "t": "Тормозные суппорты Brembo"
+   },
+   {
+    "k": "li",
+    "t": "ABS"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/fWCsLoIWwvLaC4LeQzeMWif__QJ4u0hvV0D3OHVyJ8deZBQU0wvdTwgCD1K1I7obJKRXZn7FG11W-eYlSGR6CH2bFkN5gV3CeGxtKH95hPvcUFoirbLSmD29EFqhe4sU03-4fLXnyA-3mXqlhXEvTeIloMjmZnYjk2LU9ELeVM5mNIgPbJxxvcZlM1PE1vcqc38xBwiuDKbxcY0u0Gh2DQmgb4SebLOBGslDxXbDWRpWOff_S0odqnbnHLJkpqCwbdbiN7bAc2NPYLIW7PRbk43DKxxIJSc-X0XxS2i28uQrBEhJ52bnfavFS28xg_n70gXOFJxr_XJXnWm_Bm205Q.jpg",
+   "https://cdn5.telesco.pe/file/qG7HrLSn4hio8Q9TGKhdTSfoGN9KqtDi8XeD1v4CeAnvSTwnvlvXCx6dPkVBstJA1w0-3zK62g5E5aYUdtAfvTAlQoMljZf3QUUHuV-eD3tZXKAcY7LnE0DM5nNaFL9RBKxj6v_N76HofMx7TzsT_05n39sfHaHGu6HH-ThpzH7kFVPomi7dXX5ntDXsGQqZ8eEj7GMrBb4hfrZUaN2taLdYJzIyHu42Mhqd3fvws53UTIF2PsDIqsNHK6LL5W-3RQTYqHlLYPE_HTFf428ovivoRK4fuVJe6ZGCncSbR025pDmd-jrGqkUuQjlI46L8zQd2-mD3Hs8xoPkK31GzYA.jpg",
+   "https://cdn5.telesco.pe/file/EZNJJ5cWEHNqmoHY5KRCQfu3qu39Cla6Y_99jZ0Wne8KZ-OrxmgsZIKJMxIJ86H9lJaOUvothkomxkuPviIXhAjPt52JU1Usymf2AsPg4lOY4OlLA3TkueuAomVU4VaghcOzPjF2duDa4ibmpOZ8Z8NJpi-WoADJaJUPTRxD9By3zCqBcQsQiyGZ5kgu_VOPV-s8v0fvnIr8aRg29oJpDJ6X0ugoBHV85ZbzE477Ju0fexu4TGDGw8Kk0GJYai8MHpCeFJbTNstzhmpv9wR8uaS7jSboG4TAtVSsHZMQ7zXYj1mHST9UQOsU29pHws-wtyr8vASZu_m9FN9XO4UCLA.jpg",
+   "https://cdn5.telesco.pe/file/h7FJEpcPS738i61kSrT1-Dac_Izl5Bl9Yjpt_JTpHIrMrioFTayc7kjiXBATSlyTtUc_Gb1rN-gUV3b2Fv00ZMGY6KS5H5sirg9FTSZ_5Hni2d4qYq0lRfh6a5rvPJBiJCrzYn2Pgiwr6wMULBfeaYJUSWXfU3GY4XtR6aqWNKEGTaje5iq6RPGxAKc7wm35dgVqBHZspNTJ-Bb9sfZndQesVwcGBBH1THDUVIXX65J4n8J713E23ReqTp4vbh_wJoLkXKmC2joqAaTyLZ_ob1pG0zZqlxt8cmwq6WVN7OApBaf_X7DEQU0Y1glOUVC_MnsZsPPzmTVQ8OxKjAVULQ.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7538"
+ },
+ {
+  "id": 7534,
+  "slug": "ktm-990-duke-2024-7534",
+  "type": "moto",
+  "brand": "KTM",
+  "model": "990 Duke",
+  "name": "KTM 990 Duke",
+  "raw": "KTM 990 Duke",
+  "year": 2024,
+  "km": 4000,
+  "volume": "947 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1735000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-19T14:10:48+00:00",
+  "features": [
+   "Двухканальный видеорегистратор",
+   "Защита осей Evotech",
+   "Защита радиатора Evotech"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Установленный тюнинг"
+   },
+   {
+    "k": "li",
+    "t": "Двухканальный видеорегистратор"
+   },
+   {
+    "k": "li",
+    "t": "Защита передней и задней оси Evotech"
+   },
+   {
+    "k": "li",
+    "t": "Защита радиатора Evotech"
+   },
+   {
+    "k": "li",
+    "t": "Защита рычагов Evotech для трека"
+   },
+   {
+    "k": "li",
+    "t": "Комплект защиты Evotech"
+   },
+   {
+    "k": "li",
+    "t": "Защита колёсных дисков Evotech"
+   },
+   {
+    "k": "li",
+    "t": "Крышка маслозаливной горловины"
+   },
+   {
+    "k": "li",
+    "t": "Защита двигателя"
+   },
+   {
+    "k": "li",
+    "t": "Карбоновое переднее крыло Factory M"
+   },
+   {
+    "k": "li",
+    "t": "Карбоновый держатель номера Factory M"
+   },
+   {
+    "k": "li",
+    "t": "Выхлопная система Kcommon с двумя выходами"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/TxoHUteQ8RaPiCsd8cbM8eFjnobneHa-enzQkp7jrHqy_M1_TsdPaccGydM219xe19q8qV5kLQN8tjYv3-rqPIl6SSvloafYAyoLxDeVHISw2PRpvO1xFvdFlMVihQ__iPNn7FjdCF8bt2dbaOlW1q5Sfj-sEOQPUtpVjpj__efzK9vAe9zGXZhATD-5i7QwilzwV40f8pEVvhnmY7MJgpa9P__lKo9-e-h_QgisAig-Su448Dfo-vlR8_HQWHGGaAW6UZOSxlM-EUfIyTT7HNEhi8k1HkW1AtqUBSl8-XYepT1raDQ6o4o6SwWLxEmMCKeeCJJaJL0M-7ikFvWm1w.jpg",
+   "https://cdn5.telesco.pe/file/tsKXWH922OWO6eGHfVH1mF7OMNKzN-20hPUtuhHzS4UYRdxBkamvI73_T5uTqADoDtMu0znu0-loXR9hBFFKccYVA27l019RKlTu5HIcF7tFQjb2tR46BE7udLbW9ve4TnQch_nhxzgK-zBJ-eTEm0JmS5kI1v32Fjw41o0LUQB13Ye7Swta7PFbudhtNyW9sAn06Uz5rvlb-QpZT7HLmyx_TZikg3pEtVexQjDDoggC9vZw7cAnLOnIie49ovr0jMIgtMZeS0rJMltih-gSG9ZxMK6EhoUlNr4pD45ViiMClMAbJEObq2ZGsT1MHme8xW8NAddL9qGWm_Omng9GRw.jpg",
+   "https://cdn5.telesco.pe/file/ODruGC6k3BIOysh9bsdTZ_J8Ic0diPMH4TRcNOR-D8syvwouvQLoSw1znR3_hizTQ3_Pk_BIJW-Wfg-gS8Nq53LVhfF0omUBkakQU5SjZaMmK3kazWGZflQ09dKCHdJI7bBTGFu0I_EvDTXa0XDWnY0oCM-BhbPYWO6Py_OLdgg6JshcerrBlXAzWIa25RrCbeD7EYZNTVqPZ0m05EgsMKDBECXJHmtIKienL0antSrsehQUq0FE4Y_8INYuwPaka87QvsdA6A3-GsPmzOaxIx0Y8m3IyA4CUD7ktz5nlr8OuHJ5RO8sMcG_sjCzzVN2Lxz85ykO2kFCO6O-gCd55A.jpg",
+   "https://cdn5.telesco.pe/file/TZfWPPAoUoXJsNZSva_p9LnO124PIDeb_5KMScKBUYzMK4ehQQIAzufVSRJ7T7eZoir5VyQe05HzCZTCX0OL4CQQRPgHiUF5FkkrICFesTYEYVplJvShltt46M5pBJTpZCVFUqIz0YfYxQAPL-wobGj-aTSBWdxvbbbG1XwFAQZ9YukTdktsphinzYRjWNm4izuZ5POtdfFJaMzvXqWPuIaBFaU8OoFsV8VaogwX4TzglWvIm7fkhxcDtfx6xUfDSpPQvT8LpsYck7JAUizpfOl6xGiceovcYNgxZL7h30CioxGvB6odP-X8SfR199YJFPb5_A6eVT-bqT3NOEL1xw.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7534"
+ },
+ {
+  "id": 7530,
+  "slug": "bmw-hp4-2014-7530",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "HP4",
+  "name": "BMW HP4",
+  "raw": "BMW S1000RR HP4",
+  "year": 2014,
+  "km": 22500,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1327000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-19T14:06:42+00:00",
+  "features": [
+   "Расходники заменены",
+   "Без аварий"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Все расходные материалы заменены с использованием качественных комплектующих. Мотоцикл без аварий"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/u5px1ZrJ-TCWoUEzf25rITGox03E6hTehEELFsPYU1aX6o50mk2QUUKEYpLzuCr5T81OWkVJqMp0WQLdz0WuqtigzUwCfoIV_HRZI-TWaS0eShxHQVryE0l9MBUQL43tLb_sSz9PgiWpVrRxgCt5l39YTllm_tYje_u9i4QED3q3BiHZsEvSji_oxL7kGjyFO-iGCTds9IUAZEa-8KCWADvgmlx3_59-kaUU52Ovl3bbKYjtX5uqit1HeuyQ60T7S5ncHMV5hrQzgIr4zzxNtNgQ6aFvhTyLXkwro0mRg353SXNEtis8ElH2Ur3AH6fu_8S8-fHLV4IGHp8UO8bQmQ.jpg",
+   "https://cdn5.telesco.pe/file/Z3CNcbenXVKPA4eHkFjMrdFo_1JdAeDjmUeCzwXvZEvgcLKWmJGVo4nXHyip8OEfX6t8PCbQwkXn3XeIdIrV4pr7w1Ys0ji9I86RUzgQs8jIcSNLAJhgCd1SnovfyHihN4KkmAzUS8BqEfZL3BE0JRdewqQwXXDoL4_TcElFPQ4uoHJg-TdCN_WR038qiYiNSJink95uNIUlyL_lkT40yKeOyVzUqL9cm2wr34jUlnjxCWaz5JpX0eiV1G9yirCnmRcpVcoaeTQp0TXuZVJUKgP3dIfpsrYEA2nT5qQtMPL3C8aLLFIP0ftVF9omcuTvbg1F8foF8rZYjoRxeEMOLg.jpg",
+   "https://cdn5.telesco.pe/file/jVx4raoT6fA9asC4mkPLpQ0OnfZdCzebsR0j_AqnUngKZdiv9WZvOlO4h8fUAeyhEucHYijGE3YhN7R17UZuWLN4palzH_4FTGgFTsnEsJGnebfVEVyBbBaiqJFcUD2UUHj80Dba_6nLPixOcoOJ7gDnD9cvqbE72nB4dmfnC2ROsmh0XchZBvWmOHwVUFHV1ye1gANmhopl6AYTk7gwcUlP752_yvkry2iXj49xmbd2E6FU27LXXcMvAlK4dypZl8E8Z0yrXORG2rAmJbXlKTqjfXbVBGKq-0O-AA6z6K1jXKxGKzJVM7qFb1fPbQpUT4nkj10miC1sj9XyhbbWfg.jpg",
+   "https://cdn5.telesco.pe/file/ha1Mdpyq8oUcIEM0Uk58lMUZzVAD1fJiQh6O_Z3-eg1aOBG2qjlut8OCy-ux0A2JL4XMzeA_L-A7fZ4Vs1YYH2jk4lxM3Zq30nwjCvSPPJVGTy_3VE8rpVlbHfTE340N86gOLd78sXCgCg-FCRKKnbSkCwtzu6wQEmAlSIWy1IfwQiqGta0uyw2ZqS9pqlHQXcSYxVeQEQUYAQHUkYZw2JpZC4ZePTmhYuOr7lfCxAU0a1zVkM22Dhz_KIpN_FWVfu_TszQ8TQsU0Q_DlctuMWqcPFNHHI-tW_KFOWpwbxz0N6kpDvNtiFlaYKpG0M2x4iRXMaWkOhfgq1Rd4jiZEA.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7530"
+ },
+ {
+  "id": 7526,
+  "slug": "bmw-s-1000-rr-2025-7526",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR",
+  "raw": "BMW S1000RR",
+  "year": 2025,
+  "km": 12000,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2015000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-19T12:25:53+00:00",
+  "features": [
+   "Выхлоп Akrapovič",
+   "Слайдеры передней вилки",
+   "Слайдеры крышек двигателя"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Установлено"
+   },
+   {
+    "k": "li",
+    "t": "Выхлоп Akrapovič"
+   },
+   {
+    "k": "li",
+    "t": "Слайдеры передней вилки"
+   },
+   {
+    "k": "li",
+    "t": "Слайдеры крышек двигателя"
+   },
+   {
+    "k": "li",
+    "t": "Два видеорегистратора"
+   },
+   {
+    "k": "li",
+    "t": "Тонированное ветровое стекло"
+   },
+   {
+    "k": "li",
+    "t": "Шины Pirelli GP с остатком более 80%"
+   },
+   {
+    "k": "h",
+    "t": "Техническое состояние"
+   },
+   {
+    "k": "li",
+    "t": "Масло заменено на пробеге 10 200 км"
+   },
+   {
+    "k": "li",
+    "t": "Воздушный фильтр также заменён"
+   },
+   {
+    "k": "li",
+    "t": "По словам продавца, мотоцикл полностью готов к эксплуатации"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/nbO5LYFcpehus8pPHXp5zA2bv-JKtTJYcLmBOl580azKWbvWu8GIzG7wAnlHl-59_mGxzJuL5qN3bZMztUYkL2ryBfOah7zB4N4XxWgk4T_oTk-maX5i9pHTebWVv44MTlHe_0dAULfVSdLW1tYWABWyG6vbhpmmtAaHB4-hUtEmjGTKv-rVv4LILmk9hcUhrUqk3gLzUyLqnT-8i9jU8KBEHdWQ0uffSaVg4RmGuGL02GbXDFlk5Gw7fAhobcurSPTrUTtupf3Cleul3_umPcJo0ditkZ0RGQ5HSHRTKpDUiYAUu3T8UZM0mIoesLINSQbjDHrOYlbgk88yPT0y1g.jpg",
+   "https://cdn5.telesco.pe/file/pJJw3ohsk2CZEuka3xg4X2Z4vdT7L9pSFlL8U_BHhMQb1BXsfyN_6AnvLjsPsnPZpoRhLfzxMMRuZsm-oZFMeqK2zsrEw8OGapNc1KmVaS5WeAuh-0nqVrQvsfCyuotSAkHJZla0Ptu144VbTR-ou56Z3MjafbepVMKCVcWt3iPHD88fW5w2Y2DA49Ltrn_KyHe6m3rJYVWQntYN-p5xClgJcMA7P6KpBWhFoMauVCo9tSSyS8vwodLC704QVn8WhKdFuHU7uIlrT3MneipX1lrgub3BLEJgRa1uk6O_6er7pGBphaYgY-BIEeo1tnZ8NDq0yfqH-2IB7y0VtfLrUg.jpg",
+   "https://cdn5.telesco.pe/file/jGDuDhMK6wYSRBv63IsmTpLqr_1QC7EQYp9xOdxmogFHfpcYRah3ymI-Yhh6TStoi8B-Dk4o_v52RUVu7J2dS3sK6mXk3Oe_Nybowgxkc7LVjbd5GzoYqoJzXjEAxePN3YWiDGU7yUQp5wqGxJMD6mgrynf6ne7VB068bWCet0wHdEtdSFwWPtQVEICbvFCzsWugXZflZ1M00Up7yL0gZ6bhOL9l35du_3VxtYt6xigPHQGSYSVUEUve6W8rvRl5GEDKqgxOi4OJWc9S4bL3g74zOCiMeRfV1yow9jxD4ep-pUGFqaNYkokPiJRDKlNGyVRoM9z7NpP_lDgOe_DR2w.jpg",
+   "https://cdn5.telesco.pe/file/ToycSOkj9lk9HO8Dd2xdqgAO5i4WF4JYO5CGNopwIn4R0PY1CWtqIKHM-FHncQucu9Tl95peY77c3R-gI_SzXmj3lzkKxSipoYYQ1dS5QNBpclzHKsApu9goIvWu_txyyTUKZmjZjc_93GlfgNA1guv3bV5jfzCUJawoqetqfgVVzradRvV39qt23Pwt3AXSAy4VeIcjfecQ2Nzms02ZcyhDQywwUCfEmfSSxlS8c2hkqchzJ4CGpO_-8O_dmhr91jnRF_NooBTlo8t2Hn-WcqR437AG1nqnt5maesPVhYEoGHb2Otcrj0xvdRnneSTKlfUblr1zmpFf5ivKrxKRvQ.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7526"
+ },
+ {
+  "id": 7522,
+  "slug": "bmw-s-1000-rr-2018-7522",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR",
+  "raw": "BMW S1000RR",
+  "year": 2018,
+  "km": 17963,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1079000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-19T09:20:35+00:00",
+  "features": [
+   "Полная система выхлопа",
+   "Отличное состояние",
+   "Бережная эксплуатация"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Полная система выхлопа"
+   },
+   {
+    "k": "li",
+    "t": "Отличное состояние"
+   },
+   {
+    "k": "li",
+    "t": "Бережная эксплуатация"
+   },
+   {
+    "k": "li",
+    "t": "Расходники в большом остатке"
+   },
+   {
+    "k": "li",
+    "t": "Без ДТП"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/GleEa5a3NeWyjS0Lo1iuuQ7jN22RkLHMDmw9IUOCqBzhf-MtVQz1mbrfiCPJ2PoNsOxrOf_ZO1d6YT1O32un42Wsw_-9Yj-v9GpjDSgHYo0iDbK11rdXVoUcoj7Gpm3UwmHSwErhsjLqGPAexQ3AFlUYZkOp3-XURVbtuUeH5TPNVbu_7wV8-5Fyo_rB8y7gK3U4_p4sqCiymNIAzy1iMh8tkOg2j0sp2n9xA8PmzaM8tQDX_caa-tb7FeViTF1JJBwKQfnGzq36K8ReWQO250j7e2km3SZfdpwPMotZBZhSVHTzJQIMNxfccAcRwjrxGLge-MkE7SAy7WD6dSIeMA.jpg",
+   "https://cdn5.telesco.pe/file/F1OJCdQ4BgJu9_ZySpWmllBk9qiE9fs2PSwoCsRSC1wndwZ4TPJaXRhAMABWXuv80fBPnwMp1lO6xXW9CMUbTyCLm7zedJKYWLCVYH4E4rMI9UEsheMAp_GZvksG5PiElZ03vdPX_3UWyFJ5tm8CU7dB5LFcN3VqXcwHfo0m-7pVkTlW1-4TfX3zmlX0Dwx6ea65B8bDO4m4EXlzDJ1hxf9e3iU3KWboQCdMJSZIqOrj2hr8oHgSv088QqvekfTpHecu0nrQpcw3czT_x8ekdk6-Vlk1VXKe7gcgYfve6-TYolV_vCnQyyaX10LayAYo5L7CNy1PG8drDexR-YshVQ.jpg",
+   "https://cdn5.telesco.pe/file/Lb7iUeIXyolgzNG_4nUDkuyO2wmj8ftoNSHDkla7H0zDkkUTd85Rsv8SfO34SA5xIg8ZG4FTdVIDzDEI-S5J6WheUGYo9y7Iy329eUlGPcV0Z_n9lxzH2h4948eXETx0GXg1EKD6fDDkE4CE7ZSLNIsZMgx50a4WlPowai69mIEgw11uy7BIrTHoAhlu7fMeKYpwgW5RYdmtBwEPaYsZQdaMFqiI1a-0YBC-krRuRqrxryeHgqf-N4A4CBqXdcqlg3xmUrqLpuvcPcFdRe2cTG_ddR2R8ftSvO1h66FGOewbq3zVYrwneWeUvuu9vZpzUwIeKGwV-QHiGtppO6btQw.jpg",
+   "https://cdn5.telesco.pe/file/JbRBqqcKoXItJbK8IxoVyjX1dURtnU-qWWh8eFDbHhan2Z8VUETrqu6Pa9xc2XFp5mQReHtg5LYjTKWTkWQr-psMVv0txRPrITRLNUBAl0qRq3zUdq0MK24Ug5FjopCERYWfKiz7obSGSZGehVyN7teqHdlNsd-7f4DVYT3eqijTii7jsnH_uLCLfh2Va0RbJVyPVXvIZ9CuhpZElTJqL0eWqCHXT7e1Sj8UNx88g_-x5IjzdgjmQrXkKaqZT164bgFqZMKxAmeJVjHh73QRA92kfQgm4KfI_NGMHPljakULegrUo6-NrKuuO76NhA1fsdqs1O_uf1TnnFvPnFjVHw.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7522"
+ },
+ {
+  "id": 7514,
+  "slug": "harley-davidson-fat-bob-114-2023-7514",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Fat Bob 114",
+  "name": "Harley-Davidson Fat Bob 114",
+  "raw": "Harley-Davidson Fat Bob 114",
+  "year": 2023,
+  "km": 861,
+  "volume": "1868 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1803000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-19T02:18:29+00:00",
+  "features": [
+   "Руль и грипсы Kahuna",
+   "Грипсы с подогревом",
+   "Глушитель Jekill & Hyde"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Дополнительное оснащение и тюнинг"
+   },
+   {
+    "k": "li",
+    "t": "Руль и грипсы Kahuna с установленным комплектом переоборудования"
+   },
+   {
+    "k": "li",
+    "t": "Выхлопная система Trash Riser"
+   },
+   {
+    "k": "li",
+    "t": "Грипсы Kahuna с подогревом"
+   },
+   {
+    "k": "li",
+    "t": "Глушитель Jekill & Hyde"
+   },
+   {
+    "k": "li",
+    "t": "Беспроводная зарядка для телефона Allus"
+   },
+   {
+    "k": "li",
+    "t": "Двухканальный видеорегистратор (Blackbox 2CH)"
+   },
+   {
+    "k": "li",
+    "t": "Индикатор CTEK для контроля аккумулятора"
+   },
+   {
+    "k": "h",
+    "t": "Техническое состояние"
+   },
+   {
+    "k": "li",
+    "t": "Расходные материалы, по заявлению продавца, практически новые"
+   },
+   {
+    "k": "li",
+    "t": "Мотоцикл обслужен и готов к эксплуатации"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/CoQJxgicVRSwXoWZPKmvQBXUFkaObyja_2g9aCP4CCpvvPy8Da7D65qlOaHpnadCYN8wvWH9Xb4PkDNmolCS6zNHTWaPFF0qJSe_eWpzzzhHeQzm7cvT-BlutbLGxJPFF1G5UJFFMNWmd2tNUPnk-7RUBt-BKVGapTQP9TZ_2wTHey6hRn92l5w0SXZZSZgBmf6lg27PYpkSQQn5jAYzK-tZy8w5k1eccvWhMNBsmpxUfx4uGMEpEcF_oZatl9Ac4ETI3Jy8k9r59KQaDipu4zVoJUn-zgcnMx0oDyE2V4g_P7BOE9B8ilBicKGhq-cnsV8-MyrZsPiWoSPO3K_t5Q.jpg",
+   "https://cdn5.telesco.pe/file/nxMANU6nK1nyHCq-LdXctHCFBn3-1Cmpu0UDzfJqMgvafZxvGapIoeTO5zf3S_m2WpCetBbXT-ILqWwnapGC5B_rv5PM3QlBXiZ3MigPDmqGGq3TxP1IgOI9S8M0RiW7Q1AysRwf3_Dik_kBrV6fVWrbkAGw8IXJRC5tqL6g1C-kA8V2JkeCBc-xQvXAtKBcGoARs7hovodWtVTFhSRsKBW4YxK5Y8OsavMOLtnJUZkLUio4XtpGkJ3uNSVodvDYrovNoksxj3JnVVDv-5RT050E6ynVfuO_xZADhcJAzHZEKE06jHCB7LOENtDzxansp8QdYVf4KhBa7vycY4RpPA.jpg",
+   "https://cdn5.telesco.pe/file/oyN--f_qlKWrAIwEzUETJXVUe2QFS1zZkO7_RzQpdeFYuwhN04lLX_OVbpGnJWUtRmYB6Ir7smvxpF2jvfjjMNg1kNb8BgwVYSgTETcpnndavJSeSJ7JdZoh0vlmNzbZNNBBvyRhzhS9wW9fOKANVyw-v9GEv_3a2eGC48ow2arbAjItZTt3aN-ltPJJfFuXH6VfK8sDV3Y89MlVm3QVrk2hFW1EUb6R8IBca-0EQkdHPPinpX9w9VS1na8NRnM22OxaEefVbfTquv6dTG2EcVL_Kl1gO0JJim5sgfmjf7_j-kdS-x6X-2rU_OaJmGIA8lu2TA28L-pCZ4seud6aMg.jpg",
+   "https://cdn5.telesco.pe/file/GXi5yKtz5dOaUX3tdqb-xxCTt7P33pFh20Ka1NnWtCiiknaWKFJAS-XBefRLZbrhJrCyIdOgIOfIXh6wZfb_VOSHF0qAmEEL2WpHAMBrU66cse-GwrTZsluddDJHFYnZhwFeAV6AktZOPN7eVoPOEV5LKlfLRCO1lLab0vtSwTNm-b3_WQhS46IRBUywtQAzYciKnR4S63rw7rC-WNuZwhPSMkel9My3fPXGHVwUOnM2UBFZC_W4BU73FhKlCL6zIRfcYFftttLBRb-n-yBXDTSBXz9TeAbiwNj6YbiDC3YmuSqaT3WVSMv4-Kx0qNpdVPxor61yPYFnnskwgby-Jg.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7514"
+ },
+ {
+  "id": 7510,
+  "slug": "kawasaki-ninja-zx-10r-2026-7510",
+  "type": "moto",
+  "brand": "Kawasaki",
+  "model": "Ninja ZX-10R",
+  "name": "Kawasaki Ninja ZX-10R",
+  "raw": "Kawasaki Ninja ZX-10R",
+  "year": 2026,
+  "km": null,
+  "volume": "998 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2551000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-19T02:06:08+00:00",
+  "features": [
+   "6-ступенчатая КПП",
+   "Вилка Showa BFF 43 мм",
+   "Амортизатор Showa BFRC Lite"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Технические характеристики"
+   },
+   {
+    "k": "li",
+    "t": "Шестиступенчатая коробка передач"
+   },
+   {
+    "k": "li",
+    "t": "Степень сжатия: 13,0:1"
+   },
+   {
+    "k": "li",
+    "t": "Передняя подвеска: Showa BFF, 43 мм"
+   },
+   {
+    "k": "li",
+    "t": "Задняя подвеска: Showa BFRC Lite"
+   },
+   {
+    "k": "li",
+    "t": "Передние тормоза: двойные диски 330 мм"
+   },
+   {
+    "k": "li",
+    "t": "Задний тормоз: диск 220 мм"
+   },
+   {
+    "k": "li",
+    "t": "Передняя шина: 120/70 ZR17"
+   },
+   {
+    "k": "li",
+    "t": "Задняя шина: 190/55 ZR17"
+   },
+   {
+    "k": "li",
+    "t": "Высота сиденья: 825 мм"
+   },
+   {
+    "k": "li",
+    "t": "Топливный бак: 17 л"
+   },
+   {
+    "k": "li",
+    "t": "Снаряжённая масса: 209 кг"
+   },
+   {
+    "k": "h",
+    "t": "Особенности модели"
+   },
+   {
+    "k": "li",
+    "t": "Обновлённые аэродинамические винглеты"
+   },
+   {
+    "k": "li",
+    "t": "Спортивная аэродинамика нового поколения"
+   },
+   {
+    "k": "li",
+    "t": "Двигатель семейства Ninja ZX-10R"
+   },
+   {
+    "k": "li",
+    "t": "Гоночные технологии Kawasaki Racing Team (KRT)"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/DbehyD4V7TW37zsxFVnSdrCi977-Nno1VAKjwFy8JQA59sJtRtQT3GUz7Q37YOxlnB975UGo3S7fQkPlKBFzp1YV5j3UoMJg8nbAmcBJJ95aPbB6gh1isHjxHqpBd3cN8Ev6Hgqc61vNQOthTSbX-G_fo39jU_0gMgovCipcp9SEYc5uL3sATm5RgDulpdbSNaxlAd8wul0zX3rOW3mqeCK1Fwho97q25kazgh_5-A5s3yIfGgg014AgfZpzbxhYJOJjC7g142yhdWq_Tzh8fhYxMMjy0E32Zssnc1yXshcxGTlkpztubF3aip_PJW54vPgREHaBuaYD1pQzF75MJg.jpg",
+   "https://cdn5.telesco.pe/file/t1LrB5NiEtaBd387LQiM6OGUhYYI13q1j47D_r13oXWWcfHxmCvwPXStjQcbRULxM98O44JBlemF9fdzZj5p7S6gwqGw-EocLupHmuJKgTZiw6bcVJXEdw1oOlvyCEpe7u2kLVa1yVe1GGm0E69CWgcrd4etY2UKr9q5O7Jg_d0AGWdJVQpai44mawwEuf2Rf1IuCMNW_uT0Pu2puP2kiitaXhkiVB_dzPOJs9DWpgG_aV3GeX93KXimhZosOvlykZPop-p4UDV7DP9OzHQjVoJwj7SsWqrKmHSyzWeFB_H-AL96Er8ldz7FsJFKkaUwLjgkRTgs6T0F0W8D3_aqbQ.jpg",
+   "https://cdn5.telesco.pe/file/RtoTe6yuEu02GegDdBRpV3u9GfD_TF0EXM6pgMZrWCd1pDrSZu79ltK2YZp-xu_A9NtugLCna61iVyi6OsPKnkD6khrDLfGVEk6C_AHCiOhkoicheruZZu7_rAA4v897nwHMRDRi4B7NVaaOBszTBEWLANNnpqvm2LXgXHATqT6I2qLZU4pqoHT9mD-LqtbKOWGwMb849l0F_V-U6mXUNrQWamcvHwkokH5ADD-jpR2S3XCsx_fGAcA2uuGMiSuQ5vmZDa2aJR8smFwIOLtzGfx1kOnszzXWgbznq1LX2H9AWc94WH01wfdiTXpTSXBujMJedwwBe2lge_sFdFAWTA.jpg",
+   "https://cdn5.telesco.pe/file/VfRzpOnwulF-pibvfg0I4OhaGjJrrucROks3nnSzF5gkKPWm7hadZLZbMzoo7ddUogUwBqbri6mbIbH9e5Y0af2638rV1NNazTA8LleDHgYMrcbc4IEBIuS9cXEb2l7AIRkjF7pqfRkhEIy7X9iS-hA0EaxhKGtvP1hG7Nz9hP2u_0cNOKt3BSqBkr3xBws_9EShcdc9PER5yTQ1LhzntCsbFCZZUVcXucm-QmuNSQq1dAOtC_dB1cqag58Q4BADxabbIU2XqhadIFk-EcyC1_WRM9GlDSbQoyzLabN3vL3r6mK7woXioiPeQ952Bh_Uy0qxcPyRlQVimR6wCNmvtA.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7510"
+ },
+ {
+  "id": 7506,
+  "slug": "kawasaki-z900-2026-7506",
+  "type": "moto",
+  "brand": "Kawasaki",
+  "model": "Z900",
+  "name": "Kawasaki Z900",
+  "raw": "Kawasaki Z900",
+  "year": 2026,
+  "km": null,
+  "volume": "948 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1463000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-19T02:03:20+00:00",
+  "features": [
+   "Рядная «четвёрка»",
+   "Новое поколение Z900",
+   "Дизайн Sugomi"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Рядный четырёхцилиндровый двигатель"
+   },
+   {
+    "k": "li",
+    "t": "Новое поколение Kawasaki Z900 2026"
+   },
+   {
+    "k": "li",
+    "t": "Агрессивный дизайн Sugomi"
+   },
+   {
+    "k": "li",
+    "t": "Жидкостное охлаждение"
+   },
+   {
+    "k": "li",
+    "t": "Шестиступенчатая коробка передач"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/OI8diWIXrKhQGdQsbYBipStOT95bj9PPyGQVwHR1v160_YFsJlIWm7Iivik94rsfCIgMUQ0QGfue4Wl8Oxu_oLpqQL9vV5z_NH48qeHqS97TtYUpy_UIpmsTnXk_flsAzjWWjWnTMUZXbQXeHDMnx2aNw_f2f3AG_zcui0RcMLpnienP14UKLAa5NYokVSHDsH55T8lHtKq4E7CzHBM54-oNvyWTz9NqHNolONNuurpgx0Dqbgx542MRmnbxr_8BQhEO48UKzClkm3TVVwxBqS1ltmsN--pC2pYHCcc2xz4ZVEfyMoLn1vZx7OnXfVwnfULgVOB1dlfMlu4HA18fiw.jpg",
+   "https://cdn5.telesco.pe/file/rLOnZogA3ChHr80SSjqmXcydUuZtez9gQ4tyUy8H1R-DQmpc16IeCWDBAYLkOR44pOIBPc7DsbRfmMxaUBJMfIAtKYFFcNdKd3DSfQDpKXdpQMC2HKoHL55uNQ6060zSKcS71mh0uYYb5cFTO7ncMsf4wswjWURT4cNRpY86SPC2oOTQYY-thtWogCFfA9U95Jp2_KZu-02o4NfW1nvyNYa1mXaae1YXhH-PkgB7io8EPJ6jYIiPO6iK2fKuiibrQepruGCce2PUonr-Jbl_aT-BTDo7I86yxEqsq7MDnHE1e3l4ivw2TLNtJ5UQ1pIg6LHXiTyhCfyJV0hMLPUbdA.jpg",
+   "https://cdn5.telesco.pe/file/PhoOCBgCb3YkCh-R8Y5S5ck4gJb0x5HEDypWvUbjDDHaevSV5Qcq0d3uxhyYEyI28Ul55Zq2uN8dYFhqaHA-2RnGOqXZMA6FC4BfyiKHG125D2U2297GYBxvIyxDX2X0kxyvG2k5j-ydmOzOfle75YOHMu017kLnll3lDxG37YwZgU3PBwT8-grYT1XzJuvd1CENMitVn-j5_D08G9DL7Jwf1JnpcnRXErQOCdrmMxxwGJQ8z5-UGM0UqsdXTYUTME7EoORkAA113KbQ36OJZE-9c2HHUl3m20793ZSFqF6iP5z28Nyxo42bCV81RuXEnHQdZNmxyD2w8Rs4H4s--Q.jpg",
+   "https://cdn5.telesco.pe/file/qVxWS9e8aj3l_7NIbmnsyv_CcRpf7hQo7MrBuU0OSQRwoW11_4t1DgP_78Pv4rIz7GqVe73Dapck8zEbGfFNicMYQzx38wDTYboIVwfyETmWewEoFid4-Y3kQi__3HMnI0gScBnB30lyTdmUCSZBr9FtZTxhE2lEnIg5Fl-4-qlVS9TbvYuQcwE_-ZhFF-FFpDjOGIrvLSEMMNwhZgcOHCVy74WRwNu0CUp11Eu0axlT1b1YBde4gMy_WNfkx1p9Gi8m0LNje0gsKeU2BPTrjTQaRC5pWoUA7STA3KCIBp4p7N4TARCltvFuuiGOEIFZrUGpdRFe2EHFoFEk-KLHEQ.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7506"
+ },
+ {
+  "id": 7502,
+  "slug": "yamaha-mt-07-2024-7502",
+  "type": "moto",
+  "brand": "Yamaha",
+  "model": "MT-07",
+  "name": "Yamaha MT-07",
+  "raw": "Yamaha MT-07",
+  "year": 2024,
+  "km": 2781,
+  "volume": "689 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 923000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-19T01:59:34+00:00",
+  "features": [
+   "Карбоновое ветровое стекло",
+   "Карбоновые передние винглеты",
+   "Боковые винглеты"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Дополнительное оснащение и тюнинг"
+   },
+   {
+    "k": "li",
+    "t": "Карбоновое тонированное ветровое стекло"
+   },
+   {
+    "k": "li",
+    "t": "Карбоновые передние винглеты"
+   },
+   {
+    "k": "li",
+    "t": "Боковые винглеты"
+   },
+   {
+    "k": "li",
+    "t": "Слайдеры рамы"
+   },
+   {
+    "k": "li",
+    "t": "Слайдеры передней вилки"
+   },
+   {
+    "k": "li",
+    "t": "Слайдеры маятника"
+   },
+   {
+    "k": "li",
+    "t": "Регулируемые алюминиевые рычаги"
+   },
+   {
+    "k": "li",
+    "t": "Алюминиевая клипса боковой подножки"
+   },
+   {
+    "k": "li",
+    "t": "Алюминиевые подножки"
+   },
+   {
+    "k": "li",
+    "t": "Комплект алюминиевых подножек (степ-кит)"
+   },
+   {
+    "k": "li",
+    "t": "Карбоновое заднее крыло"
+   },
+   {
+    "k": "li",
+    "t": "Зеркала на концах руля (Bar-End Mirrors)"
+   },
+   {
+    "k": "li",
+    "t": "Крепёж заднего крыла"
+   },
+   {
+    "k": "li",
+    "t": "Светодиодные поворотники с динамической индикацией"
+   },
+   {
+    "k": "h",
+    "t": "Дополнительная информация"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальные зеркала и крылья сохранены"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/pBQ66OV9qUitnOahokp0QgOdue-m65rR_IcM2hjiqpxlwNOYXWoS7kjVUalORuno2oBrVnCTdlu7KulKQ7A8geksLdCDzSBL39z108R4NMbor1c8B8BgI70DXQAvBqhBf9XKdZLEEz0Iqq0byoD-mA8Qvl1Vae9wGGKl8lQnvuLTP4qwwxrzlqUjfuuDiHxBWiAZN1Uuu2LWwXvtYkL0XQZAqc67TVTxamIKaLUsnq4HUh0qnlT8BQH5kGNmgzbS4-npyOh-iry8d6zsTaia0QNLsc6qSDylEuDlniNBTGS544yDGflNynbJPa0UC-ZYuVtEUT9b-tgyfI3I5P7IbA.jpg",
+   "https://cdn5.telesco.pe/file/LhguIucYnewXz7gDhmvkt4ltzHESpam3MujvFiEAyg4DkCg2nrUKc6d9YDZHDZlI-F5rr3mJp_vHQYmn1zaf1F1fRQYexs496_lx904JaTjBJTa3lRBrm9rO4QGOQQAwcfrErvIljW5UOmY1iRVAiO0g0h2HG84vGKbudJRgMP8DDRUD19DdsdUd4JP2HeprWqr8We0y-uRufv7bAITsU3Ka1jdFQ-eeMxzVe_CDN7i7r0aOlgqCfKw4jSOMrWHKEWkv2jvdUTXoEawhh7vUyzmQ4DgAICd3LIL7D6fW9PyJpiA5RxhT9uMu4kgt-kMK0G9WuUpXP4blqEBLjIJG6w.jpg",
+   "https://cdn5.telesco.pe/file/vTYMVXwqCIf0toRxZ0SSXJCik3TOze_b0Rh-SXtQGzZfXjx7OZC0BJ_-iHX2ybpdV2KPtt2RAG3YaiK1jxeA_IEh3anCSi5vUhYIdemhTWe3ClVqr1LR8PDGkNgkzfNcdrNTbiheEq8wBBDKeg_GMApufwm73Qy1icLEtq40erAg3_Pt-jbu2QRMfaaER4aDgQlr69NCDfR3O5daGr3Xaf3J4q1Kqhp5kYaqnKVaRZXRc6mjitM17vSeWHdkBT2veCjiq-jhUVlwSeyupDYRc8Dn6Jm8niYFoAg3DhOeHxAKOXSdNxs9aHPNqMRtEaHafjS9We1Z4n1EwYAS-bJtuQ.jpg",
+   "https://cdn5.telesco.pe/file/HObPSXKbPOu9C87S1f-YyJgCRy08sCz2ijaqDfJNjmtXJJiMJr6zTj3hkVqDPyaGm1ubRtW2vvnrMvrtQU_iwuIw-PPX8P9ZfCZSUOywfR54GshvMEaj5_xxW-llzhgGbin4a1qrw2KaoPf-rOCR6OT1RJ3_7urQffaFAfkJJjlq1rYMraorALrQgrMLFp9tl4MNBXjoPW82qC9x0ehbgyOgzWVwKME2ns3Wk0YNJJk-YPRPJTxuunMLVWZHBBPubI-jjgBCkYuCp_Io_ZN3HHwVglWWJQeleKRp1s6S4s1kO48Gq4jzLDralEgvEzMs7Q380a24vY8c9SoXkHFZXg.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7502"
+ },
+ {
+  "id": 7498,
+  "slug": "yamaha-yzf-r9-2026-7498",
+  "type": "moto",
+  "brand": "Yamaha",
+  "model": "YZF-R9",
+  "name": "Yamaha YZF-R9",
+  "raw": "Yamaha YZF-R9",
+  "year": 2026,
+  "km": 3397,
+  "volume": "890 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1473000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-19T01:55:33+00:00",
+  "features": [
+   "Слайдеры передней вилки",
+   "Слайдеры двигателя",
+   "Слайдеры маятника"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Дополнительное оснащение и тюнинг"
+   },
+   {
+    "k": "li",
+    "t": "Слайдеры передней вилки"
+   },
+   {
+    "k": "li",
+    "t": "Слайдеры двигателя"
+   },
+   {
+    "k": "li",
+    "t": "Слайдеры маятника"
+   },
+   {
+    "k": "li",
+    "t": "Тюнинговые рычаги сцепления и тормоза"
+   },
+   {
+    "k": "li",
+    "t": "Двухканальный видеорегистратор (Blackbox)"
+   },
+   {
+    "k": "li",
+    "t": "Крепления Domino"
+   },
+   {
+    "k": "li",
+    "t": "Держатель телефона с беспроводной зарядкой"
+   },
+   {
+    "k": "li",
+    "t": "Крюки для подката"
+   },
+   {
+    "k": "li",
+    "t": "Защитная крышка двигателя Puig"
+   },
+   {
+    "k": "li",
+    "t": "Накладки на бак для фиксации коленей (Tank Grips)"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/ef0ImjjvqQMmq41Rv0Y1VyZNc7YVj_vxFmJSaaeWEh__qwRrBLPIIvyY-Syf-J1YTJQ5VzxSqXokIckDR6f5nSkg8RGke_Wcz7S7EzjbsmwCqB_ELEs4VnKTduqd4eqPLIS1MpWyShR9-toUTTtw-Xux2yscBfFpXWu04RBtt-53qoh6LhUHUazectFSpyW0vbyv0V1V42mPe_kW4Y7Bme2Xo3VH8DvsII9xJQvmGUJ9jsPz0GPlO0SJHHcTS2xaiQw8HZS2ilbXUsa1rGmXyXzAsAnCQll1Tt3FLmRsTlAMUrsMqnSuacoDW5oLncrwIE9xyNSFL7jj3WXRMjfzvg.jpg",
+   "https://cdn5.telesco.pe/file/hKlUMmaKxEiKW0pzYKMxRr61nHhPdbpjSAEtF6A_q0W3k_QXkNLwQUKj-029CcKE3sqOeCiGRdAuCtCLGAbz4Lee7FfVCFfCMM9w-XcHgWFsxaNXIJ1BJm2XUnh3MUdx-h3TnDlSIcdfZXpKx5sN4yVvKocZGAPxVDN5plbC7McKAaHJ_hlnDh2OzGLm_Y-lWEbDiy9p_qG_3EkUPLCX8BVqz9U9ds--rVs8_IBw7KTx9YAIeZIiJYE51o_23d8R_Hr7CL0ccwVpxZlvaXnAS56Kx2y3DScjW18Zo1KM_QCHb4ZfyUL-x3XPwaqu3kLVlQhGLCE0GSVGEwvuHir20A.jpg",
+   "https://cdn5.telesco.pe/file/oQ6lrQt9WmVMULBVehYaSEsoB_3bvf8XN6biUiycWBABESINUM5TlOh7shJX3c2hB2LX5pnTkDxiLU4J66ybk4GKJWYaIx6LZKZxjODc7jAkRNo8T4DCIumvk8x5YvVHQGBWbY3gMYBppA7qzr8c9EezBUrj0IMjnQDwEZCNed1VZyACDtJsayL6eAb0fZygAP4Uxi6TPnOJ0CFisVf9n7iZimReOhD8-IbQSFwHzDuuMFDABztwFjKW8njjzuPz3k1xrLxH9g57EG8nAdkcu1IoIhwnwMn9fqLplIspuqUEKE8vrP7rTO-kj0V3e0LfapVvhI3FTaz0SPK69naYiQ.jpg",
+   "https://cdn5.telesco.pe/file/a9XFCXzcWdKi4ezVI4oANW1RS-pHVHdvJFFkbRopPK_kiABnPowtYjyn3VI_NnB6jFs_x7MeTMAtYElSda6S7Qpc7uD4V7y3VjJlHV9DoV0MT73GGFvpCOPbtnjuQqgxQNkATCRtmEogFwVYEMfxL-o2Jh62jwT4YFAhQEKg371S2bTPYci6JuzeNCmGQIv11WWEZyeFh0MkSiP2j2RL8JPnk0tpKjYc7XT_ScMAgZnKpuzSN9XZlelHEuzjk8TVR9vgRF7ZMu4UcY4yS5dFgbsmEGtbmofUqsuimRpxwaDOTjmwXRiwvqwtG-SEePGTgG622tAxmwKwGv_ZaKB-tw.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7498"
+ },
+ {
+  "id": 7494,
+  "slug": "honda-cbr650r-e-clutch-2026-7494",
+  "type": "moto",
+  "brand": "Honda",
+  "model": "CBR650R",
+  "name": "Honda CBR650R E-Clutch",
+  "raw": "Honda CBR650R E-Clutch",
+  "year": 2026,
+  "km": 1800,
+  "volume": "649 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1163000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-19T01:52:25+00:00",
+  "features": [
+   "Honda E-Clutch",
+   "Два оригинальных ключа",
+   "Двухканальный видеорегистратор"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Комплектация и дополнительное оснащение"
+   },
+   {
+    "k": "li",
+    "t": "Honda E-Clutch — электронное управление сцеплением"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальные ключи — 2 шт"
+   },
+   {
+    "k": "li",
+    "t": "Один номерной знак (со слов продавца)"
+   },
+   {
+    "k": "li",
+    "t": "Руководство пользователя"
+   },
+   {
+    "k": "li",
+    "t": "Двухканальный видеорегистратор (2CH Blackbox)"
+   },
+   {
+    "k": "li",
+    "t": "Слайдеры защиты"
+   },
+   {
+    "k": "li",
+    "t": "Слайдеры передней вилки"
+   },
+   {
+    "k": "li",
+    "t": "Рычаги XRT"
+   },
+   {
+    "k": "li",
+    "t": "SP— крепление SP Connect"
+   },
+   {
+    "k": "h",
+    "t": "Техническое состояние"
+   },
+   {
+    "k": "li",
+    "t": "Передняя и задняя шины практически новые"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/u6WgTbqJYzwrIRZUwyGxJausHf--es4Hv0d3UfFomRkagBp_bNvlxFsLF7o1xp90dByJtL9cvCiDZ7Sc-VJez56BO1iXu8Qk1DVnb5o9pCPBtQh7bV7NupujzHOIELqQuIkv_y4tnvm4pYEzrwWVzopXpXzFr8lspb1uatlHL9Qfv_1d7tRGkKpu3MbHmuvUMAUCWccUHLjmkydylZqJqeBI81gv49E95HtxpHrvLyTJ3rPh56tOceYA4VJ0GWw6v-cla9WCcTg-9bzlgGKxrwgiX1E2129zEy9tezDt-RgYxn3KUcYmGuzFxtp6fD68VCxe4uhv1Ld_bBbTEkZgKw.jpg",
+   "https://cdn5.telesco.pe/file/a8UiDiiTX1pgevMGTwfbCyMbTgw2ybT24Ap7VDvjFPwOJMzMqh-NO-w0IQCYbFBnzdgGKwPslpaH8AN9_ErfmWWcV36AXbBk2p3Cg8BFgH4jA-m-fjvV3b088j2z7MGe7PRebMB-Z1MnfCQWDK403PiAhxtDMSS1SKvdeWxyv0OPCNwMTHcz8q4Jd2QoZpZhjR4Fhu2YHDUvU88Vo3DFZK-zi_wzw6lix9tI3eRigWeC6aOACep86uMKnAF8GZmHvlDwPLWObYzCG5_fLcj3zHGekie5Bp4SInY1fq1gXId-zlXvB5iDqWwD5_tu7LEx0TyLQFgo1s6bAnNb1tVBmg.jpg",
+   "https://cdn5.telesco.pe/file/ctU0AksMoKHSruSPLL-d5x_FSdW-6N46OkVmTh6Ia0DMqmPT-5FML7_wLAeIncjdgLVyQJiJZH7ugGfSljr0L6Dk2eCFdq8frtw94zs2JL_m7bT79G91nLMypDCrV9-K3n4-Q5EjhbENBD5AW0oeW0rns-ZJG0Rs3dUjlB5211nqn1O0zZ8jLG8EuJSx_fNKEpScHzJhQQ-N0KZRSWEl2FkOQPtpQdZ-9s_kcBrQQoqzTNldrJLwaMn_aTZjM1a8-UfFDo1I323esgw4y0EgbaLfU4BH8GTLgLuwVoxeaurj2ardHUNqPN6xe7_AwDYypVNaKtSz89L7TQuXgDxW0A.jpg",
+   "https://cdn5.telesco.pe/file/ChJBnsLbsB2NPGY9EaZ38sx6yFOWfdgHqgipREYgKWFIdPyONBlu1JpwY7stJRk5oLLck8ELpnuadstpK999Z0Y4klxx2yLBsKV-D4NBx-x1wYXg4DDxyZ59a8vd3IWR0r8I-JcyZ8Haa3m3C9eWeJ_mkK5mxQDMGAoS3cBXJHGwGBoOY50Db1_3pMpJV28orw1-0DF6aDlFPD4i4fjDUbgyegEDZ8YWWTakYSIbAWYmQ8EiIKrOOjJXGXS-avFf7Wh-KgfnEKb2U6xxKiQRRJQ7pxKd9SIS1gXvyBcuSpWpqXJjo7zBizw4fPL3iVGLHwr00s7hS4WE8DBcv54JFw.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7494"
+ },
+ {
+  "id": 7490,
+  "slug": "honda-shadow-1100-2004-7490",
+  "type": "moto",
+  "brand": "Honda",
+  "model": "Shadow 1100",
+  "name": "Honda Shadow 1100",
+  "raw": "Honda Shadow 1100",
+  "year": 2004,
+  "km": 8763,
+  "volume": "1099 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 789000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-19T01:42:46+00:00",
+  "features": [
+   "V-твин",
+   "Низкая посадка",
+   "Хромированный выхлоп"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Оснащение и особенности"
+   },
+   {
+    "k": "li",
+    "t": "V-образный двухцилиндровый двигатель"
+   },
+   {
+    "k": "li",
+    "t": "Низкая посадка"
+   },
+   {
+    "k": "li",
+    "t": "Хромированная выхлопная система"
+   },
+   {
+    "k": "li",
+    "t": "Пассажирская спинка"
+   },
+   {
+    "k": "li",
+    "t": "Боковая кожаная сумка"
+   },
+   {
+    "k": "li",
+    "t": "Переднее колесо с дисковым оформлением"
+   },
+   {
+    "k": "li",
+    "t": "Кастомная окраска с пламенем"
+   },
+   {
+    "k": "li",
+    "t": "Классический стиль американского круизера"
+   },
+   {
+    "k": "h",
+    "t": "Техническое состояние"
+   },
+   {
+    "k": "li",
+    "t": "Все проверки и обслуживание выполнены (со слов продавца)"
+   },
+   {
+    "k": "li",
+    "t": "Посторонние шумы двигателя отсутствуют"
+   },
+   {
+    "k": "li",
+    "t": "Мотоцикл едет ровно, без увода в сторону"
+   },
+   {
+    "k": "li",
+    "t": "Расходные материалы имеют хороший остаточный ресурс"
+   },
+   {
+    "k": "li",
+    "t": "Готов к эксплуатации"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/hvk8-uE8qCvSc436dy37y-67dh_6ugn0T1UnjJ1X-EdLfmAF_43tuSFWsZDFZQg8aQJo59WyHacRU3h9w2hHPeMxLkZ3q_UuB5-IMpqqd7VCe7tTzoCHtjiV83ClGN3C0h9xY0T1X2DthuBLOwBzIq0A30aKkLeB7S1QP3pn41goDtlakdYbdsJNm6LsLUeX7210zprRbYgMH-IaK1YKtLHKcwEeElKMzUemWycdrlp-vVCtCtnjuNHlgTO1Rqb3ocf5bR4RGFMTy1tqVn2G_srfYQdWq28qZnWEvM0UYPwhs6IcILdzeCSZvDq8Q-Envl0umUdtoEKrjFYVXjcQbg.jpg",
+   "https://cdn5.telesco.pe/file/OqprEbltaJrfnULsVFZSKNavToeJAzQwYrPFu1XANasApnwvCvz69ueHq7hzN2Eu6mrIxEqPcP6wl7Qq9iCaIbMWIAHOgwz5fZrFxws9Xyl1-nIxfFfIb6K2x-tLta5QVoj1CBeqq4rfTMeeQb_aAddi1K0FOA0KLQG7J72VyVNPlL8zn44WeiWLe_PF4rozV5lgG7nbkD5gJ07CXuiMVJsdi_tjLNGOGKt9ENFnL-mawiaNVeG6QtDgJGzuhlAilekGqGVLcC4xMkd3fZm-PSOLSG5pKSCWuyBxljAy7Y_SaR5WJfBU8lmKHpi_9MO-vrnfUP2m-9YsZ8nyuxZmUA.jpg",
+   "https://cdn5.telesco.pe/file/RrDUJokDGiWbYWTWi_cs-rj21EjfEIOkHfHxUO8dYEcifhz-Cy03QJHj8t03DedFWDFXw09AhtUTx6DyvAUt5Ta4ZM7w85PXZEUDl6zHSMajxJx2Ov-3RosuJeYF_DnR3CPpbEaOC3vrKkl6kPgZtdgB144iDd8fe5_dMAtSz-aC87VnaiOlyayiMEMYybHLzOzjLavmmFRfcEEbq-4Co8qh9Qeht349QupyiYC6Sa7o3OCrHs3VJngSAGXY60_kpZkg_EyqA6-HAkrwHSqb_Jwor_xh6NkLsMl-2Js-8z5dqPcDVkHsjxOpH1IKRhqqZlQlXOzEC8P5L-3XAlrrTQ.jpg",
+   "https://cdn5.telesco.pe/file/DuqohmAPs5oO7Nnq9oIViufgQjAiQGSSim32s9ofOjpCu56Rc1n5Drr3vlzxSmxxvFf1xTjLW0y2WgM3l2LjdgmzNuyzlOVGyrmsb1dmmE1rL9pbquPlP580mnR2CaJ5vDZv4QFnv7ry3fAyMJgWZuVw9tadtZvIY7iLNDL3dT6eG-t44KiObDEai6qI4Ua4RyJFbGCVFgZGIeOGoPgZPre2I1aTy0GggoP_fHyWuBf3xSvAC59Q_ngtY-H_p5VqOI7I1cFvVeLfCyS3WYfUERXEuDrg6XWZUPvi-sbpXIHxlKjKcLP2jIGnBMmSi9xE_0ADzPkHJ_8Vwgci5JruHQ.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7490"
+ },
+ {
+  "id": 7486,
+  "slug": "honda-gold-wing-1800-2026-7486",
+  "type": "moto",
+  "brand": "Honda",
+  "model": "Gold Wing",
+  "name": "Honda Gold Wing 1800",
+  "raw": "Honda Gold Wing 1800",
+  "year": 2026,
+  "km": 10800,
+  "volume": "1833 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 3026000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-19T01:34:01+00:00",
+  "features": [
+   "Подогрев сидений",
+   "Подогрев ручек",
+   "Багажные кофры"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Оснащение и дополнительные опции"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев сидений"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев ручек"
+   },
+   {
+    "k": "li",
+    "t": "Багажные кофры"
+   },
+   {
+    "k": "li",
+    "t": "Аудиосистема"
+   },
+   {
+    "k": "li",
+    "t": "Противотуманные фары"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальные подножки"
+   },
+   {
+    "k": "li",
+    "t": "Полная защитная PPF-плёнка"
+   },
+   {
+    "k": "li",
+    "t": "Видеорегистратор Blackbox 2CH (двухканальный)"
+   },
+   {
+    "k": "h",
+    "t": "История эксплуатации"
+   },
+   {
+    "k": "li",
+    "t": "Приобретён в январе 2026 года у дилера в Инчхоне"
+   },
+   {
+    "k": "warn",
+    "t": "Был один случай падения на левый бок на подземной парковке."
+   },
+   {
+    "k": "warn",
+    "t": "В результате повреждена нижняя защитная накладка."
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/r9wIIRNnupAVj1jB0e00iX1fCthniX8hu8qwI4Sq_ylkZbSutnzv7ubISWhLHY43LSKXyYbQjaAqkR3hwCqJAST6PqF0c4qTAf7IcTUDnaiz6VnMO7xKOKpSN948iK5dk4i650dZSWCNG7V4Dytge2aT_W79qBP--TFgPPVbpCugIeeQ1vg2RF7u5qX4Bsd6fEMk-5JjV8lGBkvSMepiTfwDbeNUDG_aaxOXGypa4-JIFWhKBDs3O-GwGoSMrtG_Q7sR55PgmeFn7Fn58jhNi4Yc3eAclwJ68FlpX491EH8spx5GZ-MQ3cIktP8GhPl9uQNmx3FIwT5ydO6qMAeY3g.jpg",
+   "https://cdn5.telesco.pe/file/E88CnXieZ-VjyiY35GTpflcpRpb7ABXFzzAeOXtvLcRIl2_7bmN9KYMTzw-Oo7lgWspNmDEWRa1lxPnALQIAuXDk2twDUCcFQNGdr-fVQQxfn9uceG5VO7kP3aCLTjZvifvDHUBaBhgJFAlHvnoNJhGc1BxOlrlZ2vW1vAXl-mSjFcM2AMajoYVd7hHdwPp9q-fcLlbuLfnpUSrSeQNptzbxpEBNKcKTpbM6XcKq10o258yf820sdaS_o48gTo41_F-Qw4UDLGmC4z0TMUwgJCYwTtLBjaVhP_vF6uJ9T8gHHZ9QxfvhYF7xoYX3EwNzPyxuezA26nfdWltPUO8ykA.jpg",
+   "https://cdn5.telesco.pe/file/sqYIs-DeA3EBw7nL5IN_qw6loWUMfat-qTDprODR7oQg9ryPyamlvJCfYvUXfx_UfdUm_itXBT9tf9Z4D0IvQ-mI47KXvUjbYKLjH-GCMu_tX1i4-ZTGdgdXeqpPCQzrb8TQRUKgfzprelUIzGxgXMBrzRzeGouW0Q8K-5Y8f41Q6mYSBdwGBVHIzPUBywJUmpR0dSJXVSQL0vq7K2D55dUVUvaHneeYm97e9qN-azCg5JVNmQA26jWo2Bwbg1g11XfMrkThLyj_EaYc37WDKEXkXTNHr8ZeVeJKavmydZdEZBQbNYu5mSdoIGXDY0Ns_L7eh_Mohqt0MGRyVz6uKA.jpg",
+   "https://cdn5.telesco.pe/file/of7TnRJvSweJDJWEBN6HIz0UXj5uteUHcySidAi6UaltpgMKmbK2Or1k6wefrEkxP-EoNMAbWU1plyAWjTaD3-O_U632F8Zcz9voLB3AzJY9Rz55y4MhX71zucWfuHZAfZEpHofx89WAv8CfAOhkBwAxoLVy0ycoPzb2C3iW7SI9h3qNMvJAL-RoMurPq6eW_JTarzzNOfucL02cjXoincwMGVSMvfAzDpCsn2528Y5ux3eELLi7SPTpgJLskHMpXHrlLSqda09T1yX7alaE7u6zhEh3FgSWxtKpzsp39k9SHGYMSwM89hZgxJvjPK0M0cXQthEzZmP2ClNb5HIzdQ.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7486"
+ },
+ {
+  "id": 7482,
+  "slug": "bmw-r-1250-gs-adventure-2023-7482",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "R 1250 GS Adventure",
+  "name": "BMW R 1250 GS Adventure",
+  "raw": "BMW R1250GS Adventure",
+  "year": 2023,
+  "km": 2623,
+  "volume": "1254 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2167000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-19T01:29:19+00:00",
+  "features": [
+   "Защитные дуги двигателя",
+   "Верхние защитные дуги",
+   "Крепления для кофров"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Защитные дуги двигателя"
+   },
+   {
+    "k": "li",
+    "t": "Защитные дуги верхней части"
+   },
+   {
+    "k": "li",
+    "t": "Крепления для боковых кофров"
+   },
+   {
+    "k": "li",
+    "t": "Спицованные колёсные диски"
+   },
+   {
+    "k": "li",
+    "t": "Регулируемое ветровое стекло"
+   },
+   {
+    "k": "li",
+    "t": "Защита рук"
+   },
+   {
+    "k": "li",
+    "t": "Дополнительные противотуманные фары"
+   },
+   {
+    "k": "li",
+    "t": "Мотоцикл ухоженный, без ДТП. Пробег очень небольшой для 2023 года"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/nS-GLeYJskTeZUjpXzLdbHSc_GPo6BSJYRMDAKPFMOdV9de54n_rb7XsxBUu6-bObvKvQmwc-RCrX2J1FwHCm79DsgViSBVrntfGAn1BEIdBxqfDHADcFkaUZxoRkETCkjvqisF_Zi8caCHmtjQ2ChxQ1u8B57eZ6MdS8Ri0PhIWTgG08cVMjeSPAP_uY8vFdzDAdOWF3ZWIHUS-INubfpNVd7F1Wc6z_4Gu0s-DrpYfEgpPsyWsyzGyuJQEQzYXjf1GCwR5MVzq0jfnAboBZ8-A0FOV5_PusroJ9z8KiToDe_G94dasq2qwDj1rRi08GiyHfRbs8zzGIyF8ACby7g.jpg",
+   "https://cdn5.telesco.pe/file/GIU-ixXzY34jibMD7b9gyLXCsp4jGpJMPn3AbnrBgf7WVCRUM1PruunJyxH0b2sMfx3HwDJKMLXfQs0NiwUvjj1gqR9m6anf2be5Ca1ClTVj51hsr13RWHSDoccE82Q2d1EDC1_gVYpZ6lvYe2GS5WPIgm1LlrBnEUA8FkTBrgdhSZFPP3iVbKB00Rpbx2cNUvUjw9Lx4oa3idhNL-gdkcl21Ht6n0aCn1t7R3JEC5X8zu0rj8uT05URo8MZD__30BrXL84vmUAHZBXUgPjSdw3n_7pJCQJFZqHpbWOZE7s-qaWoOhF8VeL2Sj13Q8bjhdxuEdgRvFoA9O6043QJ3A.jpg",
+   "https://cdn5.telesco.pe/file/FCcslm8Go0NsfUiIwxuUJBQVh3UCVZRbd2UCJW8OeRupMXxAw6p-HTKyJoR9VsDtC3PPkK4SewYSCrIgnMscDpVmfBFOnkdl35SR1Nnb0qgSv3cPH-y2vLH6tQSecjyIInGa70t4yoFsj6LsWqyJlv157V1sA38cuilc_svOwBEdQ7CuXdBm4Wa-dlHflL16EUg2s5Gt9XFLOxBR_v3l3_VC5tYYHcN6Q5XpvuKcMGLTMIeqDn2DO75fp41IeBbvMwVe-udSe89-6EmN3okNNXd1H7edeExnxPgPcwSV4DUmtcz6EQVgjBohRWwu4awhRRs0YTqMBBbGnycen3Ugwg.jpg",
+   "https://cdn5.telesco.pe/file/JTNxawNpNguD_i-SzSo_0_vwTQjG1RZUICaJqONZDgYUusdHBIrUBwAd0_4FEUxYePuQkGu-gZh1odxsvSmVbt-ILjGuVHEbgEOOXj4Dh4gGX5OM7mkTfoGbnRgU_Pb0gqrTexFgF2heNroN9D_3UNTcaLpTszrjCoGokhyI9j0kLuvYUhnrgcwUNVf0s1okA14se2PypwE831vq89LNjU7m9cq_YOduZ9nMUMqaDK3KKAFkXj0Fm0dD0iX7xeiKZWXLrIfSCCaEE5h_U6rRnqGa44V6GIvrJynwSKEMBlw50AO42bf-g2lFkh3RWKnT10hkeORGaGLHwYGtFrRduA.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7482"
+ },
+ {
+  "id": 7478,
+  "slug": "bmw-s-1000-rr-2025-7478",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR",
+  "raw": "BMW S1000RR",
+  "year": 2025,
+  "km": 2700,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2189000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-19T01:24:22+00:00",
+  "features": [
+   "Race Package",
+   "Кованые диски",
+   "Выхлоп Akrapovič"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Комплектация и особенности"
+   },
+   {
+    "k": "li",
+    "t": "Race Package (гоночный пакет)"
+   },
+   {
+    "k": "li",
+    "t": "Кованые колёсные диски"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальный выхлоп Akrapovič"
+   },
+   {
+    "k": "li",
+    "t": "M-декали (можно снять)"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/ubeBqHTuWEQuivmiv6Za0P_Fpbs4lKSFzKxN6CNDh9MIHmFjmpQM9JBPVcNreIGE8LfUhcmOiU_pO7CLE6oK1IIXJyhFJCQrhVPA2YzpIqHpl2D0lA3-PKO4gzqjEF7mfreQp2tg3DCahM3RZnjL69RiQm2o9kuenwoI0g5KM-bG0YD2jReOJ08_8UCEEG4k9nipXuA50_uxHICKxaX-8gQXhfzuYoHIlP3clS11TeW-fXj9wKSJPlx_zJWSLHFubB7tmOH80oNEM--rBHVUkqGE_FKj3IYK8t-ok4OcwhB9Am78v_xmrZWAC0zKKy2M5l0-qErrq5tY2lxmnh_V1Q.jpg",
+   "https://cdn5.telesco.pe/file/ba-hxj-bO8GNvsyCqXyXF8NsPFLViUrVPykHV2_nEdJzxeg8Ui8PhJUAiQ6FnR1tdgdyCL6shJOhYc7iX2I0atsjHmpLoSP-ABn4dEXjUcUu8f3RfXSwp0_YbaZdwePjPTymWZ7KMbsbehO4Yr6_7_kkk3DLlMVUtnUMi2cOR0eM_W4UXvLDf_OBs3GkTN3myDFdkJ1fp49xatJ81ki_pLAMQ4f-5BLQpLoekZFB3pGYJsGO0kEP1maSQ-dhADzxbmgeZ535hyV1Dn-mY4Xfp-bEyeTFied6-AKbsM0YLrwf3pdkO17WrOP5_tQPissE9jwvmBO4kpZ94szkFsY6Pg.jpg",
+   "https://cdn5.telesco.pe/file/VtCBP7ULNsNIFGu7SQ0kwT2ZETgAarjteWmPSsVfYNibuXdPBCcBem0A7VBDULFoe8cu0t-1jQY0BgtZT9uJoPXGda6yoLxVOoU7lRCwwC_lm1YPzhbszGUAHNcDS3r5P9Spq0EStCLRQe-6pTymXET1mQuk6z_j0skMzJQhtMwY-BOY70u4ev_lzQBsrLv9HVIAW8tgKqMUhUC8sl7Zy_bQPWJHAsfSLPGN8bk6pEkpL1yOXLF96Ff1DOE5h0rOMsNJHzXM6BibznSeSqiYE-u66Sl89U2s96mLw3ay97xx8AEH91PcD7k52fs-xRloaIvozjAxjONqILGuZSVA_g.jpg",
+   "https://cdn5.telesco.pe/file/FQYExr8CuO1W3UXxCkZc1L9Zk7lBno3-IgW9DcHRWVzvYYFrRSKDYSnIk6owq3NyAFEUuzlQTW1uYtrSuMtZT8T-t-oKzgw68oE8YELTv1T-rKQsH5OqbGitFYvhjfToihu_h1LEI9WgN9C770oSyeX8UPMpx9Xqm5raWiqLOU_Ymsx91VoHAhVXZpfiGsgLyHRAjz_Ky1T5cGoMWSqkamw7dpkFBB9PmpQYriOH0ZxRzpNsKd2WWKmfG15f5gAXwnT7pdKomxXdtI9jg2Lm1hXFnnYrzXsVM_7YEvXjB00DRH4gsfdmJZXUx7Zw7FRYIBojF4-qbqvJeWJTdg_gzA.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7478"
+ },
+ {
+  "id": 7474,
+  "slug": "bmw-r-1300-gs-adventure-option-719-2025-7474",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "R 1300 GS Adventure",
+  "name": "BMW R 1300 GS Adventure Option 719",
+  "raw": "BMW R1300GS Adventure",
+  "year": 2025,
+  "km": 19100,
+  "volume": "1300 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2766000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-19T00:07:30+00:00",
+  "features": [
+   "Автоматизированная КПП ASA",
+   "Адаптивная высота подвески",
+   "Активный круиз-контроль"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Максимальная комплектация, премиальная версия Option 719 и тюнинг более чем на 10 000 000 ₩!"
+   },
+   {
+    "k": "h",
+    "t": "Комплектация"
+   },
+   {
+    "k": "li",
+    "t": "ASA — автоматизированное переключение передач"
+   },
+   {
+    "k": "li",
+    "t": "Адаптивная регулировка высоты подвески"
+   },
+   {
+    "k": "li",
+    "t": "Интеллектуальный круиз-контроль"
+   },
+   {
+    "k": "li",
+    "t": "Премиальное исполнение Option 719"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальные кофры BMW — полный комплект"
+   },
+   {
+    "k": "li",
+    "t": "Комфортное сиденье BMW"
+   },
+   {
+    "k": "h",
+    "t": "Дополнительное оборудование"
+   },
+   {
+    "k": "li",
+    "t": "Титановый выхлоп Akrapovič"
+   },
+   {
+    "k": "li",
+    "t": "Защита двигателя Wunderlich"
+   },
+   {
+    "k": "li",
+    "t": "Защита радиатора, кардана и датчиков"
+   },
+   {
+    "k": "li",
+    "t": "Слайдеры вилки и кардана"
+   },
+   {
+    "k": "li",
+    "t": "Защита фары и противотуманных фар"
+   },
+   {
+    "k": "li",
+    "t": "Ветровое стекло Unit Garage"
+   },
+   {
+    "k": "li",
+    "t": "Боковые дефлекторы Unit Garage"
+   },
+   {
+    "k": "li",
+    "t": "Видеорегистратор на две камеры"
+   },
+   {
+    "k": "li",
+    "t": "Carpuride 702 с Android Auto"
+   },
+   {
+    "k": "li",
+    "t": "Беспроводная зарядка телефона"
+   },
+   {
+    "k": "li",
+    "t": "Защитное покрытие колёсных дисков"
+   },
+   {
+    "k": "li",
+    "t": "Дополнительные защитные аксессуары Wunderlich и Puig"
+   },
+   {
+    "k": "li",
+    "t": "Обслуживание в BMW Motorrad"
+   },
+   {
+    "k": "li",
+    "t": "Все снятые оригинальные детали сохранены"
+   },
+   {
+    "k": "li",
+    "t": "Мотоцикл подготовлен для дальних путешествий"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/mN8k8G_PU7P3bLxr60Kfun-cXn1f7EXHZ9Qwr66wQQAde7M6yU6v4K7CKUxd_8BX0wRc47r--zIuycnMGPNRCuq8Go12HWusTGyf-HoD4O5SWuJhOm9Foqp7v-y-CLG39oCwuIlFZMtEGpP2NTZpDgY8PchXV9J9ENJkFYsszr0FsfT-rwPHmeWqN71YOQF0vZAYcIGTfJlya9IbK85-O-6YlUAoCRrJT67gcJAvOCrFF0wHEOOcdNtH4NbzcfdUFjUe2K-IEVx8HTC9laBgOXh3r4btP1BhihbRM6gRH1-MgWuGPzKJCouIr8xU7IWdWHRTPYkut_pAv7MZLVT0pw.jpg",
+   "https://cdn5.telesco.pe/file/lQvnUUJGqfdKWSndZZwjo0BEuirFAA19RaWLozT5vJ0tNrmxXDlfnDJK6G86WAL0I0gUZAPEK2fA_z8slC_psAYZWIEUVySA_vfc_JPy6y4Wg8mTFknodH-F7IHcVNn_e0_t-1d0RRzRjarLcCWdwjnnadhhtEaUw6BraEkrtHwTimEKI8jwcTTJfzYxXCi_zxAZnNg0Z712WeWgkIpehtrf-oopp3x2ilmgaYMaepFo9JQc6d7wEN01Q05ET6245pjoUsf3HBJP6LJTE5a4ceRytE5cBrh7Pkbj87kWqvDVX_8EtgwzusDBZgyLVw0TmjBdqJi96ZNQdZyNfdSipg.jpg",
+   "https://cdn5.telesco.pe/file/qif4F24lid_ltEa6GN8VDw0cGqew4SMyybiyrJpmSUNKMfaYf5W_d1YB8XpvsEdxjWUnD3TQWZufAfTZsVmK3orJ6g6R73CEUFaQS8FRq_R0ON1jeEcKc9IGxtWE_yJysVlD5OfIA-xaDW2oAJkFfsrYRyQmVWD10oU-5eyMsU-to8RG6QK-n-XYmMDFolVz4V2Lhl4vifjXG-JMHGkZQyCNlu4X7x_l0R4warHyr72Fjn1L8X9Tu-TVY8Nt-VGjNAlWNHsL72Q3eqvttFT7Mz5QCKjLKdzQzPX67wJ8y0pzxX5dLfFWk3S-llbqkzoUImCwNmH8LD40uj9mRB-2vA.jpg",
+   "https://cdn5.telesco.pe/file/XIkyBpgnD-xlgKbL5uuDyxDKML1d219bwI0emDA6Q0DufInXHvAaRBOR82wB8r5-Rz3z9IoM0JAGl8WXQV0_6HbKIYPa-jizrAk6hwV-qWM3X1eIMfZQG-2QWNb9Wxro2wg0wk5O9F0uXULBqd6gQETnw2AdSBIulwcxi-0cu3i2vmLH_VEYA7604eCZjLTNhRq3-VwqYIePYvw3yTKAGEguEKcQlcWeR8rNY6kFa-TXqnalEbzoFxRrsWJ4bXQUvgQYFjNzDSvY0mlmdPP78vRoVtJpBFmkW5nvinOyO8QUXrjxHim6-d4ad3Bl8pXbn_OiQfy0JHafh7kV0fXS9w.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7474"
+ },
+ {
+  "id": 7464,
+  "slug": "audi-q2-2023-7464",
+  "type": "car",
+  "brand": "Audi",
+  "model": "Q2",
+  "name": "Audi Q2",
+  "raw": "AUDI Q2",
+  "year": 2023,
+  "km": 16362,
+  "volume": null,
+  "power": "150 л.с.",
+  "drive": "передний",
+  "gearbox": null,
+  "price": 2905000,
+  "priceLabel": "под ключ в Москве",
+  "date": "2026-10-19T00:02:10+00:00",
+  "features": [
+   "Люк",
+   "Фары HID/LED",
+   "Электроскладывание зеркал"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Цена под ключа в Москве"
+   },
+   {
+    "k": "h",
+    "t": "Кузов и салон"
+   },
+   {
+    "k": "li",
+    "t": "Люк"
+   },
+   {
+    "k": "li",
+    "t": "Фары HID/LED"
+   },
+   {
+    "k": "li",
+    "t": "Электрическое складывание боковых зеркал"
+   },
+   {
+    "k": "li",
+    "t": "Легкосплавные диски"
+   },
+   {
+    "k": "li",
+    "t": "Электрохромное салонное зеркало (автозатемнение)"
+   },
+   {
+    "k": "li",
+    "t": "Система Hi-Pass для платных дорог Кореи"
+   },
+   {
+    "k": "li",
+    "t": "Центральный замок"
+   },
+   {
+    "k": "li",
+    "t": "Электроусилитель руля"
+   },
+   {
+    "k": "li",
+    "t": "Электростеклоподъёмники"
+   },
+   {
+    "k": "li",
+    "t": "Кнопки управления на руле"
+   },
+   {
+    "k": "h",
+    "t": "Безопасность и помощь водителю"
+   },
+   {
+    "k": "li",
+    "t": "Фронтальные подушки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "Боковые подушки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "Шторки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "ABS — антиблокировочная система"
+   },
+   {
+    "k": "li",
+    "t": "TCS — антипробуксовочная система"
+   },
+   {
+    "k": "li",
+    "t": "ESC — система стабилизации"
+   },
+   {
+    "k": "li",
+    "t": "TPMS — датчики давления в шинах"
+   },
+   {
+    "k": "li",
+    "t": "Предупреждение о выходе из полосы (LDWS)"
+   },
+   {
+    "k": "li",
+    "t": "Передние и задние парктроники"
+   },
+   {
+    "k": "li",
+    "t": "Камера заднего вида"
+   },
+   {
+    "k": "h",
+    "t": "Комфорт"
+   },
+   {
+    "k": "li",
+    "t": "Обычный круиз-контроль"
+   },
+   {
+    "k": "li",
+    "t": "Электронный стояночный тормоз (EPB)"
+   },
+   {
+    "k": "li",
+    "t": "Автоматический климат-контроль"
+   },
+   {
+    "k": "li",
+    "t": "Бесключевой доступ (Smart Key)"
+   },
+   {
+    "k": "li",
+    "t": "Беспроводная блокировка дверей"
+   },
+   {
+    "k": "li",
+    "t": "Датчик дождя"
+   },
+   {
+    "k": "li",
+    "t": "Автоматическое включение фар"
+   },
+   {
+    "k": "li",
+    "t": "Кожаные сиденья"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев передних сидений (задние не подтверждены)"
+   },
+   {
+    "k": "h",
+    "t": "Мультимедиа"
+   },
+   {
+    "k": "li",
+    "t": "Заводская навигация"
+   },
+   {
+    "k": "li",
+    "t": "Передний мультимедийный экран"
+   },
+   {
+    "k": "li",
+    "t": "Bluetooth"
+   },
+   {
+    "k": "li",
+    "t": "USB"
+   },
+   {
+    "k": "li",
+    "t": "AUX"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/iM-2aPYmwU1s3ZA3CN4PMD3wt6xaRdftzAylMqaQgmS2LzzxyqW8cu0bG5U70Q6uDYaY54FFigIsMoV9UvKtRq9R0B-Zv2DXoi7nGiTNsKcY67D6RguwB_std4yTgQQzNFYb-Cp5TgcHPZ8QALen20K9zQMQsFGJXEyXtQacQN38kGZvv1dD4DhvwY2TiGuSHKhmmzatnnKadjRGWlg9a2BRVJsVCwa9Im0K0zqdFjrg9ceZE6wFlU0CSvb5lULMJ_o32mYhR2tobIy00n6ZLoHOEnSMTUrdHzeE8GgffuwVnxTDkr4j_k-cn-wv5dm1PUKdrNFPfUKNsQHK7e4ZvA.jpg",
+   "https://cdn5.telesco.pe/file/REDYG2cHPXjrkgmS8gwhs3k5HYYu2L1Ws4MfiqUESPKMttWRsUIZVofafSnrSZsk3hK6qa9rtppQzatIeOJNNjDrVTTaSokZD6A8s5ux97azWDv2PtZ1RWjpyeo_MVTVIJ6QH8bc4VUYTbxuo2ZIDQ-IYuI46QlzAGRXpBWdMiZvSdjGbpBmRvkKpQH2LmRuKlcqSm3KJuZmNHckDKrqrkbFVfnXXTxPdK4qcG3ZnIt2PL-nfWze2B0_CXp7UmqiS5Yc42R6q7ksPNsu44Th9eiq8h3ZaJRuXMs9Z3bEXTIkxko7GdLopAWp5aiL5nNpeKaIyfWHe5lJuPv3NN4WOA.jpg",
+   "https://cdn5.telesco.pe/file/DAP7yyF2xgLiAb01jl9b5FizU6F0UNeOJ1EmkucrTVfLz-dfEh0MB1rRL0XYnFqkSpTDKHFIG6No6OZ3TS8oTh1Ac-iFkolIPP9OrLE3vEGDeFdFFOGiDI1BDKYmDzBBTtpb5gD-z8QaAsoaRS2De8GDBXoNn7yxgQqquhIydpAhdvexpsjNwyE9cAuh1WWUBL6CBMSw9_nAmsv-bVshwpvSLMqlXyrfE4tW5U6wFVPc0EmOm2W-H90qrvdQirc9r9GtucBjZnYZSrlKUr-qDyyY2jqVTFrGQ-4EEnXi44tGjB_gZ8sWuyRJJVKxMGNiWvY9tkSg-mOACAqAyR8QJg.jpg",
+   "https://cdn5.telesco.pe/file/er_HngCbXFb5kgLOQGGUchyDrLT_PiIu8SVwVX7rCdiKE6fo76-rzu80l-7QGK83b6ULoXv7Z5DcDFwl8SzFeYKSu15oxboiXmWHoRctyqOUm7KCqRe6Un_vqyxX_HtAekYW-xJXqe5eSNpn8-MnKH0-Fwvk6r0O-668aN898c8kp7jLXFmoVXATXsw0_3Oy15EoEMCtpVm1rqMXyIGS4XwBfHYlLlY90Uq3r4n0XymcIEVghiefqS1fnuKKRfoqfIWlq-BtXfqEsoBNu2y4T4iJH3ft3C2mO2d-KLgCTUo7b2Yjp2tx07QGP1Q1GVelCb8MxKk8KatLSxzug8Njxw.jpg",
+   "https://cdn5.telesco.pe/file/t0uGbf3xpoOK78pVISWZivppQXCttpTbHzOlv5qrE1eDsdw2eIEINutQ1ek83gAg4hk6DYghAWZr2wo4FWkYnceAL4rVAV7Ig9x832lnHiLxTDEDhsVQM6MkT1EBz70qa_AiyNI3XKgtCzknS9HkplTdHC5fMNGgiqUs-t5BuWiKJjQYIhLDUL8HQhE7ea9JCbpqYWRegaRDMpCw5WwaSbJuGdhn_6y2cz0wRaL24e2JVhDDcywUya6-JV3uVgxdkSBOd1HoLaspqqVoc7QrvOfIs-EiWB3snb_VpzztO3DyqaYZyKCQX-EIfsra5zHWdXVinjz7dRu5NREycZ5yqA.jpg",
+   "https://cdn5.telesco.pe/file/lY5ckXlM04CAKxvxTSMxZDq-mReWnKqTDCX-fYQuOyi3nmwkZ_Er_-e50pZyE2YSIcMv0CMpwkKcnJu-Faja2QGNFcaXtP8cVs1PVRTJzKfIYKhLXRux_2i_fLeIqEhyWuGx9lmYTHg5g9wfhbZb1nF-v3pJlSCKbO0CpL3DH2y_lJ1iXxZNE-dJOxWbdBWqNuyLKoo-dWRRgjEs11kthmsrgwSXhNZ4Zna9idkr0hXrz2Oft_yS-R5UWTSClmmGTQDa9twbIdRFeXHJZ7JR8eP55NPrI-kRJub_FH7u9GH96-T7xZJoJX-_sjNrIIrRJJAWcAAZg9y4b_93kO9uwA.jpg",
+   "https://cdn5.telesco.pe/file/DwlkTk-hgw96goJIh9It0tHT9awwGpdNo4WLSByLl4JQhP2cC1rcTyp4AAS_9RrTu6k8Mrkrv3uJVrsJ0xMdZ6hXLiTdXYw0E6TblN6d-7D247Mh2lZt63UKlTcDGuRmrJEkWeqkMvaXztJ0pBM9gZdoKY2ifT7OdIRs39S5VmAPxb2AS4IchG7R8YwwIsW-ucQ_3VStHljwfC4E_3tJbSscZ7LJ2qsbCnhHNDL0p5tvnFvnckGahJaVJ8GrkXE5a9JWWo6YuqTeCQKTGfL_u7YakObQZwGRtZlC_4djWHz0ywlACC-tr7xYWrP7s2xiNSgxJ-bA_4ZBnjvDC1P8bw.jpg",
+   "https://cdn5.telesco.pe/file/rNU--hjtSIKrJvKW-IXKnGBxQn1pUofJZvpz20lQr-yukxiZaFbbGmQM-68ONbr0rnsm6M_IccCZ8xBDwoXGrPzLT3VNvFOBtwa9j005rp_37BVPp9OwPv2I8fF_9Nk1U2ZREYHbsJ_AR01RJ8kZMFPToq774kItJoBwIOA3aTua_MzVI6vQ-mRhDrGel_6t_6gGC9zzDlqfoArAAQn7GzS5qBw0TYjftmIoE1_wUDgZseQVq2ogMPGx6YCyjq2nJT7gYTdGajSzulsBUjInvfXB1k3Hsjcb1XzV3EN_Uc1fa5n_E1RnEMabsaitWon2kfYrcG5YNqN43dXrENb3bQ.jpg",
+   "https://cdn5.telesco.pe/file/rNuI8r7caw2ooCsKUh2SY887d2UKHQ49BHt0kRJqXB9R5BB6dqpvjYwZXGzZrJwkYyBcehD1lQemKyk8Yf45mWFaVy9m0XfESrQRi0gnqp9qzCLw44uQ64VXGXpiySCXKKBfSMWo9GiO4KX_SXk5c4CbSuhWI9NRYkOfqxE8qRsdRmglr59fUsEXy6pHwkkUDiAI24O9hTULmGDlOtxVaedxzryZve_KtAcJKC55iQd5KO0535x3dkcN6hA4XL0VhwDFL-wV2FtzVC3bE3wZIzuacvUzznXcDlrXedvu5uCRafrG8pJuyyatRRwPvd9BNVEXN_frl0qffhK7fSZBug.jpg",
+   "https://cdn5.telesco.pe/file/G1Qdc5JopIpzaRDr2gDdvPwinUm8cll2KOKNT17vXDsPNRgQTbM8IUOtUXb16C1ArplVUh8JRyb9JQ_TE5__RwBiPcyHK1Z1lZL9RST-aOx8kcpJwxFJ3JYLTJuvITv6Ofqtj4VHzH0hrx0ss3ua0s4s8VEJE6u79NNDGIWTAEyM6iUGqQg544PjEyznHjCaz93mGtdm2ujAG83X_UuVaoLWAJgrk93rFdILYAuzTr122XaDxB8tznl4v18fuMZrxU0xjEpSyvfG8qpclSirJEiFmZHGul2mdfBfNR3ACBzI9HyoMWNEvJZ8Ppciqv8m2WS3gclgXCKQl8gXARQMYg.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/7/7464"
+ },
+ {
+  "id": 7454,
+  "slug": "mercedes-benz-gle-450-d-2024-7454",
+  "type": "car",
+  "brand": "Mercedes-Benz",
+  "model": "GLE",
+  "name": "Mercedes-Benz GLE 450 d",
+  "raw": "MERCEDES BENZ GLE450D",
+  "year": 2024,
+  "km": 52240,
+  "volume": "2.9 л",
+  "power": "367 л.с.",
+  "drive": "полный",
+  "gearbox": "автомат",
+  "price": 10748000,
+  "priceLabel": "под ключ в Москве",
+  "date": "2026-10-18T23:48:09+00:00",
+  "features": [
+   "Люк в крыше",
+   "LED/HID-фары",
+   "Электропривод багажника"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Внешнее оснащение"
+   },
+   {
+    "k": "li",
+    "t": "Люк в крыше"
+   },
+   {
+    "k": "li",
+    "t": "LED/HID-фары"
+   },
+   {
+    "k": "li",
+    "t": "Электропривод багажника"
+   },
+   {
+    "k": "li",
+    "t": "Доводчики дверей"
+   },
+   {
+    "k": "li",
+    "t": "Электроскладывание боковых зеркал"
+   },
+   {
+    "k": "li",
+    "t": "Легкосплавные диски"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев руля"
+   },
+   {
+    "k": "li",
+    "t": "Электрорегулировка рулевой колонки"
+   },
+   {
+    "k": "li",
+    "t": "Подрулевые лепестки переключения передач"
+   },
+   {
+    "k": "li",
+    "t": "Кнопки управления на руле"
+   },
+   {
+    "k": "li",
+    "t": "Зеркало заднего вида с автозатемнением"
+   },
+   {
+    "k": "li",
+    "t": "Система Hi-Pass для платных дорог"
+   },
+   {
+    "k": "li",
+    "t": "Электростеклоподъёмники и центральный замок"
+   },
+   {
+    "k": "li",
+    "t": "Усилитель руля"
+   },
+   {
+    "k": "h",
+    "t": "Безопасность и электронные помощники"
+   },
+   {
+    "k": "li",
+    "t": "Фронтальные подушки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "Боковые подушки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "Шторки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "ABS — антиблокировочная система"
+   },
+   {
+    "k": "li",
+    "t": "TCS — антипробуксовочная система"
+   },
+   {
+    "k": "li",
+    "t": "ESC — система стабилизации"
+   },
+   {
+    "k": "li",
+    "t": "TPMS — контроль давления в шинах"
+   },
+   {
+    "k": "li",
+    "t": "LDWS — предупреждение о выходе из полосы"
+   },
+   {
+    "k": "li",
+    "t": "ECS — электронно-управляемая подвеска"
+   },
+   {
+    "k": "li",
+    "t": "Передние и задние парктроники"
+   },
+   {
+    "k": "li",
+    "t": "Контроль слепых зон"
+   },
+   {
+    "k": "li",
+    "t": "Камера заднего вида"
+   },
+   {
+    "k": "li",
+    "t": "Круговой обзор 360°"
+   },
+   {
+    "k": "li",
+    "t": "Круиз-контроль (обычный или адаптивный — в списке не уточняется)"
+   },
+   {
+    "k": "li",
+    "t": "Проекционный дисплей HUD"
+   },
+   {
+    "k": "li",
+    "t": "Электронный стояночный тормоз"
+   },
+   {
+    "k": "h",
+    "t": "Мультимедиа и комфорт"
+   },
+   {
+    "k": "li",
+    "t": "Бесключевой доступ Smart Key"
+   },
+   {
+    "k": "li",
+    "t": "Электронное запирание дверей"
+   },
+   {
+    "k": "li",
+    "t": "Датчик дождя"
+   },
+   {
+    "k": "li",
+    "t": "Автоматическое включение фар"
+   },
+   {
+    "k": "li",
+    "t": "Заводская навигация"
+   },
+   {
+    "k": "li",
+    "t": "Мультимедийный экран"
+   },
+   {
+    "k": "li",
+    "t": "Bluetooth"
+   },
+   {
+    "k": "li",
+    "t": "USB-разъём"
+   },
+   {
+    "k": "li",
+    "t": "Автоматический климат-контроль"
+   },
+   {
+    "k": "h",
+    "t": "Сиденья"
+   },
+   {
+    "k": "li",
+    "t": "Кожаный салон"
+   },
+   {
+    "k": "li",
+    "t": "Электрорегулировка передних сидений"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев передних и задних сидений"
+   },
+   {
+    "k": "li",
+    "t": "Память водительского и пассажирского сидений"
+   },
+   {
+    "k": "li",
+    "t": "Вентиляция передних сидений"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/V7TkJNHpggVvtbGOllxLhhc6YUK9UqP2NISxo1-pmjnWwYdHTvit3vKeGOxXWM1I8ESBg4hE7ibFsQ_VDuLtrYMXhHATYAWqMdPyG3MY7U8qCawyg5ZSCqnuscp1GnorqCFPCp-0oSge1c92MaUbgncWHuu-PFwdcVxNe8Vv1-yNGzvnmoi6ldh3Zvd_4Jqy9nC-eJCpySuDhl96WYOfjmjT1hRwev472a8fX6D7J35991DFUYA1GfYAlru5VOj3B1qYSCA-8O4F4knZ4rvLmaW_p92YUu0f1eJp_CU2F-fTb998CpeCSyBZYAqXjewCqYVZyMDz8-yANOYTom2j4w.jpg",
+   "https://cdn5.telesco.pe/file/o7P7gxSCr6ugTBGGaf_I2f6-7TXlgqG5E3meVKdqvi8WNGMmpJpLNff051AkxawjN9j096fW_vJeB13STuxhdZe9rABW9hyUCLlXUYOeFAtZRjtrsqS9r8yyMBnRcJntRWMZ2_Nb_ZMQ7WW_IfWv3qth7GZZhrd3JsVp8PUYQhUxOokcr8wOPJvcjqk_zKJmVqgt1p1Thr9q8LtgdSd85pZfBCJyv_fPgNttkoQNMNgFRztGGpV6sJFva8hFRRgijIsa1iPQbDPPUaTwjhYWYdc7PoJEffc8ImId1vhv0nImdfVyq_lHbp5cHUBeo643kDHvr_Keih5XB30sz7WmSg.jpg",
+   "https://cdn5.telesco.pe/file/ky5DCQ0DIRnFTvfjY2CWrOsDIjvh0eZ0d6azOCIsiUSpzT3k_2vFEQjo2jmjHN17kgAFGXrJ_F3dWAFTp9CjdglUjoCSJMmELa3AVJwPG3NUeoII2tv7eoQTgSXdIsC6rJ7CY0i5bvAfOTlxoo4zHWto7c4g4nrdubRVtYGuQimU_3Md9XRidrbXTCqx7zhX9oVLi7oOsCRbfCFte7QjTQIBq-vMN4ooKVU9Kt8jQ2SWrngLax84HGgZ1fmQFVf5yT4FDQwnfrduySR8Ewn2GNzwEpjP5fsOXd9uO6ywx0eNY_AZUWMU_OlFuepDzMe44ggCFYxcHZXIsAl_PHwlAg.jpg",
+   "https://cdn5.telesco.pe/file/mv6RNea3M4NXv0MHqJYL6Jxyee5EyC8Y2l36eKlKBeQQHQF_t8ynXmwnwDhwjcla4_OhFiQXkIPUP8lG3TCyKB_vwDeuaNQ13xyMwNNGN-B8cIieU1NwMh3mKlBChd3wHqHzxZ36o3rGDTsqaaDEtZKa5EFk3Mt9Lz_AtX2OkgrA5uJGxsd415x-HqZLVxdeVTJXbsl-MvKMJBZ4YjAU6Rfie9tXwsURWBfScFW0qwBoatrzjRfn0C9K8VkOzRH1y5XakuQ3_VOmnYXL7QFAV_T1IoFnkVXWLXztmYuMssmmBdir6rRo0DLjEwAMjlHFvckclvQ1pGcwG-qYFnUNrg.jpg",
+   "https://cdn5.telesco.pe/file/i0VTSv0RgKAE7hXWpHHrOVLnj27tBjAN7_cgu1Dlx8EKq8kk7q8Xe0ToOEAGgcHW72Yr5n7LMI-9ZHnUHyK3dbhOjBK_WbAcULOKuNapNpgoh740IUUJheRu71rEjY5rDhQTNhzVOs_K-xhHi0KPFPj8D32nA57p_PgufBY4A1VJPwda6dvNnEKMsbH3-VFlZ1CJwAw8aiW25fUxSBLsKzSMGJIPRax7_EG8oUcchlZW5ScUdPjgtgxlvoTazX1LfucqQMdoaf4GA5RnOvrkaXoAIuSqKW5XS1rGH1R0Je8keNsqSvxd6qQ07bYhUHi6580XtDkdWTdTC0mV_alm5A.jpg",
+   "https://cdn5.telesco.pe/file/j0FXBWxLRRU4z9ijmX2Bml0WPnAj1Sasrbl5t9fomG_FHeyi9fWuPPN86OeCeuNpoPbfMhba6lxidm5cdSP-nQacBfThJRHfFkQlx4oHtXCOPzuZxRU92NvypCEZD9e1xYG4HxnEVv0yiVAQVe0ib2gFV5akGD5v9c8TdC7o59JXDnx67pWJi9SDiJ0LdICuNae-LktbojN4rnvB-vchcM6C42ffUGOfrYXLD5iEwZcCauPj_2dFi9A5hszQqQ83FLbGQw0Rt0Hv6vBkD1RJU3lqPaQyYTHGn_rpUqPicEyAyzgaXlx_TCy92ewaGrbnmh5Or2BzMeNwXOX2Q8hWDw.jpg",
+   "https://cdn5.telesco.pe/file/l4CpbvKNFogSrTATfwQioKNXWfr6tAEXDXn_QjQAwfmzzBtud09bulKip9CHIBcBUumb5DsOfHFZjjMWpSKlrxoStgLkBE-7XANyO-jFe-vFAT6nu_HSTXyRvdWEiitRMLDGG14Y8Y3J_8VlHgR8avYu7X3lGNZifYO96Sr6Il67dJIpJnzfcyHHp46CP5JpolYoHamlOuVXSd0sMSCXvHDEQ2ezJpAvNHuNUr6tKjRAIzm1CcnaYF3M299l_MVt5B8iOfk5q8yx1HToGSObM8qyHL6xDz3Vi4oIq9hic1dthD7smyDnMaov6fOhomHFUcwsTeoKEC93OPnW32FcuA.jpg",
+   "https://cdn5.telesco.pe/file/MZHp2ozX-ICXlnbwjm1Bcw7fG8TaOAZ3GMWHuO0taTRycQgPfW-UCWmnJp0w3f6JsRkSimSRmjrqj-PWw_hNzZQ99gVD6OtYgvExMaN3227bh2_TlHHtw8pZCA6i_LveLDDidGCpoLcqSCOs7nIfNunhj5Mi5ocjfN8P0UA_OIMWGdAlt8rpeSMyUIoQgEyyOj0R2cQ2uyDU4Dr1sBQBmsDzJ7lDRDYOBSx_tW8fIYuloPbwVjFnFxlKtEFC8UdKTaWrwE2deRHRs0zztxk8TIQMrg-JsIhkMYtiKKHhtL8v6pm8kUjVRh9Llo3uaExvwXokUnqVso36PlKHquViOQ.jpg",
+   "https://cdn5.telesco.pe/file/jyG6GheS11OO69ev8ad4GdO0F6XvOKLeCqi-kELIcQO_JM4e_CtdjsIlY74VQ4_4mOqxC9DIM0jerpKrGMXqoowgZV_PIogJ_SC_YHXXSN2Do2IOJ68I-baiIEtax3aA1mgjyksYgBAHRczDiUR_2hnVmpqpVoqeXo5UHngCi2qqStzczIn0xYrgjvRQmrcGbveOztc6WpTM-Ugr2C-XbDgH50igiHZRVdmcVyKKEERQSxXMRjMS8lNtXbsLZ64oHcJ50gWBDXixH2Xy2Vu9kE3hXrXvThOXO8eWZ1cT_xKaA8jdnt8H956tJLPX1dEtdpPMtrvz8_mmtShbZCmzmw.jpg",
+   "https://cdn5.telesco.pe/file/IS5xmNSVGH60-GJNhOAekNbMaMhWs8PayEY0W_iaKd9ERvXu0B0tVawBQtoDnSa4Yjir1xCeLFyUQgXDNjr0XYIRGzi-PhdTdsCMLwMuucYUzZcG6PAOpUA8iItldyEvTKGMgX3R1agiGTVlX3b6YRTQIU5xFMNKx-ai2BtAOHHseBERvKLCKx2aeHjfizq-rYRw_J7duJLWUAVeIuv4U4qfBci879GRbMCNbvMqYWfcDH3CyZ9bPQy1P7DHCSLkjIaIczLUJ_6Vjb63TlONdujpC8qiC3AUMa6elOLX-KXdEo4AO2Gjzu7YYQx6MGu0FX9-vWf9fISau9LdLZFX3w.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/7/7454"
+ },
+ {
+  "id": 7447,
+  "slug": "honda-nsr150sp-2005-7447",
+  "type": "moto",
+  "brand": "Honda",
+  "model": "NSR150SP",
+  "name": "Honda NSR150SP",
+  "raw": "Honda NSR150SP",
+  "year": 2005,
+  "km": 1,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1033000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-18T05:49:33+00:00",
+  "features": [
+   "Коллекционный экземпляр",
+   "Гоночная версия",
+   "Двухтактный двигатель"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Редкий мотоцикл Honda NSR150SP"
+   },
+   {
+    "k": "li",
+    "t": "Хранился у меня как коллекционный экземпляр"
+   },
+   {
+    "k": "li",
+    "t": "2005 года выпуска"
+   },
+   {
+    "k": "li",
+    "t": "Гоночная версия"
+   },
+   {
+    "k": "li",
+    "t": "Без пробега, в состоянии нового"
+   },
+   {
+    "k": "li",
+    "t": "Двухтактный двигатель"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/VZn4AgK-5S0qtPovdS61H3ZxR78zyzXq1NYNNJ5w-lPCMoiKisee7GsOAPoLZn9Qe1gD3Adx91pUuweOIdU0kVlydscY5drq5r9i0Yivsd27oObvZssjsED5z9AvQ9nOt7WqpPiUnvkFmP7sCz7VtiuZdRYFG9ordGB5UNKUO39LtEQkj7X1tOKJYyUC0Yerg2R0O20TrVqnZO4bTJAEvg4rH2O0SLZTaghAF_awmB7THO3-TdE9l0N9m2-2yzMZiHoWyf90E9YzpS5H0CeslDYF2hNsuzg8lI7AkdyoaCFTq-SDLhvZ8hQJS-Yr27MzB2AHjeb76BcdzD1KMvY61Q.jpg",
+   "https://cdn5.telesco.pe/file/HSowyaVEV8yBevBSAJG8E-AJEU1FnfC19gASmflAhcRS_BN7eNkoEptb2pOVy9Z8_GsBhklgDMuX7xo7_nK5R2pYAuVfpJ1APDrjGDK7IQ5-9vOtihvpRMHeBK-dfgeaubhNWDU-6lZ--wpfb4kUrxhjb18K9KQnj9x_vtmNiQENNYvGUwuBvT5LfCsMYllJnQpLy_shmIgQ1Zuk8CY5Ik2I1gidZrGkGl5DiaYycGYWqvmCX5b0S5LKubPq0jhjADZUPq5AnOsDh6NspvYKsK7pyHJzOtDTZyv15uQoOAi5x82hPNM43gRRPnGwGsywgGDzz7odUdjxuC-VPetLtA.jpg",
+   "https://cdn5.telesco.pe/file/st40Mhf8uHubkPGcRcqoqN05Ya7Y4QNeR3Wc_r5ueR1SO66IXNFPiUY4mrgIwZjuPg_OoQ14nmywSIJ45c7kvYS6GN9bz-binTBjCSuTxAtVVx45zO-gvq4KugaRFiAAlawsjF80l21GJOmRQdFqbRiEoLTRwTySMYrmarEp_GrPw2zMkGdjnH4YBroYatf3k_2zZCZ2Mh-Bf33aga1RC2zZADDfu7wtbphhShmAiFtZ3vtAKMr5EI6QNYDBPRwnu1NYy59UfvEAhExnMMp1oiZWZdG3kMPAUYrWS4_rjDglDYYEB2WWkpobg8yUWDPuNOTARApq-RDzDd5wu9FAGQ.jpg",
+   "https://cdn5.telesco.pe/file/na3dU1TKwPQDTA-k0wsJOQV_V5vMZ8ROMBAbvhSWFcPvGJ3R0XLRYd4pEPfRH36A1XncNoq4lA47yxf-KH9TxtKmYlac3-Wmmk1pGJOo_PBQpQ4o7iWEtQnPN5TqS-A0tb_3rXYX-_-YMFdDiZJq-S4VTwnWxlbCNPvJLOXlQ9lF1hc8ewfngyNIB97zTLINyUTmxNlhyFq8gcdAQIiebFd4eFH4s8rRfLCelLkASVXLel3nN0r7L-tI1F4h34gFrHPCX6ZDw9PYqHZaSF5Ti9BISkPQtAiCFXj9A7GcxKxJiEcO9T49Y6YyyX2tWuLsrj-FWbhTTuqLJFWtPNPyRw.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7447"
+ },
+ {
+  "id": 7443,
+  "slug": "yamaha-yzf-r1-2022-7443",
+  "type": "moto",
+  "brand": "Yamaha",
+  "model": "YZF-R1",
+  "name": "Yamaha YZF-R1",
+  "raw": "Yamaha YZF-R1",
+  "year": 2022,
+  "km": 16000,
+  "volume": "998 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1755000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-18T05:45:27+00:00",
+  "features": [
+   "Титановый выхлоп Termignoni",
+   "Тормозная машинка Brembo 19RCS",
+   "Суппорты Brembo M4"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Полный список тюнинга"
+   },
+   {
+    "k": "h",
+    "t": "Выхлоп и тормозная система"
+   },
+   {
+    "k": "li",
+    "t": "Termignoni — оригинальный титановый выхлоп, официально зарегистрирован"
+   },
+   {
+    "k": "li",
+    "t": "Termignoni Slip-On — дополнительный вариант выхлопа, можно приобрести отдельно за 500 000 ₩"
+   },
+   {
+    "k": "li",
+    "t": "Brembo 19RCS — радиальная тормозная машинка"
+   },
+   {
+    "k": "li",
+    "t": "Brembo M4 Monoblock — передние тормозные суппорты"
+   },
+   {
+    "k": "li",
+    "t": "LighTech — регулируемые подножки Rearsets"
+   },
+   {
+    "k": "li",
+    "t": "LighTech — рычаг сцепления"
+   },
+   {
+    "k": "h",
+    "t": "Карбоновые детали"
+   },
+   {
+    "k": "li",
+    "t": "Карбоновая крышка рамы"
+   },
+   {
+    "k": "li",
+    "t": "Карбоновая защита маятника"
+   },
+   {
+    "k": "li",
+    "t": "Карбоновое заднее крыло"
+   },
+   {
+    "k": "li",
+    "t": "Карбоновая нижняя часть обтекателя"
+   },
+   {
+    "k": "li",
+    "t": "Карбоновая крышка бака"
+   },
+   {
+    "k": "h",
+    "t": "Защита и аксессуары"
+   },
+   {
+    "k": "li",
+    "t": "GB Racing — защита двигателя"
+   },
+   {
+    "k": "li",
+    "t": "Evotech — слайдеры рамы"
+   },
+   {
+    "k": "li",
+    "t": "Передние слайдеры"
+   },
+   {
+    "k": "li",
+    "t": "Задние слайдеры"
+   },
+   {
+    "k": "li",
+    "t": "TechSpec — противоскользящие накладки на бак"
+   },
+   {
+    "k": "li",
+    "t": "Защита радиатора"
+   },
+   {
+    "k": "li",
+    "t": "Защита тормозного рычага"
+   },
+   {
+    "k": "li",
+    "t": "Rizoma — зеркала и крепление номерного знака"
+   },
+   {
+    "k": "li",
+    "t": "Domino — спортивные грипсы руля"
+   },
+   {
+    "k": "li",
+    "t": "Gilles Tooling — крышка маслозаливной горловины"
+   },
+   {
+    "k": "li",
+    "t": "Puig Racing Double Bubble — гоночное ветровое стекло"
+   },
+   {
+    "k": "li",
+    "t": "SP Connect — держатель смартфона"
+   },
+   {
+    "k": "li",
+    "t": "KOSO — USB-порт"
+   },
+   {
+    "k": "li",
+    "t": "Литий-железо-фосфатный аккумулятор"
+   },
+   {
+    "k": "li",
+    "t": "Клипоны на руль"
+   },
+   {
+    "k": "li",
+    "t": "Карбоновая накладка на боковую подножку"
+   },
+   {
+    "k": "li",
+    "t": "Green Performance — графика / полный комплект наклеек"
+   },
+   {
+    "k": "h",
+    "t": "История тех обслуживания"
+   },
+   {
+    "k": "li",
+    "t": "8 700 км Установлены суппорты Brembo M4"
+   },
+   {
+    "k": "li",
+    "t": "10 300 км Замена обеих шин, масла, фильтра и тормозной жидкости спереди и сзади. Общая проверка"
+   },
+   {
+    "k": "li",
+    "t": "11 400 км Регулировка натяжения цепи"
+   },
+   {
+    "k": "li",
+    "t": "12 000 км Замена моторного масла"
+   },
+   {
+    "k": "li",
+    "t": "13 200 км Замена генератора на новый"
+   },
+   {
+    "k": "li",
+    "t": "14 000 км Нанесена полная графика"
+   },
+   {
+    "k": "li",
+    "t": "14 500 км Замена моторного масла, масляного фильтра и обеих шин"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/vT8KUT1rBv5rA6WFi47lP9fPQegWL3WYl2YQmrStYuK9RBzh66SiPvQd6GPcJlrxKkvmh9t3RwcLU6AYIggqHZ7Ge5fBi4od8F4hOiq5D4SKPJZ22x-gdXCuaRnGYVHtK_GI7vAexgqribL66kCe1V-Brmf4XX-fZjcB2jI0OfXNPFyT5D81gb5YD-EwQInMiVi86t8tJTOl9XTUa40pl99d1XK-7zzUaBEMkKZt0BfBZbI19qfgb7eQJ2zReMAfABgxEe_kAoxy4k-OzUPDrZJUQZtS-NiHYeASTXCnYmd42V2soHlazvWC3PRWfuD_5aJBxCDWONaFtVboGbIROw.jpg",
+   "https://cdn5.telesco.pe/file/QszcdOVoT192Na6ixaCf0t5q6kvb2UcCI3-sgY5G0BBU_9eF9fuNC20BP1fGbBgaBibjnFImWS8fTOw_6qL-x4HeJIDImdK-B6beGt_7qBoBPq_3fj4SlayARdx8T6uzDdjJ01W01pEtG5sZs3Pp6_xjD9DZuiHlHsGWoRRfG-h3U_NxfrnR-WOEJmtz3zcU1SuE5zcwndH9j8hPoXAX4OJHIyuVdluX1Pc9FtFDjsr05jJxZoS8awJ2ZZS8n0KUDU6alAzKcXx1AEBXtAzBsmbu1gevSPam2Bg42WSW3I233qs0q84WGtDJZBYkH8vKoAak-bjSBi84Hg6h7SBT1Q.jpg",
+   "https://cdn5.telesco.pe/file/Ggwbdi-YKUOuitC1C4ApSw368ikmG_BgZRa2foi5ldCjwJpbi9eD4hbOooPfMOaOJ6roemSeYLeSSMSalSXIU5aQdg6jUzDrbvU1xFZqjd3uHzW7biGHHoBRuKTZszvvt0SJL0IEnELr37z6ltjmaqJ2qGzbfpiLibdAR3XqLi9Z2-knDYS1yKa4jsv4WWDLx0B-jptF6K6AuWjeE25MoboORDQhPGQmAGiEjxU_PPk_UHxPLDT-MYM_uUWdApPj6HeN7llSkX8JUDZaxaY7wf6x01QuEzz2Dirqf9h3ihSMNz7I1MpmJ3dhqfPvic97d0Gjd5BFzhL7IGtKufDFdw.jpg",
+   "https://cdn5.telesco.pe/file/PRaTk2JKLkLX_NSiIUil9Ag_82UP05np6I6MdQRMT4ebO-YMM9zxRuUJBnK0SFQSzzIu_NrzmlYX09ljKxOgMB1VdJAugFQsB56GDhrRz9aL35rV0pb-kkXUsYJ5leryHKMn2pU9JIqFiYZ29cfjjq0eiNM-rVkSXEaLw5SA_nuyW6ug_cckjMxXuzHXnR1yn2ZDQq2bRZsf7GUe9UiRfYED0F0Vr1fb39wrdBF2cBYN4iyqzVFCfFo4txxvC-wwhCdVtiXnlHpxfIXwmtXAgrygP-rVymklXBBRrVB3e9hR6H3czwKOg-vUkjgY9fRBlNYe70ZonQ5Wtsf5qk2KPw.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7443"
+ },
+ {
+  "id": 7439,
+  "slug": "honda-cbr650r-2024-7439",
+  "type": "moto",
+  "brand": "Honda",
+  "model": "CBR650R",
+  "name": "Honda CBR650R",
+  "raw": "Honda CBR650R MT",
+  "year": 2024,
+  "km": 3946,
+  "volume": "649 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1072000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-18T05:41:37+00:00",
+  "features": [
+   "Двухканальный видеорегистратор",
+   "Держатель SP Connect",
+   "Без ДТП и падений"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Дополнительное оборудование"
+   },
+   {
+    "k": "li",
+    "t": "2CH Blackbox — двухканальный видеорегистратор"
+   },
+   {
+    "k": "li",
+    "t": "SP Connect — держатель смартфона"
+   },
+   {
+    "k": "li",
+    "t": "Мотоцикл в состоянии практически нового. Без ДТП, падений и скольжений"
+   },
+   {
+    "k": "li",
+    "t": "моторное масло и масляный фильтр заменены на пробеге 2 500 км"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/XK9fUXUMh__jA6FHEqliiRZjnlOv9hlmU26oIz-N1-hAG3kC674OyddhoXJddpJqf_O3SFcZo7wQ8QD1jWOUnlpLR0YGvw5RFJstEssjfBlW8UQ8e7RxB1yJSB5ZtHBRrzGFdxWGQVazB-yrEBefGiplF78Aqac7hv4t1vLBv9V1hWUJXHTWYOVyi61cg1VeH1jOqspNPwyW2-cQ68OywJ_-0h-ZD85GQ2ZOrqdluP2ow5vEL4RK7tJhZ4-yen4iC3Mdq22qhQgNeKLR8AKo7mBtCwAMBwQXYh51EXkW3D5fGSElz0So0Fwx07AREKflkx_8RmyJJGuSY7IKloBIvw.jpg",
+   "https://cdn5.telesco.pe/file/N7v_R58tK5qObO06o6x6Ffmhx5JUKNPl-_DzS1VMqBi_KCnHJvV1GWqiCFYdFYUmUNdkAnzBOK_YEQPDuI52W1FosEG22t7uterbd3WsdIDbfEK0e8zVTLSEp3Cf0_BhJA3iSsTvYngwDX8pkMkTqULL56mCXJJ2iQDTE4XrM8QxBt2Gtd2O4VBmhNRKz2A2XIS8kzED65N6BwGb3q1xUYa791wumGctRKgZgNfxDK2yxPuWenQmZLTvd-VezrIBeP1t3I41j50KT5XfH3MLyfRpX2g5aC1zsMXxAOqH6mv9sAD8SrqfZlVJ6Fl_kb4SPmGsmwEHuXGXlObYKAsGPg.jpg",
+   "https://cdn5.telesco.pe/file/adCQ4WhWaWfZBs40SViimQ-pM4e_3TyBrb9ddGuOysyY1FvzbjuAmIGX5o7LxD-91l8pdDiqq9O8loksT0DKUZd-rRfsPM8c7oXpFoyUqyiw3e1xh5VRrPd8NbzrwDjPDglY0RPYlSU4Nf53u9ChJND4ydS63fP57UI3a5MUEfjRs8agXU_To7wT9NIxbSZfghRN9qb015NUh2SE5GDfku_I1pjsD-WGCDknmQNTIxf2GHONyy2Yj6Uf3UiOf3ys7nyIxbM9-o_Di-A2DWeSawC4wpfXmFFPF4MOacbXMSGCBCR2C0_VuHpgGoihIsVpwBZ5Iks6bD_6vH8ToBqxpg.jpg",
+   "https://cdn5.telesco.pe/file/V3DlFzAgoI4a9qZNjAEnkueN0E9iUtNQktlhzBcb-2JxI6RLhAhQWSx6NSaR1bvTN0ojVjIZ29UW81SScwoDM4PHEzDkvEY4V6aMKEDCgKJuaFigpY8mFBibeaLek5FFtDdrCB4pd0Pals4quUl3JN5hctn-1nyC9Tb3ftspFj9tYEssQK0_-gbqonNVC_V1mqzK5z2Xnddv3IM_r7uxp8LctZtV_DSDtrAESIO7KQ8cybSaE2mod3ezYLTN-DofBDxIaNdO7osjNkkK77_EbN9NmsgTX81rSk6ObSQemjNKTBHLZT0N1XDImnl8Qqbw0fd8CkfToH02hhg3eXtWgQ.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7439"
+ },
+ {
+  "id": 7435,
+  "slug": "bmw-s-1000-rr-m-package-2024-7435",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR M Package",
+  "raw": "BMW S1000RR Mpack",
+  "year": 2024,
+  "km": 8100,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2340000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-18T05:34:14+00:00",
+  "features": [
+   "Выхлоп Austin Racing HP1RS",
+   "Карбон FullSix",
+   "Винглеты RCM"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Полный список тюнинга"
+   },
+   {
+    "k": "h",
+    "t": "Выхлоп и карбон"
+   },
+   {
+    "k": "li",
+    "t": "Austin Racing HP1RS — спортивный выхлоп Slip-On"
+   },
+   {
+    "k": "li",
+    "t": "FullSix — карбоновый нижний обтекатель"
+   },
+   {
+    "k": "li",
+    "t": "FullSix — карбоновый кожух переднего колеса аэродинамического типа"
+   },
+   {
+    "k": "li",
+    "t": "FullSix — карбоновые крышки обтекателя"
+   },
+   {
+    "k": "li",
+    "t": "FullSix — карбоновые панели в области бака"
+   },
+   {
+    "k": "li",
+    "t": "FullSix — карбоновые боковые панели"
+   },
+   {
+    "k": "li",
+    "t": "FullSix — карбоновый маятник (по формулировке объявления; вероятно, карбоновая накладка)"
+   },
+   {
+    "k": "li",
+    "t": "FullSix — карбоновое переднее крыло"
+   },
+   {
+    "k": "li",
+    "t": "FullSix — карбоновое заднее крыло"
+   },
+   {
+    "k": "li",
+    "t": "FullSix — карбоновая защита цепи"
+   },
+   {
+    "k": "li",
+    "t": "FullSix — карбоновые вставки обтекателя"
+   },
+   {
+    "k": "li",
+    "t": "RCM — карбоновые аэродинамические винглеты"
+   },
+   {
+    "k": "h",
+    "t": "Защита и аксессуары"
+   },
+   {
+    "k": "li",
+    "t": "LighTech — слайдеры рамы"
+   },
+   {
+    "k": "li",
+    "t": "LighTech — комплект слайдеров колёс"
+   },
+   {
+    "k": "li",
+    "t": "LighTech — защитные крюки/болты"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальный карбоновый элемент BMW"
+   },
+   {
+    "k": "li",
+    "t": "M Brake Lever — тормозной рычаг BMW M"
+   },
+   {
+    "k": "li",
+    "t": "M Clutch Lever — рычаг сцепления BMW M"
+   },
+   {
+    "k": "li",
+    "t": "M Lever Guards — защита рычагов с обеих сторон"
+   },
+   {
+    "k": "li",
+    "t": "Wunderlich — сумка на бак"
+   },
+   {
+    "k": "li",
+    "t": "Регулируемый держатель номера с механизмом складывания"
+   },
+   {
+    "k": "li",
+    "t": "Puig Racing Screen — гоночное ветровое стекло"
+   },
+   {
+    "k": "li",
+    "t": "SP Connect — крепление смартфона"
+   },
+   {
+    "k": "li",
+    "t": "Peak Design — противоскользящая накладка на бак"
+   },
+   {
+    "k": "h",
+    "t": "Техническое состояние"
+   },
+   {
+    "k": "h",
+    "t": "Продавец сообщает"
+   },
+   {
+    "k": "li",
+    "t": "«После последней замены моторного масла проехал примерно 2 500–3 000 км"
+   },
+   {
+    "k": "li",
+    "t": "Недавно заменил обе шины на GP2"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальная задняя подставка BMW имеется"
+   },
+   {
+    "k": "li",
+    "t": "Мотоцикл выпущен в мае 2024 года. Заводская гарантия ещё действует"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/PiRyzJ5FyeCcKgGsP27KY-hqTO2I8W7_KBZ9u_HJnwxYNyktVmtF0jwQ8ix6ut5po6KdGr5x5x4Lz2ZFJEWRY5v19miWrSHUfntTrFYAcopBKdjbbuwBoMng7WPcCfpGEamVlQlImqRoOtIjh3bwINcGqoRfgaG8p5jfUD1shy1BZXSVXrx9vSGEWXmgAXw_9t1SJy5hi-8g0z_Hhp5f8NsBclpD8lVT-yzEceFl65-MDLHtRx8T9k4020f3RbOcDPulhSCrIBfWHID_BybI_KIhvyQC41nSy3Hpd3XHfPQlD80-LlTzp9cGSqDKHvoQdN-_dQdk-6R4ajLhtwB1nA.jpg",
+   "https://cdn5.telesco.pe/file/YbUnYgckuqQHY5b6fLyo_lXoLp0o9P6C1dYYRDWlwUUx1ubxfbrtnBzwAUzeg9d1zAFNK3s8Q2kQGA6fLSBZJM7u69ORAaxvdPjtKxl1Wsq2jJWzCe60Ve4_NtnPsyfoSL_OemgHGyRWJfI-LUKoulozkiNvLivMFqY_5OPoJ6lYdvHoLgaeEjHDUJs_1z6ozC2d4pj5vAZjls-qY3nqtREhFBSZ4zZ98fUx8Exjf-LAyGs8lMQ2Gepn-HEXXUWn5FztV9Uep_FrcmQEtOYagwPplhJAlgstM1qBQKFdC2EAF6b7ggnVaybyP7YM0nvhGfQhQuP6FUHy8GmpJYn5VA.jpg",
+   "https://cdn5.telesco.pe/file/ftOg1N-X9Iu0Y_v95wQxrVcv924MuHw--IHNYwTblsRaIAXYSFLncos4XOT7AYF0O8NtERraV329FlIf6_RqyC_oyZPNW2fBz9wGBNcTeiL39y9xAUtoHiU7TW9Gwz4a9P6ObqLaIOndiPaJ3Zknn5n5LSDItZo2S90GXkaIXL_pbWgztWpUkBsxJkIW7fFYxwqxBjbVgY7U6nI9bzFwu6fMk7z3dZSG4g-5bvJjjQasOLTQDXv5-m-N8VhnmzJlMuGkWkZxwc2ISHI82oyokYHdIMmtmgW1f_Gk8BIfFY8JdHaNk_GLUyBe1X69wnMgaeEgPpt4OC1OS-15ePTuVg.jpg",
+   "https://cdn5.telesco.pe/file/R6BZbOVnJLNtvlBc3Km8Zo-fe7jXZgkaRNfvLB_LGsRTsKLOFe6gKPrDAT5AE3MHLp1hOQI6WV1UN3tA-3S3M5mcDXb7XVTBXqKn-ZgXyC2flJQkmW2lkCvM2K5TiMbSoWY7qADr4GupCLN0oIO2YPrGJiyhm4--CfdnjQm_Cw99KqtEvi7vD9KF61PNIEX0q5TMQeorHvBwiWfmpWxDShqf7E1XFIbsLzFXa3dbfl3dh5iNJtthLl7zOY59k_nmRPynazeSlQmlzsHiz6u5JJdb9QO2irJ9QCn_v8YWFy7EhYWyym-H3s_kJQjNGVmrxcQA9fWbzJ065s01Nglx5A.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7435"
+ },
+ {
+  "id": 7431,
+  "slug": "yamaha-yzf-r1-2020-7431",
+  "type": "moto",
+  "brand": "Yamaha",
+  "model": "YZF-R1",
+  "name": "Yamaha YZF-R1",
+  "raw": "Yamaha YZF-R1",
+  "year": 2020,
+  "km": 8010,
+  "volume": "998 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1480000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-18T05:30:43+00:00",
+  "features": [
+   "Титановый Akrapovič Slip-On",
+   "Карбоновый обвес в стиле R1M",
+   "Винглеты"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Тюнинг"
+   },
+   {
+    "k": "li",
+    "t": "Титановый выхлоп Akrapovič Slip-On"
+   },
+   {
+    "k": "li",
+    "t": "Полный карбоновый обвес в стиле R1M (не оригинальная комплектация R1M)"
+   },
+   {
+    "k": "li",
+    "t": "Большие передние и боковые аэродинамические винглеты"
+   },
+   {
+    "k": "li",
+    "t": "Красно-чёрные кастомные кожаные сиденья водителя и пассажира"
+   },
+   {
+    "k": "li",
+    "t": "Защита рычагов с обеих сторон"
+   },
+   {
+    "k": "li",
+    "t": "Регулируемые спортивные подножки с защитой пятки и логотипом R1"
+   },
+   {
+    "k": "li",
+    "t": "Слайдеры рамы с обеих сторон"
+   },
+   {
+    "k": "li",
+    "t": "Красно-бронзовые эмблемы Yamaha на баке"
+   },
+   {
+    "k": "li",
+    "t": "Декоративные наклейки на колёсных дисках, маятнике и крыльях"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/nvkJbu_lLxSYywJVU4jga1kcsJNVKVWyuou82Zd-GeyYdHULC7U_HnTBArDj2q1mLMxYW3rjzHo0Gvj34XMIHf0qzA_uC9i5_nEJEPjA8xcrZUnJNLnvlsM9lh6rPCub-jIWyHDfSyfckFDP-K4K4wtL8kt7TBHPCFXDoqMBHCOwwcEHSKhLtJF-zCkzBsTJ2aou5gK7YXQW9lPuzkVjMlt6HDvrI8spHkd2Sfv8bF0k6vdpKx103IgPojd0O2pG6M-oKI5etCPIiIzRBT7o1_FyaVcfNyXNUNZusWPn_sPhzPkj1DZWZ1y1aUew39d5sjKMDf7Ye55qN_rS1T_ohw.jpg",
+   "https://cdn5.telesco.pe/file/IOijiNTmnRhFKGSdERmCdRpOYbLzf8zQ2YKFHZjhtDWaBPRiApyKr5Vd_GxLpmkI7dnLBHn7l299eFxSzZspSW841ZAtFufc3MKrQ6P_BNf5zVfybWJQE0ToIwRMB9ovlQ6hDVHCkU9pxJMT_E5ONSzcM-TZUgdp5TYeWybDNXdYH5qIVLOZPQGm0RCz2NClPDtrI5VtYsvF6pgjSUpDP-OyK5XJsBtE91w709e7zwND2bOQeOWaXX9vy0cITZJuQsfsh-1k58L0t8uWW5gcrTFlkAamXNjzOnNN17_42ZZWnXW60bOEB0ejzTPX4azhFckOMI3Ie48UMNlnCgYbMw.jpg",
+   "https://cdn5.telesco.pe/file/JVoFmPUaicCBsKcZLPEsqJQABDHBSScunS7niSVEfTF2gr0cvwaGK09_TTZ82-4UuIl_NEqpoW1K__ONN9JMpTv-BbXsmR-n6iuGBCeSKVJrRWMORu0c9BydBkQVo4dONwgOQgkkAsDchnVpf3z2GtHOh727XrF1pYSG8TS2T9ZyWnblbhIbAtfbVi2W1ySKaeQmEBeoPGCc_MvEyoOvmFovOIEfRsnWA84q2U01P11Fs7oMgb-IhWE09GpXQTs9ks4XBQYTZuqJQMnnYq4wD27ZjBwisCeUialCE6DXdgWG5BPf6URqgbQGoanbkGA1OvRCw6uT_nBkchlN8rO32Q.jpg",
+   "https://cdn5.telesco.pe/file/K0dhHlwgmshKB9vmUDZtdqNswCZSVTUswkivQtNu8Gvz43n6q1k5R1DLTGo7UoRJrJMSdxdZL55WzNu70ugUQhUI4-toNWQdjzdksiTFRom2KxehE-RHZ6F9utdvu045i_ST-ZWsY7EpxD_e1AHFXcDMHkxd0uN-AWBqZtLOyYo6R8UFD7M2SeDO-FboVir0jM3uoMmvTGQ-49czspwzCJqbTyBnlfnMSr8UGffdF-pXkBeoCYgz2l3hAa761UkFQ4wd_bHIr4sqJfIWodoX-vZ9H2aU3PcsqlfhjmRkIXoJiCKMoyV64TG5h8dgUxkrG0W3-YMzzeOGCbk_E-j4og.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7431"
+ },
+ {
+  "id": 7427,
+  "slug": "bmw-s-1000-rr-m-package-2020-7427",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR M Package",
+  "raw": "BMW S1000RR Mpack",
+  "year": 2020,
+  "km": 20000,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1555000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-18T05:25:36+00:00",
+  "features": [
+   "Не падал, без ДТП",
+   "Тюнинг Fullsix"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Мотоцикл не падал, в ДТП не участвовал, использовался бережно"
+   },
+   {
+    "k": "li",
+    "t": "Установлен практически полный комплект тюнингованных деталей. В основном продукция Fullsix"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/jDZ_o-Ul8FlmlQo1uLPoVX3fjYvF_ZTmQasL12qpuj-ZqUIZPN7QMp11_G4-rCjsoySEPxtaMES60hVF3FhA4vampVHbFAdiVNsKBXQ1h2hel6wDOV9f5542oECNpkKzRhydd19atGTGQxijv3uWHevziVOLTvY0qHMfLLw_EDpfgV2uMAixEMyqiBagawEhCoXGDSHNn59IhWTpmcWFP4HUDYVSv4lSS2HcOsGBzS6kheneAaOuMbgvMTYtTusKXzRg6GslxpGwWsKYt9U7Ms2O9tuoK9fDqi-XrSAtxYkYN7SXRzeUIHK2VDfbaWDVqwp02jBqlZG4XPobni8QGg.jpg",
+   "https://cdn5.telesco.pe/file/vfFxQYhEwyyAQEJQUTxkH5VH3dNadfd8v_paHrEIFplCXHAFuTwDhfbQ9Kls4DWDHTp93ai6bkP227xHQjpYQeJSpyoY7xwhkF7e7q12nUrJSUQPNc_14CQfSY28ic3VX8kh2gCczVZ3N2-G-HLYbwa7d4lVAMB77ejY7XSoNW8d02KvBhli3n6V44wEC-v6jQCzaU9w3Qs4fyWe-1Jl7OnZ_lasS04T6vTgLi37oV5wJ4E11zvzbJIaYMuN7dEKQ0-72ULD2CcU0IDY_Se-ucuqHumpoLXlNVlYHksOHlcYCxjq8dafX9IsGCSsrjV2_NNrwCGTTjYkJgZoxYxfBw.jpg",
+   "https://cdn5.telesco.pe/file/U3D_g7K5v2Z6vtR92I-D5B2p5AeHXi8NVqsjkpsUCIk3wOq0fOFEvAcpH6NxR33EIrehirxw2_Ft3wLKHhU134lwXW8lu-lOU__kOOWyxHYhnYUglofB2IHDe2fBq3_7FoJrTE3yU4_yjFdwgUHaVw_EE51qih_ZVNNXeFu3uRdUddC-c7npvcSgmr2lcYaDcd4v0yqr6OF-69QAqJcQ45gzJcAJXF_ka5mpHe4L-d2U2SIG-lJAhppe7COxFBFGpJ9PJ9UNST_miYDdcTZPFfudaiTf1jxgR9lmgcQtzj44tAbf9SYAGCZv0tJZMPWU9lBttPMPq80bpj9J8xENHA.jpg",
+   "https://cdn5.telesco.pe/file/KqH6Td8YAeqOtc13KDo1CM60FHNDNUIjOCXwJ5FIEUKlRUZNVp3cNYVx1JtIvA2aI_xF8NJr33lGgDzDdaT2yBBWPFAnl9TfgD_apyaGtvZiUfR4SC358NL1lfgHxFcjPcbpbLr9aD_AWlL-tU1DGF0dnJ0B0iCg9rSSNA0srLMcfFWAC9HxUI9k2qTllYHTb3eZHrA0vfsUBfthBp2g1UlMsafHiiMrvt7Sul7d2Rln2rH5_5IeslFFm0FNMV0stB4Bm0RCa4vQqP6kjiRq2OGvdckHSGJFKvMJtBmhdLm1S7snUl7ipC95tpmhQm00S2BFRWg5QIAu0N6D6aaWEg.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7427"
+ },
+ {
+  "id": 7420,
+  "slug": "bmw-f-900-gs-2026-7420",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "F 900 GS",
+  "name": "BMW F 900 GS",
+  "raw": "BMW F900GS",
+  "year": 2026,
+  "km": 1000,
+  "volume": "895 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1429000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-18T02:32:29+00:00",
+  "features": [
+   "Идеальное состояние",
+   "Обкатка пройдена",
+   "Без ДТП и падений"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "В идеальном состоянии мотоцикл"
+   },
+   {
+    "k": "li",
+    "t": "После обкатки"
+   },
+   {
+    "k": "li",
+    "t": "Без ДТП и падений"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/IsHaQ6wujG42cOzHgTd0pOqh1ilEZCbhzEqFRqiumbA0dX_L_EoPBg0S5kj4bx1Md-HvgZgaBt3FiSfmFq_2bqofIQAY36Ykx6-nBpHOs2hPMxGTprpvKrsWYAez-jPN_iFCH29E8uWo3AS-6wr_44ykdyr-fQOxdGwnO2MkYMLAN1X4NRL9jdCmVoJ5rA8sw26lIG-z19H_Wy8LzxazBc-GA-mwLqQESEjg4toFbEf-k1pErD5p7g2C5BAleeA9i7NpqhU8ua2b0AzzW7esYG11or9geInFrUOi0Ox0amaIfbOqeMsSpQP28I2hxl1PS1fubJXzpAWoTllx45DRrQ.jpg",
+   "https://cdn5.telesco.pe/file/R7QnsdF4UCBmcgCO4EPo3sZ9IbYsRCxdZ3Xl7Xf8s5EPJmI6DxWZor71GQKahW1fgVtgpUNnU7BVX4az52tr-4bZWUnaRKCio7NLrldi3YRONpB17Bvbr-d05AOis7viSp2XX9cLRUQHXMC8cu166i3NNH8tG0_3z5BuC4Iw32-SOhfKFakV60szUTZ3KsaHabWcNW4K-mFCv7MXPlz_BjMI4uLmKwJLz1oWnPOAsWZvsJCTIwuXrjwxyTD6qUo1c44Jnb41-2eRWmJekCOLODBrFnWwrbx5Lyg8GNXt89tOCi5293XYy2ytDU1voAI8VBuyoBSTyJE_WtPJ8Ata7g.jpg",
+   "https://cdn5.telesco.pe/file/B4u1drCiwTHZQ0jKl-ecPIzpxxv2Q-oy6CNJ0qBinTGn8cfHek8PF_l8FJsxCbqij8YusFwAtVyYJfyinmuNqXEFill2x9zDyWoHyhZe93atD7GAq66ldDtR-eoJYBci6nZhqlJm9CgIHAujhic5ThFI5o43kzfzxrDJkyVBwucGD0bJAmf7dz2VfV9Xcg56Hv5RTNHvfNhYq7ISsGol3nfuAcG_K7k-Lm2NOVGsX35YIZsOF21Be-2-8Kxwx2KswGeTkmXlGG_oOFqiKhoz36l_ADgiN02EILOAN1lgYkU0G0Ikdj2oVQtjPIrAjBJr71vZeI8X50k9UR0sB481oA.jpg",
+   "https://cdn5.telesco.pe/file/Eo0QA6hSKJUcoNJTluP9iHyI4entUr17ATtxiTiEH7QhL2U6obVmBcWduTLqjNPK9QacGYCFotntZo85p9gtK_kUuPBjoPGRSAzzDNpM09mVgF40PB5gswu6BFdOcP21x17vxtFqT6lIM5DhR3xJPI6Udx-k547gpJ_-SglVO9RvCP2LzNE_Xgi_0yDQNfBCSOBzGsrPy_bqpfJn3gO3Cbmqr8TD9UxKZlDQ5eNSXumdgrxzKGek4mlHyBWOLzBwVjEGkaJOm5GKZ3_gL9eN2jvcQmVOcVt6u7GX5ug75bRZTzBxD0fzRJgUgCOi7j0GoXDI4GwVR2MiYSyo5quRVw.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7420"
+ },
+ {
+  "id": 7410,
+  "slug": "hyundai-venue-2022-7410",
+  "type": "car",
+  "brand": "Hyundai",
+  "model": "Venue",
+  "name": "Hyundai Venue",
+  "raw": "Hyundai Venue 1.6",
+  "year": 2022,
+  "km": 65690,
+  "volume": "1.6 л",
+  "power": "123 л.с.",
+  "drive": "передний",
+  "gearbox": "автомат",
+  "price": 1907000,
+  "priceLabel": "под ключ в Москве",
+  "date": "2026-10-18T02:27:52+00:00",
+  "features": [
+   "Электроскладывание зеркал",
+   "Электростеклоподъёмники",
+   "Центральный замок"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Кузов и салон"
+   },
+   {
+    "k": "li",
+    "t": "Электрическое складывание боковых зеркал"
+   },
+   {
+    "k": "li",
+    "t": "Электростеклоподъёмники"
+   },
+   {
+    "k": "li",
+    "t": "Центральный замок с электроприводом"
+   },
+   {
+    "k": "li",
+    "t": "Усилитель руля"
+   },
+   {
+    "k": "li",
+    "t": "Кнопки управления на руле"
+   },
+   {
+    "k": "li",
+    "t": "Бесключевой доступ (Smart Key)"
+   },
+   {
+    "k": "li",
+    "t": "Дистанционное запирание дверей"
+   },
+   {
+    "k": "h",
+    "t": "Безопасность"
+   },
+   {
+    "k": "li",
+    "t": "Передние подушки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "Боковые подушки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "Шторки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "ABS — антиблокировочная система"
+   },
+   {
+    "k": "li",
+    "t": "TCS — антипробуксовочная система"
+   },
+   {
+    "k": "li",
+    "t": "ESC — система стабилизации"
+   },
+   {
+    "k": "li",
+    "t": "TPMS — контроль давления в шинах"
+   },
+   {
+    "k": "li",
+    "t": "LDWS — предупреждение о выезде из полосы"
+   },
+   {
+    "k": "li",
+    "t": "Передние и задние парктроники"
+   },
+   {
+    "k": "li",
+    "t": "Камера заднего вида"
+   },
+   {
+    "k": "h",
+    "t": "Комфорт и мультимедиа"
+   },
+   {
+    "k": "li",
+    "t": "Обычный круиз-контроль (не адаптивный)"
+   },
+   {
+    "k": "li",
+    "t": "Автоматическое включение фар"
+   },
+   {
+    "k": "li",
+    "t": "Передний мультимедийный экран"
+   },
+   {
+    "k": "li",
+    "t": "Bluetooth"
+   },
+   {
+    "k": "li",
+    "t": "USB-разъём"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев передних сидений"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев задних сидений"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/LFA08ZseeGA_F8QEyrrAyJXW4kxMAgLoO8N6_DpDh901SBmkxEFCV9z3cYOLL6j8iSXNGZw_5sBAZcoplo-EMnbFl2e5BhQZmXI0GWTpB92fozfZoYrzYw3hiwQFkWmXJCQxYOI_f8mNagVyqEvsB7Qw6qV-al2ZXaVfmicp7c0yo_sPwLjw4p_JH7tdR-1LwGNVEfhwKdBWTzRhHNOrt-xUCDKjy6G7kCiZl3EruE_Jh7LO_83UcFZ-b452Bj4rdXJuRgpDzPMY3b21vk--9KOZDwGWMwCAJ1J8e_oC6w4pnshPk0_HYBYlpN2cSYEZbdJ2_Q-78GM6nPpvdRlvlw.jpg",
+   "https://cdn5.telesco.pe/file/ZUKbVYv0_SpL4HRa2SX3uTAk0e-PyiEI1nPk5mv3R_46FSuAx5w4rO5oMteeJNz4UWsQoV884vRoayDr-Mxlzjs3NTJM_tzyd-ZVXqm9b1gy2fdqWnxxfHDGIqe6gVK5mQC4RvHthXatRogxEdMwo9nM78lsebe-wkj7YD8jDb2TPVveJme9uwZhpgTMLvzGs3yuJNThJfed-JnqeNzi7m096sQGsKIHmKXcZVFYCgGfg6S0m3uCRKvjUedbbtalI2_ODUIqGU8qXS-JkJ6uvk8PBu0oSWmi5w5yY3EtGWwYW9CVE6huWxDxYu-A3jzmc9Y3khaLaAZZl0siP6Gwqg.jpg",
+   "https://cdn5.telesco.pe/file/kzhko-6usUcoBFxNk9CbbaJJ4z2-2phDTEY83UlJnPun4dgnMWxgfwR_iSoc0FuFLPXka3KtaaRaUvQ3QJjL6elnoNUEOUdI0-1cXUOdsGIFftdj_ze14j2XP3Grg5R2gV3m3I7WYLA-lkISFvUbuR258UoaAB4hiCryLdJGI2Fhr2F5DSzxNmt_QNfLmaadn5O0PMYqJvSBNPDiK6tCUqs0OT9JNncVIrNICTf7PVTuiB7Tchg3l5mIaW34d3R_D8wlUxHJuH6nlr1L_i_i0FOXqcHLy7bxFQ61tYFIjrYEP06-BNhOl1rESlCp3GcBPwNiUaKbJg76f77rAHLaSg.jpg",
+   "https://cdn5.telesco.pe/file/YZVE5quJy_vXPFDbqxjnxk0k1AJYM1xyeIVasPUDu-Uch4LHtmcDGryZxzvHKFJCUMYXa0kF7y-ZOVpm8_3o3mfNel698BQLYb90mAJ2K246Eeq86m5T7FVcsdhAah0BckCZlPKEIawtTqSgYHeVptzop6QK6_ax9ukiIbX3SZ0lPdqDMyNQunM2KeCwazpOsaBd46tj9IoayB_0BbhgZQDxk_fzhmcEO5ZRBMNaMGcTQNxuXcf3c2Uptqv0iXscPbJPeDSInZnroXu38tfLHD0A5tXFPlTXrzTQGZWdEzzAQlB6cX0nI3cqhME4aB8-wAQCobZttamALET6DqJ5DQ.jpg",
+   "https://cdn5.telesco.pe/file/P7oq29buRv1iLYzCj6oKGf-mMhc1RSBbeGkfws8h5NPfo8B8q3RXmmIP2vlGFL48z9pymsMAvRo8vMaCTFgJ1lk_TfKBS3hZSt18Eq9xN0P4VOkLcKq9GUg3yqajSmvgnn0ocVJpe6FayyKZoAZ6iVlOlBIfuFkuvpf8c1xzSh-Q0smKmP7c_vBWd0FXLQ2PtU3Zr_2ROdQbgTaLFHr6JpHSbOdbmklW9EfCvVeaBeP4QfLTtbGwsU4x5aZxe1c8z_kNR07AzrVTjDSwEsLQfsuZphswvGh9lkgdz3IbQDTRY3rSf9YWC0yX4DO9ICJcRWqrflzBC0oK1GvjdR6lXg.jpg",
+   "https://cdn5.telesco.pe/file/sBtpY2wlGFfxEsmHYdZyDGMeL7IrjZ2qO9LSIyOkWL89Upjc6_YTfZgHxxuPH2IQgDCMbichuUEzqHpl1bNRLQ8Z5fHL3xwVrtQMdlHaKGdauOufsmb51HlHv1xTVWAi02rhojzV3A5YoNMiwGTn7uzeLYtVncf6akpsjXYq51KkV5jwpKsZuLfg18yPqjxr52gCUZvAD1cBROHe1qjgdR7Kh8ppgxDv3Uchn2AkW-nO2COM4Ac26G0WTEA-kiFiMASti7D8pfWtO0l9onpFrSN2iuQG7mTn89t0dtmPEZEk3BWqDhE_sGFVyLojJSQ-RB9bHlOCRpn8n8how3ySTA.jpg",
+   "https://cdn5.telesco.pe/file/ckkW79NAl3g-5wnRXK644J-L4vPGh2pyk77jUNIUQYdWbopHseismlDSafd1LwETcXvHkrLtzbVukJIhLKW-k_nSTMRl59yZOUNGqmqMctpusDG1hWSdm_M0QhXlKgl346W2b5wRnZeDVCgL1x5554Oz_lE9PXAnEGw_OR7qZ7plfEoAbNe0W0q4rH_8noAHBvKEhLnf52cFIqj2u2k_kg9LWA5QAM5W5QN-JWH69CeXSPSfHJkfXqIwYWSieYP-IhuNr5YkCp2BXNz3B3k2FfQ0KWzc7nPXoetSEZrJax7AiNMq5En1DKg8zZyhMvYtSoe5ijmkh0RJVEkoSHixFA.jpg",
+   "https://cdn5.telesco.pe/file/BILuVwu5PWthzlmw4rLQdOuygoG8XiJoy40Bwyg5-X_Ry63bu9DL6W5Wu9QwPDdK6xaVq7HRsr41EBG_7VpfclN86Z2CYNDTw8iAt7tV0UOple_HtEqciwL2j8FoFHTnJ3aalPIQYPO1u5aq8M2Wf58pHSjRVn9GHdNywd2U_drJb4_9svPl8hggRfJLnWxvzPWlDIqPMYgoBs9v6kRAZB20JTke--SXf1d47XQoRf9CEW8NE8i6vZufOa20XDg2igd235eMR6NXiklue53yGi-yJvFkulZW9KgrAgnCT0a7hSmdWjlScGQ7XpgeeGpl9pOusqxlLrGHMuIa-cQsSA.jpg",
+   "https://cdn5.telesco.pe/file/KEDPL0oWMAYfQHbYRr9nPgXFL7AbvmEAuHM5Dh3l0As1yk1W3FhSbpd7JgDmJ86r7VQk3iKa_iQZlzROkJge2FPIS8BKqGplfsgUx6E61SvFipRUu_U5yuoJUzGpFInFkhfYqk0tnOGSn5xun8Z6JUakG3KRXpnY7MlkQ9GcEEOrmCWhipxDzeFhtMI16_bev1P4TvrCLGhDLcsxNFX3s5gq0IsFTfl6MuIyCwcoQEaaYdhRdmja0nrFF7IP-yLHA9ejUWQmo0nb8F22zYZuvnyynFPwFQqo7MXnCWdE_ti21PYcYLxxy_8USIioEDDYa43bcrFlDmbSnHvUKZoIog.jpg",
+   "https://cdn5.telesco.pe/file/RAHmiri0bV01kOYf0TRh-01vcUXCPRkBd7jRDwOu_mbxn1Vy85x6DMOI6Tn9nwXcPPguVgbIEsLuVqXDG91HgmpBlMh5nmYs4fXSnBmaY0BsY8oE1jmgxTYMDn3ZBpQGRUDJLFHXa7F6m_CvmASj_y0a8FNwCaZUJUgkOcex4LOWKRsf2lipnFMcB6HLsuZjSken4sn8N3bNBgl0_iEtbzShCdwFa-YFHTjGqzpVl8hxsxj7A-4tKGQkY9hfeIM36kc4jf9z9dBI7FvgoC3MajHdabTGOLKDwjHSsD2WCevAeOGTO7cO4kTgbc4V9a5KeIho-LmOk5h2NX8l1YsIoQ.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/7/7410"
+ },
+ {
+  "id": 7400,
+  "slug": "bmw-x5-g05-2025-7400",
+  "type": "car",
+  "brand": "BMW",
+  "model": "X5",
+  "name": "BMW X5 (G05)",
+  "raw": "BMW X5 G05",
+  "year": 2025,
+  "km": 7457,
+  "volume": "3.0 л",
+  "power": "381 л.с.",
+  "drive": "полный",
+  "gearbox": null,
+  "price": 12258000,
+  "priceLabel": "под ключ в Москве",
+  "date": "2026-10-17T13:42:12+00:00",
+  "features": [
+   "Панорамный люк",
+   "LED-фары",
+   "Электропривод багажника"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Цена под ключа в Москве"
+   },
+   {
+    "k": "h",
+    "t": "Кузов и салон"
+   },
+   {
+    "k": "li",
+    "t": "Панорамный люк"
+   },
+   {
+    "k": "li",
+    "t": "LED-фары"
+   },
+   {
+    "k": "li",
+    "t": "Электропривод багажника"
+   },
+   {
+    "k": "li",
+    "t": "Доводчики дверей (Soft Close)"
+   },
+   {
+    "k": "li",
+    "t": "Электроскладывание боковых зеркал"
+   },
+   {
+    "k": "li",
+    "t": "Легкосплавные диски"
+   },
+   {
+    "k": "li",
+    "t": "Рейлинги на крыше"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев руля"
+   },
+   {
+    "k": "li",
+    "t": "Электрорегулировка рулевой колонки"
+   },
+   {
+    "k": "li",
+    "t": "Подрулевые лепестки переключения передач"
+   },
+   {
+    "k": "li",
+    "t": "Кнопки управления на руле"
+   },
+   {
+    "k": "li",
+    "t": "Зеркало заднего вида с автозатемнением"
+   },
+   {
+    "k": "li",
+    "t": "Электростеклоподъёмники"
+   },
+   {
+    "k": "h",
+    "t": "Сиденья"
+   },
+   {
+    "k": "li",
+    "t": "Кожаный салон"
+   },
+   {
+    "k": "li",
+    "t": "Электрорегулировка передних сидений"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев передних и задних сидений"
+   },
+   {
+    "k": "li",
+    "t": "Вентиляция передних сидений"
+   },
+   {
+    "k": "li",
+    "t": "Память водительского сиденья"
+   },
+   {
+    "k": "h",
+    "t": "Безопасность и ассистенты"
+   },
+   {
+    "k": "li",
+    "t": "Камеры кругового обзора 360°"
+   },
+   {
+    "k": "li",
+    "t": "Камера заднего вида"
+   },
+   {
+    "k": "li",
+    "t": "Парктроники спереди и сзади"
+   },
+   {
+    "k": "li",
+    "t": "Система предупреждения о выходе из полосы"
+   },
+   {
+    "k": "li",
+    "t": "Электронноуправляемая подвеска"
+   },
+   {
+    "k": "li",
+    "t": "Система предупреждения о боковых препятствиях"
+   },
+   {
+    "k": "li",
+    "t": "ABS, ESP, TCS"
+   },
+   {
+    "k": "li",
+    "t": "Контроль давления в шинах"
+   },
+   {
+    "k": "li",
+    "t": "Передние и боковые подушки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "Шторки безопасности"
+   },
+   {
+    "k": "h",
+    "t": "Комфорт и мультимедиа"
+   },
+   {
+    "k": "li",
+    "t": "Адаптивный круиз-контроль"
+   },
+   {
+    "k": "li",
+    "t": "Проекционный дисплей (HUD)"
+   },
+   {
+    "k": "li",
+    "t": "Навигация"
+   },
+   {
+    "k": "li",
+    "t": "Bluetooth"
+   },
+   {
+    "k": "li",
+    "t": "USB"
+   },
+   {
+    "k": "li",
+    "t": "Автоматический климат-контроль"
+   },
+   {
+    "k": "li",
+    "t": "Бесключевой доступ (Smart Key)"
+   },
+   {
+    "k": "li",
+    "t": "Электронный стояночный тормоз"
+   },
+   {
+    "k": "li",
+    "t": "Автоматическое включение фар"
+   },
+   {
+    "k": "li",
+    "t": "Датчик дождя"
+   },
+   {
+    "k": "li",
+    "t": "Шторки на задних боковых окнах"
+   },
+   {
+    "k": "li",
+    "t": "Передний мультимедийный дисплей"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/j49EzOT3n-_oSre4avFfSDgCnLByMlEyEuv2zgMCL66qusKk-5u-QQllZyPHlmO0ZewmaUWlCDShsv2JRJQO39dEvbjx29-Dg8I0NwUgrnxJfQseW7tap9f5ORrPPsSgo81AV29yHilnSXdZMx-G72A3k74LKQ6YXdawsq5kvQ4cTMShK5OWaktIy8aEiYR0XNA8osJ5Du_EzULJjpWZcoYEfeG3UzVSQIGNGLx5IDEXB4nWdB4slY_LX2q63B0pYr54TuqdM9OcPHE2LIdHyn5QGqv6phwMS1qUfw4c1FTA3McZ_-CAjJfLa0XiMhHGUjFWvd6PmJ2uylS67Gm6lw.jpg",
+   "https://cdn5.telesco.pe/file/UKczEsPRUH0U_oVfw5-jFfhYtDKY2iu4ypYnGxorxrYT8e840iyInlFO0fBR9QD15nhsQkUMZHAnxiI1IoYzgdvmPh8hnk-DZja0RkBd-SmblmUpZu3bxFPTg5BkmjwImufxOk5D0liPixvWaS45JsSIs-lCr-DUeMpuvdDFUPm8ly0Ksf2Ax3D3Q-7V4FYbv_YQm3w4TUIDBOVwtsuQRfDkrLU1HBV2Lh6LXFcCAgTMCd5l9kbIlIbAv2x7c9K81Ck8IDfZvZXvU7ubziRF7qJVXdl7lYDD5I0vK7h6_w5kihPf9vEN51eGzH5qobSlLcgMVoLG4PfuObU8EMD8mw.jpg",
+   "https://cdn5.telesco.pe/file/jsiXvvVBDlMqwE4q92SLxYc5zvcPMVhGXJ_CVY8v06snLo-vKO-eL0Y06DNVWDFEFAIFamwf5zuS3Tsl6TKJUI3J8_DtOfhzH7ZeFguX4RIk92gMQba4pVyqoQv_AnYaHEfa_QF2pJdsqtLMWpzwwZltneNBZbD1aPHhyEN71kuyYZjWVkZb80NlkL4zWqSjWvPSe8tlxzHSxQh3NENtBfT8RLXw2Kd1FgCqOte49Idr3DP67aoKggN6gcUn8B3hXPqua6RSOaz-7oIhlFPyVGUvRrr6eAEAukh81G7M6CKs60AVXD66xqPWJPLnP_zCuuyXQc6Qzjmnuxct2y163Q.jpg",
+   "https://cdn5.telesco.pe/file/KQ3zKAYDrp2VvNEcerL2bkoi3zXyyY4o25xDd0KvIujMSO9_zw1ohLNUaa5c4Ewl3tfjVaCf6jReqUHUEOFvy_29Bc7qtWEcKkWemILSyOHosdvfYi49tjztGHmYTokqsX1pe76--O5hSSoO3NzSjoLJlRNpgn3YzgSqATIhM_5lsFHEm4gBDehUvaZKknuEtnVQmuQrX6CbhI8F0vg7OWSQz-ELW5XehSEiu9dYw1t-Ujc4bKf38IuM-KgZou5qWwH4fpDrD0cO1I7Xaxa29IrmadfyJL5X8jtHDfpIWGHcA1BSfEM-6edoRt2AfmZ8KN-UkHMqS_V_X8kJp3cTzg.jpg",
+   "https://cdn5.telesco.pe/file/vk9b1EDSp7lGuo4GzPK6fN-v0atamBWy0wHXShDLwhIzSrnsJyFSF1pdRznC1_vf5_wlCENAJk1Wbl2AtNFtixm8KDqTeToRL1X1xWM5lmC8Z6sfxLPX-J7IVKOcmjpW85WvP_mSXjek7fwgvjaAgIlWLIReV2-eIdGa_PxPmKtInY_qlt6fBu12mDgbA176MW9mKARNZ1uhKCSZpuTWwo7SMgBHuvur_TIkLiW5eQ8BkyR6s4jRhv7MiG0Slo5dlvJY6aE8OfDwYCKyfFy9GJhB2UsL-EFtr-Vcqnzvvjq--CctpkzpK1SxYrtm1bYI2XfyFQfRh6fj7HQiWm9-iA.jpg",
+   "https://cdn5.telesco.pe/file/moRCDAP-ZpjTX5p3eTubxqwVuDxGxhJQi8oRXlF2jzHQYNwIdxsGg9ZcLbcPFCBenPnVq3HPdW9bex7J_RR_0Ur0mnatK5h8RqqskTwwCdsNlUb1MfA6YfrQhKwzJ8jQaHZOYL51j9bclw2VbNquew3Kunr18xNFW6b4PxItgky11KalVFZE6rBJ9MxgszPBe865pZj__jnLXbQAPuA_DtkhWB24O0SIyRXr4lj2OqdVqK0Xk_YOmVJKT5yO04dJNeg6A3OxZ2Yh5t3e34VlfZA1sAJIzOOTMASrKV9UkHfk7Zlg8nZ-TRWg6SAg3laGlqpkgJjG4v_0EjbGAUWqiA.jpg",
+   "https://cdn5.telesco.pe/file/SI2ulwmwz-qmL93GcPs4fjq8hUoVW1cjLJTOW7bTqm9n3I7fEj7MLBHZfAIlnVCi5Tigl5oZqG1Z3ORW9q_Zh8K3akDBNuijbxPLhE6rrhloQoABXR4i64Tc1wSybXCbsqAPKKcztUSPp2wZadM5FxX3ajiqczFTHk4k8NBc2-xDsHk3w54Xv31FDjJ8-qcMAv_oK5QWQ-oLWG7BEo6U6K4KWLcrMkimNT8-DkKFlIYahgrTPAi5doJQWW_-PNTsPChPTogm9VIQINBFwXIbIr-7aAjZCcd9iIYdO1cK63w76oB3G6mmyGXcm8ubU7XUrJxx3zHTkGl2_rRgnhTzyg.jpg",
+   "https://cdn5.telesco.pe/file/AgiXQgvBrq8papwe4d1WMZXUQQc4qqo-Qa_mdQsIaUJA1Og8jN7QWq063p7k2v3dVqymrGz7x4D4An8mWoo_s8uvsMNs8bOmXQkWqqcGXcpzL1ZSfW1DdbhNM9b2lpPt1aLy_jFy5WdinK41aUhJ6Jw-gWmExrueqvbbI-X36m23r_Vm50ckMcpUwYz3JWPlgH04QBjQyCYPVsNAtdWphlfV8egVnUqVgSWYm1Dnpg1A7WV31EvVpdkpXz4ZwOkx0KHf5nSSZJy14BB53SIYyq7USWz3Erfs8CiBdYqypH5Zm42J3jy4LS3afIvUIeh2x574moIYqypYUT2qwi75zQ.jpg",
+   "https://cdn5.telesco.pe/file/L5thCXN1EXCFMWOb8xeQfWoCTVUZf2BY-zuuc7HuMsEcc-GJH-gMUpSixdsjaPc5NDpaECP5ppRIT8-p7T9rOu0EPTI73MBLYkXYD2G5Pq9VfZuYuYTbMtBFKfhHNX6F5CETOCJrnCJ577AcPwSRVddTps0Qn1fy1S_bJZHti5_GBpeEVaE6Qvdvp1gGsU4b3lWnmJ8v_fmM7RyZu0wdXqnUBUd2k3FiJ7g22JvB6Vlidp83uAmh4hw9JW7qqYnZTYUYtfdK5RdcFwYUS9FnO0pDWOsom5uLhfgpqrdIqfJVGXYBywor59h0_76V-KLVzzvWBZwTJOWY-BqeZgjqnw.jpg",
+   "https://cdn5.telesco.pe/file/mDige15npTxbQEFjC07Ihj5Wq3DdGDtrU3d1O_AlGk6HvgJwFBtXRKhU3XbmIozb_2aFVBBStNzank1twegacf_3jKtn4bK_VPAEefTZMjcz10r8tSoY9W_T_MeY-WZ9QsArdnWKguSZCVhF8vaiWd6kQKCbPM3qL1ezhRLJ4Y4mVhKFLNE6TS_vHSYNKgnqVV9vr9Qh6nq9BPYjwBYIamT6TEetMaGX8vkUyZHpQgIBEgfDBZ_uK9_XSLN0V2geKKSJamxe1p0_4dIfJ2KNXV2i40fCVO3hhj9T7k5TYu6-11b3c39lPP9UhCg1P1MHfxll4f3blQdbeDk8uPVoPw.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/7/7400"
+ },
+ {
+  "id": 7396,
+  "slug": "bmw-s-1000-rr-2020-7396",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR",
+  "raw": "BMW S1000RR",
+  "year": 2020,
+  "km": 23000,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1555000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-17T12:03:43+00:00",
+  "features": [
+   "Новый карбон 2025",
+   "Карбон Danjoel",
+   "Рычаг тормоза M Performance"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Тюнинг и комплектация"
+   },
+   {
+    "k": "li",
+    "t": "Карбоновые элементы образца 2025 года — новые"
+   },
+   {
+    "k": "li",
+    "t": "Карбоновые детали Danjoel"
+   },
+   {
+    "k": "li",
+    "t": "Рычаг тормоза M Performance"
+   },
+   {
+    "k": "li",
+    "t": "Рычаг сцепления M Performance"
+   },
+   {
+    "k": "li",
+    "t": "Короткие регулируемые рычаги тормоза и сцепления"
+   },
+   {
+    "k": "li",
+    "t": "Подножки M Performance"
+   },
+   {
+    "k": "li",
+    "t": "Выхлопная система 2CH Black"
+   },
+   {
+    "k": "li",
+    "t": "Ветровое стекло"
+   },
+   {
+    "k": "li",
+    "t": "Крепёж для заднего подката"
+   },
+   {
+    "k": "li",
+    "t": "Задний брызговик Fullsix"
+   },
+   {
+    "k": "li",
+    "t": "Слайдеры двигателя"
+   },
+   {
+    "k": "li",
+    "t": "Защитные крышки двигателя GB Racing"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/bkCu0dC_3Si6_nG9DcIvroHVz9xDGzhLMPEDb7GMWiN5w0rR3rN_HBHD14H0DDgrurvONbqaRNNbP1HtU5aL9itscrkFX3GBPaXqT504HEE1IGXD6rKhvpmaQTdSgHK-g9OkEkoMuOvJ_SvEFiC6yB_04K8f5YyIpMlwQX54FbWQYXDrlGWIJk0pgj9obfmxZCIIv8Q2TVTbIs_umdLOfkZDvx85F2NZ-Xzp9a6uVQP-JtRoxWlK7VmyY1EWBJtZ93G3HyWklXYsEkYn7gQP_JVzKHoofj3EFzW-o3AR-HGQJZVdvX3tUk_72cdjHAjlPxL0ZU77akQk7YMuLEj3nw.jpg",
+   "https://cdn5.telesco.pe/file/Yuzy_Th806xTSCDC6zF3MMopENufsCkplswmxXnZox88ZgIIwGTjWY2A5Br1ldeZRKvBpuHF8HuzdnU8dTPpu3d8MnoQStrm4UJf7hisSjlDr-T3EDB9-7Ih6c_c2mE9zqzAZFk1yFr-W0P3UknVlzjSSHUlIzlHaYjgAqm63amYR37HUOLDtCmRoHnNptkjo2IJf7NgeiIPQI7MrhHL3khvgCSv76ZLLFWDcOw37-ufyprCp51pHCmjtlUdNYed79LOv0QvQfsgzCiY5V-8qCXWYqZNDl9kX9HaHSR2_coR7bdRdZjcLZXK12Iu9Ke3WGd4xemC5axiARozJ52vUw.jpg",
+   "https://cdn5.telesco.pe/file/oA7G5AB0GH8UASPBu0fOtkxzr3KuVZQlWIHsJftoKFfso2DJTtvBE6LzG_H0PNpVTItDZy_4mLz1gI4pzrH3fd-Lv-T1Ri6HINRNoFwp66qafPzEfbU-OdrkI8RPWK17hG8BdjqhAqV27KgOCOYZ8CY7dnDJoWZhyIICVrC6x4IR542yAV4b3n20cNyYCYgdkwo9073VotEQSVShXdD7pdMcMwjJl2Nb9f4NgKQbqngNSmuL2fvq_VapttZWwJzvbNxyT9qeHbwHIb1HlWqKK1MKRBZCoy2ieRoyhbcLfInRDaWaHlRhRGZ0RaFhgLZFRuXls8gqREWSA5dHhkDs5Q.jpg",
+   "https://cdn5.telesco.pe/file/bOsK7ryTQwlgYulB6MbWHD_Di2qAlHk9-kg2b46uL7o245QMXxCESmddtPOo8968Y2FAlN9FMXO7Sbht4AboOkhIvVYWNAWwSDgIQXAFJFCnZMabft8L_Kxtlbsd12shXnv-fQAEwIaA5RZro8HkiZbjq5kkyaw5xAoH8h2vgRJDxvQQ-SK-tKawAsVK7u_2OmrMIkiw-x4RcKzeZc4hk1WZqpWhCZnvgVSbl6u5torWv6N23btymPKVLfCZ5a33ojqlH4_i2pOLuF78HiBa3h90rJBKP_eFX3dz6URakn0Uvrk4-YI884HnAp0Ok7OE14vxIWKCsheI1Hn73bExeg.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7396"
+ },
+ {
+  "id": 7391,
+  "slug": "yamaha-yzf-r9-2027-7391",
+  "type": "moto",
+  "brand": "Yamaha",
+  "model": "YZF-R9",
+  "name": "Yamaha YZF-R9",
+  "raw": "Yamaha YZF-R9",
+  "year": 2027,
+  "km": null,
+  "volume": "890 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1716000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-17T04:47:32+00:00",
+  "features": [
+   "Комплект LighTech Democar",
+   "Рычаги LighTech",
+   "Балансиры руля LighTech"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Тюнинг — комплект LightTech Democar"
+   },
+   {
+    "k": "li",
+    "t": "Стоимость комплекта тюнинга с установкой 3 550 000 ₩"
+   },
+   {
+    "k": "li",
+    "t": "Мотоцикл продаётся с учётом акции LightTech"
+   },
+   {
+    "k": "h",
+    "t": "Тюнинг и аксессуары"
+   },
+   {
+    "k": "li",
+    "t": "Регулируемые тормозной рычаг и рычаг сцепления LightTech из магниевого сплава"
+   },
+   {
+    "k": "li",
+    "t": "Балансиры руля LightTech"
+   },
+   {
+    "k": "li",
+    "t": "Защита тормозного рычага LightTech"
+   },
+   {
+    "k": "li",
+    "t": "Быстросъёмная крышка топливного бака LightTech"
+   },
+   {
+    "k": "li",
+    "t": "Алюминиевая защита двигателя LightTech с обеих сторон"
+   },
+   {
+    "k": "li",
+    "t": "Комплект регулируемых подножек LightTech Rearsets"
+   },
+   {
+    "k": "li",
+    "t": "Слайдеры колёс LightTech"
+   },
+   {
+    "k": "li",
+    "t": "Комплект крепёжных болтов LightTech"
+   },
+   {
+    "k": "li",
+    "t": "Крышка маслозаливной горловины LightTech"
+   },
+   {
+    "k": "li",
+    "t": "Защита задней звезды LightTech"
+   },
+   {
+    "k": "li",
+    "t": "Защитные накладки на бак Domino Grip A450"
+   },
+   {
+    "k": "li",
+    "t": "Беспроводное зарядное крепление для телефона"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальные детали, снятые при установке тюнинга, передаются покупателю"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/uv7HHl7TmByYGN3rPecNimGHI-x8gGm8pP6mr4JX--47591HIwzbS0E2woCqJFHff6WWGXTbkWU6oRsunNuHnmUlIt5YLD62z3Aee5nudhiW4AjUUYYOOG3MGt4kj9H-MimQttsrxcSsvbbodXwd9D8N1YniqztT2HU92SVGqZOpsATcqje2B1hpb9V6jxhcVUS2TOwwh2H3mb_FXzD8QUwR6wLG_qqZA5i302bSQ7squkycXY4vl-l4ItbmDUWLFlNyeHYZW8Se_5XKahp7v2EWCue-aOBk6Yp0eETTeA4zEBcD0NT5djzNTNPzNDgR6_xWpT7Mj5I3dDXj8tMdww.jpg",
+   "https://cdn5.telesco.pe/file/RArbXCfoH_2dWr43Iyd1PxT0CudY5CEq3XYIqkcxBOtxCb1S5NoMDGo-Z1UwEdW24N6TSupW8xNYop0wOEokdqKQNOI37xs-FTPSdQzSDoPtLskGFSbkklf0Sa4dFfafLYUlMwDpamkN8kmBO3VyEpWBqZ4LRqpYD_YAMbwwXiHrQIbUQ3ucg7WMtSJd6EyWlizKFWdd0H-UniwXVruu9WCmFuGrYdfpE4ab0E27lsE0BG0MIHkXNQXo9_twgQgHnnsALpy9gqkas8Dii19DSvRrxAEerv6iMjxMEGtuUydISIp3wV5xTVc4TausMKZLfl2jcgRpX0llJbiBMAwRAw.jpg",
+   "https://cdn5.telesco.pe/file/FOB86wu-2iluw2-UFVi1GuqmC67YvLBUqh-9U0XPI-6KV4H01knYU4rXolbXEhSSDBiegUtSCR1wl-n67PQ1X75-1anQ01QvtnClZm4vRC0w67M39rPoPps6GgvaBees4nHS04S_WqNUCPceYR7gD2WywTnDw5Of1L6VhBMivJ9mgcujtW1vw64HchCARuKibmKSaEsuX4T2d-Fxkrs3myJq5N6OeeCcBwev_IVwDNJNZhkepbME8T5Vchjlgv10K4NgGpyrX118BX-0X2TY405fChrIozbWiyNuvVw0I-c4dvq2qI8Gn-0KMPU3Rt-O9DLX0B9-jMybdVKpy-ODww.jpg",
+   "https://cdn5.telesco.pe/file/Qz1vHMPmCB24qvgkaTMwycD_FveV8DkjiLod-0ozqL5T4-kqR_1WXqL1HwnJ8w0UQwvy-3YbNghc3Q86sZx-oCkLQnB4qgTRS93g7FVokfYU5PBOWUsDZKL2OD9-AMPCpBw3DbuZZtbIO0h2dsAUqJ9C41yJTg2VYrzzaL9LUFbMEYjS5jyJaFZZnVT2QU9PJBaOjPWDw2u9MiGVQIFk1A2GAz1baHKrwXdt1N9xxyACIjz7t78yJNkAxMidu4nTo6_IIlcvEGmjknYqSk8hHs3o8H3H4znVt9slThpFBjvuO9ijHT-Thcok_4S1neMYCc_wUPWKdIiJ2n4mJm2h_Q.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7391"
+ },
+ {
+  "id": 7387,
+  "slug": "bmw-s-1000-rr-m-package-2025-7387",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR M Package",
+  "raw": "BMW S1000RR M Package",
+  "year": 2025,
+  "km": 5731,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2734000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-17T04:41:42+00:00",
+  "features": [
+   "Видеорегистратор MVR G1",
+   "Слайдеры осей",
+   "Защита рычага тормоза M"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Комплектация при покупке"
+   },
+   {
+    "k": "li",
+    "t": "Видеорегистратор Blackbox MVR G1"
+   },
+   {
+    "k": "li",
+    "t": "Слайдеры передней и задней оси"
+   },
+   {
+    "k": "li",
+    "t": "Защита тормозного рычага M"
+   },
+   {
+    "k": "li",
+    "t": "Защита радиатора"
+   },
+   {
+    "k": "li",
+    "t": "Накладки на бак"
+   },
+   {
+    "k": "li",
+    "t": "Рычаг сцепления M"
+   },
+   {
+    "k": "li",
+    "t": "Тормозной рычаг M"
+   },
+   {
+    "k": "li",
+    "t": "Сумка на бак Wunderlich"
+   },
+   {
+    "k": "li",
+    "t": "Ветровое стекло Puig"
+   },
+   {
+    "k": "h",
+    "t": "Дополнительный тюнинг"
+   },
+   {
+    "k": "li",
+    "t": "Нижний обтекатель FullSix"
+   },
+   {
+    "k": "li",
+    "t": "Карбоновая крышка сцепления Ilmberger"
+   },
+   {
+    "k": "li",
+    "t": "Карбоновая крышка генератора Ilmberger"
+   },
+   {
+    "k": "li",
+    "t": "Слайдеры рамы Ilmberger"
+   },
+   {
+    "k": "li",
+    "t": "Болты Ilmberger"
+   },
+   {
+    "k": "li",
+    "t": "Выхлоп SC Project, европейская версия"
+   },
+   {
+    "k": "li",
+    "t": "Карбоновое переднее крыло FullSix"
+   },
+   {
+    "k": "li",
+    "t": "Карбоновое заднее крыло FullSix"
+   },
+   {
+    "k": "li",
+    "t": "Карбоновая защита цепи FullSix"
+   },
+   {
+    "k": "li",
+    "t": "Карбоновая крышка бака FullSix"
+   },
+   {
+    "k": "li",
+    "t": "Карбоновый комплект обтекателей бака FullSix"
+   },
+   {
+    "k": "li",
+    "t": "Общая стоимость тюнинга 12 700 000 ₩"
+   },
+   {
+    "k": "h",
+    "t": "Обслуживание"
+   },
+   {
+    "k": "li",
+    "t": "ТО на 1 000 км, проверка, замена масла и снятие ограничений"
+   },
+   {
+    "k": "li",
+    "t": "На 4 500 км заменены моторное масло и фильтр"
+   },
+   {
+    "k": "li",
+    "t": "Периодическая детейлинг-мойка и смазка"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/SKIhdW4iHPKgGy22YWTkw2TCFIJwC3nQM68cwKTjkh57czmz6lFWQwOvDQgcA5E_CBYFCHJ8bkGF0O2DoSZ3RiEMadN-bvbt1DUKc0Ynaf-uqYOC5thfOYXAiU1MH7h3z4FAToAifOEn1RrRyIcxldrYz_DXaVCJiPK9N9w7zKkTMxwQ2FVaLzQOce0uFLxX5XqD3yeiTPJtUFHKf4S4XiF50jvfUSMamtBxR0s3iiz0EIQXtnSiQr3X9lv6LqA1WAkPyTazo2rdhZecyq-z4lhtXtF1EWOhdm8YFTFAz6qUOzaXs_ePPzciraZByvsDNaTBX-xnKJ4e-zN6hHir9A.jpg",
+   "https://cdn5.telesco.pe/file/J2U8QAZ3cDF36lagdkpquZF03skzCXagM5j7fJbE5DvFK5XIREnq7bitz7RizYM9jPKrkzFaLHk9wGZ2Euw65MUFMzb1uiLN3bilRhECo6x8Fq9J278q1GLUXLowH3lkmTUanPZ3LnW8MoyNUVjS2fww2ggmRRAc2qbduq7NeFracTbove6jE1LKj3HorO0z00zPSvFH8gwH3AhyKVglERQPKJ4O3rnzDjZaJJbE1VyMcAurCq8IiBbcQ8dXQkdbS5IHQmzUB1_pL0g4qRVfyC3zwQjgU-rK30ld_OsxfMmVDeNtihRmKqMk-JJEVeGWYXaSZPj5tVGM2l2yO594yg.jpg",
+   "https://cdn5.telesco.pe/file/cbrKAJ1IItqkQwnRyG_pHWl3WyLVhIl0Nf30D21iFVqGw3Tw5O2GxzJjmYmUsQ95O2NFG67RVzlgm6ibMBOT8QKlh7hoW8l0ziEtdXVv79_2op3quz9Z_S34aGvGuCv5gfcQ6ZDTVNXyxuvQ5kxe9UlOc_c_tdLF_wac8EW7uSGfI2Ugg07U-x8cVbKTAjDXgV5euk5LWuyVVfhnBzwpSLGp-ZNaCCHz1nKsyBTT4wjoCr6xhZ36EHGsh9wK9H205RKOWJCm26Cex5vQQmMyUi1NkBce9kV2OeucSSs-abXzPHH_717F3aLgZkFS9-pZrM5Qha-y7_I4ldX3MOxEOA.jpg",
+   "https://cdn5.telesco.pe/file/BqHl6DHmV7vDR_qQPLxJeCVKrWok0PO2aKsgVEJ6s-2TOF_hPCWLpmvBzI9ZFZB70I41uhHb5z9ws8nWc36nyHdFTSOWLKN0G5RvUZj-Nh9J9xW4zziHe9zFCQ0c05x6TQXfn_Id8LNTCifH4XiISMq1tdiOjrAY_e75QK8Dt2B1fmoYcSbRop8eq4Ns5cT07HWATSJBfK9OWmOjSyxAcSU0Jb_-NManJI78KKXIjjSNMQm6y2aIlsrJ8DyG0yPH4go-DCOh1rgKhil49R8xFF1WKV7JlUaBqppWPXVcidGq4GUpH9NocB7gbwWxWa8xMbEwi174T-F44EOGpFtg3g.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7387"
+ },
+ {
+  "id": 7383,
+  "slug": "yamaha-yzf-r6-2020-7383",
+  "type": "moto",
+  "brand": "Yamaha",
+  "model": "YZF-R6",
+  "name": "Yamaha YZF-R6",
+  "raw": "Yamaha YZF-R6",
+  "year": 2020,
+  "km": 13012,
+  "volume": "599 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1433000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-17T04:34:41+00:00",
+  "features": [
+   "Выхлоп Austin Racing",
+   "Третий владелец",
+   "Обслужен после покупки"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Выхлоп Austin Racing Slip-On, изменения официально зарегистрированы"
+   },
+   {
+    "k": "li",
+    "t": "Третий владелец"
+   },
+   {
+    "k": "li",
+    "t": "Первый владелец продал мотоцикл на пробеге 9 000 км"
+   },
+   {
+    "k": "li",
+    "t": "Нынешний владелец приобрёл мотоцикл у второго владельца на пробеге 12 700 км"
+   },
+   {
+    "k": "li",
+    "t": "После покупки заменены антифриз, тормозная жидкость, моторное масло, передняя и задняя шины"
+   },
+   {
+    "k": "li",
+    "t": "Пройдена диагностика в Yamaha Jeonju с использованием сканера"
+   },
+   {
+    "k": "li",
+    "t": "Технических неисправностей нет"
+   },
+   {
+    "k": "li",
+    "t": "Состояние очень хорошее, по словам продавца"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/E2D6cukyhCo7iPczAzmjvQuM1Jt9KR866Y8hMSrj9_YcIuTKaOEy1PvpGj5f2sjkRMVv2J-wlTnMbz5B9mj4NOObTux4AphJ52LD7eH4Zs1mmR-dYBmsPvQMRdWFsoRvNzNxHEM2ujVNXRueLyY5zuAqfEVEGmrf_7heQ4P4o9seHBA9t1ui7LQ12-ohQGq-uU_-oAQpWHEZC-QxeSTQBbW88_DXesqtoVYwoR7XXti6u9dFmjJkAk0rrhaOY9slR_nAPisywHp6Wg22KeLmAZx-ia_RF95uVFKfEOexmvrLTQnIcgRZAqnnkqDcCYLFSNsoIs0EXuTOjsM5oLiheg.jpg",
+   "https://cdn5.telesco.pe/file/Bzm2Gs4Xc7ldQ3izJX16cC2XgGVP8nSHqOXtH3AABLg4dmoZpn7iG7Li-RJORFzr1bDmIxNirXHmjhsbz2nAzbOp3f4gFxR6nYMYSIt_C-VnRtAwbFNvqYBCagdh8kk_FlNb3x5LaHfIK8Lh1CCb-ljPaNWnu8CdOpUoOz6yy8k9CrRt50Tu6xOfhsPSz5dS4OIIlTM2OdFN2OWuMKIKD_HDXPgcV2lry9NaLVmwrqJPNj7cK9c-D4p84VgmLhu9MUNZrCugI7NopyNLzM6Sj-_8m8GBCVZ_YjFNgwMTbuG7Cf1hAudhlfHaucF5e9IhALSwmj3AUBv3CmsC1HzhZQ.jpg",
+   "https://cdn5.telesco.pe/file/CfCgpaYUoFah6Ihco9lm-lILggdtefRUz7fxcq-JO1slwa0uN83Gg8vwAFyss0CSo4AAboBLszQyEP3TLDwUpAHA5AMD1hm1IkP6IxC7TQhBXDSpIPyYuU7PoRonrIZ5rp1-LYdZMQr9OGMQ3j6wNKsBfWc5gC25gbsQd6WNQpDThb1QfnSc9plFiZIMqgbLANrkqAYr4dAnUFW8h0Y1HRmqv7VT_ljlxMBFGVfSCFYFwnM7uzrpofxcIVS4P244UWNj9WK54OvdlQ-xAeKvU_rAIeKNM-WsuI3-2j12IYgABGJ5OE3JPwJQswQ7zbqWSH1HLNMSgCprZIAC7IigZw.jpg",
+   "https://cdn5.telesco.pe/file/EW_DZFOPDnFlBEn0fgkXShsfT7opB5rWGun-Ka4u3htdXB_RwR9AQE8deRB2DxdHQk_XYdnJ3IpcxFFHyAYg0xiYWnZyqnlKXvVJ72pvi8kFdfKXSjSn4_A1Kgsofw6Vbhgb5uPoE3Thv6JkSlcyF1yLmD8fov_w4hwujcFcFgOuRgZ95vh2pBDspfv9NCd30h_ibosLfd4uHzht68Rfm__jlqxEhY7iXIZBi14A8BBXodb8q7dst6tuNInO9NrR8Mo2f7apQ98EpmU6Sku3Si0s2HZaNjVmY-P2sM75Hxj5xfvaGsCmYyDniZDFXssPPLKdNRQx31_icxlN_XZ8Iw.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7383"
+ },
+ {
+  "id": 7381,
+  "slug": "bmw-s-1000-rr-m-package-2023-7381",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR M Package",
+  "raw": "BMW S1000RR M Package",
+  "year": 2023,
+  "km": 10198,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2041000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-17T04:32:01+00:00",
+  "features": [
+   "Выхлоп Austin Racing",
+   "Демпфер руля Hyperpro",
+   "Слайдеры рамы Evotech"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Выхлоп Austin Racing (омологация пройдена)"
+   },
+   {
+    "k": "li",
+    "t": "Демпфер руля Hyperpro"
+   },
+   {
+    "k": "li",
+    "t": "Слайдеры рамы Evotech"
+   },
+   {
+    "k": "li",
+    "t": "Слайдеры передней и задней оси Hitech"
+   },
+   {
+    "k": "li",
+    "t": "Карбоновая защита двигателя Hitech"
+   },
+   {
+    "k": "li",
+    "t": "Защитная решётка радиатора и масляного радиатора"
+   },
+   {
+    "k": "li",
+    "t": "USB-порт для зарядки"
+   },
+   {
+    "k": "li",
+    "t": "Крепление SP Connect"
+   },
+   {
+    "k": "li",
+    "t": "Двухканальный видеорегистратор"
+   },
+   {
+    "k": "li",
+    "t": "Защитная плёнка на приборной панели"
+   },
+   {
+    "k": "li",
+    "t": "Накладки на бак (грипсы)"
+   },
+   {
+    "k": "li",
+    "t": "Регулируемые рычаги сцепления и тормоза M"
+   },
+   {
+    "k": "li",
+    "t": "Защита рычагов с обеих сторон"
+   },
+   {
+    "k": "li",
+    "t": "Защитная плёнка на фарах"
+   },
+   {
+    "k": "li",
+    "t": "Антигравийная плёнка PPF"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальная сумка на бак BMW"
+   },
+   {
+    "k": "li",
+    "t": "Боковые сумки сняты и хранятся отдельно"
+   },
+   {
+    "k": "li",
+    "t": "Шины Pirelli Rosso Corsa, заменены на новые, пробег после замены менее 100 км"
+   },
+   {
+    "k": "li",
+    "t": "Моторное масло и фильтр заменены на 10 000 км"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/tU2avJh4kbTh1_ypo4owBJ_ldxAThAs65TvAdkS1HyTvF86U3wBt1BICNySSrfLA8izqVvOto9UfXA79kaphZhUkiuyRmhlrH--H6k2FXTG7xNKXrnz__Xtw2hr9u4prSlIOtutnnuMJ75_Whb2YhL6H420NDciPzk_o13SIuC5TZFrB5NTv-mbqAE-s-f2pWHB_MILm4lg3SaqvT4zEEHH8xAeQx4gpzHNEcRWsfeVChojXSORm39VeI8p6BKxFKg5x0c5_wyuW9qxwr-ke1gHQ7qqPNaiDS6kF8l2z0IViHDncfSL8laEU4s6_SHuned9P8Y7bCSbQv5CwBRdv3w.jpg",
+   "https://cdn5.telesco.pe/file/a38qQ4w9i7vSFfawOJ5y1wRGSxfqV9vT3JR6wX8nQvGUwGBDjbp9rd0CS84J_IeFW5T4BEUOUfDBuh0GLymx3OqFAnbHL5RijYQJoWhC61_YAHmz6Pv9w-ErVWXH2DsrJXATeO9F2kPsFv0uCSh25Ulvdyi2lXqEBAL6xSF0E94gPvDfGotj68aEmKr5vEs24N7beLHnhkjDx8-ZUg8eq-o6VCP6eR8j0rtfnJ1EtX5zhhDJSf_Z0O8FnqRX2el6kKDaXWPaJJhpIyvZX3fKCbVbjHEjLE3BlPzbnPGketquN96-dkdJspEWcnwkyhWT6z9q7JvU7pudKRLctrcNoA.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7381"
+ },
+ {
+  "id": 7377,
+  "slug": "bmw-r-1300-gs-option-719-2024-7377",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "R 1300 GS",
+  "name": "BMW R 1300 GS Option 719",
+  "raw": "BMW R1300GS Option 719",
+  "year": 2024,
+  "km": 2271,
+  "volume": "1300 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2472000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-17T04:27:40+00:00",
+  "features": [
+   "Без ДТП",
+   "Как новый",
+   "Выхлоп Akrapovič"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Без ДТП"
+   },
+   {
+    "k": "li",
+    "t": "Состояние практически нового мотоцикла"
+   },
+   {
+    "k": "li",
+    "t": "Выхлоп Akrapovič"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/LCa5LbJOweWjr1jNmtZcHLEh7DuDTudcJH4_qoeX-3_ZELjCTRkilOvTIyBlZB9iveHB0W-M9-TAlGDBgi_Nx2VM91rriTge7XXBEqBVYVvUjKLIZ56Z-AjQzIRo3lGEDG8TmpPdVt_TrFWc6X0WAyMc0CcivpbmRlWUKwcJRIxyZkXW3rgxVqgto_GD6k1r-HGsYh78V3Rugu59S9mpBkjVoQKzBLsGrpjHsM-wqt3FTPPAw6OL16qBZWd_t6DV-htKyMxDtvoviSFM4nlA-U4EuMbuKVPKqzhY4g_Dn2JnSJwr3o-a532Ga5OSqNsERf7ekBlUxSoyYJn00efVXg.jpg",
+   "https://cdn5.telesco.pe/file/LwtK1FwqyVZIwR8Cn6iM3R4IiUYVsFjAktM1lLEWRZ9iXad6m8wMR9B99cg8i-h6Oy28Im9RjHK0F-6bzC6VVbwX3PizVokzMiKQcT5GGJT2FvkoDLPJfc10Paa3omrJ5Scu5Yck1ER1-y-SILQGzYZpiA3yYd5EYAQOrr-RoxEX6v-MS7sIdAdts-bqf77ETRsGaC-poGdg7Ha500o8C3pruX9FjWIt-xPUch8pWZdwxOf5yIf1HnYRvyuSNuMGU6UBs32RkbWY8RLlNks9bd2VIxtJN-qr_7YTu1OJGArcN1J1bZbMTO3zKrZM39Fnh3vpiEtQeMD6SoDAcUCiKw.jpg",
+   "https://cdn5.telesco.pe/file/TodS6-CETxsawEekMF4T4NkhbrIuWZPuiUSHXFffADqQR6Fe-84B9bL_ekVa2oszi0nhAn5oF499Mx_VeSC57RtHLPlxrfeekyXCM55s1_n17-1eclvRo_QK2zXKPWXmPs8ILnrCjBq1SV1qLmqin_M7p7Ygwkn1gtEsTNWgCDbZ4yjmWZBROIaIW8EzXTsxbq2VEXt23tGahdqD0PZvpkCRzK8HI7JIWnKYCGDWvmfxo4Kff0Xexx5VUAlfxdccRNqyZCixrNi6D3XaH5BqBEaUIJ08IIaXDc3J4mMyg9xDow2WnPs6_0eSDuB41eTgVRA1x5D8QlbFHaH7GDgtHQ.jpg",
+   "https://cdn5.telesco.pe/file/PGe7WCQjFGbDxcrKIrcBst8p_md_7jI4OrSFWNHI82bcjenYRdjY-EkKkwvv0NIAHWy7bbLpthZpJaGtbTzdCHjG5HKdKn2lfihhK14GGv4HOc78hs7EfXRzwUTP6Ak2ETFxdBvfWZUSG968-TzlyKoCgtoNknfwnV1ui_T0DtXDnhjSoIcWrAMpdZ-ybr7t2TOtRRICUmcyNVYtiqRoWQXG_wspNVdRgOYbjBkx3PAMArW8OQdQndPfnUUrTI5GKpkMq1bhzefR3koO6FWv25rIPF2uNK7qezb0wv-yM_pTCfOeyiPsMKqEyGmltDWmh8xu6qakSQvkjkLNTxG3aQ.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7377"
+ },
+ {
+  "id": 7373,
+  "slug": "bmw-m-1000-r-2026-7373",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "M 1000 R",
+  "name": "BMW M 1000 R",
+  "raw": "BMW M1000R",
+  "year": 2026,
+  "km": 1639,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2406000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-17T04:23:38+00:00",
+  "features": [
+   "Практически новый",
+   "Отличное состояние",
+   "Обслуживался вовремя"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Состояние практически нового мотоцикла"
+   },
+   {
+    "k": "li",
+    "t": "Внешнее состояние очень чистое, отличное"
+   },
+   {
+    "k": "li",
+    "t": "Мотоцикл хорошо обслуживался"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев ручек"
+   },
+   {
+    "k": "li",
+    "t": "Power Out (розетка питания)"
+   },
+   {
+    "k": "li",
+    "t": "Тюнинг рычагов"
+   },
+   {
+    "k": "li",
+    "t": "Выхлоп SC Project"
+   },
+   {
+    "k": "li",
+    "t": "Сиденье с логотипом BMW M"
+   },
+   {
+    "k": "li",
+    "t": "Карбоновая отделка крышки топливного бака"
+   },
+   {
+    "k": "li",
+    "t": "При покупке продавец отдаёт дополнительный комплект шин"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/ElMCOTCLra5KMwftf4i0MYFPeI0HOZpXqoiWb2LpDQyWP9jbOdGyE6I9O-mCad55Vh4z0D2A2sOhaYM4BJa2rbVYos0aaV1ANN3r2lVj_6wIOdpvqbLU3LGxQOoL3H5zHEQgMEIqdJobyxgTGGyexJHU8LS4TROFq2EHh7uQ4g9uzbS9z0SogWeY9KMiXOfY77pIF6Qc9YrjHIVUd_GgVdWETHE4i_N_ZmhDfFm5KVRd8s0PNqm5RwfKqkuVJsgN03DF6rJFyR9TffN5OIGzYHmIO5upr1yjh22OLid5sngw4nzo5M-sDo4pKAxQFuXLJ5-TavJYlJIKqNdO5oXllA.jpg",
+   "https://cdn5.telesco.pe/file/iERCkA_5mqaRNW16kuouDZbnlYjdIgsZPWRmnGY5LZo5TFOvtUS7gz5LHDFvCEYkyztXPatbC4Zc1ppDeVCZZxcSi9uZXdzEtBIZFG_u67GYbXisdRXWqzMT6da2NHdYcPwglqSD9jrPur3EcG022jjFGVVdf-0nVgT-eGbwP_NDghHj5DS81E6NvPxe48WejzI-2B1ZhR5SEYmTN_cZGe14nnBYMdCAS8CpXpC7O_3kUoiulMMd_ggaUtxisTqnQ194wS385fIaHzHHi1PqFLPHT8gp2AV56-ecoefzRKk6qAZBHm2vQGjzzaSSrI2WBpRBgckf3lUSXT4_Cf4AOg.jpg",
+   "https://cdn5.telesco.pe/file/TuIDDWfqIEzXUx8LMl8j3_1dxxU_cnKbi19G8D9pn9jrtdCeSkuJPW83HvpQXDBsPmAXBo4lK4xvgn4M_hTowKRXP5-hA2qvemTkK0ASy85tmrWZNl8d2n0t9C7Kg5L7bO_7omiQ6edvS6M9jvNJgq7wzCpV6XDxldLDw-gBx7JJU7W_cD3U4Tw82keD3NiB6byndgaOujMqnt88P4X_j9Fw_z4RsR2yP6n-jlR4UFPHLUW8y0m8p_3kLbwiUj6jCdIzWilcaUKMWBdUYEItp1uZ30K1vNQb9y5qSj7MMWfEGi6YvjE1hr7f_MYOGJ05UIlf3BmVf1V_MElvZQWxsQ.jpg",
+   "https://cdn5.telesco.pe/file/PRYShGXAlJAYJbIhrvSAZ11agwNq08GFXMq7vnNbBGSvfm0eGjYGupn416yJMpFVMnB9WOE9YpDTh8rY0613zTmrWIS_8807si8sacbZy1Ji4ouPL9p30sECdfLba1dohYGAlT4QqdSM3UF9Gomxz9jRti-GfQgsRGufinO0Dsf5qSZcdl94V2nci9c61wKWX-zVnDFt7V8RQysaREAd1RJycCKja3PV5fTf632X24k6VWHsbOTWlwkEbMTkDC-J3VgTxk71NotkpCKtmABTekzngoZrwXd2PuKyR61qaURogRFRDcyVhe9aVhIk0D3gZwgENEwJu0z3PUblpjPtGg.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7373"
+ },
+ {
+  "id": 7369,
+  "slug": "harley-davidson-breakout-107-2018-7369",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Breakout 107",
+  "name": "Harley-Davidson Breakout 107",
+  "raw": "Harley-Davidson Breakout 107",
+  "year": 2018,
+  "km": 11378,
+  "volume": "1746 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1670000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-17T00:38:14+00:00",
+  "features": [
+   "Все проверки пройдены",
+   "Расходники с запасом",
+   "Двигатель работает ровно"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "По состоянию заявлено"
+   },
+   {
+    "k": "li",
+    "t": "Все проверки завершены"
+   },
+   {
+    "k": "li",
+    "t": "Расходники имеют значительный остаточный ресурс"
+   },
+   {
+    "k": "li",
+    "t": "Двигатель работает ровно, без посторонних звуков"
+   },
+   {
+    "k": "li",
+    "t": "Мотоцикл едет стабильно"
+   },
+   {
+    "k": "li",
+    "t": "Готов к эксплуатации сразу после покупки"
+   }
+  ],
+  "photos": [
+   "https://cdn5.telesco.pe/file/STlDc9EzNwVLnTkgahoa7Qx_o2rH5mjjXhdQp0ApofP6HftbhUJQkquPtXBW6qKe_XS25IrxwOKVJUgFeKFnf1SCbOG_kNjHFhjRTdR4ysXuaLiT1ydo6InZpxwRSZDCJ-5PEXxRbRn22NHzuUDzHqV2ANECoC3PyZrDCptD_OtjvHBSEBMae7WsEREy24q_ptjST4ir5mTCjzmteQ9WzibCKynwrm8xwJKBkRvrf6KKLIf2BYCNIhbcKE7Y2DwxAXZ-rPdAFi6Vq7hVY6q-uGdfzriS2eHMcTmhm9GieTxK2ooW4CH8QpNHarvQmIoSpL4wXLeQ0UqP8fdYBa_RNw.jpg",
+   "https://cdn5.telesco.pe/file/chM7fph5YRRuvPY_QSNii7HohKFSe2rAMhos4LFXRiy-zefCFKGsMUAE2YEo1iWlhGL-WVQ1E7UHQtiKo3Hx2GR7CfkpWjX7M5uLgFdc4zhMU6xUU3hM7kddcI-Zu-llFPqGaDJlAhlyicyH8s_hElhxHRSugl2B1cjcf1R37LQLBZhUqn6Z2mFZwr7qGUGSd7eD4kdfFWrQzO31tJ53lsEtTMZmlp-8ubaiuqKzf0EG-z37T8n4B6vVne_HWYsq4ZbFj3ZlZDZb5mWJuL5_RDuEJBVeCYd6Z_aYwAYiVJWFFytEmr1S5Sx3Gm3rFGlAECDPFJxYpBe2u3DXQFTvjw.jpg",
+   "https://cdn5.telesco.pe/file/IYK9BeAr0rTHx1bY2p2GXgCLUXKyyfkEMppbpfTB07d8dhTkS9wHhU20ot6M6OkbzOkSwDJNPVlcFC9l_yviAAOQYX4TVbmGWnr7lWy6qday4dKObwkS_zQglwN9wOxiLxRfpGbyJ_YbcDWwlCmD2JF_2ZL0K8pk2vPweoG0nFhX2Nkzw0JJ9SAfwuVnRNSzNejjEtI9X0D3btfA2jxjdOkZNs9DIwHdcaWmU6gUZSDGYKPBjIAK0SW4lTuadW2NoDmpfxdsIufBM19Jou8Gw6K0c6jpeHzTRIdPVDR2MKgDBKGoOAkgauHOVJd6kpZ4z2srNBzQvmWozavrb90I9g.jpg",
+   "https://cdn5.telesco.pe/file/e4SQejEBcuUI1NnwcCNt2y02X4C9sQzyTar-fhDbsrxq91eWG-nGM69UkxD0QvlCuJdcmXnoYQ3z0CukorLRHcdfofRjRlR6YTUTWdBAasg4w1e_AhgxM1SdI6c9lHq0KFoFru0a96mJHVfZ4k9ZY33diL8QAA7grAskVbHsSbxlR2LAISELsWid3byVLzR5lRk4pvfxoPB3RAIHKE0a468O-cu1peFd2h23Mej7QCC9Q4bTvRg_Wwup9A8Hq0EOSXR1zyno8WGm-Z5YLK-ryQGN5nWDsWaM5nbtnvydcpjkSHDbOPdzg6CE2h6aUjDf46bvvasPQa3eK8Q2lVDMBw.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/7369"
+ }
+]

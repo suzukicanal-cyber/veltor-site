@@ -1,0 +1,11 @@
+[Unit]
+Description=VELTOR: новые посты из Telegram и пересборка сайта
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=veltor
+WorkingDirectory=/opt/veltor
+ExecStart=/bin/bash /opt/veltor/deploy/update.sh
+Nice=10

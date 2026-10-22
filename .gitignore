@@ -1,0 +1,10 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.DS_Store
+
+# фото каталога скачивает сервер
+public/catalog/*
+!public/catalog/.gitkeep
+.env.production
