@@ -109,16 +109,24 @@ const ALIASES = {
   "Hyundai Venue 1.6": "Hyundai Venue",
 };
 
+const ABBR = new Set(["ABS", "DCT", "SE", "SP", "GT", "GTS", "RR", "RS", "ST", "XR", "GS", "RT", "BMW", "KTM", "AMG", "TCS", "HDR", "CVO", "FXR", "LED", "SUV", "MT"]);
 function normalizeTitle(raw) {
-  const t = clean(raw).replace(/\s+/g, " ");
+  let t = clean(raw).replace(/\s+/g, " ");
   if (ALIASES[t]) return ALIASES[t];
+  t = t.replace(/^HD\s+/i, "Harley-Davidson ").replace(/^H-D\s+/i, "Harley-Davidson ").replace(/^Range Rover\b/i, "Land Rover Range Rover");
   const up = t.toUpperCase();
   let brand = null, rest = t;
   for (const [k, v] of BRANDS) if (up === k || up.startsWith(k + " ")) { brand = v; rest = t.slice(k.length).trim(); break; }
   if (!brand) return t;
   // ALL CAPS words → Title Case (keep tokens with digits and short abbreviations)
-  if (rest === rest.toUpperCase()) rest = rest.split(" ").map((w) => (/\d/.test(w) || w.length <= 3 ? w : w[0] + w.slice(1).toLowerCase())).join(" ");
+  if (rest === rest.toUpperCase()) rest = rest.split(" ").map((w) => (/\d/.test(w) || w.length <= 2 || ABBR.has(w) ? w : w[0] + w.slice(1).toLowerCase())).join(" ");
   if (brand === "BMW") rest = rest.replace(/\b([A-Z])(\d{3,4})([A-Z]{1,3})?\b/g, (m, a, n, b) => [a, n, b].filter(Boolean).join(" "));
+  if (brand === "Yamaha") rest = rest
+    .replace(/^(?:YZF[-\s]*)?R(1M|1|3|6|7|9|25)\b/i, (m, n) => `YZF-R${n.toUpperCase()}`)
+    .replace(/^MT-?(\d{2})(?:\s*(SP)\b)?/i, (m, n, sp) => `MT-${n}${sp ? " SP" : ""}`)
+    .replace(/^XSR-?(\d{3})/i, "XSR$1");
+  if (brand === "Suzuki") rest = rest.replace(/^GSX-?([RS])-?(\d{3,4})/i, (m, k, n) => `GSX-${k.toUpperCase()}${n}`);
+  if (brand === "Kawasaki") rest = rest.replace(/^(?:Ninja\s+)?ZX-?(\d{1,2})R\b/i, (m, n) => `Ninja ZX-${n}R`);
   if (brand === "Mercedes-Benz") rest = rest.replace(/\b([A-Z]{1,3})(\d{3})([A-Z])\b/g, (m, a, n, b) => `${a} ${n} ${b.toLowerCase()}`);
   return `${brand} ${rest}`.trim();
 }
@@ -155,12 +163,24 @@ function pickFeatures(body, brand) {
 }
 
 /** Base model for the catalog filter: trims and packages removed ("S 1000 RR M Package" → "S 1000 RR"). */
-const TRIM_RX = /\s+(Option 719|Race Package(?:\s+M)?|M Package|Mpack|Competition|ABS Pro|ABS|SE|Tour|DCT|Airbag|Expedition|E-Clutch|Inspiration|Premium|Prestige|Luxury|Exclusive|Signature)\b.*$/i;
+const TRIM_RX = /\s+(SP|Option 719|Race Package(?:\s+M)?|M Package|Mpack|Competition|ABS Pro|ABS|SE|Tour|DCT|Airbag|Expedition|E-Clutch|Inspiration|Premium|Prestige|Luxury|Exclusive|Signature)\b.*$/i;
 function baseModel(rest, type) {
+  rest = rest.split(/\s+\/\s+/)[0].replace(/\s+Lightweight\b.*$/i, "").trim();
+  if (type === "car" && /^Range Rover\b/i.test(rest)) return rest.split(/\s+/).slice(0, 3).join(" ");
   if (type === "car") return (rest.replace(/\([^)]*\)/g, " ").trim().split(/\s+/)[0] || rest);
   let m = rest;
   for (let i = 0; i < 3; i++) m = m.replace(TRIM_RX, "").trim();
   return m || rest;
+}
+
+/** Name, brand and base model from the post title. The base model is borrowed from a known lot when one fits. */
+export function naming(raw, type, known) {
+  const name = normalizeTitle(raw);
+  const brand = (BRANDS.find(([, v]) => name.startsWith(v + " ")) || [, name.split(" ")[0]])[1];
+  const rest = name.slice(brand.length).trim();
+  const twin = known.filter((l) => l.brand === brand && l.type === type && (rest === l.model || rest.startsWith(l.model + " ")))
+    .sort((a, b) => b.model.length - a.model.length)[0];
+  return { name, brand, rest, twin, model: twin ? twin.model : baseModel(rest, type) };
 }
 
 export function toLot(p, known) {
@@ -182,13 +202,7 @@ export function toLot(p, known) {
   const volM = find(/Объ[её]м[^:]*:\s*([\d.,]+)\s*(см³|см3|cc|куб|л)/i);
 
   const raw = p.lines[0].t;
-  const name = normalizeTitle(raw);
-  const brand = (BRANDS.find(([, v]) => name.startsWith(v + " ")) || [, name.split(" ")[0]])[1];
-  const rest = name.slice(brand.length).trim();
-  // base model for the filter and engine volume: borrowed from a known lot of the same brand whose model starts the name
-  const twin = known.filter((l) => l.brand === brand && (rest === l.model || rest.startsWith(l.model + " ")))
-    .sort((a, b) => b.model.length - a.model.length)[0];
-  const model = twin ? twin.model : baseModel(rest, type);
+  const { name, brand, model, twin } = naming(raw, type, known);
   let volume = volM ? (/л/.test(volM[2]) ? `${volM[1].replace(",", ".")} л` : `${num(volM[1])} см³`) : null;
   if (!volume) { // "Двигатель 889 см³", "мотором 1000 cc", "1’000 см³"
     const v = find(/(\d[\d’' ]{1,5}\d)\s*(?:см³|см3|cc|куб)/i);
@@ -278,6 +292,22 @@ async function main() {
       const lot = p && toLot(p, lots);
       console.log(`\n=== ${f}`, lot ? JSON.stringify({ ...lot, photos: lot.photos.length, body: lot.body.slice(0, 6) }, null, 1) : p ? `skipped (topic ${p.topic})` : "missing");
     }
+    return;
+  }
+
+  // 0) names of script-made lots follow the current naming rules (offline, no Telegram needed)
+  const auto = (l) => !l.manual && (l.parser !== undefined || l.id > CURATED_MAX_ID);
+  for (const l of lots.filter(auto)) {
+    const n = naming(l.raw || l.name, l.type, lots.filter((x) => !auto(x)));
+    if (n.name !== l.name || n.brand !== l.brand || n.model !== l.model) {
+      console.log(`= ${l.id} ${l.name} → ${n.name} [${n.brand} / ${n.model}]`);
+      Object.assign(l, { name: n.name, brand: n.brand, model: n.model, slug: `${slugify(n.name)}-${l.year}-${l.id}` });
+    }
+  }
+  if (args.includes("--offline")) {
+    lots.sort((a, b) => b.date.localeCompare(a.date) || b.id - a.id);
+    if (!DRY) await fs.writeFile(LOTS_FILE, JSON.stringify(lots, null, 1) + "\n");
+    console.log("Offline: names updated.");
     return;
   }
 

@@ -7,6 +7,7 @@ import LotCard from "@/components/catalog/LotCard";
 import { BodyLine, LOTS, likeLink, lotBySlug, lotHref, similar, typeLabel, yawFor } from "@/lib/lots";
 import { dateLong, dateRu, kmLabel, money } from "@/lib/format";
 import { SITE_URL, asset } from "@/lib/site";
+import { lotLanding } from "@/lib/seo";
 
 export const dynamicParams = false;
 export function generateStaticParams() {
@@ -94,6 +95,7 @@ export default async function LotPage({ params }: Props) {
           <div className="lp-info">
             <span className="lp-kind">{typeLabel(l.type)} · {l.year}</span>
             <h1 className="lp-h1">{l.name}</h1>
+            <Link className="link link-q lp-all" href={lotLanding(l).href}>{lotLanding(l).label} →</Link>
             <dl className="lp-specs">
               {rows.map(([k, v]) => <div key={k}><dt>{k}</dt><dd>{v}</dd></div>)}
             </dl>

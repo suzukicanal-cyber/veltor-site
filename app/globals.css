@@ -854,3 +854,22 @@ a.lot-media{display:block;color:inherit}
   .lp-cta .btn{flex:1 1 100%;justify-content:center}
   .lp-more-h{grid-template-columns:1fr}.lp-more-h .link{justify-self:start}
 }
+
+/* ---------- search landings (/moto/, /auto/, brands, models) ---------- */
+.seo-crumb{display:inline-flex;gap:10px;align-items:center}
+.seo-h1{font-size:clamp(36px,5vw,72px);text-wrap:balance}
+.seo-chips-w{display:grid;gap:14px;margin:-8px 0 32px}
+.seo-chips{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.seo-chips a{display:inline-flex;align-items:center;gap:10px;padding:10px 14px;border:1px solid var(--line-2);border-radius:999px;color:var(--fg);text-decoration:none;font:500 14px/1 var(--f-head);transition:border-color .25s,background .25s}
+.seo-chips a:hover{border-color:var(--fg);background:var(--surface)}
+.seo-chips em{font:500 11px/1 var(--f-mono);font-style:normal;color:var(--dim)}
+.seo-more{display:flex;justify-content:center;margin-top:24px}
+.seo-text{margin-top:clamp(48px,6vw,80px);display:grid;gap:16px;max-width:76ch}
+.seo-text p{color:var(--muted);font-size:17px;line-height:1.65}
+.seo-faq{margin-top:clamp(48px,6vw,80px);display:grid;gap:24px}
+.seo-page .cat-cta{margin-top:clamp(40px,5vw,64px)}
+.lp-all{justify-self:start;margin-top:-10px}
+.fseo{display:flex;flex-wrap:wrap;gap:8px 20px;margin-top:clamp(40px,5vw,64px);padding-top:22px;border-top:1px solid var(--line);font:500 12px/1.4 var(--f-mono);letter-spacing:.08em}
+.fseo a{color:var(--dim);text-decoration:none}
+.fseo a:hover{color:var(--fg)}
+.fseo + .fbot{margin-top:22px}

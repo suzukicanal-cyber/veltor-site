@@ -26,8 +26,12 @@ export default function Catalog() {
 
   // /catalog/?type=moto|car — links from the home page
   useEffect(() => {
-    const t = new URLSearchParams(location.search).get("type");
+    const q = new URLSearchParams(location.search);
+    const t = q.get("type"), b = q.get("brand"), m = q.get("model");
     if (t === "moto" || t === "car") setType(t);
+    if (b) setBrand(b);
+    if (b && m) setModel(b + "|" + m);
+    if (b) setOpen(true);
   }, []);
 
   const ofType = useMemo(() => LOTS.filter((l) => type === "all" || l.type === type), [type]);
