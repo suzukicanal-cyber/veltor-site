@@ -1,6 +1,6 @@
 // Site-wide constants. SITE_URL is the production address — set in .env.production on the server;
 // (deploy/setup.sh writes it from the domain).
-export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000").replace(/\/$/, "");
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://veltormotokorea.ru").replace(/\/$/, "");
 export const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 export const SITE_NAME = "VELTOR";

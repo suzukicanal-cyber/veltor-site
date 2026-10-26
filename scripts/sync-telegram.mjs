@@ -26,6 +26,9 @@ const LOTS_FILE = path.join(ROOT, "data", "lots.json");
 const PHOTO_DIR = path.join(ROOT, "public", "catalog");
 const MAX_MISSES = 80; // stop after this many ids in a row that do not exist
 const MAX_SCAN = 600;
+// Bump when the parser improves: lots made by an older parser are parsed again (hand-curated lots have no "parser" field).
+const PARSER = 2;
+const CURATED_MAX_ID = 7713;
 
 const args = process.argv.slice(2);
 const opt = (k) => { const i = args.indexOf(k); return i >= 0 ? args[i + 1] : undefined; };
@@ -66,8 +69,21 @@ export function parseEmbed(html, askedId) {
       const boldOnly = /^\s*<b>[\s\S]*<\/b>\s*$/.test(raw) && !/<\/b>[^<\s]/.test(raw.replace(/^\s*<b>|<\/b>\s*$/g, ""));
       return { t: text, bold: boldOnly, warn: /❗|‼|⚠/.test(raw) };
     }).filter((l) => l.t);
+    lines = splitRunOn(lines);
   }
   return { id: +post[1] || askedId, topic: topicM ? +topicM[1] : null, date, lines, photos };
+}
+
+/** Posts typed without line breaks: split the header at field labels and long lists at capitalised items. */
+const FIELD_RX = /\s+(?=(?:Год выпуска|Год|Пробег|Цена под ключ[^:]{0,20}|Цена|Мощность|Привод|Коробка|Объ[её]м[^:]{0,20}):)/g;
+function splitRunOn(lines) {
+  const out = [];
+  for (const l of lines) {
+    let parts = l.t.split(FIELD_RX);
+    if (parts.length === 1 && l.t.length > 200 && (l.t.match(/[.,;]/g) || []).length < 3) parts = l.t.split(/\s+(?=[А-ЯЁ])/);
+    parts.map((t) => t.trim()).filter(Boolean).forEach((t, i) => out.push({ ...l, t, bold: parts.length > 1 ? false : l.bold, warn: l.warn && (i === 0 || parts.length === 1) }));
+  }
+  return out;
 }
 
 /* ---------------- names ---------------- */
@@ -115,10 +131,35 @@ const num = (s) => +String(s).replace(/[^\d]/g, "");
 const isSignature = (t) => /@veltor_kor/i.test(t);
 const HEAD_RX = [/^(Год(?: выпуска)?):/i, /^Пробег:/i, /^Цена/i, /^Мощность:/i, /^Привод:/i, /^Коробка:/i, /^Объ[её]м[^:]*:/i, /^[\d\s ]+₽$/];
 
-function shortFeature(t) {
-  let s = t.replace(/\.$/, "").replace(/\s*\([^)]*\)/g, "").split(/\s+—\s+|:\s/)[0].trim();
-  if (s.length > 38) s = s.slice(0, 36).replace(/\s+\S*$/, "") + "…";
-  return cap(s);
+/** Three short chips for the card: clauses of the description, skipping header-like and generic ones. */
+const SKIP_RX = /^(Год|Пробег|Цена|Мощность|Привод|Коробка|Объ[её]м|Цвет|Выпуск|Производство|Первая регистрация|Дата|Состояние расходных|Один раз|Возможна)/i;
+function pickFeatures(body, brand) {
+  const clauses = [];
+  for (const b of body) {
+    if (b.k !== "li" && b.k !== "p") continue;
+    for (const sent of b.t.split(/(?<=[.!?])\s+/)) {
+      for (let c of sent.split(/,\s+|;\s+|\.\s+/)) {
+        c = c.replace(/\s*\([^)]*\)/g, "").replace(/[.!…]+$/, "").replace(/^(и|а также)\s+/i, "").trim();
+        if (c.length >= 4) clauses.push(cap(c));
+      }
+    }
+  }
+  const bad = (c) => SKIP_RX.test(c) || c.toLowerCase().startsWith(brand.toLowerCase()) || /\b(19|20)\d\d\b/.test(c) || /^\d/.test(c);
+  const generic = (c) => /^(Мотоцикл|Автомобиль|Машина|Техника)\b/i.test(c);
+  const fits = clauses.filter((c) => c.length <= 38 && !bad(c));
+  const pick = [...fits.filter((c) => !generic(c)), ...fits.filter(generic)];
+  const out = [];
+  for (const c of pick) if (!out.some((o) => o.toLowerCase() === c.toLowerCase()) && out.length < 3) out.push(c);
+  return out;
+}
+
+/** Base model for the catalog filter: trims and packages removed ("S 1000 RR M Package" → "S 1000 RR"). */
+const TRIM_RX = /\s+(Option 719|Race Package(?:\s+M)?|M Package|Mpack|Competition|ABS Pro|ABS|SE|Tour|DCT|Airbag|Expedition|E-Clutch|Inspiration|Premium|Prestige|Luxury|Exclusive|Signature)\b.*$/i;
+function baseModel(rest, type) {
+  if (type === "car") return (rest.replace(/\([^)]*\)/g, " ").trim().split(/\s+/)[0] || rest);
+  let m = rest;
+  for (let i = 0; i < 3; i++) m = m.replace(TRIM_RX, "").trim();
+  return m || rest;
 }
 
 export function toLot(p, known) {
@@ -128,8 +169,9 @@ export function toLot(p, known) {
   const find = (rx) => { for (const t of all) { const m = t.match(rx); if (m) return m; } return null; };
   const year = find(/Год(?: выпуска)?:\s*(\d{4})/i);
   const priceIdx = all.findIndex((t) => /^Цена/i.test(t));
-  const priceLine = all.slice(priceIdx >= 0 ? priceIdx : 0).find((t) => /\d[\d\s ]{4,}\s*₽/.test(t));
-  if (!year || !priceLine) return null;
+  const PRICE_RX = /(\d{1,3}(?:[\s\u00A0’']\d{3})+|\d{5,9})\s*₽/;
+  const priceM = all.slice(priceIdx >= 0 ? priceIdx : 0).map((t) => t.match(PRICE_RX)).find(Boolean);
+  if (!year || !priceM) return null;
 
   const kmM = find(/Пробег:\s*(.+)/i);
   const km = kmM && /\d/.test(kmM[1]) && !/new|нов/i.test(kmM[1]) ? num(kmM[1].replace(/\s*(km|км).*/i, "")) : null;
@@ -145,8 +187,13 @@ export function toLot(p, known) {
   // base model for the filter and engine volume: borrowed from a known lot of the same brand whose model starts the name
   const twin = known.filter((l) => l.brand === brand && (rest === l.model || rest.startsWith(l.model + " ")))
     .sort((a, b) => b.model.length - a.model.length)[0];
-  const model = twin ? twin.model : rest;
+  const model = twin ? twin.model : baseModel(rest, type);
   let volume = volM ? (/л/.test(volM[2]) ? `${volM[1].replace(",", ".")} л` : `${num(volM[1])} см³`) : null;
+  if (!volume) { // "Двигатель 889 см³", "мотором 1000 cc", "1’000 см³"
+    const v = find(/(\d[\d’' ]{1,5}\d)\s*(?:см³|см3|cc|куб)/i);
+    if (v && num(v[1]) > 49 && num(v[1]) < 3000) volume = `${num(v[1])} см³`;
+  }
+  if (!volume && type === "car") { const v = name.match(/\b([1-6]\.\d)\b/); if (v) volume = `${v[1]} л`; }
   if (!volume && twin && twin.type === type) volume = twin.volume;
 
   // description: everything after the header fields, without the signature
@@ -157,9 +204,10 @@ export function toLot(p, known) {
     if (l.warn) { body.push({ k: "warn", t: cap(t.replace(/^[^\p{L}\d]+/u, "")) }); continue; }
     const numbered = t.match(/^\d+\.\s+(.+)/);
     if (/:$/.test(t) || numbered || (l.bold && !/\.$/.test(t) && t.length < 48)) body.push({ k: "h", t: (numbered ? numbered[1] : t).replace(/:$/, "") });
+    else if (t.length > 100) body.push({ k: "p", t });
     else body.push({ k: "li", t: t.replace(/\.$/, "") });
   }
-  const features = body.filter((b) => b.k === "li").slice(0, 3).map((b) => shortFeature(b.t));
+  const features = pickFeatures(body, brand);
 
   return {
     id: p.id,
@@ -168,10 +216,11 @@ export function toLot(p, known) {
     year: +year[1], km,
     volume, power: power ? `${power[1]} л.с.` : null,
     drive: drive ? drive[1].toLowerCase() : null, gearbox: gear ? gear[1].toLowerCase() : null,
-    price: num(priceLine), priceLabel: all[priceIdx] && /Москв/i.test(all[priceIdx]) ? "под ключ в Москве" : "под ключ",
+    price: num(priceM[1]), priceLabel: all[priceIdx] && /Москв/i.test(all[priceIdx]) ? "под ключ в Москве" : "под ключ",
     date: p.date || new Date().toISOString(),
     features, body, photos: p.photos,
     post: `https://t.me/${GROUP}/${p.topic}/${p.id}`,
+    parser: PARSER,
   };
 }
 
@@ -239,6 +288,18 @@ async function main() {
     if (!p || !p.photos.length) { console.warn(`! ${l.id}: post unavailable, photos left as is`); continue; }
     if (!DRY) { const ph = await savePhotos(l.id, p.photos); if (ph.length) { l.photos = ph; fixed++; } }
     if (p.date && !l.date) l.date = p.date;
+    await sleep(250);
+  }
+
+  // 1b) lots parsed by an older version of this script → parse again, keep photos
+  for (const l of lots) {
+    const stale = !l.manual && (l.parser !== undefined ? l.parser < PARSER : l.id > CURATED_MAX_ID);
+    if (!stale) continue;
+    const p = await fetchPost(l.id);
+    const fresh = p && toLot(p, lots.filter((x) => x.id !== l.id));
+    if (!fresh) { console.warn(`! ${l.id}: could not re-parse`); continue; }
+    Object.assign(l, { ...fresh, photos: l.photos.length ? l.photos : fresh.photos, date: l.date || fresh.date });
+    console.log(`~ ${l.id} ${l.name} — ${l.features.join(" / ")}`);
     await sleep(250);
   }
 

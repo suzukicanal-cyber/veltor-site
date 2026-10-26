@@ -1,0 +1,11 @@
+veltormotokorea.ru {
+    reverse_proxy web:80
+}
+
+www.veltormotokorea.ru {
+    redir https://veltormotokorea.ru{uri} permanent
+}
+
+http://213.159.209.117 {
+    redir https://veltormotokorea.ru{uri} permanent
+}

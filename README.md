@@ -16,60 +16,34 @@
 | `data/content.ts` | Отзывы, вопросы, команда, ролики, меню |
 | `lib/site.ts` | Ссылки (Telegram, Instagram, Авито), адрес сайта |
 | `scripts/sync-telegram.mjs` | Забирает новые посты из t.me/koreamotocycles_veltor |
-| `deploy/` | Установка на сервер: `setup.sh`, `update.sh`, nginx, таймер |
+| `deploy/` | Сервер: `update-docker.sh`, `install-cron.sh`, nginx и Caddy для Docker |
 | `public/` | Фото команды, ролики, фото каталога (`public/catalog/<id>/`) |
 
-## Публикация на своём сервере
+## Как это работает
 
-Сайт собирается в обычные HTML-файлы (`out/`), их отдаёт nginx. Node.js на сервере нужен только для сборки и для скрипта каталога — сайт работает без запущенного Node-процесса, быстро и без падений.
-
-**Что нужно:** VPS с Ubuntu 22.04/24.04 или Debian 12, от 1 ГБ памяти (скрипт сам добавит swap), доступ root по SSH, домен с A-записями `@` и `www` на IP сервера.
-
-### Первая установка
-Код лежит в репозитории GitHub, сервер забирает его оттуда сам.
-```bash
-ssh root@IP-сервера
-apt-get install -y git
-git clone https://github.com/suzukicanal-cyber/veltor-site.git
-cd veltor-site && bash deploy/setup.sh veltor-korea.ru you@mail.ru
 ```
-`setup.sh` ставит nginx и Node.js 20, копирует проект в `/opt/veltor`, скачивает фото каталога из Telegram, собирает сайт в `/var/www/veltor`, выпускает HTTPS-сертификат Let's Encrypt и включает обновление каждые 2 часа.
+Telegram-группа ──(каждые 2 ч, GitHub Actions)──► репозиторий veltor-site: data/lots.json + public/catalog/
+                                                         │
+                         сервер 213.159.209.117 ◄──(cron каждые 30 мин: git pull + docker build)
+                         Docker: web (nginx со статикой) + caddy (HTTPS) → https://veltormotokorea.ru
+```
+С российского сервера Telegram недоступен, поэтому посты и фото собирает GitHub Actions
+(`.github/workflows/sync-catalog.yml`, ручной запуск — Actions → «Sync catalog from Telegram» → Run workflow).
 
-### Как устроено на сервере
-| Путь | Что там |
+### Сервер
+| Что | Где |
 | --- | --- |
-| `/opt/veltor` | проект, `data/lots.json`, фото `public/catalog/` |
-| `/var/www/veltor` | готовый сайт, который видят посетители |
-| `/etc/nginx/sites-available/veltor` | настройки nginx (`deploy/nginx.conf`) |
-| `veltor-sync.timer` | запуск `deploy/update.sh` каждые 2 часа |
+| проект | `/opt/veltor` (клон этого репозитория), настройки — `/opt/veltor/.env` |
+| сборка и запуск | `compose.yaml` + `compose.ssl.yaml`, `Dockerfile`, `deploy/docker-nginx.conf`, `deploy/Caddyfile` |
+| автообновление | `/etc/cron.d/veltor` → `deploy/update-docker.sh`, журнал `/var/log/veltor-update.log` |
 
-### Полезные команды
-```bash
-systemctl start veltor-sync                     # обновить каталог и сайт сейчас
-journalctl -u veltor-sync -n 50                 # что было при последних обновлениях
-systemctl list-timers veltor-sync.timer         # когда следующее обновление
-nano /opt/veltor/data/lots.json && systemctl start veltor-sync   # поправить текст варианта
-```
-Если сборка завершилась ошибкой, выкладка не происходит — посетители видят прежнюю версию.
+Включить автообновление (один раз): `bash /opt/veltor/deploy/install-cron.sh`
+Обновить сейчас: `FORCE=1 bash /opt/veltor/deploy/update-docker.sh`
 
-### Обновление кода сайта
-Изменения, отправленные в репозиторий на GitHub, сервер подтягивает сам при каждом обновлении (раз в 2 часа). Чтобы выложить сразу: `systemctl start veltor-sync`.
-Каталог (`data/lots.json`) и фото на сервере при этом не перезаписываются.
+### Правки
+Всё меняется через репозиторий: правки кода, текстов (`data/content.ts`) и вариантов (`data/lots.json`) коммитятся в `main`, сервер подхватывает их в течение 30 минут. Правки прямо на сервере затрутся при следующем обновлении.
 
-## Как обновляется каталог
-
-Каждые 2 часа сервер запускает `deploy/update.sh`:
-- подтягивает новый код из GitHub;
-- `scripts/sync-telegram.mjs` читает новые сообщения группы (тема 8 — мото, тема 7 — авто), остальные темы пропускает;
-- вариантом становится пост, где есть год и цена;
-- название приводится к единому виду (`BMW S1000RR` → `BMW S 1000 RR`), объём двигателя берётся у такой же модели из каталога;
-- фото скачиваются в `public/catalog/<id>/` (ссылки Telegram со временем перестают работать);
-- сайт пересобирается и выкладывается. Если Telegram недоступен, сайт собирается с текущим каталогом.
-
-Тексты уже добавленных вариантов скрипт не трогает — их можно поправить на сервере в `/opt/veltor/data/lots.json` (название, 3 короткие особенности в `features`, описание в `body`) и запустить `systemctl start veltor-sync`.
-Чтобы убрать вариант — удалите его объект из `data/lots.json`.
-
-Конкретные посты вручную: `cd /opt/veltor && sudo -u veltor node scripts/sync-telegram.mjs --ids 7713,7714`.
+Варианты, добавленные скриптом, разбираются заново, когда улучшается разбор постов (`PARSER` в `scripts/sync-telegram.mjs`). Если вы поправили вариант вручную, добавьте ему `"manual": true` — тогда скрипт его не тронет. Первые 50 вариантов (id ≤ 7713) защищены всегда.
 
 ## Локально
 

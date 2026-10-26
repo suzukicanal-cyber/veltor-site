@@ -5,7 +5,7 @@ import { SITE_URL } from "@/lib/site";
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const newest = LOTS[0]?.date || new Date().toISOString();
+  const newest = LOTS[0]?.date;
   return [
     { url: `${SITE_URL}/`, lastModified: newest, changeFrequency: "daily", priority: 1 },
     { url: `${SITE_URL}/catalog/`, lastModified: newest, changeFrequency: "daily", priority: 0.9 },

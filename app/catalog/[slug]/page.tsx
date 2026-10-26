@@ -19,13 +19,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const l = lotBySlug((await params).slug);
   if (!l) return {};
   const what = l.type === "moto" ? "Мотоцикл" : "Автомобиль";
-  const title = `${l.name} ${l.year} из Южной Кореи — ${money(l.price)} под ключ`;
+  const title = `${l.name} ${l.year} из Южной Кореи — цена и характеристики`;
   const description = `${what} ${l.name}, ${l.year} год, пробег ${kmLabel(l.km)}${l.volume ? ", " + l.volume : ""}. Цена ${money(l.price)} ${l.priceLabel} на ${dateRu(l.date)}. Подбор, осмотр и доставка из Кореи — VELTOR.`;
   return {
     title,
     description,
     alternates: { canonical: lotHref(l) },
-    openGraph: { type: "article", url: lotHref(l), title, description, images: l.photos[0] ? [{ url: asset(l.photos[0]) }] : undefined },
+    openGraph: { type: "article", locale: "ru_RU", siteName: "VELTOR", url: lotHref(l), title, description, images: [{ url: asset(l.photos[0] || "feed/f0.jpg") }] },
   };
 }
 
@@ -33,18 +33,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 function sections(body: BodyLine[]) {
   const out: { h: string; items: string[] }[] = [];
   const warn: string[] = [];
+  const about: string[] = [];
   for (const b of body) {
     if (b.k === "warn") warn.push(b.t);
+    else if (b.k === "p") about.push(b.t);
     else if (b.k === "h") out.push({ h: b.t, items: [] });
     else { if (!out.length) out.push({ h: "Комплектация", items: [] }); out[out.length - 1].items.push(b.t); }
   }
-  return { out: out.filter((s) => s.items.length), warn };
+  return { out: out.filter((s) => s.items.length), warn, about };
 }
 
 export default async function LotPage({ params }: Props) {
   const l = lotBySlug((await params).slug);
   if (!l) notFound();
-  const { out, warn } = sections(l.body);
+  const { out, warn, about } = sections(l.body);
   const rows: [string, string][] = [
     ["Год", String(l.year)],
     ["Пробег", kmLabel(l.km)],
@@ -76,7 +78,6 @@ export default async function LotPage({ params }: Props) {
       image: l.photos.slice(0, 4).map((p) => (/^https?:/.test(p) ? p : `${SITE_URL}${asset(p)}`)),
       description: l.features.join(", "),
       url,
-      offers: { "@type": "Offer", price: l.price, priceCurrency: "RUB", url, seller: { "@type": "Organization", name: "VELTOR" } },
     },
   ];
 
@@ -108,12 +109,13 @@ export default async function LotPage({ params }: Props) {
           </div>
         </div>
 
-        {(out.length > 0 || warn.length > 0) && (
+        {(out.length > 0 || warn.length > 0 || about.length > 0) && (
           <div className="lp-body">
             <h2 className="lp-h2">Описание и комплектация</h2>
             {warn.length > 0 && (
               <div className="lp-warn" role="note"><b>Важно знать</b>{warn.map((w) => <p key={w}>{w}</p>)}</div>
             )}
+            {about.length > 0 && <div className="lp-about">{about.map((t) => <p key={t}>{t}</p>)}</div>}
             <div className="lp-secs">
               {out.map((s) => (
                 <div className="lp-sec" key={s.h}>
