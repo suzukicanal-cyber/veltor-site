@@ -28,17 +28,24 @@ export default function Header() {
   useEffect(() => { document.documentElement.classList.toggle("mnav-lock", open); }, [open]);
   useEffect(() => { setOpen(false); }, [path]);
 
-  // sticky CTA on phones: after the first screen, hidden over the contact block; only on the home page
+  // sticky CTA on phones: after the first screen, hidden over the quiz and the contact block
+  // (both have their own Telegram button); only on the home page
   useEffect(() => {
     setBar(false);
     if (!home) return;
     const hero = document.getElementById("top"), contact = document.getElementById("contact");
     if (!hero || !contact) return;
-    let pastHero = false, atEnd = false;
-    const upd = () => setBar(pastHero && !atEnd);
+    const quiz = document.getElementById("podbor");
+    let pastHero = false;
+    const covering = new Set<Element>();
+    const upd = () => setBar(pastHero && covering.size === 0);
     const a = new IntersectionObserver((es) => { pastHero = !es[0].isIntersecting; upd(); }, { threshold: 0 });
-    const b = new IntersectionObserver((es) => { atEnd = es.some((e) => e.isIntersecting); upd(); }, { threshold: 0 });
+    const b = new IntersectionObserver((es) => {
+      es.forEach((e) => (e.isIntersecting ? covering.add(e.target) : covering.delete(e.target)));
+      upd();
+    }, { threshold: 0 });
     a.observe(hero); b.observe(contact);
+    if (quiz) b.observe(quiz);
     return () => { a.disconnect(); b.disconnect(); };
   }, [home]);
 

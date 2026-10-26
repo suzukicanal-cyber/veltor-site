@@ -12,6 +12,8 @@
 | `app/sitemap.ts`, `app/robots.ts` | sitemap.xml и robots.txt для Яндекса и Google |
 | `components/home/*` | Блоки главной: 3D-скан, осмотр, оплата, доставка, услуги, отзывы, контакты |
 | `components/catalog/*` | Карточка, галерея, фильтры |
+| `components/Quiz.tsx`, `app/podbor/` | Квиз «Подбор за минуту»: на главной и отдельной страницей `/podbor/`. Ответы превращаются в готовое сообщение менеджеру в Telegram, сайт ничего не сохраняет. `?src=vk` в адресе дописывается в заявку. Цели Метрики: `quiz_start`, `quiz_finish`, `quiz_send`, `quiz_copy` |
+| `data/articles/*.json`, `app/stati/` | Статьи: один JSON-файл — одна страница `/stati/<slug>/` (формат — `data/articles/README.md`, проверка — `node scripts/check-articles.mjs`). Новые статьи присылает еженедельный контент-агент pull request'ом; `.github/workflows/pr-check.yml` собирает каждый PR до слияния |
 | `data/lots.json` | Каталог (заполняется скриптом, тексты можно править руками) |
 | `data/content.ts` | Отзывы, вопросы, команда, ролики, меню |
 | `lib/site.ts` | Ссылки (Telegram, Instagram, Авито), адрес сайта |

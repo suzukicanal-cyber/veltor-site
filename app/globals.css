@@ -906,3 +906,70 @@ button.lot-cta{border:0;cursor:pointer;font:600 14px/1 var(--f-head)}
 .lot .like{position:static}
 .lot .like-pop{left:0;right:0;width:auto;min-width:0;max-width:none}
 @media (prefers-reduced-motion:reduce){.like-pop{animation:none}}
+
+/* quiz «Подбор за минуту» (components/Quiz.tsx) */
+.qz{position:relative;isolation:isolate;overflow:hidden;display:grid;gap:clamp(22px,3vw,34px);padding:clamp(22px,3.4vw,44px);border:1px solid var(--line);border-radius:8px;background:var(--surface);outline:none}
+.qz::before{content:"";position:absolute;inset:auto -20% 55% 40%;height:420px;z-index:-1;pointer-events:none;background:radial-gradient(closest-side,var(--glow),transparent)}
+.qz-top{display:flex;align-items:center;gap:16px;min-height:32px}
+.qz-count{min-width:64px;font:500 12px/1 var(--f-mono);letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.qz-bar{flex:1;height:2px;border-radius:2px;background:var(--line);overflow:hidden}
+.qz-bar i{display:block;height:100%;background:var(--xenon);box-shadow:0 0 12px var(--xenon-a);transition:width .5s var(--ease)}
+.qz-back{padding:8px 0;border:0;background:none;color:var(--muted);font:500 13px/1 var(--f-mono);letter-spacing:.06em;cursor:pointer;transition:color .2s}
+.qz-back:hover{color:var(--fg)}
+.qz-step{display:grid;gap:18px;min-width:0;animation:qzin .45s var(--ease)}
+.qz-q{font:500 clamp(26px,3vw,40px)/1.1 var(--f-head);letter-spacing:-.02em}
+.qz-note{margin-top:-6px;color:var(--muted);font-size:15px;max-width:60ch}
+.qz-opts{display:flex;flex-wrap:wrap;gap:10px}
+.qz-opt{min-height:56px;padding:12px 22px;border:1px solid var(--line-2);border-radius:4px;background:var(--ink);color:var(--fg);font:500 16px/1.2 var(--f-head);text-align:left;cursor:pointer;transition:border-color .25s,background .25s,color .25s}
+.qz-opt:hover{border-color:var(--fg)}
+.qz-opt[aria-pressed="true"]{background:var(--fg);border-color:var(--fg);color:var(--ink)}
+.qz-row{display:flex;flex-wrap:wrap;gap:10px}
+.qz-input{flex:1 1 280px;min-width:0;height:52px;padding:0 16px;border:1px solid var(--line-2);border-radius:4px;background:var(--ink);color:var(--fg);font:400 16px/1 var(--f-text);transition:border-color .25s}
+.qz-input::placeholder{color:var(--dim)}
+.qz-input:focus{outline:none;border-color:var(--xenon)}
+.qz .btn[disabled]{opacity:.35;cursor:not-allowed}
+.qz-done{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(24px,4vw,56px);align-items:start;animation:qzin .45s var(--ease)}
+.qz-msg{padding:22px;border:1px solid var(--line);border-radius:6px;background:var(--ink)}
+.qz-msg-h{margin-bottom:14px;font:500 12px/1 var(--f-mono);letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.qz-msg pre{margin:0;white-space:pre-wrap;overflow-wrap:anywhere;font:400 15px/1.65 var(--f-mono);color:var(--fg)}
+.qz-edit{margin-top:16px;padding:0 0 6px;border:0;border-bottom:1px solid var(--line-2);background:none;color:var(--muted);font:500 14px/1 var(--f-head);cursor:pointer;transition:color .2s,border-color .2s}
+.qz-edit:hover{color:var(--fg);border-color:var(--fg)}
+.qz-send{display:grid;gap:14px}
+.qz-send .cta-phone,.qz-send .cta-note{margin-top:4px}
+.qz-copy{justify-self:start}
+.qz-page .sec-head{margin-bottom:clamp(28px,4vw,48px)}
+@keyframes qzin{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@media (max-width:760px){
+  .qz-done{grid-template-columns:minmax(0,1fr)}
+  .qz-opt{flex:1 1 calc(50% - 5px)}
+  .qz-row .btn,.qz-copy{flex:1 1 100%;justify-self:stretch}
+}
+@media (prefers-reduced-motion:reduce){.qz-step,.qz-done{animation:none}.qz-bar i{transition:none}}
+
+/* articles /stati/ (lib/articles.ts, data/articles/*.json) */
+.art-head{display:grid;gap:18px;max-width:900px;margin-bottom:clamp(32px,5vw,56px)}
+.art-lead{max-width:62ch;font-size:clamp(17px,1.5vw,20px);color:var(--muted)}
+.art-body{display:grid;gap:18px;max-width:72ch}
+.art-body .lp-h2{margin-top:clamp(18px,3vw,32px)}
+.art-body p,.art-body li{color:var(--muted);font-size:17px;line-height:1.7}
+.art-body strong{color:var(--fg);font-weight:600}
+.art-body a,.art-src a,.faq-a a,.art-lead a{color:var(--fg);text-decoration:none;border-bottom:1px solid var(--line-2);transition:border-color .2s}
+.art-body a:hover,.art-src a:hover,.faq-a a:hover,.art-lead a:hover{border-color:var(--fg)}
+.art-body ul,.art-body ol{margin:0;padding-left:0;list-style:none;display:grid;gap:10px}
+.art-body ul li,.art-body ol li{position:relative;padding-left:30px}
+.art-body ul li::before{content:"";position:absolute;left:6px;top:.72em;width:8px;height:1.5px;background:var(--xenon)}
+.art-body ol{counter-reset:art}
+.art-body ol li{counter-increment:art}
+.art-body ol li::before{content:counter(art,decimal-leading-zero);position:absolute;left:0;top:.28em;font:500 11px/1.4 var(--f-mono);letter-spacing:.08em;color:var(--xenon)}
+.art-note{padding:18px 20px;border:1px solid var(--line);border-left:2px solid var(--xenon);border-radius:4px;background:var(--surface);color:var(--fg)!important}
+.art-src{margin-top:clamp(40px,5vw,64px);display:grid;gap:14px;max-width:72ch}
+.art-src ol{margin:0;padding-left:20px;display:grid;gap:8px;color:var(--dim);font-size:14px}
+.art-more{padding-bottom:clamp(64px,8vw,120px)}
+.art-more .eyebrow{margin-bottom:22px}
+.art-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:16px}
+.art-list a{display:grid;gap:12px;height:100%;padding:clamp(20px,2.4vw,28px);border:1px solid var(--line);border-radius:8px;background:var(--surface);text-decoration:none;transition:border-color .25s,transform .35s var(--ease)}
+.art-list a:hover{border-color:var(--line-2);transform:translateY(-2px)}
+.art-list time{font:500 11px/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+.art-list b{font:500 clamp(20px,1.8vw,24px)/1.2 var(--f-head);letter-spacing:-.01em;text-wrap:balance}
+.art-list span{color:var(--muted);font-size:15px;line-height:1.55;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+@media (prefers-reduced-motion:reduce){.art-list a{transition:border-color .25s}.art-list a:hover{transform:none}}
