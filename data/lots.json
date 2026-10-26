@@ -1,5 +1,44 @@
 [
  {
+  "id": 8120,
+  "slug": "bmw-s-1000-rr-race-package-m-2023-8120",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR Race Package M",
+  "raw": "BMW S1000RR Race Package M",
+  "year": 2023,
+  "km": 2500,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1918000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-26T09:14:10+00:00",
+  "features": [
+   "BMW S1000RR 2023 года в чёрном…",
+   "Установлены защита Battle Guard,…"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "BMW S1000RR 2023 года в чёрном цвете, комплектация Race Package с опциями M Parts. Без ДТП"
+   },
+   {
+    "k": "li",
+    "t": "Установлены защита Battle Guard, рычаги M и кованые диски M Racing. Минимальный пробег — практически новый мотоцикл"
+   }
+  ],
+  "photos": [
+   "catalog/8120/1.jpg",
+   "catalog/8120/2.jpg",
+   "catalog/8120/3.jpg",
+   "catalog/8120/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8120"
+ },
+ {
   "id": 8116,
   "slug": "bmw-s-1000-rr-m-package-2024-8116",
   "type": "moto",
