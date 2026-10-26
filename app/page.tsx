@@ -9,6 +9,7 @@ import Services from "@/components/home/Services";
 import Stock from "@/components/home/Stock";
 import Social from "@/components/home/Social";
 import Faq from "@/components/home/Faq";
+import Quiz from "@/components/Quiz";
 import Contact from "@/components/home/Contact";
 import JsonLd from "@/components/JsonLd";
 import { FAQ, PROCESS } from "@/data/content";
@@ -32,6 +33,7 @@ export default function Home() {
       <Route />
       <Services />
       <Stock />
+      <Quiz />
       <Social />
       <Faq />
       <Contact />

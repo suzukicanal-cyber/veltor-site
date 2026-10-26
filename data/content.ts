@@ -206,6 +206,8 @@ export const FEED = [
 /** Main menu: anchors of the home page. */
 export const NAV = [
   { href: "/catalog/", label: "Каталог", top: true },
+  { href: "/podbor/", label: "Подбор за минуту", top: false },
+  { href: "/stati/", label: "Статьи", top: false },
   { href: "/#cats", label: "Направления", top: true },
   { href: "/#process", label: "Процесс", top: true },
   { href: "/#inspect", label: "Осмотр", top: false },
