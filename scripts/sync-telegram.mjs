@@ -11,6 +11,7 @@
  * Usage:
  *   node scripts/sync-telegram.mjs                  # look for new posts after the newest known id
  *   node scripts/sync-telegram.mjs --from 7300      # rescan from a given id
+ *   node scripts/sync-telegram.mjs --from 6580 --since 2026-10-01   # backfill a month
  *   node scripts/sync-telegram.mjs --ids 7713,7674  # only these posts
  *   node scripts/sync-telegram.mjs --fixtures dir   # parse saved <id>.html files (offline test), writes nothing
  *   --dry                                           # do not write lots.json / photos
@@ -305,13 +306,18 @@ async function main() {
 
   // 2) new posts
   const ids = opt("--ids") ? opt("--ids").split(",").map(Number) : null;
-  const start = +(opt("--from") || Math.max(0, ...lots.map((l) => l.id)) + 1);
+  const maxKnown = Math.max(0, ...lots.map((l) => l.id));
+  const start = +(opt("--from") || maxKnown + 1);
+  // --since 2026-10-01: skip posts published earlier (Moscow time)
+  const since = opt("--since") ? new Date(opt("--since") + "T00:00:00+03:00").getTime() : 0;
   let misses = 0;
-  const queue = ids || Array.from({ length: MAX_SCAN }, (_, i) => start + i);
+  const queue = ids || Array.from({ length: Math.max(0, maxKnown - start + 1) + MAX_SCAN }, (_, i) => start + i);
   for (const id of queue) {
     if (byId.has(id)) continue;
     const p = await fetchPost(id);
-    if (!p) { if (!ids && ++misses >= MAX_MISSES) break; continue; }
+    // gaps of deleted messages are normal inside the known range; stop only after the newest known post
+    if (!p) { if (!ids && id > maxKnown && ++misses >= MAX_MISSES) break; continue; }
+    if (since && p.date && new Date(p.date).getTime() < since) continue;
     misses = 0;
     const lot = toLot(p, lots);
     if (!lot) continue;
