@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import JsonLd from "@/components/JsonLd";
 import LotGallery from "@/components/catalog/LotGallery";
 import LotCard from "@/components/catalog/LotCard";
+import LikeButton from "@/components/catalog/LikeButton";
 import { BodyLine, LOTS, likeLink, lotBySlug, lotHref, similar, typeLabel, yawFor } from "@/lib/lots";
 import { dateLong, dateRu, kmLabel, money } from "@/lib/format";
 import { SITE_URL, asset } from "@/lib/site";
@@ -104,7 +105,7 @@ export default async function LotPage({ params }: Props) {
               <span>{l.priceLabel} · актуально на <em>{dateRu(l.date)}</em></span>
             </div>
             <div className="lp-cta">
-              <a className="btn btn-primary" data-magnetic="" href={likeLink(l)} target="_blank" rel="noopener">Подобрать похожий</a>
+              <LikeButton className="btn btn-primary" tgHref={likeLink(l)} />
               <a className="btn btn-ghost" href={l.post} target="_blank" rel="noopener">Пост в Telegram ↗</a>
             </div>
             <p className="lp-note">Вариант опубликован в нашем Telegram-канале {dateLong(l.date)}. Конкретный экземпляр мог уже уйти к новому владельцу — мы найдём аналогичный, осмотрим его в Корее и привезём под ключ. Цена меняется вместе с курсом валют.</p>

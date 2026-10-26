@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Lot, likeLink, lotHref, specs, typeLabel } from "@/lib/lots";
 import { dateRu, money } from "@/lib/format";
 import LotMedia from "./LotMedia";
+import LikeButton from "./LikeButton";
 
 /** Catalog card. data-* attributes are what the client-side filters read. */
 export default function LotCard({ lot, yaw, eager }: { lot: Lot; yaw: number; eager?: boolean }) {
@@ -15,7 +16,7 @@ export default function LotCard({ lot, yaw, eager }: { lot: Lot; yaw: number; ea
         {lot.features.length > 0 && <ul className="lot-chips">{lot.features.slice(0, 3).map((f) => <li key={f}>{f}</li>)}</ul>}
         <div className="lot-price"><b>{money(lot.price)}</b><span className="lot-pl">Актуально на <em>{dateRu(lot.date)}</em></span></div>
         <div className="lot-foot">
-          <a className="lot-cta" href={likeLink(lot)} target="_blank" rel="noopener">Подобрать похожий</a>
+          <LikeButton className="lot-cta" tgHref={likeLink(lot)} />
           <a className="lot-tg" href={lot.post} target="_blank" rel="noopener">Пост ↗</a>
         </div>
       </div>
