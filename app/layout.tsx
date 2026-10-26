@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Effects from "@/components/Effects";
 import JsonLd from "@/components/JsonLd";
-import { LINKS, SITE_DESCRIPTION, SITE_NAME, SITE_TITLE, SITE_URL, asset } from "@/lib/site";
+import { LINKS, PHONE_HREF, SITE_DESCRIPTION, SITE_NAME, SITE_TITLE, SITE_URL, asset } from "@/lib/site";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -32,7 +32,8 @@ const ORG = {
   url: SITE_URL,
   description: "Подбор, осмотр, выкуп и доставка мотоциклов и автомобилей из Южной Кореи под ключ",
   sameAs: [LINKS.channel, LINKS.instagram, LINKS.avito],
-  contactPoint: { "@type": "ContactPoint", contactType: "customer service", url: LINKS.manager, availableLanguage: "ru" },
+  telephone: PHONE_HREF.replace("tel:", ""),
+  contactPoint: { "@type": "ContactPoint", contactType: "customer service", telephone: PHONE_HREF.replace("tel:", ""), url: LINKS.manager, availableLanguage: "ru" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

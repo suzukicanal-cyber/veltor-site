@@ -1,7 +1,7 @@
 "use client";
 import { useRef } from "react";
-import { LINKS } from "@/lib/site";
-import { AvitoIcon, IgIcon, TgIcon } from "../icons";
+import { LINKS, PHONE, PHONE_HREF } from "@/lib/site";
+import { AvitoIcon, IgIcon, PhoneIcon, TgIcon } from "../icons";
 import Qr from "../Qr";
 
 /** Business card with links; tilts toward the cursor. */
@@ -18,6 +18,7 @@ export default function Visitka() {
         <div className="rs4-card" ref={card}>
           <div className="rs4-top"><span className="rs4-logo">VELTOR</span><span className="rs4-sub">Мото и авто из Южной Кореи</span></div>
           <ul>
+            <li><a className="rs4-a rs-ph" href={PHONE_HREF}><span className="rs-ic"><PhoneIcon /></span><b>{PHONE}</b></a></li>
             <li><a className="rs4-a rs-tg" href={LINKS.channel} target="_blank" rel="noopener"><span className="rs-ic"><TgIcon /></span><b>Telegram</b></a></li>
             <li><a className="rs4-a rs-ig" href={LINKS.instagram} target="_blank" rel="noopener"><span className="rs-ic"><IgIcon /></span><b>Instagram</b></a></li>
             <li><a className="rs4-a rs-av" href={LINKS.avito} target="_blank" rel="noopener"><span className="rs-ic"><AvitoIcon /></span><b>Авито</b></a></li>

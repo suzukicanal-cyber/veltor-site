@@ -873,3 +873,18 @@ a.lot-media{display:block;color:inherit}
 .fseo a{color:var(--dim);text-decoration:none}
 .fseo a:hover{color:var(--fg)}
 .fseo + .fbot{margin-top:22px}
+
+/* ---------- phone ---------- */
+.nav-phone{display:none;font:500 14px/1 var(--f-mono);letter-spacing:.02em;color:var(--fg);text-decoration:none;white-space:nowrap;padding:0 6px}
+.nav-phone:hover{color:var(--xenon)}
+@media (min-width:1340px){.nav-phone{display:inline-block}}
+@media (max-width:1199px) and (min-width:601px){.nav-phone{display:inline-block}}
+.mnav-phone{margin-top:10px}
+.cta-phone{display:flex;align-items:baseline;gap:12px;margin-top:18px;color:var(--fg);text-decoration:none;flex-wrap:wrap}
+.cta-phone span{font:500 11px/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+.cta-phone b{font:300 clamp(22px,2.2vw,28px)/1 var(--f-wide);letter-spacing:-.01em;transition:color .25s}
+.cta-phone:hover b{color:var(--xenon)}
+.rs4 .rs-ph .rs-ic{background:#34C759;border-color:#34C759;color:#fff}
+.rs4 .rs-ph b{font-family:var(--f-mono);font-weight:500;letter-spacing:.02em}
+.fphone{color:var(--muted);text-decoration:none;font-family:var(--f-mono)}
+.fphone:hover{color:var(--fg)}

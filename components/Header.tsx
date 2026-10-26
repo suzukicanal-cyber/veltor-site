@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { NAV } from "@/data/content";
-import { LINKS, TG_DEFAULT } from "@/lib/site";
+import { LINKS, PHONE, PHONE_HREF, TG_DEFAULT } from "@/lib/site";
 import { TgIcon } from "./icons";
 
 /** Top bar, burger menu (below 1200px) and the sticky Telegram bar on phones. */
@@ -54,6 +54,7 @@ export default function Header() {
             ))}
           </ul>
           <div className="nav-act">
+            <a className="nav-phone" href={PHONE_HREF}>{PHONE}</a>
             <Link className="btn btn-primary btn-s nav-cat-btn" href="/catalog/">Каталог</Link>
             <a className="btn btn-ghost btn-s nav-tg" data-magnetic="" href={LINKS.manager} target="_blank" rel="noopener">Написать в Telegram</a>
             <button className="burger" type="button" id="burger" aria-label={open ? "Закрыть меню" : "Открыть меню"} aria-expanded={open} aria-controls="mnav" onClick={() => setOpen(!open)}><i></i><i></i></button>
@@ -70,6 +71,7 @@ export default function Header() {
           </ol>
           <div className="mnav-foot">
             <a className="btn btn-primary mnav-cta" href={TG_DEFAULT} target="_blank" rel="noopener">Написать в Telegram</a>
+            <a className="btn btn-ghost mnav-cta mnav-phone" href={PHONE_HREF}>Позвонить {PHONE}</a>
             <div className="mnav-soc">
               <a href={LINKS.channel} target="_blank" rel="noopener">Telegram</a>
               <a href={LINKS.instagram} target="_blank" rel="noopener">Instagram</a>

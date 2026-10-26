@@ -8,6 +8,10 @@ export const SITE_TITLE = "Мотоциклы и авто из Южной Кор
 export const SITE_DESCRIPTION =
   "Мотоциклы и автомобили из Южной Кореи под ключ: подбор, живой осмотр, выкуп, доставка в среднем 45 дней, оформление СБКТС и ЭПТС.";
 
+/** Phone for calls (shown in the header, menu, contacts, business card, footer). */
+export const PHONE = "+7 961 174-94-59";
+export const PHONE_HREF = "tel:+79611749459";
+
 export const LINKS = {
   manager: "https://t.me/veltor_kor",
   channel: "https://t.me/koreamotocycles_veltor",
