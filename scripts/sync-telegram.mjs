@@ -28,7 +28,7 @@ const PHOTO_DIR = path.join(ROOT, "public", "catalog");
 const MAX_MISSES = 80; // stop after this many ids in a row that do not exist
 const MAX_SCAN = 600;
 // Bump when the parser improves: lots made by an older parser are parsed again (hand-curated lots have no "parser" field).
-const PARSER = 2;
+const PARSER = 3;
 const CURATED_MAX_ID = 7713;
 
 const args = process.argv.slice(2);
@@ -81,7 +81,7 @@ function splitRunOn(lines) {
   const out = [];
   for (const l of lines) {
     let parts = l.t.split(FIELD_RX);
-    if (parts.length === 1 && l.t.length > 200 && (l.t.match(/[.,;]/g) || []).length < 3) parts = l.t.split(/\s+(?=[А-ЯЁ])/);
+    if (parts.length === 1 && l.t.length > 200 && (l.t.replace(/\([^)]*\)/g, "").match(/[.,;]/g) || []).length < 3) parts = l.t.split(/\s+(?=[А-ЯЁ])(?![^(]*\))/);
     parts.map((t) => t.trim()).filter(Boolean).forEach((t, i) => out.push({ ...l, t, bold: parts.length > 1 ? false : l.bold, warn: l.warn && (i === 0 || parts.length === 1) }));
   }
   return out;
@@ -138,7 +138,7 @@ function pickFeatures(body, brand) {
   const clauses = [];
   for (const b of body) {
     if (b.k !== "li" && b.k !== "p") continue;
-    for (const sent of b.t.split(/(?<=[.!?])\s+/)) {
+    for (const sent of b.t.replace(/\s*\([^)]*\)/g, "").split(/(?<=[.!?])\s+/)) {
       for (let c of sent.split(/,\s+|;\s+|\.\s+/)) {
         c = c.replace(/\s*\([^)]*\)/g, "").replace(/[.!…]+$/, "").replace(/^(и|а также)\s+/i, "").trim();
         if (c.length >= 4) clauses.push(cap(c));
