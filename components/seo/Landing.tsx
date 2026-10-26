@@ -12,7 +12,7 @@ type Props = {
   crumbs: Crumb[];
   eyebrow: string;
   h1: string;
-  lead: string;
+  lead?: string;
   text: string[];
   chipsTitle?: string;
   chips?: Chip[];
@@ -66,7 +66,7 @@ export default function Landing({ crumbs, eyebrow, h1, lead, text, chipsTitle, c
 
         <div className="cat-head">
           <div><p className="eyebrow">{eyebrow}</p><h1 className="cat-h1 seo-h1">{h1}</h1></div>
-          <p className="lead">{lead}</p>
+          {lead && <p className="lead">{lead}</p>}
         </div>
 
         {chips && chips.length > 0 && (
