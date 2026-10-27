@@ -39,13 +39,20 @@ jobs:
           if [ -n "${{ github.event.inputs.from }}" ]; then ARGS="$ARGS --from ${{ github.event.inputs.from }}"; fi
           if [ -n "${{ github.event.inputs.since }}" ]; then ARGS="$ARGS --since ${{ github.event.inputs.since }}"; fi
           node scripts/sync-telegram.mjs $ARGS
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Neural x2 upscale of new photos (Real-ESRGAN, soft)
+        run: |
+          pip install --quiet numpy pillow
+          python3 scripts/upscale.py --budget 2700
       - name: Commit catalog
         run: |
           if [ -n "$(git status --porcelain data public/catalog)" ]; then
             git config user.name "veltor-bot"
             git config user.email "veltor-bot@users.noreply.github.com"
             git add data public/catalog
-            git commit -m "Каталог: новые подборы из Telegram"
+            git commit -m "Каталог: новые подборы и обработанные фото"
             git pull --rebase -q origin main && git push
           else
             echo "Новых постов нет"

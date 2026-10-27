@@ -9,7 +9,7 @@ export default function LotCard({ lot, yaw, eager }: { lot: Lot; yaw: number; ea
   const href = lotHref(lot);
   return (
     <article className="lot" data-light="">
-      <LotMedia photos={lot.photos} name={lot.name} shape={lot.type} yaw={yaw} href={href} kind={typeLabel(lot.type)} eager={eager} />
+      <LotMedia hd={lot.hd} photos={lot.photos} name={lot.name} shape={lot.type} yaw={yaw} href={href} kind={typeLabel(lot.type)} eager={eager} />
       <div className="lot-body">
         <h3 className="lot-t"><Link href={href}>{lot.name}</Link></h3>
         <ul className="lot-specs">{specs(lot).map((s) => <li key={s.k}><b>{s.v}</b><span>{s.k}</span></li>)}</ul>

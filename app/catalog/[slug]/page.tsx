@@ -5,7 +5,7 @@ import JsonLd from "@/components/JsonLd";
 import LotGallery from "@/components/catalog/LotGallery";
 import LotCard from "@/components/catalog/LotCard";
 import LikeButton from "@/components/catalog/LikeButton";
-import { BodyLine, LOTS, likeLink, lotBySlug, lotHref, similar, typeLabel, yawFor } from "@/lib/lots";
+import { BodyLine, LOTS, hdSrc, likeLink, lotBySlug, lotHref, similar, typeLabel, yawFor } from "@/lib/lots";
 import { dateLong, dateRu, kmLabel, money } from "@/lib/format";
 import { SITE_URL, asset } from "@/lib/site";
 import { lotLanding } from "@/lib/seo";
@@ -77,7 +77,7 @@ export default async function LotPage({ params }: Props) {
       brand: { "@type": "Brand", name: l.brand },
       model: l.model,
       category: l.type === "moto" ? "Мотоциклы" : "Автомобили",
-      image: l.photos.slice(0, 4).map((p) => (/^https?:/.test(p) ? p : `${SITE_URL}${asset(p)}`)),
+      image: l.photos.slice(0, 4).map((p) => (/^https?:/.test(p) ? p : `${SITE_URL}${asset(l.hd ? hdSrc(p) : p)}`)),
       description: l.features.join(", "),
       url,
     },
@@ -92,7 +92,7 @@ export default async function LotPage({ params }: Props) {
         </nav>
 
         <div className="lp-top">
-          <LotGallery photos={l.photos} name={l.name} shape={l.type} />
+          <LotGallery photos={l.photos} name={l.name} shape={l.type} hd={l.hd} />
           <div className="lp-info">
             <span className="lp-kind">{typeLabel(l.type)} · {l.year}</span>
             <h1 className="lp-h1">{l.name}</h1>

@@ -3,14 +3,18 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { drawMini } from "@/lib/cloud";
 import { asset } from "@/lib/site";
+import { hdSrc } from "@/lib/lots";
 
-type Props = { photos: string[]; name: string; shape: "moto" | "car"; yaw: number; href: string; kind: string; eager?: boolean };
+/** Card width: a quarter of the screen on desktop, almost full width on phones — the browser picks 800 or 1600 px. */
+const SIZES = "(max-width: 600px) 92vw, (max-width: 1100px) 46vw, 25vw";
+
+type Props = { hd?: boolean; photos: string[]; name: string; shape: "moto" | "car"; yaw: number; href: string; kind: string; eager?: boolean };
 
 /**
  * Card photo: move the cursor (or finger) across it to scrub through the photos.
  * Until a photo loads — or if it can't — a point-cloud preview of the shape is shown and turns instead.
  */
-export default function LotMedia({ photos, name, shape, yaw: baseYaw, href, kind, eager }: Props) {
+export default function LotMedia({ hd, photos, name, shape, yaw: baseYaw, href, kind, eager }: Props) {
   const n = photos.length;
   const cnvRef = useRef<HTMLCanvasElement>(null);
   const firstRef = useRef<HTMLImageElement>(null);
@@ -63,12 +67,12 @@ export default function LotMedia({ photos, name, shape, yaw: baseYaw, href, kind
       {n > 0 && photo !== false && (
         <div className="lot-gal">
           <img
-            ref={firstRef} src={asset(photos[0])} alt={`${name} из Южной Кореи — фото 1 из ${n}`}
+            ref={firstRef} src={asset(photos[0])} srcSet={hd ? `${asset(photos[0])} 800w, ${asset(hdSrc(photos[0]))} 1600w` : undefined} sizes={hd ? SIZES : undefined} alt={`${name} из Южной Кореи — фото 1 из ${n}`}
             loading={eager ? "eager" : "lazy"} decoding="async" className={cur === 0 ? "on" : undefined}
             onLoad={() => setPhoto(true)} onError={() => setPhoto(false)}
           />
           {all && photos.slice(1).map((u, i) => (
-            <img key={u} src={asset(u)} alt={`${name} — фото ${i + 2} из ${n}`} decoding="async" className={cur === i + 1 ? "on" : undefined} />
+            <img key={u} src={asset(u)} srcSet={hd ? `${asset(u)} 800w, ${asset(hdSrc(u))} 1600w` : undefined} sizes={hd ? SIZES : undefined} alt={`${name} — фото ${i + 2} из ${n}`} decoding="async" className={cur === i + 1 ? "on" : undefined} />
           ))}
         </div>
       )}

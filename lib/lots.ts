@@ -24,7 +24,12 @@ export type Lot = {
   body: BodyLine[];
   photos: string[];
   post: string;
+  /** photos have neural ×2 copies "<n>@2x.jpg" (scripts/upscale.py) */
+  hd?: boolean;
 };
+
+/** Sharper ×2 copy of a local catalog photo. */
+export const hdSrc = (p: string) => p.replace(/\.jpg$/, "@2x.jpg");
 
 /** All lots, newest first (the order of publication in the Telegram channel). */
 export const LOTS: Lot[] = (raw as Lot[]).slice().sort((a, b) => b.date.localeCompare(a.date) || b.id - a.id);
