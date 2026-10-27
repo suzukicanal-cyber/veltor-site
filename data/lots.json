@@ -1,5 +1,271 @@
 [
  {
+  "id": 8225,
+  "slug": "bmw-x6-xdrive40i-m-sport-g06-2025-8225",
+  "type": "car",
+  "brand": "BMW",
+  "model": "X6",
+  "name": "BMW X6 xDrive40i M Sport (G06)",
+  "raw": "BMW X6 xDrive40i M Sport (G06)",
+  "year": 2025,
+  "km": 20120,
+  "volume": null,
+  "power": null,
+  "drive": "полный",
+  "gearbox": "автомат",
+  "price": 7890000,
+  "priceLabel": "под ключ в Москве",
+  "date": "2026-10-27T12:42:41+00:00",
+  "features": [
+   "Двигатель: 3.0 бензин",
+   "LED фары",
+   "Электропривод багажника"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Двигатель: 3.0 бензин, 381 л.с"
+   },
+   {
+    "k": "li",
+    "t": "Люк"
+   },
+   {
+    "k": "li",
+    "t": "LED фары"
+   },
+   {
+    "k": "li",
+    "t": "Электропривод багажника"
+   },
+   {
+    "k": "li",
+    "t": "Доводчики дверей"
+   },
+   {
+    "k": "li",
+    "t": "Электроскладывание зеркал"
+   },
+   {
+    "k": "li",
+    "t": "Легкосплавные диски"
+   },
+   {
+    "k": "li",
+    "t": "Рейлинги на крыше"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев руля"
+   },
+   {
+    "k": "li",
+    "t": "Электрорегулировка руля"
+   },
+   {
+    "k": "li",
+    "t": "Подрулевые лепестки"
+   },
+   {
+    "k": "li",
+    "t": "Кнопки управления на руле"
+   },
+   {
+    "k": "li",
+    "t": "Автозатемнение салонного зеркала"
+   },
+   {
+    "k": "li",
+    "t": "Центральный замок"
+   },
+   {
+    "k": "li",
+    "t": "Усилитель руля"
+   },
+   {
+    "k": "li",
+    "t": "Электростеклоподъёмники"
+   },
+   {
+    "k": "li",
+    "t": "Подушки безопасности (водитель, пассажир)"
+   },
+   {
+    "k": "li",
+    "t": "Боковые подушки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "Шторки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "ABS"
+   },
+   {
+    "k": "li",
+    "t": "Антипробуксовочная система (TCS)"
+   },
+   {
+    "k": "li",
+    "t": "Система курсовой устойчивости (ESC)"
+   },
+   {
+    "k": "li",
+    "t": "Датчики давления в шинах (TPMS)"
+   },
+   {
+    "k": "li",
+    "t": "Система контроля полосы (LDWS)"
+   },
+   {
+    "k": "li",
+    "t": "Адаптивная подвеска"
+   },
+   {
+    "k": "li",
+    "t": "Парктроники (передние, задние)"
+   },
+   {
+    "k": "li",
+    "t": "Контроль слепых зон"
+   },
+   {
+    "k": "li",
+    "t": "Камера заднего вида"
+   },
+   {
+    "k": "li",
+    "t": "Камеры кругового обзора 360°"
+   },
+   {
+    "k": "li",
+    "t": "Адаптивный круиз-контроль"
+   },
+   {
+    "k": "li",
+    "t": "Проекционный дисплей (HUD)"
+   },
+   {
+    "k": "li",
+    "t": "Электронный стояночный тормоз"
+   },
+   {
+    "k": "li",
+    "t": "Климат-контроль"
+   },
+   {
+    "k": "li",
+    "t": "Smart key"
+   },
+   {
+    "k": "li",
+    "t": "Дистанционное управление замками"
+   },
+   {
+    "k": "li",
+    "t": "Датчик дождя"
+   },
+   {
+    "k": "li",
+    "t": "Датчик света"
+   },
+   {
+    "k": "li",
+    "t": "Шторки (задние двери)"
+   },
+   {
+    "k": "li",
+    "t": "Навигация"
+   },
+   {
+    "k": "li",
+    "t": "Мультимедийный монитор"
+   },
+   {
+    "k": "li",
+    "t": "Bluetooth"
+   },
+   {
+    "k": "li",
+    "t": "USB"
+   },
+   {
+    "k": "li",
+    "t": "Кожаный салон"
+   },
+   {
+    "k": "li",
+    "t": "Электрорегулировка сидений (водитель, пассажир)"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев сидений (передние, задние)"
+   },
+   {
+    "k": "li",
+    "t": "Память сиденья водителя"
+   },
+   {
+    "k": "li",
+    "t": "Вентиляция сидений (водитель, пассажир)"
+   }
+  ],
+  "photos": [
+   "catalog/8225/1.jpg",
+   "catalog/8225/2.jpg",
+   "catalog/8225/3.jpg",
+   "catalog/8225/4.jpg",
+   "catalog/8225/5.jpg",
+   "catalog/8225/6.jpg",
+   "catalog/8225/7.jpg",
+   "catalog/8225/8.jpg",
+   "catalog/8225/9.jpg",
+   "catalog/8225/10.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/7/8225",
+  "parser": 3,
+  "hd": true
+ },
+ {
+  "id": 8221,
+  "slug": "bmw-s-1000-rr-2025-8221",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR",
+  "raw": "BMW S1000RR",
+  "year": 2025,
+  "km": 4510,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2134000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-27T11:05:31+00:00",
+  "features": [
+   "Тюнинг: слип-он Akrapovic",
+   "Зеркала Rizoma Stealth",
+   "Рычаги M"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "BMW S1000RR 2025 года, на гарантии до апреля 2028 года. Тюнинг: слип-он Akrapovic, зеркала Rizoma Stealth, рычаги M, подножки M, защита тормозного рычага M, крючки под подкат M, сиденье M, декали Dabrabbit, кованые диски в белом цвете, крышка маслозаливной горловины Lightech, карбоновые (аквапринт) защита цепи и накладка маятника, защитные крышки двигателя и сцепления GB Racing, карбоновые накладки рамы RCM, HealTech (заслонка выхлопа постоянно открыта), чехлы бачков Bonamici, USB-зарядка Comine, крепление для телефона SP Moto Stem Mount Pro, тонированное высокое ветровое стекло. Обслуживание: замена моторного масла с фильтром на 4’490 km. Оригинальные детали сохранены"
+   }
+  ],
+  "photos": [
+   "catalog/8221/1.jpg",
+   "catalog/8221/2.jpg",
+   "catalog/8221/3.jpg",
+   "catalog/8221/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8221",
+  "parser": 3,
+  "hd": true
+ },
+ {
   "id": 8217,
   "slug": "bmw-s-1000-rr-2025-8217",
   "type": "moto",
@@ -3564,7 +3830,8 @@
    "catalog/7992/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7992",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7980,
@@ -3601,7 +3868,8 @@
    "catalog/7980/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7980",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7976,
@@ -3638,7 +3906,8 @@
    "catalog/7976/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7976",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7972,
@@ -3691,7 +3960,8 @@
    "catalog/7972/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7972",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7968,
@@ -3768,7 +4038,8 @@
    "catalog/7968/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7968",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7964,
@@ -3821,7 +4092,8 @@
    "catalog/7964/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7964",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7960,
@@ -3862,7 +4134,8 @@
    "catalog/7960/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7960",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7956,
@@ -3899,7 +4172,8 @@
    "catalog/7956/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7956",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7952,
@@ -3940,7 +4214,8 @@
    "catalog/7952/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7952",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7948,
@@ -4049,7 +4324,8 @@
    "catalog/7948/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7948",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7944,
@@ -4086,7 +4362,8 @@
    "catalog/7944/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7944",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7940,
@@ -4123,7 +4400,8 @@
    "catalog/7940/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7940",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7936,
@@ -4160,7 +4438,8 @@
    "catalog/7936/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7936",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7932,
@@ -4197,7 +4476,8 @@
    "catalog/7932/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7932",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7928,
@@ -4234,7 +4514,8 @@
    "catalog/7928/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7928",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7924,
@@ -4278,7 +4559,8 @@
    "catalog/7924/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7924",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7920,
@@ -4322,7 +4604,8 @@
    "catalog/7920/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7920",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7916,
@@ -4379,7 +4662,8 @@
    "catalog/7916/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7916",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7912,
@@ -4491,7 +4775,8 @@
    "catalog/7912/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7912",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7900,
@@ -4678,7 +4963,8 @@
    "catalog/7900/10.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/7/7900",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7896,
@@ -4715,7 +5001,8 @@
    "catalog/7896/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7896",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7892,
@@ -4752,7 +5039,8 @@
    "catalog/7892/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7892",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7886,
@@ -4813,7 +5101,8 @@
    "catalog/7886/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7886",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7882,
@@ -4910,7 +5199,8 @@
    "catalog/7882/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7882",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7878,
@@ -4983,7 +5273,8 @@
    "catalog/7878/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7878",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7872,
@@ -5020,7 +5311,8 @@
    "catalog/7872/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7872",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7868,
