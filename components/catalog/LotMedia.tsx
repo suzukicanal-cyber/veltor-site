@@ -5,9 +5,6 @@ import { drawMini } from "@/lib/cloud";
 import { asset } from "@/lib/site";
 import { hdSrc } from "@/lib/lots";
 
-/** Card width: a quarter of the screen on desktop, almost full width on phones — the browser picks 800 or 1600 px. */
-const SIZES = "(max-width: 600px) 92vw, (max-width: 1100px) 46vw, 25vw";
-
 type Props = { hd?: boolean; photos: string[]; name: string; shape: "moto" | "car"; yaw: number; href: string; kind: string; eager?: boolean };
 
 /**
@@ -67,12 +64,12 @@ export default function LotMedia({ hd, photos, name, shape, yaw: baseYaw, href, 
       {n > 0 && photo !== false && (
         <div className="lot-gal">
           <img
-            ref={firstRef} src={asset(photos[0])} srcSet={hd ? `${asset(photos[0])} 800w, ${asset(hdSrc(photos[0]))} 1600w` : undefined} sizes={hd ? SIZES : undefined} alt={`${name} из Южной Кореи — фото 1 из ${n}`}
+            ref={firstRef} src={asset(hd ? hdSrc(photos[0]) : photos[0])} alt={`${name} из Южной Кореи — фото 1 из ${n}`}
             loading={eager ? "eager" : "lazy"} decoding="async" className={cur === 0 ? "on" : undefined}
             onLoad={() => setPhoto(true)} onError={() => setPhoto(false)}
           />
           {all && photos.slice(1).map((u, i) => (
-            <img key={u} src={asset(u)} srcSet={hd ? `${asset(u)} 800w, ${asset(hdSrc(u))} 1600w` : undefined} sizes={hd ? SIZES : undefined} alt={`${name} — фото ${i + 2} из ${n}`} decoding="async" className={cur === i + 1 ? "on" : undefined} />
+            <img key={u} src={asset(hd ? hdSrc(u) : u)} alt={`${name} — фото ${i + 2} из ${n}`} decoding="async" className={cur === i + 1 ? "on" : undefined} />
           ))}
         </div>
       )}
