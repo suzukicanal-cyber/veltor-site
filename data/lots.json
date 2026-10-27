@@ -1,5 +1,117 @@
 [
  {
+  "id": 8244,
+  "slug": "bmw-f-900-r-2021-8244",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "F 900 R",
+  "name": "BMW F 900 R",
+  "raw": "BMW F900R",
+  "year": 2021,
+  "km": 6526,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 873000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-27T13:21:29+00:00",
+  "features": [
+   "Без ДТП",
+   "В целом в стоке и в отличном состоянии",
+   "Тюнинг: защитные дуги двигателя"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "BMW F900R 2021 года, без ДТП, в целом в стоке и в отличном состоянии. Синие акценты и агрессивная передняя часть подчёркивают спортивный характер модели. Тюнинг: защитные дуги двигателя, ветровое стекло, держатель для телефона. Обслуживание: пройдена полная проверка, расходники с большим запасом, двигатель работает без посторонних шумов, байк ровно держит дорогу и полностью готов к езде"
+   }
+  ],
+  "photos": [
+   "catalog/8244/1.jpg",
+   "catalog/8244/2.jpg",
+   "catalog/8244/3.jpg",
+   "catalog/8244/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8244",
+  "parser": 3,
+  "hd": true
+ },
+ {
+  "id": 8239,
+  "slug": "bmw-s-1000-rr-race-package-2025-8239",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR Race Package",
+  "raw": "BMW S1000RR Race Package",
+  "year": 2025,
+  "km": 14000,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2324000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-27T13:18:29+00:00",
+  "features": [
+   "Подножки Lightech R",
+   "Магниевые складные рычаги Lightech",
+   "Натяжители цепи Lightech"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "BMW S1000RR 2025 года в комплектации Race Package, без ДТП,Тюнинг: выхлоп Termignoni Titan Black GP, подножки Lightech R (красные), магниевые складные рычаги Lightech, фрезерованные алюминиевые крышки Lightech, натяжители цепи Lightech, слайдеры рамы и колёс Lightech, крючки под подкат Lightech, обрезка хвоста Lightech, карбон Fullsix: аэро-накладки на колёса, переднее крыло,накладки рамы, защита цепи, заднее крыло, накладки маятника. Также наколенные грип-пады, видеорегистратор, крепление-шар под телефон, тонированное ветровое стекло WRS. Обслуживание: перед продажей прошёл полную техническую проверку"
+   }
+  ],
+  "photos": [
+   "catalog/8239/1.jpg",
+   "catalog/8239/2.jpg",
+   "catalog/8239/3.jpg",
+   "catalog/8239/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8239",
+  "parser": 3,
+  "hd": true
+ },
+ {
+  "id": 8235,
+  "slug": "bmw-s-1000-rr-2023-8235",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR",
+  "raw": "BMW S1000RR",
+  "year": 2023,
+  "km": 15000,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1642000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-27T13:15:13+00:00",
+  "features": [
+   "Без ДТП"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "BMW S1000RR 2023 года в чёрном цвете, без ДТП. Владелец катался на нём только по выходным в своё удовольствие, продаёт из-за отсутствия места для парковки. Из нюансов: на ходу не заметил бордюр справа, есть небольшие царапины от лёгкого касания"
+   }
+  ],
+  "photos": [
+   "catalog/8235/1.jpg",
+   "catalog/8235/2.jpg",
+   "catalog/8235/3.jpg",
+   "catalog/8235/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8235",
+  "parser": 3,
+  "hd": true
+ },
+ {
   "id": 8225,
   "slug": "bmw-x6-xdrive40i-m-sport-g06-2025-8225",
   "type": "car",
@@ -5347,7 +5459,8 @@
    "catalog/7868/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7868",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7864,
@@ -5392,7 +5505,8 @@
    "catalog/7864/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7864",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7856,
@@ -5429,7 +5543,8 @@
    "catalog/7856/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7856",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7834,
@@ -5620,7 +5735,8 @@
    "catalog/7834/10.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/7/7834",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7795,
@@ -5685,7 +5801,8 @@
    "catalog/7795/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7795",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7791,
@@ -5834,7 +5951,8 @@
    "catalog/7791/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7791",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7787,
@@ -5899,7 +6017,8 @@
    "catalog/7787/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7787",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7783,
@@ -5972,7 +6091,8 @@
    "catalog/7783/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7783",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7779,
@@ -6081,7 +6201,8 @@
    "catalog/7779/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7779",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7777,
@@ -6128,7 +6249,8 @@
    "catalog/7777/2.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7777",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7773,
@@ -6185,7 +6307,8 @@
    "catalog/7773/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7773",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7769,
@@ -6286,7 +6409,8 @@
    "catalog/7769/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7769",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7765,
@@ -6347,7 +6471,8 @@
    "catalog/7765/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7765",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7761,
@@ -6392,7 +6517,8 @@
    "catalog/7761/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7761",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7751,
@@ -6579,7 +6705,8 @@
    "catalog/7751/10.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/7/7751",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7747,
@@ -6688,7 +6815,8 @@
    "catalog/7747/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7747",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7743,
@@ -6781,7 +6909,8 @@
    "catalog/7743/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7743",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7739,
@@ -6862,7 +6991,8 @@
    "catalog/7739/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7739",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7735,
@@ -6963,7 +7093,8 @@
    "catalog/7735/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7735",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7730,
@@ -7072,7 +7203,8 @@
    "catalog/7730/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7730",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7726,
@@ -7177,7 +7309,8 @@
    "catalog/7726/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7726",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7718,
@@ -7322,7 +7455,8 @@
    "catalog/7718/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7718",
-  "parser": 3
+  "parser": 3,
+  "hd": true
  },
  {
   "id": 7713,
@@ -7499,7 +7633,8 @@
    "catalog/7708/3.jpg",
    "catalog/7708/4.jpg"
   ],
-  "post": "https://t.me/koreamotocycles_veltor/8/7708"
+  "post": "https://t.me/koreamotocycles_veltor/8/7708",
+  "hd": true
  },
  {
   "id": 7704,
@@ -7563,7 +7698,8 @@
    "catalog/7704/3.jpg",
    "catalog/7704/4.jpg"
   ],
-  "post": "https://t.me/koreamotocycles_veltor/8/7704"
+  "post": "https://t.me/koreamotocycles_veltor/8/7704",
+  "hd": true
  },
  {
   "id": 7700,
@@ -7598,7 +7734,8 @@
    "catalog/7700/3.jpg",
    "catalog/7700/4.jpg"
   ],
-  "post": "https://t.me/koreamotocycles_veltor/8/7700"
+  "post": "https://t.me/koreamotocycles_veltor/8/7700",
+  "hd": true
  },
  {
   "id": 7696,
@@ -7658,7 +7795,8 @@
    "catalog/7696/3.jpg",
    "catalog/7696/4.jpg"
   ],
-  "post": "https://t.me/koreamotocycles_veltor/8/7696"
+  "post": "https://t.me/koreamotocycles_veltor/8/7696",
+  "hd": true
  },
  {
   "id": 7692,
@@ -7809,7 +7947,8 @@
    "catalog/7692/2.jpg",
    "catalog/7692/3.jpg"
   ],
-  "post": "https://t.me/koreamotocycles_veltor/8/7692"
+  "post": "https://t.me/koreamotocycles_veltor/8/7692",
+  "hd": true
  },
  {
   "id": 7688,
@@ -7865,7 +8004,8 @@
    "catalog/7688/3.jpg",
    "catalog/7688/4.jpg"
   ],
-  "post": "https://t.me/koreamotocycles_veltor/8/7688"
+  "post": "https://t.me/koreamotocycles_veltor/8/7688",
+  "hd": true
  },
  {
   "id": 7684,
@@ -7945,7 +8085,8 @@
    "catalog/7684/3.jpg",
    "catalog/7684/4.jpg"
   ],
-  "post": "https://t.me/koreamotocycles_veltor/8/7684"
+  "post": "https://t.me/koreamotocycles_veltor/8/7684",
+  "hd": true
  },
  {
   "id": 7674,
@@ -8159,7 +8300,8 @@
    "catalog/7674/9.jpg",
    "catalog/7674/10.jpg"
   ],
-  "post": "https://t.me/koreamotocycles_veltor/7/7674"
+  "post": "https://t.me/koreamotocycles_veltor/7/7674",
+  "hd": true
  },
  {
   "id": 7670,
@@ -8219,7 +8361,8 @@
    "catalog/7670/3.jpg",
    "catalog/7670/4.jpg"
   ],
-  "post": "https://t.me/koreamotocycles_veltor/8/7670"
+  "post": "https://t.me/koreamotocycles_veltor/8/7670",
+  "hd": true
  },
  {
   "id": 7666,
@@ -8291,7 +8434,8 @@
    "catalog/7666/3.jpg",
    "catalog/7666/4.jpg"
   ],
-  "post": "https://t.me/koreamotocycles_veltor/8/7666"
+  "post": "https://t.me/koreamotocycles_veltor/8/7666",
+  "hd": true
  },
  {
   "id": 7596,
@@ -8351,7 +8495,8 @@
    "catalog/7596/3.jpg",
    "catalog/7596/4.jpg"
   ],
-  "post": "https://t.me/koreamotocycles_veltor/8/7596"
+  "post": "https://t.me/koreamotocycles_veltor/8/7596",
+  "hd": true
  },
  {
   "id": 7576,
@@ -8513,7 +8658,8 @@
    "catalog/7576/9.jpg",
    "catalog/7576/10.jpg"
   ],
-  "post": "https://t.me/koreamotocycles_veltor/7/7576"
+  "post": "https://t.me/koreamotocycles_veltor/7/7576",
+  "hd": true
  },
  {
   "id": 7557,
@@ -8613,7 +8759,8 @@
    "catalog/7557/3.jpg",
    "catalog/7557/4.jpg"
   ],
-  "post": "https://t.me/koreamotocycles_veltor/8/7557"
+  "post": "https://t.me/koreamotocycles_veltor/8/7557",
+  "hd": true
  },
  {
   "id": 7543,
@@ -8677,7 +8824,8 @@
    "catalog/7543/3.jpg",
    "catalog/7543/4.jpg"
   ],
-  "post": "https://t.me/koreamotocycles_veltor/8/7543"
+  "post": "https://t.me/koreamotocycles_veltor/8/7543",
+  "hd": true
  },
  {
   "id": 7538,
@@ -8733,7 +8881,8 @@
    "catalog/7538/3.jpg",
    "catalog/7538/4.jpg"
   ],
-  "post": "https://t.me/koreamotocycles_veltor/8/7538"
+  "post": "https://t.me/koreamotocycles_veltor/8/7538",
+  "hd": true
  },
  {
   "id": 7534,
@@ -8813,7 +8962,8 @@
    "catalog/7534/3.jpg",
    "catalog/7534/4.jpg"
   ],
-  "post": "https://t.me/koreamotocycles_veltor/8/7534"
+  "post": "https://t.me/koreamotocycles_veltor/8/7534",
+  "hd": true
  },
  {
   "id": 7530,
@@ -8848,7 +8998,8 @@
    "catalog/7530/3.jpg",
    "catalog/7530/4.jpg"
   ],
-  "post": "https://t.me/koreamotocycles_veltor/8/7530"
+  "post": "https://t.me/koreamotocycles_veltor/8/7530",
+  "hd": true
  },
  {
   "id": 7526,
@@ -8924,7 +9075,8 @@
    "catalog/7526/3.jpg",
    "catalog/7526/4.jpg"
   ],
-  "post": "https://t.me/koreamotocycles_veltor/8/7526"
+  "post": "https://t.me/koreamotocycles_veltor/8/7526",
+  "hd": true
  },
  {
   "id": 7522,
@@ -8976,7 +9128,8 @@
    "catalog/7522/3.jpg",
    "catalog/7522/4.jpg"
   ],
-  "post": "https://t.me/koreamotocycles_veltor/8/7522"
+  "post": "https://t.me/koreamotocycles_veltor/8/7522",
+  "hd": true
  },
  {
   "id": 7514,
@@ -9052,7 +9205,8 @@
    "catalog/7514/3.jpg",
    "catalog/7514/4.jpg"
   ],
-  "post": "https://t.me/koreamotocycles_veltor/8/7514"
+  "post": "https://t.me/koreamotocycles_veltor/8/7514",
+  "hd": true
  },
  {
   "id": 7510,
@@ -9152,7 +9306,8 @@
    "catalog/7510/3.jpg",
    "catalog/7510/4.jpg"
   ],
-  "post": "https://t.me/koreamotocycles_veltor/8/7510"
+  "post": "https://t.me/koreamotocycles_veltor/8/7510",
+  "hd": true
  },
  {
   "id": 7506,
@@ -9204,7 +9359,8 @@
    "catalog/7506/3.jpg",
    "catalog/7506/4.jpg"
   ],
-  "post": "https://t.me/koreamotocycles_veltor/8/7506"
+  "post": "https://t.me/koreamotocycles_veltor/8/7506",
+  "hd": true
  },
  {
   "id": 7502,
@@ -9304,7 +9460,8 @@
    "catalog/7502/3.jpg",
    "catalog/7502/4.jpg"
   ],
-  "post": "https://t.me/koreamotocycles_veltor/8/7502"
+  "post": "https://t.me/koreamotocycles_veltor/8/7502",
+  "hd": true
  },
  {
   "id": 7498,
@@ -9380,7 +9537,8 @@
    "catalog/7498/3.jpg",
    "catalog/7498/4.jpg"
   ],
-  "post": "https://t.me/koreamotocycles_veltor/8/7498"
+  "post": "https://t.me/koreamotocycles_veltor/8/7498",
+  "hd": true
  },
  {
   "id": 7494,
