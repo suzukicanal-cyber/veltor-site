@@ -10,10 +10,17 @@ exec 9>/tmp/veltor-update.lock
 flock -n 9 || { echo "Обновление уже идёт"; exit 0; }
 
 git fetch -q origin main
-if [ "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)" ] && [ "${FORCE:-}" != "1" ]; then
+TARGET=$(git rev-parse origin/main)
+# .deployed — последний коммит, который удалось собрать и запустить; если сборка упала, следующий запуск попробует снова
+if [ "$TARGET" = "$(cat .deployed 2>/dev/null)" ] && [ "${FORCE:-}" != "1" ]; then
   exit 0
 fi
-git reset -q --hard origin/main
-docker compose -f compose.yaml -f compose.ssl.yaml up -d --build web
-docker image prune -f >/dev/null
-echo "$(date '+%F %T') сайт обновлён до $(git rev-parse --short HEAD)"
+git reset -q --hard "$TARGET"
+if docker compose -f compose.yaml -f compose.ssl.yaml up -d --build web; then
+  echo "$TARGET" > .deployed
+  docker image prune -f >/dev/null
+  echo "$(date '+%F %T') сайт обновлён до ${TARGET:0:7}"
+else
+  echo "$(date '+%F %T') !! сборка ${TARGET:0:7} не удалась — сайт работает на прошлой версии"
+  exit 1
+fi
