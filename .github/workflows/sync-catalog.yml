@@ -42,10 +42,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Neural x2 upscale of new photos (Real-ESRGAN, soft)
+      - name: Original full-size photos from Telegram (bot, MTProto)
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_API_ID: ${{ secrets.TG_API_ID }}
+          TG_API_HASH: ${{ secrets.TG_API_HASH }}
         run: |
-          pip install --quiet numpy pillow
-          python3 scripts/upscale.py --budget 2700
+          pip install --quiet numpy pillow telethon
+          python3 scripts/fetch_originals.py --limit 60
+      - name: Neural upscale to 1600 px (Real-ESRGAN, soft)
+        run: python3 scripts/upscale.py --budget 2400
       - name: Commit catalog
         run: |
           if [ -n "$(git status --porcelain data public/catalog)" ]; then

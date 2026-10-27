@@ -90,22 +90,42 @@ def load_model(denoise):
 def hd_path(rel):
     return rel[:-4] + "@2x.jpg"
 
+TARGET = 1600  # width of the published copy
+
 def upscale(src, dst, P):
     im = Image.open(src).convert("RGB")
-    out = Image.fromarray(run(np.asarray(im), P))
-    out = out.resize((im.width * 2, im.height * 2), Image.LANCZOS)
-    out.save(dst, "JPEG", quality=84, optimize=True, progressive=True)
+    k = min(2.5, TARGET / im.width)
+    if k <= 1.05:  # already large enough (originals from Telegram are ~1200–1280 px; this is for bigger ones)
+        out = im
+    else:
+        out = Image.fromarray(run(np.asarray(im), P))
+        out = out.resize((round(im.width * k), round(im.height * k)), Image.LANCZOS)
+    out.save(dst, "JPEG", quality=86, optimize=True, progressive=True)
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--budget", type=float, default=2400, help="seconds to spend, then stop (the rest goes to the next run)")
     ap.add_argument("--denoise", type=float, default=0.3)
     ap.add_argument("--ids", default="")
+    ap.add_argument("--shard", default="", help="i/n: process only lots whose index %% n == i (parallel jobs)")
+    ap.add_argument("--mark-only", action="store_true", help="only set hd flags from files present")
+    ap.add_argument("--no-write", action="store_true", help="do not write lots.json (parallel jobs)")
     a = ap.parse_args()
     lots = json.load(open(LOTS, encoding="utf-8"))
     only = {int(x) for x in a.ids.split(",") if x}
     todo = [l for l in lots if not l.get("hd") and (not only or l["id"] in only)]
     todo.sort(key=lambda l: (l["date"], l["id"]), reverse=True)
+    if a.mark_only:
+        for l in todo:
+            local = [p for p in l["photos"] if not p.startswith("http")]
+            if local and len(local) == len(l["photos"]) and all(os.path.exists(os.path.join(PUBLIC, hd_path(p))) for p in local):
+                l["hd"] = True
+        with open(LOTS, "w", encoding="utf-8") as f:
+            json.dump(lots, f, ensure_ascii=False, indent=1); f.write("\n")
+        print("hd отмечено:", sum(1 for l in lots if l.get("hd")), "из", len(lots)); return
+    if a.shard:
+        i, n = map(int, a.shard.split("/"))
+        todo = [l for k, l in enumerate(todo) if k % n == i]
     if not todo:
         print("Все фото уже обработаны"); return
     P = load_model(a.denoise)
@@ -129,8 +149,9 @@ def main():
             l["hd"] = True; lots_done += 1
         if time.time() - t0 > a.budget:
             break
-    with open(LOTS, "w", encoding="utf-8") as f:
-        json.dump(lots, f, ensure_ascii=False, indent=1); f.write("\n")
+    if not a.no_write:
+        with open(LOTS, "w", encoding="utf-8") as f:
+            json.dump(lots, f, ensure_ascii=False, indent=1); f.write("\n")
     left = sum(1 for l in lots if not l.get("hd"))
     print(f"Обработано фото: {done}, вариантов готово: {lots_done}, осталось вариантов: {left}, {time.time() - t0:.0f} с")
 

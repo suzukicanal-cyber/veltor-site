@@ -1,0 +1,95 @@
+# Once: download original full-size photos for the whole catalog and upscale everything again from them.
+# 1) originals (bot via MTProto) → commit; 2) 16 parallel upscale jobs; 3) collect results, mark "hd", commit.
+name: Reprocess all photos from originals
+
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Скачать оригиналы заново даже для уже обработанных (yes/no)"
+        required: false
+        default: "no"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-catalog
+  cancel-in-progress: false
+
+jobs:
+  originals:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Download originals for all lots
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_API_ID: ${{ secrets.TG_API_ID }}
+          TG_API_HASH: ${{ secrets.TG_API_HASH }}
+        run: |
+          pip install --quiet telethon
+          python3 scripts/fetch_originals.py --limit 5000 ${{ github.event.inputs.force == 'yes' && '--force' || '' }}
+      - name: Commit originals
+        run: |
+          git config user.name "veltor-bot"
+          git config user.email "veltor-bot@users.noreply.github.com"
+          git add -A data public/catalog
+          git diff --cached --quiet || git commit -m "Каталог: оригиналы фото из Telegram"
+          git pull --rebase -q origin main && git push
+
+  upscale:
+    needs: originals
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Upscale shard ${{ matrix.shard }}/16
+        run: |
+          pip install --quiet numpy pillow
+          python3 scripts/upscale.py --shard ${{ matrix.shard }}/16 --no-write --budget 8000
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hd-${{ matrix.shard }}
+          path: public/catalog/**/*@2x.jpg
+          if-no-files-found: ignore
+          retention-days: 2
+
+  finalize:
+    needs: upscale
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: hd-*
+          path: public/catalog
+          merge-multiple: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Mark processed lots and commit
+        run: |
+          pip install --quiet numpy pillow
+          python3 scripts/upscale.py --mark-only
+          git config user.name "veltor-bot"
+          git config user.email "veltor-bot@users.noreply.github.com"
+          git add -A data public/catalog
+          git diff --cached --quiet || git commit -m "Каталог: фото обработаны из оригиналов"
+          git pull --rebase -q origin main && git push
