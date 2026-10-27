@@ -3,12 +3,14 @@ import { useEffect, useRef, useState } from "react";
 import { asset } from "@/lib/site";
 import { hdSrc } from "@/lib/lots";
 import MiniCanvas from "../MiniCanvas";
+import Lightbox from "./Lightbox";
 
 /** Lot page gallery: large photo, arrows / keys / swipe, thumbnails. Falls back to the point-cloud preview. */
 export default function LotGallery({ photos, name, shape, hd }: { photos: string[]; name: string; shape: "moto" | "car"; hd?: boolean }) {
   const n = photos.length;
   const [i, setI] = useState(0);
   const [broken, setBroken] = useState(false);
+  const [lb, setLb] = useState(false);
   const x0 = useRef<number | null>(null);
   const thumbs = useRef<HTMLDivElement>(null);
   const first = useRef<HTMLImageElement>(null);
@@ -32,7 +34,8 @@ export default function LotGallery({ photos, name, shape, hd }: { photos: string
         className="lp-stage" tabIndex={0} aria-roledescription="галерея" aria-label={`Фото ${i + 1} из ${n}`}
         onKeyDown={(e) => { if (e.key === "ArrowRight") go(1); if (e.key === "ArrowLeft") go(-1); }}
         onPointerDown={(e) => { x0.current = e.clientX; }}
-        onPointerUp={(e) => { if (x0.current !== null && Math.abs(e.clientX - x0.current) > 40) go(e.clientX < x0.current ? 1 : -1); x0.current = null; }}
+        onPointerUp={(e) => { const moved = x0.current !== null && Math.abs(e.clientX - x0.current) > 40; if (moved) go(e.clientX < x0.current! ? 1 : -1); else if ((e.target as Element).tagName === "IMG") setLb(true); x0.current = null; }}
+        data-cursor="Открыть фото"
       >
         {photos.map((p, k) => (
           <img key={p} ref={k === 0 ? first : undefined} src={asset(hd ? hdSrc(p) : p)} alt={`${name} из Южной Кореи — фото ${k + 1} из ${n}`} className={k === i ? "on" : undefined}
@@ -53,6 +56,7 @@ export default function LotGallery({ photos, name, shape, hd }: { photos: string
           ))}
         </div>
       )}
+      {lb && <Lightbox photos={photos.map((p) => asset(hd ? hdSrc(p) : p))} start={i} name={name} onClose={() => setLb(false)} />}
     </div>
   );
 }

@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { drawMini } from "@/lib/cloud";
 import { asset } from "@/lib/site";
 import { hdSrc } from "@/lib/lots";
+import Lightbox from "./Lightbox";
 
 type Props = { hd?: boolean; photos: string[]; name: string; shape: "moto" | "car"; yaw: number; href: string; kind: string; eager?: boolean };
 
@@ -20,6 +21,7 @@ export default function LotMedia({ hd, photos, name, shape, yaw: baseYaw, href, 
   const [photo, setPhoto] = useState<boolean | null>(null);
   const [all, setAll] = useState(false);
   const [touched, setTouched] = useState(false);
+  const [lb, setLb] = useState<number | null>(null);
 
   // point-cloud preview, redrawn on resize
   useEffect(() => {
@@ -51,7 +53,17 @@ export default function LotMedia({ hd, photos, name, shape, yaw: baseYaw, href, 
     return Math.min(n - 1, Math.max(0, Math.floor((e.clientX - r.left) / r.width * n)));
   };
 
+  // on a computer a click opens the photos full screen; ctrl/⌘-click and phones still go to the lot page
+  const open = (e: React.MouseEvent) => {
+    if (!photo || e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return;
+    if (!matchMedia("(pointer: fine)").matches) return;
+    e.preventDefault();
+    setLb(cur);
+  };
+  const big = photos.map((p) => asset(hd ? hdSrc(p) : p));
+
   return (
+    <>
     <Link
       href={href}
       className={"lot-media" + (photo ? " has-ph" : "") + (touched ? " touched" : "")}
@@ -60,6 +72,8 @@ export default function LotMedia({ hd, photos, name, shape, yaw: baseYaw, href, 
       onPointerDown={() => photo && setAll(true)}
       onPointerMove={(e) => { if (e.pointerType === "touch") setTouched(true); if (n) show(at(e)); }}
       onPointerLeave={() => { setTouched(false); show(0); }}
+      onClick={open}
+      data-cursor="Открыть фото"
     >
       {n > 0 && photo !== false && (
         <div className="lot-gal">
@@ -78,5 +92,7 @@ export default function LotMedia({ hd, photos, name, shape, yaw: baseYaw, href, 
       {n > 0 && <div className="lot-dots">{photos.map((u, i) => <i key={u} className={i === cur ? "on" : undefined}></i>)}</div>}
       {n > 0 && <span className="lot-n">{cur + 1} / {n}</span>}
     </Link>
+    {lb !== null && <Lightbox photos={big} start={lb} name={name} href={href} onClose={() => setLb(null)} />}
+    </>
   );
 }
