@@ -46,7 +46,11 @@ jobs:
         run: |
           pip install --quiet numpy pillow telethon
           python3 scripts/dedupe.py
-      - name: Original full-size photos from Telegram (bot, MTProto)
+      - name: Full-size photos of new posts (bot, Bot API)
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: python3 scripts/bot_photos.py
+      - name: Original full-size photos from Telegram (bot, MTProto; only with TG_API_ID/TG_API_HASH)
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TG_API_ID: ${{ secrets.TG_API_ID }}
