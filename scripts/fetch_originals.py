@@ -72,7 +72,7 @@ async def main():
             if rel not in photos:
                 os.remove(f)
         l["photos"], l["orig"] = photos, True
-        l.pop("hd", None)
+        l.pop("hd", None); l.pop("hdv", None)
         done += 1
         print(f"+ {first} {l['name']}: {len(photos)} фото")
     await client.disconnect()

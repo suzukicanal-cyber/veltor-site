@@ -9,3 +9,4 @@ out/
 __pycache__/
 public/feed.yml
 .indexnow-init
+scripts/models/RealESRGAN_x4plus.pth

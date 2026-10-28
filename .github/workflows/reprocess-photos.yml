@@ -1,6 +1,6 @@
-# Once: download original full-size photos for the whole catalog and upscale everything again from them.
+# Once: process the whole catalog again (originals → Real-ESRGAN x4plus, 800 px previews → sharpening).
 # 1) originals (bot via MTProto) → commit; 2) 16 parallel upscale jobs; 3) collect results, mark "hd", commit.
-name: Reprocess all photos from originals
+name: Reprocess all photos
 
 on:
   workflow_dispatch:
@@ -58,14 +58,21 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Upscale shard ${{ matrix.shard }}/16
+      - uses: actions/cache@v4
+        with:
+          path: scripts/models/RealESRGAN_x4plus.pth
+          key: realesrgan-x4plus-v1
+      - name: Process shard ${{ matrix.shard }}/16 (originals → x4plus, previews → sharpening)
         run: |
           pip install --quiet numpy pillow
+          pip install --quiet torch --index-url https://download.pytorch.org/whl/cpu
           python3 scripts/upscale.py --shard ${{ matrix.shard }}/16 --no-write --budget 8000
       - uses: actions/upload-artifact@v4
         with:
           name: hd-${{ matrix.shard }}
-          path: public/catalog/**/*@2x.jpg
+          path: |
+            public/catalog/**/*@2x.jpg
+            public/catalog/done-*.json
           if-no-files-found: ignore
           retention-days: 2
 

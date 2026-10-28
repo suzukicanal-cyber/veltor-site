@@ -58,8 +58,14 @@ jobs:
         run: |
           pip install --quiet numpy pillow telethon
           python3 scripts/fetch_originals.py --limit 60
-      - name: Neural upscale to 1600 px (Real-ESRGAN, soft)
-        run: python3 scripts/upscale.py --budget 2400
+      - uses: actions/cache@v4
+        with:
+          path: scripts/models/RealESRGAN_x4plus.pth
+          key: realesrgan-x4plus-v1
+      - name: Photos 1600 px (originals → Real-ESRGAN x4plus, previews → sharpening)
+        run: |
+          pip install --quiet torch --index-url https://download.pytorch.org/whl/cpu
+          python3 scripts/upscale.py --budget 2400
       - name: Commit catalog
         run: |
           if [ -n "$(git status --porcelain data public/catalog)" ]; then

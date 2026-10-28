@@ -83,7 +83,7 @@ def main():
             if rel not in photos:
                 os.remove(f)
         l["photos"], l["orig"] = photos, True
-        l.pop("hd", None)
+        l.pop("hd", None); l.pop("hdv", None)
         done += 1
         print(f"+ {l['id']} {l['name']}: {len(photos)} фото, {head.get('w')} px")
 

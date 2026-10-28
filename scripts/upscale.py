@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-"""Neural ×2 upscale of catalog photos before publication (Real-ESRGAN general-x4v3, soft settings).
+"""Sharper published copies of catalog photos (scripts/enhance.py: D = Real-ESRGAN x4plus for originals, B = sharpening for previews).
 
 For every local photo public/catalog/<id>/<n>.jpg a sharper copy <n>@2x.jpg is written next to it;
 the original stays untouched (cards use it, galleries and retina screens use @2x).
 When all photos of a lot are processed, the lot gets "hd": true in data/lots.json.
 "noUpscale": true in a lot keeps its photos as published (no neural processing).
 
-Pure numpy + Pillow (no torch/GPU), so it runs on GitHub Actions. Newest lots first, stops at the time budget.
-  python3 scripts/upscale.py [--budget SECONDS] [--denoise 0.3] [--ids 7713,7674]
+Lots processed by the current scheme carry "hdv": 2; older ones are processed again. Newest first, stops at the budget.
+  python3 scripts/upscale.py [--budget SECONDS] [--ids 7713,7674] [--shard i/n --no-write] [--mark-only]
 """
 import argparse, json, os, sys, time, zipfile, pickle
 import numpy as np
@@ -103,58 +103,71 @@ def upscale(src, dst, P):
         out = out.resize((round(im.width * k), round(im.height * k)), Image.LANCZOS)
     out.save(dst, "JPEG", quality=86, optimize=True, progressive=True)
 
+HDV = 2  # processing version: 2 = variant D (originals, x4plus) + B (previews, sharpening)
+
+
+def is_original(l, p):
+    return bool(l.get("orig")) or p in l.get("origPhotos", [])
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--budget", type=float, default=2400, help="seconds to spend, then stop (the rest goes to the next run)")
-    ap.add_argument("--denoise", type=float, default=0.3)
     ap.add_argument("--ids", default="")
     ap.add_argument("--shard", default="", help="i/n: process only lots whose index %% n == i (parallel jobs)")
-    ap.add_argument("--mark-only", action="store_true", help="only set hd flags from files present")
-    ap.add_argument("--no-write", action="store_true", help="do not write lots.json (parallel jobs)")
+    ap.add_argument("--mark-only", action="store_true", help="mark lots listed in public/catalog/done-*.json (after parallel jobs)")
+    ap.add_argument("--no-write", action="store_true", help="do not write lots.json, list finished lots in public/catalog/done-<shard>.json")
+    ap.add_argument("--denoise", type=float, default=0.3, help="(unused, kept for old commands)")
     a = ap.parse_args()
     lots = json.load(open(LOTS, encoding="utf-8"))
-    only = {int(x) for x in a.ids.split(",") if x}
-    todo = [l for l in lots if not l.get("hd") and not l.get("noUpscale") and (not only or l["id"] in only)]
-    todo.sort(key=lambda l: (l["date"], l["id"]), reverse=True)
     if a.mark_only:
-        for l in todo:
-            local = [p for p in l["photos"] if not p.startswith("http")]
-            if local and len(local) == len(l["photos"]) and all(os.path.exists(os.path.join(PUBLIC, hd_path(p))) for p in local):
-                l["hd"] = True
+        import glob
+        ids = set()
+        for f in glob.glob(os.path.join(PUBLIC, "catalog", "done-*.json")):
+            ids |= set(json.load(open(f))); os.remove(f)
+        for l in lots:
+            if l["id"] in ids:
+                l["hd"], l["hdv"] = True, HDV
         with open(LOTS, "w", encoding="utf-8") as f:
             json.dump(lots, f, ensure_ascii=False, indent=1); f.write("\n")
-        print("hd отмечено:", sum(1 for l in lots if l.get("hd")), "из", len(lots)); return
+        print(f"Отмечено: {len(ids)}, обработано по новой схеме: {sum(1 for l in lots if l.get('hdv') == HDV)} из {len(lots)}"); return
+    only = {int(x) for x in a.ids.split(",") if x}
+    todo = [l for l in lots if l.get("hdv") != HDV and not l.get("noUpscale") and (not only or l["id"] in only)]
+    todo.sort(key=lambda l: (l["date"], l["id"]), reverse=True)
     if a.shard:
         i, n = map(int, a.shard.split("/"))
         todo = [l for k, l in enumerate(todo) if k % n == i]
     if not todo:
         print("Все фото уже обработаны"); return
-    P = load_model(a.denoise)
-    t0, done, lots_done = time.time(), 0, 0
+    import enhance
+    t0, done, finished, n_d = time.time(), 0, [], 0
     for l in todo:
         local = [p for p in l["photos"] if not p.startswith("http")]
         if not local or len(local) != len(l["photos"]):
             continue  # photos not downloaded yet
+        if time.time() - t0 > a.budget:
+            break
         ok = True
         for p in local:
-            dst = os.path.join(PUBLIC, hd_path(p))
-            if os.path.exists(dst):
-                continue
             if time.time() - t0 > a.budget:
                 ok = False; break
             try:
-                upscale(os.path.join(PUBLIC, p), dst, P); done += 1
+                orig = is_original(l, p)
+                enhance.process(os.path.join(PUBLIC, p), os.path.join(PUBLIC, hd_path(p)), orig)
+                done += 1; n_d += orig
             except Exception as e:  # a broken photo must not stop the catalog
                 print(f"! {p}: {e}", file=sys.stderr); ok = False
-        if ok and all(os.path.exists(os.path.join(PUBLIC, hd_path(p))) for p in local):
-            l["hd"] = True; lots_done += 1
-        if time.time() - t0 > a.budget:
-            break
-    if not a.no_write:
+        if ok:
+            l["hd"], l["hdv"] = True, HDV; finished.append(l["id"])
+    if a.no_write:
+        if a.shard:
+            with open(os.path.join(PUBLIC, "catalog", f"done-{a.shard.split('/')[0]}.json"), "w") as f:
+                json.dump(finished, f)
+    else:
         with open(LOTS, "w", encoding="utf-8") as f:
             json.dump(lots, f, ensure_ascii=False, indent=1); f.write("\n")
-    left = sum(1 for l in lots if not l.get("hd"))
-    print(f"Обработано фото: {done}, вариантов готово: {lots_done}, осталось вариантов: {left}, {time.time() - t0:.0f} с")
+    left = sum(1 for l in lots if l.get("hdv") != HDV and not l.get("noUpscale"))
+    print(f"Обработано фото: {done} (оригиналы x4plus: {n_d}, превью резкость: {done - n_d}), вариантов готово: {len(finished)}, осталось: {left}, {time.time() - t0:.0f} с")
 
 if __name__ == "__main__":
     main()
