@@ -9,7 +9,7 @@ export const SITE_DESCRIPTION =
   "Мотоциклы и автомобили из Южной Кореи под ключ: подбор, живой осмотр, выкуп, доставка в среднем 45 дней, оформление СБКТС и ЭПТС.";
 
 /** Yandex Metrika counter. */
-export const METRIKA_ID = Number(process.env.NEXT_PUBLIC_METRIKA_ID || 113810723);
+export const METRIKA_ID = Number(process.env.NEXT_PUBLIC_METRIKA_ID || 113850182);
 
 /** Phone for calls (shown in the header, menu, contacts, business card, footer). */
 export const PHONE = "+7 961 174-94-59";
