@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """Full-size photos of NEW posts through the ordinary Bot API (no my.telegram.org keys needed).
 
-The bot is an administrator of the group, so Telegram delivers every new post to it. Each run (GitHub Actions,
-every 2 hours) takes the pending updates (Telegram keeps them 24 h), remembers the largest photo of every message
-in data/tg-photos.json (file_id stays valid, so a photo can be downloaded later), and for every lot without
+The VELTOR stories bot (repo veltor-stories) is an administrator of the group and receives every new post; it records
+the largest photo of every message in its photos.json. Each run here (GitHub Actions, every 2 hours) merges that list
+into data/tg-photos.json (file_id stays valid, so a photo can be downloaded later) and, for every lot without
 "orig": true whose post is known, downloads its album into public/catalog/<id>/<n>.jpg (old files and @2x copies
 are removed, "hd" is reset, so scripts/upscale.py processes the photo again from the original).
 Posts published before the bot was added are not delivered by Telegram and keep their preview photos.
 
-env: TELEGRAM_BOT_TOKEN   (a separate bot only for the site: getUpdates must not compete with another program)
+env: TELEGRAM_BOT_TOKEN   (the same bot as in veltor-stories; this script never calls getUpdates)
   python3 scripts/bot_photos.py
 """
 import glob, json, os, sys, time, urllib.error, urllib.parse, urllib.request
@@ -19,6 +19,7 @@ STORE = os.path.join(ROOT, "data", "tg-photos.json")
 PUBLIC = os.path.join(ROOT, "public")
 GROUP = os.environ.get("TG_GROUP", "koreamotocycles_veltor").lower()
 KEEP = 4000  # remembered messages
+SHARED = os.environ.get("TG_PHOTOS_URL", "https://raw.githubusercontent.com/suzukicanal-cyber/veltor-stories/main/photos.json")
 
 
 def api(token, method, **params):
@@ -37,39 +38,20 @@ def main():
     token = os.environ.get("TELEGRAM_BOT_TOKEN")
     if not token:
         print("Нет TELEGRAM_BOT_TOKEN — оригиналы фото пропущены"); return
-    store = json.load(open(STORE, encoding="utf-8")) if os.path.exists(STORE) else {"offset": 0, "msgs": {}}
+    store = json.load(open(STORE, encoding="utf-8")) if os.path.exists(STORE) else {"msgs": {}}
     msgs = store["msgs"]
 
-    # 1) new posts delivered to the bot
+    # 1) photos of the group recorded by the stories bot (repo veltor-stories, every 15 min).
+    # The same bot must not call getUpdates here: that would take the updates away from the stories.
     try:
-        me = api(token, "getMe")
-        print(f"Бот @{me['username']}")
-        store["bot"] = me["username"]
-        got = 0
-        while True:
-            ups = api(token, "getUpdates", offset=store["offset"], limit=100, timeout=0, allowed_updates=["message", "channel_post"])
-            if not ups:
-                break
-            for u in ups:
-                store["offset"] = u["update_id"] + 1
-                m = u.get("message") or u.get("channel_post")
-                if m:
-                    store["lastSeen"] = {"chat": m["chat"].get("username") or m["chat"].get("title"), "id": m["message_id"]}
-                if not m or (m["chat"].get("username") or "").lower() != GROUP or not m.get("photo"):
-                    continue
-                big = max(m["photo"], key=lambda p: p.get("width", 0) * p.get("height", 0))
-                msgs[str(m["message_id"])] = {"g": m.get("media_group_id"), "f": big["file_id"], "w": big.get("width")}
-                got += 1
-        print(f"Новых фото из группы: {got}")
-    except RuntimeError as e:
-        msg = str(e)
-        if "409" in msg:
-            print("! Этот бот уже получает обновления другой программой (webhook или getUpdates). Нужен отдельный бот для сайта.")
-        elif "401" in msg:
-            print("! Неверный TELEGRAM_BOT_TOKEN")
-        else:
-            print("!", msg)
-        return
+        req = urllib.request.Request(SHARED, headers={"Cache-Control": "no-cache"})
+        shared = json.load(urllib.request.urlopen(req, timeout=60))
+    except Exception as e:
+        print(f"! {SHARED}: {e}"); return
+    before = len(msgs)
+    for k, v in shared.items():
+        msgs.setdefault(k, {"g": v.get("g"), "f": v["f"], "w": v.get("w")})
+    print(f"Фото из группы: {len(shared)} (новых для сайта: {len(msgs) - before})")
     if len(msgs) > KEEP:
         for k in sorted(msgs, key=int)[: len(msgs) - KEEP]:
             del msgs[k]
