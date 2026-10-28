@@ -708,7 +708,7 @@ html.mnav-lock{overflow:hidden}
 .cat-tools{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
 .cat-sort{display:flex;align-items:center;gap:10px;font:500 11px/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 .cat-sort select{height:42px;padding:0 12px;background:var(--ink);color:var(--fg);border:1px solid var(--line-2);border-radius:4px;font:500 14px/1 var(--f-head);letter-spacing:0;text-transform:none}
-.cat-filters{display:grid;grid-template-columns:repeat(5,minmax(0,1fr)) auto;gap:12px;align-items:end;padding:16px;margin-bottom:20px;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
+.cat-filters{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;align-items:end;padding:16px;margin-bottom:20px;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
 .cat-f{display:grid;gap:8px;min-width:0;font:500 10px/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 .cat-f select{width:100%;height:42px;padding:0 10px;background:var(--ink);color:var(--fg);border:1px solid var(--line-2);border-radius:4px;font:500 14px/1 var(--f-head);letter-spacing:0;text-transform:none}
 .cat-f select:focus-visible,.cat-sort select:focus-visible{outline:2px solid var(--xenon);outline-offset:1px}
@@ -936,3 +936,4 @@ html.lb-lock{overflow:hidden}
 @media (prefers-reduced-motion:reduce){.lb,.lb-stage img{animation:none}}
 
 .cat-range{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.cat-filters .cat-reset{align-self:end;height:42px}

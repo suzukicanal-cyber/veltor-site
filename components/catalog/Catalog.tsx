@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import { LOTS, Lot, LotType, yawFor } from "@/lib/lots";
 import { plural } from "@/lib/format";
 import LotCard from "./LotCard";
+import { CC_STEPS, MOTO_CLASSES, motoSpec } from "@/lib/moto-specs";
 
 type T = "all" | LotType;
 const PRICES = [
@@ -29,6 +30,8 @@ export default function Catalog() {
   const [yTo, setYTo] = useState("");
   const [price, setPrice] = useState("");
   const [km, setKm] = useState("");
+  const [cc, setCc] = useState("");
+  const [cls, setCls] = useState("");
   const [sort, setSort] = useState("new");
   const [open, setOpen] = useState(false);
 
@@ -53,7 +56,7 @@ export default function Catalog() {
 
   // mileage steps differ for motorcycles and cars
   const kms = type === "car" ? KMS_CAR : KMS_MOTO;
-  useEffect(() => { if (km && !kms.some((k) => k.v === km)) setKm(""); }, [type]); // eslint-disable-line react-hooks/exhaustive-deps
+  useEffect(() => { if (km && !kms.some((k) => k.v === km)) setKm(""); if (type === "car") { setCc(""); setCls(""); } }, [type]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // keep the picked brand / model only if it still exists for the chosen type
   useEffect(() => { if (brand && !brands.includes(brand)) setBrand(""); }, [brands, brand]);
@@ -65,14 +68,21 @@ export default function Catalog() {
     if (yFrom && l.year < +yFrom) return false;
     if (yTo && l.year > +yTo) return false;
     if (price) { const [lo, hi] = price.split("-"); if (l.price < +lo || (hi && l.price >= +hi)) return false; }
+    if ((cc || cls) && l.type !== "moto") return false;
+    if (cc || cls) {
+      const sp = motoSpec(l);
+      if (cls && sp.cls !== cls) return false;
+      if (cc) { const [lo, hi] = cc.split("-"); if (!sp.cc || sp.cc < +lo || (hi && sp.cc > +hi)) return false; }
+    }
     if (km.startsWith(">")) { if ((l.km || 0) <= +km.slice(1)) return false; }
     else if (km !== "" && (l.km || 0) > +km) return false;
     return true;
   };
   const list = ofType.filter(pass).sort((a, b) =>
     sort === "new" ? b.date.localeCompare(a.date) || b.id - a.id : sort === "cheap" ? a.price - b.price : b.price - a.price);
-  const active = [brand, model, yFrom || yTo, price, km].filter(Boolean).length;
-  const reset = () => { setType("all"); setBrand(""); setModel(""); setYFrom(""); setYTo(""); setPrice(""); setKm(""); };
+  const active = [brand, model, yFrom || yTo, price, km, cc, cls].filter(Boolean).length;
+  const clsCount = useMemo(() => { const c: Record<string, number> = {}; for (const l of LOTS) { const k = motoSpec(l).cls; if (k) c[k] = (c[k] || 0) + 1; } return c; }, []);
+  const reset = () => { setType("all"); setBrand(""); setModel(""); setYFrom(""); setYTo(""); setPrice(""); setKm(""); setCc(""); setCls(""); };
   const pickModel = (v: string) => { setModel(v); if (v && !brand) setBrand(v.split("|")[0]); };
 
   return (
@@ -126,6 +136,20 @@ export default function Catalog() {
             <option value="">Любой</option>{kms.map((p) => <option key={p.v} value={p.v}>{p.t}</option>)}
           </select>
         </label>
+        {type !== "car" && (
+          <>
+            <label className="cat-f"><span>Тип мотоцикла</span>
+              <select id="f-class" value={cls} onChange={(e) => setCls(e.target.value)}>
+                <option value="">Любой</option>{MOTO_CLASSES.filter((c) => clsCount[c]).map((c) => <option key={c} value={c}>{c}</option>)}
+              </select>
+            </label>
+            <label className="cat-f"><span>Объём двигателя</span>
+              <select id="f-cc" value={cc} onChange={(e) => setCc(e.target.value)}>
+                <option value="">Любой</option>{CC_STEPS.map((p) => <option key={p.v} value={p.v}>{p.t}</option>)}
+              </select>
+            </label>
+          </>
+        )}
         <button type="button" className="cat-reset" id="f-reset" onClick={reset}>Сбросить</button>
       </div>
       <p className="sr" aria-live="polite">Найдено {list.length} {plural(list.length, ["вариант", "варианта", "вариантов"])}</p>

@@ -2,6 +2,7 @@ import raw from "@/data/lots.json";
 import redirectsRaw from "@/data/redirects.json";
 import { tgText } from "./site";
 import { kmLabel, money, dateRu } from "./format";
+import { motoSpec } from "./moto-specs";
 
 export type LotType = "moto" | "car";
 export type BodyLine = { k: "h" | "li" | "warn" | "p"; t: string };
@@ -48,7 +49,8 @@ export function specs(l: Lot) {
     { v: String(l.year), k: "год" },
     { v: kmLabel(l.km), k: "пробег" },
   ];
-  if (l.volume) s.push({ v: l.volume, k: "объём" });
+  const cc = l.volume || (l.type === "moto" && motoSpec(l).cc ? `${motoSpec(l).cc} см³` : null);
+  if (cc) s.push({ v: cc, k: "объём" });
   if (l.power && l.type === "car") s.push({ v: l.power, k: "мощность" });
   return s;
 }

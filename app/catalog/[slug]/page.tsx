@@ -9,6 +9,9 @@ import { BodyLine, LOTS, REDIRECTS, hdSrc, likeLink, lotBySlug, lotHref, similar
 import { dateLong, dateRu, kmLabel, money } from "@/lib/format";
 import { SITE_URL, asset } from "@/lib/site";
 import { lotLanding } from "@/lib/seo";
+import { motoSpec } from "@/lib/moto-specs";
+
+const CLASS_ONE: Record<string, string> = { "Спортбайки": "спортбайк", "Нейкеды": "нейкед", "Круизеры": "круизер", "Туристические": "туристический", "Спорт-туристы": "спорт-турист", "Эндуро-туристы": "эндуро-турист", "Ретро и классика": "ретро / классика", "Скутеры": "скутер", "Трициклы": "трицикл" };
 
 export const dynamicParams = false;
 export function generateStaticParams() {
@@ -69,7 +72,8 @@ export default async function LotPage({ params }: Props) {
   const rows: [string, string][] = [
     ["Год", String(l.year)],
     ["Пробег", kmLabel(l.km)],
-    ...(l.volume ? [["Объём двигателя", l.volume] as [string, string]] : []),
+    ...(l.volume || motoSpec(l).cc ? [["Объём двигателя", l.volume || `${motoSpec(l).cc} см³`] as [string, string]] : []),
+    ...(motoSpec(l).cls ? [["Тип", CLASS_ONE[motoSpec(l).cls!]] as [string, string]] : []),
     ...(l.power ? [["Мощность", l.power] as [string, string]] : []),
     ...(l.drive ? [["Привод", l.drive] as [string, string]] : []),
     ...(l.gearbox ? [["Коробка", l.gearbox] as [string, string]] : []),
