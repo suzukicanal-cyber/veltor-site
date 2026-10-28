@@ -934,3 +934,5 @@ html.lb-lock{overflow:hidden}
 .lp-stage img{cursor:zoom-in}
 @media (max-width:760px){.lb-arr{display:none}.lb-go{display:none}.lb-top .lb-n + .lb-x{margin-left:auto}}
 @media (prefers-reduced-motion:reduce){.lb,.lb-stage img{animation:none}}
+
+.cat-range{display:grid;grid-template-columns:1fr 1fr;gap:6px}

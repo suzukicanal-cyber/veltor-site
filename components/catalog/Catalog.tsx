@@ -10,7 +10,14 @@ const PRICES = [
   { v: "0-1000000", t: "до 1 млн ₽" }, { v: "1000000-1500000", t: "1–1,5 млн ₽" }, { v: "1500000-2000000", t: "1,5–2 млн ₽" },
   { v: "2000000-3000000", t: "2–3 млн ₽" }, { v: "3000000-5000000", t: "3–5 млн ₽" }, { v: "5000000-", t: "от 5 млн ₽" },
 ];
-const KMS = [{ v: "0", t: "Только новые" }, { v: "5000", t: "до 5 000 км" }, { v: "10000", t: "до 10 000 км" }, { v: "20000", t: "до 20 000 км" }, { v: "50000", t: "до 50 000 км" }];
+/** Mileage steps: "N" = up to N km, ">N" = over N km. Motorcycles get fine steps, cars — wider ones. */
+const kmSteps = (list: number[], over: number) => [
+  { v: "0", t: "Только новые" },
+  ...list.map((k) => ({ v: String(k), t: `до ${k.toLocaleString("ru-RU")} км` })),
+  { v: ">" + over, t: `свыше ${over.toLocaleString("ru-RU")} км` },
+];
+const KMS_MOTO = kmSteps([1000, 2000, 3000, 5000, 10000, 15000, 20000, 25000, 30000], 30000);
+const KMS_CAR = kmSteps([10000, 20000, 30000, 50000, 70000, 100000], 100000);
 const en = (a: string, b: string) => a.localeCompare(b, "en", { sensitivity: "base" });
 
 /** Catalog with filters. Brands, models and years are collected from the lots, so they grow with the Telegram channel. */
@@ -18,7 +25,8 @@ export default function Catalog() {
   const [type, setType] = useState<T>("all");
   const [brand, setBrand] = useState("");
   const [model, setModel] = useState(""); // "Brand|Model"
-  const [year, setYear] = useState("");
+  const [yFrom, setYFrom] = useState("");
+  const [yTo, setYTo] = useState("");
   const [price, setPrice] = useState("");
   const [km, setKm] = useState("");
   const [sort, setSort] = useState("new");
@@ -43,6 +51,10 @@ export default function Catalog() {
   }, [ofType, brand]);
   const years = useMemo(() => [...new Set(LOTS.map((l) => l.year))].sort((a, b) => b - a), []);
 
+  // mileage steps differ for motorcycles and cars
+  const kms = type === "car" ? KMS_CAR : KMS_MOTO;
+  useEffect(() => { if (km && !kms.some((k) => k.v === km)) setKm(""); }, [type]); // eslint-disable-line react-hooks/exhaustive-deps
+
   // keep the picked brand / model only if it still exists for the chosen type
   useEffect(() => { if (brand && !brands.includes(brand)) setBrand(""); }, [brands, brand]);
   useEffect(() => { if (model && !models.some((g) => g.ms.some((m) => g.b + "|" + m === model))) setModel(""); }, [models, model]);
@@ -50,15 +62,17 @@ export default function Catalog() {
   const pass = (l: Lot) => {
     if (brand && l.brand !== brand) return false;
     if (model && l.brand + "|" + l.model !== model) return false;
-    if (year && String(l.year) !== year) return false;
+    if (yFrom && l.year < +yFrom) return false;
+    if (yTo && l.year > +yTo) return false;
     if (price) { const [lo, hi] = price.split("-"); if (l.price < +lo || (hi && l.price >= +hi)) return false; }
-    if (km !== "" && (l.km || 0) > +km) return false;
+    if (km.startsWith(">")) { if ((l.km || 0) <= +km.slice(1)) return false; }
+    else if (km !== "" && (l.km || 0) > +km) return false;
     return true;
   };
   const list = ofType.filter(pass).sort((a, b) =>
     sort === "new" ? b.date.localeCompare(a.date) || b.id - a.id : sort === "cheap" ? a.price - b.price : b.price - a.price);
-  const active = [brand, model, year, price, km].filter(Boolean).length;
-  const reset = () => { setType("all"); setBrand(""); setModel(""); setYear(""); setPrice(""); setKm(""); };
+  const active = [brand, model, yFrom || yTo, price, km].filter(Boolean).length;
+  const reset = () => { setType("all"); setBrand(""); setModel(""); setYFrom(""); setYTo(""); setPrice(""); setKm(""); };
   const pickModel = (v: string) => { setModel(v); if (v && !brand) setBrand(v.split("|")[0]); };
 
   return (
@@ -92,11 +106,16 @@ export default function Catalog() {
               : models.map((g) => <optgroup key={g.b} label={g.b}>{g.ms.map((m) => <option key={m} value={g.b + "|" + m}>{m}</option>)}</optgroup>)}
           </select>
         </label>
-        <label className="cat-f"><span>Год</span>
-          <select id="f-year" value={year} onChange={(e) => setYear(e.target.value)}>
-            <option value="">Любой</option>{years.map((y) => <option key={y} value={y}>{y}</option>)}
-          </select>
-        </label>
+        <div className="cat-f" role="group" aria-label="Год выпуска"><span>Год выпуска</span>
+          <div className="cat-range">
+            <select id="f-year-from" aria-label="Год выпуска от" value={yFrom} onChange={(e) => { setYFrom(e.target.value); if (yTo && e.target.value && +e.target.value > +yTo) setYTo(""); }}>
+              <option value="">от</option>{[...years].reverse().map((y) => <option key={y} value={y}>от {y}</option>)}
+            </select>
+            <select id="f-year-to" aria-label="Год выпуска до" value={yTo} onChange={(e) => setYTo(e.target.value)}>
+              <option value="">до</option>{years.filter((y) => !yFrom || y >= +yFrom).map((y) => <option key={y} value={y}>до {y}</option>)}
+            </select>
+          </div>
+        </div>
         <label className="cat-f"><span>Цена</span>
           <select id="f-price" value={price} onChange={(e) => setPrice(e.target.value)}>
             <option value="">Любая</option>{PRICES.map((p) => <option key={p.v} value={p.v}>{p.t}</option>)}
@@ -104,7 +123,7 @@ export default function Catalog() {
         </label>
         <label className="cat-f"><span>Пробег</span>
           <select id="f-km" value={km} onChange={(e) => setKm(e.target.value)}>
-            <option value="">Любой</option>{KMS.map((p) => <option key={p.v} value={p.v}>{p.t}</option>)}
+            <option value="">Любой</option>{kms.map((p) => <option key={p.v} value={p.v}>{p.t}</option>)}
           </select>
         </label>
         <button type="button" className="cat-reset" id="f-reset" onClick={reset}>Сбросить</button>
