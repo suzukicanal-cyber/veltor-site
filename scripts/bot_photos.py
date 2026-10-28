@@ -44,6 +44,7 @@ def main():
     try:
         me = api(token, "getMe")
         print(f"Бот @{me['username']}")
+        store["bot"] = me["username"]
         got = 0
         while True:
             ups = api(token, "getUpdates", offset=store["offset"], limit=100, timeout=0, allowed_updates=["message", "channel_post"])
@@ -52,6 +53,8 @@ def main():
             for u in ups:
                 store["offset"] = u["update_id"] + 1
                 m = u.get("message") or u.get("channel_post")
+                if m:
+                    store["lastSeen"] = {"chat": m["chat"].get("username") or m["chat"].get("title"), "id": m["message_id"]}
                 if not m or (m["chat"].get("username") or "").lower() != GROUP or not m.get("photo"):
                     continue
                 big = max(m["photo"], key=lambda p: p.get("width", 0) * p.get("height", 0))
