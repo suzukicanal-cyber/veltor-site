@@ -5,21 +5,22 @@ import JsonLd from "@/components/JsonLd";
 import LotGallery from "@/components/catalog/LotGallery";
 import LotCard from "@/components/catalog/LotCard";
 import LikeButton from "@/components/catalog/LikeButton";
-import { BodyLine, LOTS, hdSrc, likeLink, lotBySlug, lotHref, similar, typeLabel, yawFor } from "@/lib/lots";
+import { BodyLine, LOTS, REDIRECTS, hdSrc, likeLink, lotBySlug, lotHref, similar, typeLabel, yawFor } from "@/lib/lots";
 import { dateLong, dateRu, kmLabel, money } from "@/lib/format";
 import { SITE_URL, asset } from "@/lib/site";
 import { lotLanding } from "@/lib/seo";
 
 export const dynamicParams = false;
 export function generateStaticParams() {
-  return LOTS.map((l) => ({ slug: l.slug }));
+  return [...LOTS.map((l) => ({ slug: l.slug })), ...Object.keys(REDIRECTS).map((slug) => ({ slug }))];
 }
 
 type Props = { params: Promise<{ slug: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const l = lotBySlug((await params).slug);
-  if (!l) return {};
+  const slug = (await params).slug;
+  const l = lotBySlug(slug);
+  if (!l) return REDIRECTS[slug] ? { title: "Объявление обновлено", robots: { index: false, follow: true }, alternates: { canonical: `/catalog/${REDIRECTS[slug]}/` } } : {};
   const what = l.type === "moto" ? "Мотоцикл" : "Автомобиль";
   const title = `${l.name} ${l.year} из Южной Кореи — цена и характеристики`;
   const description = `${what} ${l.name}, ${l.year} год, пробег ${kmLabel(l.km)}${l.volume ? ", " + l.volume : ""}. Цена ${money(l.price)} ${l.priceLabel} на ${dateRu(l.date)}. Подбор, осмотр и доставка из Кореи — VELTOR.`;
@@ -46,7 +47,23 @@ function sections(body: BodyLine[]) {
 }
 
 export default async function LotPage({ params }: Props) {
-  const l = lotBySlug((await params).slug);
+  const slug = (await params).slug;
+  const l = lotBySlug(slug);
+  if (!l && REDIRECTS[slug]) {
+    // the same vehicle was posted again: the old address leads to the newest post
+    const to = `/catalog/${REDIRECTS[slug]}/`;
+    return (
+      <section className="catalog-page wrap" id="top">
+        <meta httpEquiv="refresh" content={`0;url=${to}`} />
+        <div className="inner lp-404">
+          <p className="eyebrow">Объявление обновлено</p>
+          <h1 className="cat-h1">Этот вариант опубликован заново</h1>
+          <p className="lead">Мы обновили объявление: актуальная цена и фото — на новой странице.</p>
+          <div className="ctas"><Link className="btn btn-primary" href={to}>Открыть актуальное объявление</Link></div>
+        </div>
+      </section>
+    );
+  }
   if (!l) notFound();
   const { out, warn, about } = sections(l.body);
   const rows: [string, string][] = [

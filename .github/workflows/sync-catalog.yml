@@ -42,6 +42,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Remove reposted listings (keep the newest post)
+        run: |
+          pip install --quiet numpy pillow telethon
+          python3 scripts/dedupe.py
       - name: Original full-size photos from Telegram (bot, MTProto)
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}

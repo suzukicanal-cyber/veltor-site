@@ -1,4 +1,5 @@
 import raw from "@/data/lots.json";
+import redirectsRaw from "@/data/redirects.json";
 import { tgText } from "./site";
 import { kmLabel, money, dateRu } from "./format";
 
@@ -35,6 +36,9 @@ export const hdSrc = (p: string) => p.replace(/\.jpg$/, "@2x.jpg");
 export const LOTS: Lot[] = (raw as Lot[]).slice().sort((a, b) => b.date.localeCompare(a.date) || b.id - a.id);
 
 export const lotBySlug = (slug: string) => LOTS.find((l) => l.slug === slug);
+
+/** Addresses of reposted (removed) listings → the newest post of the same vehicle (scripts/dedupe.py). */
+export const REDIRECTS = redirectsRaw as Record<string, string>;
 export const typeLabel = (t: LotType) => (t === "moto" ? "Мото" : "Авто");
 export const lotHref = (l: Lot) => `/catalog/${l.slug}/`;
 

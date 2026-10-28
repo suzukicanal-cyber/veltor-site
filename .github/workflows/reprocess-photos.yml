@@ -32,7 +32,8 @@ jobs:
           TG_API_ID: ${{ secrets.TG_API_ID }}
           TG_API_HASH: ${{ secrets.TG_API_HASH }}
         run: |
-          pip install --quiet telethon
+          pip install --quiet telethon pillow
+          python3 scripts/dedupe.py
           python3 scripts/fetch_originals.py --limit 5000 ${{ github.event.inputs.force == 'yes' && '--force' || '' }}
       - name: Commit originals
         run: |

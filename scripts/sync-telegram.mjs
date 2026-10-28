@@ -281,6 +281,9 @@ async function savePhotos(id, urls) {
 async function main() {
   const lots = JSON.parse(await fs.readFile(LOTS_FILE, "utf8"));
   const byId = new Map(lots.map((l) => [l.id, l]));
+  // reposts removed by scripts/dedupe.py must not come back
+  let removedIds = new Set();
+  try { removedIds = new Set(Object.keys(JSON.parse(await fs.readFile(path.join(ROOT, "data", "redirects.json"), "utf8"))).map((s) => +s.split("-").pop())); } catch {}
   const sig = (l) => `${l.raw || l.name}|${l.price}|${l.year}`;
   const seen = new Set(lots.map(sig));
 
@@ -343,7 +346,7 @@ async function main() {
   let misses = 0;
   const queue = ids || Array.from({ length: Math.max(0, maxKnown - start + 1) + MAX_SCAN }, (_, i) => start + i);
   for (const id of queue) {
-    if (byId.has(id)) continue;
+    if (byId.has(id) || removedIds.has(id)) continue;
     const p = await fetchPost(id);
     // gaps of deleted messages are normal inside the known range; stop only after the newest known post
     if (!p) { if (!ids && id > maxKnown && ++misses >= MAX_MISSES) break; continue; }
