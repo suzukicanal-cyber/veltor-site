@@ -46,11 +46,11 @@ jobs:
   upscale:
     needs: originals
     runs-on: ubuntu-latest
-    timeout-minutes: 150
+    timeout-minutes: 300
     strategy:
       fail-fast: false
       matrix:
-        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
     steps:
       - uses: actions/checkout@v4
         with:
@@ -62,17 +62,15 @@ jobs:
         with:
           path: scripts/models/RealESRGAN_x4plus.pth
           key: realesrgan-x4plus-v1
-      - name: Process shard ${{ matrix.shard }}/16 (originals → x4plus, previews → sharpening)
+      - name: Process shard ${{ matrix.shard }}/20 (originals → x4plus, previews → sharpening)
         run: |
           pip install --quiet numpy pillow
           pip install --quiet torch --index-url https://download.pytorch.org/whl/cpu
-          python3 scripts/upscale.py --shard ${{ matrix.shard }}/16 --no-write --budget 8000
+          python3 scripts/upscale.py --shard ${{ matrix.shard }}/20 --no-write --budget 16000
       - uses: actions/upload-artifact@v4
         with:
           name: hd-${{ matrix.shard }}
-          path: |
-            public/catalog/**/*@2x.jpg
-            public/catalog/done-*.json
+          path: hdout/
           if-no-files-found: ignore
           retention-days: 2
 

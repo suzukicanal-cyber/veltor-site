@@ -9,7 +9,7 @@ When all photos of a lot are processed, the lot gets "hd": true in data/lots.jso
 Lots processed by the current scheme carry "hdv": 2; older ones are processed again. Newest first, stops at the budget.
   python3 scripts/upscale.py [--budget SECONDS] [--ids 7713,7674] [--shard i/n --no-write] [--mark-only]
 """
-import argparse, json, os, sys, time, zipfile, pickle
+import argparse, json, os, shutil, sys, time, zipfile, pickle
 import numpy as np
 from PIL import Image
 
@@ -154,6 +154,10 @@ def main():
             try:
                 orig = is_original(l, p)
                 enhance.process(os.path.join(PUBLIC, p), os.path.join(PUBLIC, hd_path(p)), orig)
+                if a.no_write and a.shard:  # parallel job: hand over only what this job made
+                    out = os.path.join(ROOT, "hdout", os.path.relpath(hd_path(p), "catalog"))
+                    os.makedirs(os.path.dirname(out), exist_ok=True)
+                    shutil.copy(os.path.join(PUBLIC, hd_path(p)), out)
                 done += 1; n_d += orig
             except Exception as e:  # a broken photo must not stop the catalog
                 print(f"! {p}: {e}", file=sys.stderr); ok = False
@@ -161,7 +165,8 @@ def main():
             l["hd"], l["hdv"] = True, HDV; finished.append(l["id"])
     if a.no_write:
         if a.shard:
-            with open(os.path.join(PUBLIC, "catalog", f"done-{a.shard.split('/')[0]}.json"), "w") as f:
+            os.makedirs(os.path.join(ROOT, "hdout"), exist_ok=True)
+            with open(os.path.join(ROOT, "hdout", f"done-{a.shard.split('/')[0]}.json"), "w") as f:
                 json.dump(finished, f)
     else:
         with open(LOTS, "w", encoding="utf-8") as f:
