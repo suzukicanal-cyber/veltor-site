@@ -11,7 +11,7 @@ ENV NEXT_PUBLIC_SITE_URL=${NEXT_PUBLIC_SITE_URL}
 ENV NEXT_PUBLIC_YANDEX_VERIFICATION=${NEXT_PUBLIC_YANDEX_VERIFICATION}
 ENV NEXT_PUBLIC_GOOGLE_VERIFICATION=${NEXT_PUBLIC_GOOGLE_VERIFICATION}
 ENV NEXT_PUBLIC_BASE_PATH=""
-RUN npm run build
+RUN node scripts/build-feed.mjs && npm run build
 
 FROM nginx:stable-alpine
 COPY deploy/docker-nginx.conf /etc/nginx/conf.d/default.conf

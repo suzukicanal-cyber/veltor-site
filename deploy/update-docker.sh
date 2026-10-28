@@ -15,6 +15,7 @@ TARGET=$(git rev-parse origin/main)
 if [ "$TARGET" = "$(cat .deployed 2>/dev/null)" ] && [ "${FORCE:-}" != "1" ]; then
   exit 0
 fi
+PREV=$(cat .deployed 2>/dev/null || true)
 git reset -q --hard "$TARGET"
 # старые слои сборки копятся и забивают диск — чистим их до сборки, если места мало
 FREE_MB=$(df -Pm / | awk 'NR==2{print $4}')
@@ -28,6 +29,13 @@ if docker compose -f compose.yaml -f compose.ssl.yaml up -d --build web; then
   docker image prune -f >/dev/null
   docker builder prune -f --filter until=48h >/dev/null 2>&1 || true
   echo "$(date '+%F %T') сайт обновлён до ${TARGET:0:7}"
+  # сообщаем Яндексу о новых страницах (IndexNow); в первый раз — обо всех
+  sleep 5
+  if [ ! -f .indexnow-init ]; then
+    python3 scripts/indexnow.py --all && touch .indexnow-init || true
+  elif [ -n "$PREV" ]; then
+    python3 scripts/indexnow.py "$PREV" || true
+  fi
 else
   echo "$(date '+%F %T') !! сборка ${TARGET:0:7} не удалась — сайт работает на прошлой версии"
   exit 1
