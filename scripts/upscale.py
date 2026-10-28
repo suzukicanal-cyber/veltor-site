@@ -4,6 +4,7 @@
 For every local photo public/catalog/<id>/<n>.jpg a sharper copy <n>@2x.jpg is written next to it;
 the original stays untouched (cards use it, galleries and retina screens use @2x).
 When all photos of a lot are processed, the lot gets "hd": true in data/lots.json.
+"noUpscale": true in a lot keeps its photos as published (no neural processing).
 
 Pure numpy + Pillow (no torch/GPU), so it runs on GitHub Actions. Newest lots first, stops at the time budget.
   python3 scripts/upscale.py [--budget SECONDS] [--denoise 0.3] [--ids 7713,7674]
@@ -113,7 +114,7 @@ def main():
     a = ap.parse_args()
     lots = json.load(open(LOTS, encoding="utf-8"))
     only = {int(x) for x in a.ids.split(",") if x}
-    todo = [l for l in lots if not l.get("hd") and (not only or l["id"] in only)]
+    todo = [l for l in lots if not l.get("hd") and not l.get("noUpscale") and (not only or l["id"] in only)]
     todo.sort(key=lambda l: (l["date"], l["id"]), reverse=True)
     if a.mark_only:
         for l in todo:

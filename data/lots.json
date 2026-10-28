@@ -35,7 +35,7 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/8308",
   "parser": 3,
-  "hd": true
+  "noUpscale": true
  },
  {
   "id": 8298,
