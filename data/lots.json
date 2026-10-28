@@ -207,7 +207,8 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/7/8298",
   "parser": 3,
-  "hd": true
+  "hd": true,
+  "hdv": 2
  },
  {
   "id": 8294,
@@ -249,7 +250,8 @@
   "origPhotos": [
    "catalog/8294/1.jpg",
    "catalog/8294/2.jpg"
-  ]
+  ],
+  "hdv": 2
  },
  {
   "id": 8290,
@@ -314,7 +316,8 @@
   "hd": true,
   "origPhotos": [
    "catalog/8290/1.jpg"
-  ]
+  ],
+  "hdv": 2
  },
  {
   "id": 8286,
@@ -360,7 +363,8 @@
   "origPhotos": [
    "catalog/8286/1.jpg",
    "catalog/8286/3.jpg"
-  ]
+  ],
+  "hdv": 2
  },
  {
   "id": 8282,
@@ -402,7 +406,8 @@
   "origPhotos": [
    "catalog/8282/1.jpg",
    "catalog/8282/2.jpg"
-  ]
+  ],
+  "hdv": 2
  },
  {
   "id": 8278,
@@ -444,7 +449,8 @@
   "origPhotos": [
    "catalog/8278/1.jpg",
    "catalog/8278/2.jpg"
-  ]
+  ],
+  "hdv": 2
  },
  {
   "id": 8268,
@@ -612,7 +618,8 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/7/8268",
   "parser": 3,
-  "hd": true
+  "hd": true,
+  "hdv": 2
  },
  {
   "id": 8264,
@@ -654,7 +661,8 @@
   "origPhotos": [
    "catalog/8264/2.jpg",
    "catalog/8264/1.jpg"
-  ]
+  ],
+  "hdv": 2
  },
  {
   "id": 8260,
@@ -696,7 +704,8 @@
   "origPhotos": [
    "catalog/8260/1.jpg",
    "catalog/8260/2.jpg"
-  ]
+  ],
+  "hdv": 2
  },
  {
   "id": 8256,
