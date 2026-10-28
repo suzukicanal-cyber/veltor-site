@@ -1,5 +1,43 @@
 [
  {
+  "id": 8308,
+  "slug": "yamaha-yzf-r7-2022-8308",
+  "type": "moto",
+  "brand": "Yamaha",
+  "model": "YZF-R7",
+  "name": "Yamaha YZF-R7",
+  "raw": "Yamaha YZF-R7",
+  "year": 2022,
+  "km": 8000,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 941000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-28T13:35:47+00:00",
+  "features": [
+   "Без ДТП",
+   "Внешнее состояние очень чистое",
+   "Базовое ТО выполнено"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Без ДТП, внешнее состояние очень чистое, базовое ТО выполнено. Есть тюнинг: карбоновые элементы обвеса и тонированное ветровое стекло"
+   }
+  ],
+  "photos": [
+   "catalog/8308/1.jpg",
+   "catalog/8308/2.jpg",
+   "catalog/8308/3.jpg",
+   "catalog/8308/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8308",
+  "parser": 3,
+  "hd": true
+ },
+ {
   "id": 8298,
   "slug": "mercedes-benz-g450d-w465-2026-8298",
   "type": "car",
