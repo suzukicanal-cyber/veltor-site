@@ -6,3 +6,4 @@ out/
 
 .env.production
 .deployed
+__pycache__/
