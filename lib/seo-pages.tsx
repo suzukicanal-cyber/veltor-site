@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { LOTS, LotType } from "./lots";
 import { asset } from "./site";
 import {
-  BRAND_NOTES, TYPE, brandGroups, brandHref, countLabel, findBrand, findModel, kmLabelShort, modelHref,
+  BRAND_NOTES, MODEL_NOTES, TYPE, factsText, brandGroups, brandHref, countLabel, findBrand, findModel, kmLabelShort, modelHref,
   priceRange, stats, typeHref, yearRange,
 } from "./seo";
 import type { Chip, Crumb, QA } from "@/components/seo/Landing";
@@ -81,7 +81,7 @@ export function brandLanding(type: LotType, slug: string) {
       crumbs: [HOME, { href: typeHref(type), label: `${t.label} из Кореи` }, { href: brandHref(type, b.brand), label: b.brand }],
       eyebrow: `${b.brand} · Южная Корея → Россия`,
       h1: `${t.label} ${b.brand} из Кореи`,
-      text: [...(BRAND_NOTES[b.brand] ? [BRAND_NOTES[b.brand]] : []), ...serviceText(subject, type)],
+      text: [...(BRAND_NOTES[b.brand] ? [BRAND_NOTES[b.brand]] : []), ...(factsText(b.brand, b.lots, type) ? [factsText(b.brand, b.lots, type)!] : []), ...serviceText(subject, type)],
       chipsTitle: b.models.length ? "Модели" : undefined,
       chips: b.models.map((m): Chip => ({ href: modelHref(type, b.brand, m.model), label: m.model, n: m.lots.length })),
       lots: b.lots,
@@ -105,19 +105,25 @@ export function modelLanding(type: LotType, brandSlug: string, modelSlug: string
   const s = stats(m.lots);
   const name = `${b.brand} ${m.model}`;
   const others = b.models.filter((x) => x.slug !== m.slug).slice(0, 8);
+  const note = MODEL_NOTES[`${b.brand}|${m.model}`];
+  const facts = factsText(name, m.lots, type);
+  const extraFaq: QA[] = [
+    ...(note ? [{ q: `На что вы смотрите при осмотре ${name}?`, a: note.check }] : []),
+    { q: `Каких годов ${name} можно привезти из Кореи?`, a: `Мы уже подбирали ${name} ${[...new Set(m.lots.map((l) => l.year))].sort((a, z) => a - z).join(", ")} годов. Если нужного года нет среди примеров, найдём экземпляр под ваш бюджет и осмотрим его на месте.` },
+  ];
   return {
     meta: meta(modelHref(type, b.brand, m.model), `${name} из Кореи под ключ — цена`, `${name} из Южной Кореи: ${countLabel(s.count, type)} ${yearRange(s)} годов ${priceRange(s)} под ключ. Живой осмотр перед покупкой, доставка в Москву в среднем 45 дней, СБКТС и ЭПТС.`, m.lots[0]?.photos[0]),
     props: {
       crumbs: [HOME, { href: typeHref(type), label: `${t.label} из Кореи` }, { href: brandHref(type, b.brand), label: b.brand }, { href: modelHref(type, b.brand, m.model), label: m.model }],
       eyebrow: `${t.short} · ${b.brand}`,
       h1: `${name} из Кореи`,
-      text: serviceText(name, type),
+      text: [...(note ? [note.text] : []), ...(facts ? [facts] : []), ...serviceText(name, type)],
       chipsTitle: others.length ? `Другие модели ${b.brand}` : undefined,
       chips: others.map((x): Chip => ({ href: modelHref(type, b.brand, x.model), label: x.model, n: x.lots.length })),
       lots: m.lots,
       moreHref: `${CATALOG}?type=${type}&brand=${encodeURIComponent(b.brand)}&model=${encodeURIComponent(m.model)}`,
       moreLabel: `Все ${name} в каталоге`,
-      faq: faq(name, type, s),
+      faq: [...faq(name, type, s), ...extraFaq],
       ctaTitle: `Ищете ${name}?`,
     },
   };
