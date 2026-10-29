@@ -1,5 +1,68 @@
 [
  {
+  "id": 8346,
+  "slug": "bmw-s-1000-rr-race-package-2025-8346",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR Race Package",
+  "raw": "BMW S1000RR Race Package",
+  "year": 2025,
+  "km": 743,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1878000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-29T10:50:34+00:00",
+  "features": [
+   "Race Package",
+   "Почти новый: брали",
+   "Чтобы кататься"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Race Package, цвет Black Storm Metallic. Почти новый: брали, чтобы кататься, но так и не получилось, мотоцикл просто стоял. Первое ТО (1 000 км) ещё не проходил, ограничение оборотов обкатки не снято. Был лёгкий завал на месте без движения, по разу на каждую сторону: несколько царапин на пластике и сломан кончик левого рычага сцепления. Отличный шанс взять свежий RR дешевле рынка!"
+   },
+   {
+    "k": "h",
+    "t": "Тюнинг"
+   },
+   {
+    "k": "li",
+    "t": "Держатель для телефона"
+   },
+   {
+    "k": "li",
+    "t": "Видеорегистратор"
+   },
+   {
+    "k": "li",
+    "t": "USB-разъём"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев ручек"
+   },
+   {
+    "k": "li",
+    "t": "Защитная решётка радиатора"
+   }
+  ],
+  "photos": [
+   "catalog/8346/1.jpg",
+   "catalog/8346/2.jpg",
+   "catalog/8346/3.jpg",
+   "catalog/8346/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8346",
+  "parser": 3,
+  "hd": true,
+  "hdv": 2
+ },
+ {
   "id": 8341,
   "slug": "honda-cbr600rr-2025-8341",
   "type": "moto",
@@ -123,7 +186,9 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/8337",
   "parser": 3,
-  "orig": true
+  "orig": true,
+  "hd": true,
+  "hdv": 2
  },
  {
   "id": 8328,
@@ -330,7 +395,9 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/7/8328",
   "parser": 3,
-  "orig": true
+  "orig": true,
+  "hd": true,
+  "hdv": 2
  },
  {
   "id": 8324,
