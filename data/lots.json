@@ -1,5 +1,81 @@
 [
  {
+  "id": 8324,
+  "slug": "bmw-r-1300-gs-adventure-option-719-2026-8324",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "R 1300 GS Adventure",
+  "name": "BMW R 1300 GS Adventure Option 719",
+  "raw": "BMW R1300GS Adventure Option 719",
+  "year": 2026,
+  "km": 626,
+  "volume": "1300 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 3054000,
+  "priceLabel": "под ключ",
+  "date": "2026-10-29T01:39:03+00:00",
+  "features": [
+   "Мотоцикл в состоянии нового",
+   "Без ДТП",
+   "С минимальным пробегом"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Практически новый BMW R1300GS Adventure в комплектации Option 719. Выпуск в октябре 2026 года"
+   },
+   {
+    "k": "li",
+    "t": "Мотоцикл в состоянии нового, без ДТП, с минимальным пробегом"
+   },
+   {
+    "k": "h",
+    "t": "Комплектация и оснащение"
+   },
+   {
+    "k": "li",
+    "t": "Option 719"
+   },
+   {
+    "k": "li",
+    "t": "Три алюминиевых кофра"
+   },
+   {
+    "k": "li",
+    "t": "Защитные дуги"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев ручек"
+   },
+   {
+    "k": "li",
+    "t": "Бесключевой доступ"
+   },
+   {
+    "k": "li",
+    "t": "Защита рук"
+   },
+   {
+    "k": "li",
+    "t": "Первое техническое обслуживание пройдено на пробеге 620 km"
+   }
+  ],
+  "photos": [
+   "catalog/8324/1.jpg",
+   "catalog/8324/2.jpg",
+   "catalog/8324/3.jpg",
+   "catalog/8324/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8324",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
   "id": 8314,
   "slug": "bmw-320i-m-sport-g20-2025-8314",
   "type": "car",
