@@ -237,6 +237,7 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/7/8554",
   "parser": 3,
+  "orig": true,
   "hd": true,
   "hdv": 2
  },
@@ -448,7 +449,9 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/8546",
   "parser": 3,
-  "orig": true
+  "orig": true,
+  "hd": true,
+  "hdv": 2
  },
  {
   "id": 8536,
@@ -1753,7 +1756,7 @@
   "slug": "suzuki-hayabusa-gsx1300r-2024-8476",
   "type": "moto",
   "brand": "Suzuki",
-  "model": "Hayabusa",
+  "model": "Hayabusa GSX1300R",
   "name": "Suzuki Hayabusa GSX1300R",
   "raw": "Suzuki Hayabusa GSX1300R",
   "year": 2024,
