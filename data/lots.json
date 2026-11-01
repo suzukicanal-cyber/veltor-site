@@ -1,5 +1,109 @@
 [
  {
+  "id": 8643,
+  "slug": "harley-davidson-softail-slim-2017-8643",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Softail Slim",
+  "name": "Harley-Davidson Softail Slim",
+  "raw": "Harley-Davidson Softail Slim",
+  "year": 2017,
+  "km": 20000,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1224000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-01T08:54:37+00:00",
+  "features": [
+   "Руль в стиле Half Ape",
+   "Выхлопная система Vance & Hines",
+   "Оригинальные глушители в комплекте"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Мотоцикл с большим количеством установленного тюнинга"
+   },
+   {
+    "k": "h",
+    "t": "Тюнинг и оснащение"
+   },
+   {
+    "k": "li",
+    "t": "Руль в стиле Half Ape (изменения конструкции оформлены)"
+   },
+   {
+    "k": "li",
+    "t": "Выхлопная система Vance & Hines"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальные глушители в комплекте"
+   },
+   {
+    "k": "li",
+    "t": "USB-разъём"
+   },
+   {
+    "k": "li",
+    "t": "Крепление для телефона"
+   },
+   {
+    "k": "li",
+    "t": "Bluetooth-акустика"
+   },
+   {
+    "k": "li",
+    "t": "LED-подсветка топливного бака"
+   },
+   {
+    "k": "li",
+    "t": "Крышка двигателя RSD"
+   },
+   {
+    "k": "li",
+    "t": "Тюнинговая крышка бензобака"
+   },
+   {
+    "k": "li",
+    "t": "Крышка переднего поворотника"
+   },
+   {
+    "k": "li",
+    "t": "Дополнительные сумки"
+   },
+   {
+    "k": "li",
+    "t": "Установлены шины Michelin для Harley-Davidson спереди и сзади"
+   },
+   {
+    "k": "h",
+    "t": "По информации владельца"
+   },
+   {
+    "k": "li",
+    "t": "Без ДТП и падений"
+   },
+   {
+    "k": "p",
+    "t": "Дополнительно покупателю передаются новые зимние перчатки Harley-Davidson и неиспользованная сумка через плечо Harley-Davidson."
+   }
+  ],
+  "photos": [
+   "catalog/8643/1.jpg",
+   "catalog/8643/2.jpg",
+   "catalog/8643/3.jpg",
+   "catalog/8643/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8643",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
   "id": 8639,
   "slug": "harley-davidson-softail-slim-107-2020-8639",
   "type": "moto",
@@ -75,6 +179,7 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/8639",
   "parser": 3,
+  "orig": true,
   "hd": true,
   "hdv": 2
  },
@@ -162,6 +267,7 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/8635",
   "parser": 3,
+  "orig": true,
   "hd": true,
   "hdv": 2
  },
@@ -221,8 +327,7 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/8631",
   "parser": 3,
-  "hd": true,
-  "hdv": 2
+  "orig": true
  },
  {
   "id": 8623,
