@@ -247,7 +247,9 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/8690",
   "parser": 3,
-  "orig": true
+  "orig": true,
+  "hd": true,
+  "hdv": 2
  },
  {
   "id": 8686,
@@ -329,7 +331,9 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/8686",
   "parser": 3,
-  "orig": true
+  "orig": true,
+  "hd": true,
+  "hdv": 2
  },
  {
   "id": 8680,
