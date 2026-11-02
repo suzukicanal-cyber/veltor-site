@@ -1,5 +1,240 @@
 [
  {
+  "id": 8686,
+  "slug": "yamaha-yzf-r6-2020-8686",
+  "type": "moto",
+  "brand": "Yamaha",
+  "model": "YZF-R6",
+  "name": "Yamaha YZF-R6",
+  "raw": "Yamaha YZF-R6",
+  "year": 2020,
+  "km": 28400,
+  "volume": "599 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1076000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-02T12:58:04+00:00",
+  "features": [
+   "Плёнка с потёртостями",
+   "Глушитель куплен б/у уже с царапинами",
+   "По технике замечаний нет"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Yamaha YZF-R6 2020 года. Родной синий пластик обклеен бело-синей плёнкой. Масло и фильтр менялись каждые 2’500 km, мотоцикл ездил без проблем и готов к эксплуатации сразу после покупки. Было падение на месте на левую сторону: небольшая трещина в месте крепления заднего пластика, плёнка с потёртостями, глушитель куплен б/у уже с царапинами. По технике замечаний нет."
+   },
+   {
+    "k": "h",
+    "t": "Тюнинг"
+   },
+   {
+    "k": "li",
+    "t": "Слип-он Akrapovič"
+   },
+   {
+    "k": "li",
+    "t": "Слайдеры рамы"
+   },
+   {
+    "k": "li",
+    "t": "Видеорегистратор 2 канала (перед, зад)"
+   },
+   {
+    "k": "li",
+    "t": "Фендерлесс-кит"
+   },
+   {
+    "k": "li",
+    "t": "Регулируемые подножки (рейсеты)"
+   },
+   {
+    "k": "h",
+    "t": "Обслуживание"
+   },
+   {
+    "k": "li",
+    "t": "17’000 km — замена передней и задней звёзд и цепи"
+   },
+   {
+    "k": "li",
+    "t": "20’000 km — замена катушек зажигания, свечей и дисков сцепления"
+   },
+   {
+    "k": "li",
+    "t": "21’000 km — замена тормозной жидкости"
+   },
+   {
+    "k": "li",
+    "t": "25’000 km — замена задних тормозных колодок"
+   }
+  ],
+  "photos": [
+   "catalog/8686/1.jpg",
+   "catalog/8686/2.jpg",
+   "catalog/8686/3.jpg",
+   "catalog/8686/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8686",
+  "parser": 3,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 8680,
+  "slug": "bmw-s-1000-rr-race-package-2023-8680",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR Race Package",
+  "raw": "BMW S1000RR Race Package",
+  "year": 2023,
+  "km": 6250,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1911000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-02T12:00:10+00:00",
+  "features": [
+   "Комплектация Race Package",
+   "Без ДТП",
+   "Выхлоп Austin Racing"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Комплектация Race Package. Без ДТП. Выхлоп Austin Racing (изменения конструкции официально оформлены), двухканальный видеорегистратор, USB-порт, защита радиатора, защита двигателя, слайдеры вилки и задней части, крепление для беспроводной зарядки, Puig ветровое стекло, дополнительные аксессуары. Отличное состояние, сохранён заводской внешний вид. Гарантия производителя до апреля 2027 года."
+   }
+  ],
+  "photos": [
+   "catalog/8680/1.jpg",
+   "catalog/8680/2.jpg",
+   "catalog/8680/3.jpg",
+   "catalog/8680/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8680",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 8676,
+  "slug": "bmw-m-1000-rr-competition-2024-8676",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "M 1000 RR",
+  "name": "BMW M 1000 RR Competition",
+  "raw": "BMW M1000RR Competition",
+  "year": 2024,
+  "km": 4000,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2363000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-02T11:57:10+00:00",
+  "features": [
+   "Комплектация Competition",
+   "Рама и руль без повреждений",
+   "Ремонт полностью завершён"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Комплектация Competition. Было скольжение на правую сторону у предыдущего владельца. Рама и руль без повреждений, ремонт полностью завершён. Установлен задний тормоз от BMW S1000RR."
+   }
+  ],
+  "photos": [
+   "catalog/8676/1.jpg",
+   "catalog/8676/2.jpg",
+   "catalog/8676/3.jpg",
+   "catalog/8676/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8676",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 8672,
+  "slug": "bmw-s-1000-rr-race-pack-2024-8672",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR Race Pack",
+  "raw": "BMW S1000RR RACE PACK",
+  "year": 2024,
+  "km": 6500,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1750000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-02T11:53:00+00:00",
+  "features": [
+   "Небольшой пробег",
+   "Задняя шина недавно заменена"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "BMW S1000RR 2024 года в комплектации Race Pack. Небольшой пробег. Задняя шина недавно заменена. В режиме Race характерные хлопки выхлопа."
+   }
+  ],
+  "photos": [
+   "catalog/8672/1.jpg",
+   "catalog/8672/2.jpg",
+   "catalog/8672/3.jpg",
+   "catalog/8672/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8672",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 8668,
+  "slug": "bmw-s-1000-rr-m-package-2023-8668",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR M Package",
+  "raw": "BMW S1000RR M Package",
+  "year": 2023,
+  "km": 12000,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1699000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-02T11:48:52+00:00",
+  "features": [
+   "Карбоновые колёса",
+   "Гарантия"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "BMW S1000RR в комплектации M Package. Карбоновые колёса, гарантия. Продавец заявляет отсутствие ДТП и падений."
+   }
+  ],
+  "photos": [
+   "catalog/8668/1.jpg",
+   "catalog/8668/2.jpg",
+   "catalog/8668/3.jpg",
+   "catalog/8668/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8668",
+  "parser": 3,
+  "orig": true
+ },
+ {
   "id": 8660,
   "slug": "harley-davidson-softail-slim-2018-8660",
   "type": "moto",
@@ -38,44 +273,6 @@
   "orig": true,
   "hd": true,
   "hdv": 2
- },
- {
-  "id": 8656,
-  "slug": "bmw-s-1000-rr-race-pack-2024-8656",
-  "type": "moto",
-  "brand": "BMW",
-  "model": "S 1000 RR",
-  "name": "BMW S 1000 RR Race Pack",
-  "raw": "BMW S1000RR Race Pack",
-  "year": 2024,
-  "km": 6500,
-  "volume": "999 см³",
-  "power": null,
-  "drive": null,
-  "gearbox": null,
-  "price": 1732000,
-  "priceLabel": "под ключ",
-  "date": "2026-11-02T09:33:51+00:00",
-  "features": [
-   "Тюнинг: цепь M",
-   "Низкое сиденье",
-   "SP Connect"
-  ],
-  "body": [
-   {
-    "k": "p",
-    "t": "BMW S1000RR 2024 года в комплектации Race Pack с кованными дисками. Тюнинг: цепь M, низкое сиденье (родное в комплекте), 2-канальный видеорегистратор, SP Connect, зарядка Type-C, защита GB Racing, слайдеры и базовый тюнинг, подогрев ручек и круиз-контроль. Обслуживание: в сентябре замена моторного и тормозного масла у официального дилера Motorrad, недавно заменена задняя шина. Гарантия до июля следующего года. Отличные отстрелы в режиме Race. Небольшое падение на правый бок у первого владельца на слаломе — следы только на глушителе, в остальном мелкие бытовые потёртости"
-   }
-  ],
-  "photos": [
-   "catalog/8656/1.jpg",
-   "catalog/8656/2.jpg",
-   "catalog/8656/3.jpg",
-   "catalog/8656/4.jpg"
-  ],
-  "post": "https://t.me/koreamotocycles_veltor/8/8656",
-  "parser": 3,
-  "orig": true
  },
  {
   "id": 8652,
@@ -11978,65 +12175,6 @@
   "origPhotos": [
    "catalog/7968/1.jpg",
    "catalog/7968/2.jpg"
-  ],
-  "hdv": 2
- },
- {
-  "id": 7964,
-  "slug": "bmw-m-1000-rr-competition-2024-7964",
-  "type": "moto",
-  "brand": "BMW",
-  "model": "M 1000 RR",
-  "name": "BMW M 1000 RR Competition",
-  "raw": "BMW M 1000 RR Competition",
-  "year": 2024,
-  "km": 4000,
-  "volume": null,
-  "power": null,
-  "drive": null,
-  "gearbox": null,
-  "price": 2382000,
-  "priceLabel": "под ключ",
-  "date": "2026-10-24T11:23:51+00:00",
-  "features": [
-   "Комплектация Competition",
-   "Мотоцикл после скользящего падения",
-   "Повреждения затронули раму и руль"
-  ],
-  "body": [
-   {
-    "k": "li",
-    "t": "Комплектация Competition"
-   },
-   {
-    "k": "li",
-    "t": "Мотоцикл после скользящего падения"
-   },
-   {
-    "k": "li",
-    "t": "Повреждения затронули раму и руль"
-   },
-   {
-    "k": "li",
-    "t": "Рама и руль отремонтированы"
-   },
-   {
-    "k": "li",
-    "t": "Установлен задний тормоз от BMW S 1000 RR"
-   }
-  ],
-  "photos": [
-   "catalog/7964/1.jpg",
-   "catalog/7964/2.jpg",
-   "catalog/7964/3.jpg",
-   "catalog/7964/4.jpg"
-  ],
-  "post": "https://t.me/koreamotocycles_veltor/8/7964",
-  "parser": 3,
-  "hd": true,
-  "origPhotos": [
-   "catalog/7964/1.jpg",
-   "catalog/7964/2.jpg"
   ],
   "hdv": 2
  },
