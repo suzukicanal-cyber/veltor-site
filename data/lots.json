@@ -1,5 +1,83 @@
 [
  {
+  "id": 8660,
+  "slug": "harley-davidson-softail-slim-2018-8660",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Softail Slim",
+  "name": "Harley-Davidson Softail Slim",
+  "raw": "Harley-Davidson Softail Slim",
+  "year": 2018,
+  "km": 28317,
+  "volume": "1745 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1199000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-02T09:39:52+00:00",
+  "features": [
+   "Без ДТП",
+   "Низкая посадка",
+   "Тюнинг: выхлоп,руль"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Harley-Davidson Softail Slim 2018 года, без ДТП. Объём 1745 см³. Низкая посадка, спицованные колёса и матовая расцветка — классический стиль Softail во всей красе. Тюнинг: выхлоп,руль, спинка пассажира и боковые кофры с обеих сторон. Пройдено полное ТО, расходники с большим запасом. Двигатель работает без посторонних шумов, мотоцикл стабильно держит дорогу. Отличное состояние, готов к эксплуатации"
+   }
+  ],
+  "photos": [
+   "catalog/8660/1.jpg",
+   "catalog/8660/2.jpg",
+   "catalog/8660/3.jpg",
+   "catalog/8660/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8660",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 8656,
+  "slug": "bmw-s-1000-rr-race-pack-2024-8656",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR Race Pack",
+  "raw": "BMW S1000RR Race Pack",
+  "year": 2024,
+  "km": 6500,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1732000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-02T09:33:51+00:00",
+  "features": [
+   "Тюнинг: цепь M",
+   "Низкое сиденье",
+   "SP Connect"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "BMW S1000RR 2024 года в комплектации Race Pack с кованными дисками. Тюнинг: цепь M, низкое сиденье (родное в комплекте), 2-канальный видеорегистратор, SP Connect, зарядка Type-C, защита GB Racing, слайдеры и базовый тюнинг, подогрев ручек и круиз-контроль. Обслуживание: в сентябре замена моторного и тормозного масла у официального дилера Motorrad, недавно заменена задняя шина. Гарантия до июля следующего года. Отличные отстрелы в режиме Race. Небольшое падение на правый бок у первого владельца на слаломе — следы только на глушителе, в остальном мелкие бытовые потёртости"
+   }
+  ],
+  "photos": [
+   "catalog/8656/1.jpg",
+   "catalog/8656/2.jpg",
+   "catalog/8656/3.jpg",
+   "catalog/8656/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8656",
+  "parser": 3,
+  "orig": true
+ },
+ {
   "id": 8652,
   "slug": "bmw-s-1000-r-2021-8652",
   "type": "moto",
@@ -290,94 +368,6 @@
    "catalog/8639/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/8639",
-  "parser": 3,
-  "orig": true,
-  "hd": true,
-  "hdv": 2
- },
- {
-  "id": 8635,
-  "slug": "harley-davidson-softail-slim-2018-8635",
-  "type": "moto",
-  "brand": "Harley-Davidson",
-  "model": "Softail Slim",
-  "name": "Harley-Davidson Softail Slim",
-  "raw": "Harley-Davidson Softail Slim",
-  "year": 2018,
-  "km": 28317,
-  "volume": null,
-  "power": null,
-  "drive": null,
-  "gearbox": null,
-  "price": 1249000,
-  "priceLabel": "под ключ",
-  "date": "2026-11-01T08:47:34+00:00",
-  "features": [
-   "Тюнинговый глушитель",
-   "Руль",
-   "Сисси-бар"
-  ],
-  "body": [
-   {
-    "k": "p",
-    "t": "Мотоцикл в классическом стиле Softail с низкой посадкой, спицованными колёсами и матовой цветовой гаммой."
-   },
-   {
-    "k": "h",
-    "t": "Установленный тюнинг"
-   },
-   {
-    "k": "li",
-    "t": "Тюнинговый глушитель"
-   },
-   {
-    "k": "li",
-    "t": "Руль"
-   },
-   {
-    "k": "li",
-    "t": "Сисси-бар (спинка пассажира)"
-   },
-   {
-    "k": "li",
-    "t": "Боковые защитные дуги с обеих сторон"
-   },
-   {
-    "k": "h",
-    "t": "По информации дилера"
-   },
-   {
-    "k": "li",
-    "t": "Без ДТП"
-   },
-   {
-    "k": "li",
-    "t": "Все плановые ТО проведены"
-   },
-   {
-    "k": "li",
-    "t": "Расходные материалы имеют хороший остаточный ресурс"
-   },
-   {
-    "k": "li",
-    "t": "Посторонние шумы двигателя отсутствуют"
-   },
-   {
-    "k": "li",
-    "t": "Мотоцикл устойчив и стабилен в движении"
-   },
-   {
-    "k": "li",
-    "t": "Полностью готов к эксплуатации"
-   }
-  ],
-  "photos": [
-   "catalog/8635/1.jpg",
-   "catalog/8635/2.jpg",
-   "catalog/8635/3.jpg",
-   "catalog/8635/4.jpg"
-  ],
-  "post": "https://t.me/koreamotocycles_veltor/8/8635",
   "parser": 3,
   "orig": true,
   "hd": true,
