@@ -1,5 +1,113 @@
 [
  {
+  "id": 8775,
+  "slug": "ktm-1290-super-adventure-s-2022-8775",
+  "type": "moto",
+  "brand": "KTM",
+  "model": "1290 Super Adventure S",
+  "name": "KTM 1290 Super Adventure S",
+  "raw": "KTM 1290 Super Adventure S",
+  "year": 2022,
+  "km": 18088,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1580000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-03T12:28:51+00:00",
+  "features": [
+   "Без аварий и падений",
+   "Состояние как у нового",
+   "Один смарт-ключ"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "KTM 1290 Super Adventure S 2022 года, без аварий и падений, состояние как у нового. Один смарт-ключ"
+   },
+   {
+    "k": "h",
+    "t": "Тюнинг"
+   },
+   {
+    "k": "li",
+    "t": "Крепление для смартфона SP Connect"
+   },
+   {
+    "k": "li",
+    "t": "Видеорегистратор"
+   },
+   {
+    "k": "h",
+    "t": "Обслуживание"
+   },
+   {
+    "k": "li",
+    "t": "Плановое ТО на 20 000 km выполнено (на 1 570 000 ₩)"
+   },
+   {
+    "k": "li",
+    "t": "Новые шины Michelin Anakee, после замены без пробега"
+   },
+   {
+    "k": "li",
+    "t": "Замена моторного масла и всех жидкостей, после замены без пробега"
+   }
+  ],
+  "photos": [
+   "catalog/8775/1.jpg",
+   "catalog/8775/2.jpg",
+   "catalog/8775/3.jpg",
+   "catalog/8775/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8775",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 8770,
+  "slug": "ktm-1290-super-adventure-s-2021-8770",
+  "type": "moto",
+  "brand": "KTM",
+  "model": "1290 Super Adventure S",
+  "name": "KTM 1290 Super Adventure S",
+  "raw": "KTM 1290 SUPER ADVENTURE S",
+  "year": 2021,
+  "km": 8000,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1702000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-03T12:16:31+00:00",
+  "features": [
+   "Без ДТП",
+   "Комплектация: подогрев ручек",
+   "Розетка питания"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Без ДТП. Комплектация: подогрев ручек, розетка питания, сигнализация, LED-освещение, противотуманные фары, защитные дуги и ветровое стекло."
+   }
+  ],
+  "photos": [
+   "catalog/8770/1.jpg",
+   "catalog/8770/2.jpg",
+   "catalog/8770/3.jpg",
+   "catalog/8770/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8770",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
   "id": 8766,
   "slug": "kawasaki-z650-2017-8766",
   "type": "moto",
@@ -122,7 +230,9 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/8762",
   "parser": 3,
-  "orig": true
+  "orig": true,
+  "hd": true,
+  "hdv": 2
  },
  {
   "id": 8758,
