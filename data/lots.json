@@ -131,6 +131,7 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/8753",
   "parser": 3,
+  "orig": true,
   "hd": true,
   "hdv": 2
  },
@@ -139,7 +140,7 @@
   "slug": "bmw-s-1000-xr-triple-black-2019-8749",
   "type": "moto",
   "brand": "BMW",
-  "model": "S 1000 XR",
+  "model": "S 1000 XR Triple Black",
   "name": "BMW S 1000 XR Triple Black",
   "raw": "BMW S1000XR Triple Black",
   "year": 2019,
@@ -234,8 +235,7 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/8749",
   "parser": 3,
-  "hd": true,
-  "hdv": 2
+  "orig": true
  },
  {
   "id": 8745,
