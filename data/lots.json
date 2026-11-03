@@ -1,5 +1,461 @@
 [
  {
+  "id": 8736,
+  "slug": "honda-gold-wing-tour-dct-airbag-2024-8736",
+  "type": "moto",
+  "brand": "Honda",
+  "model": "Gold Wing",
+  "name": "Honda Gold Wing Tour DCT Airbag",
+  "raw": "Honda Gold Wing Tour DCT Airbag",
+  "year": 2024,
+  "km": 2573,
+  "volume": "1833 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2816000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-03T00:55:10+00:00",
+  "features": [
+   "Роботизированная коробка DCT",
+   "Подушка безопасности",
+   "Пройдены все проверки"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Комплектация"
+   },
+   {
+    "k": "li",
+    "t": "Роботизированная коробка DCT"
+   },
+   {
+    "k": "li",
+    "t": "Подушка безопасности"
+   },
+   {
+    "k": "li",
+    "t": "Цвет чёрный с тёмными оттенками"
+   },
+   {
+    "k": "li",
+    "t": "Пройдены все проверки"
+   },
+   {
+    "k": "li",
+    "t": "Большой остаточный ресурс расходников"
+   },
+   {
+    "k": "li",
+    "t": "Двигатель работает ровно, без посторонних шумов"
+   },
+   {
+    "k": "li",
+    "t": "Полностью готов к эксплуатации"
+   },
+   {
+    "k": "h",
+    "t": "ДТП / падения / скольжения"
+   },
+   {
+    "k": "li",
+    "t": "Нет"
+   }
+  ],
+  "photos": [
+   "catalog/8736/1.jpg",
+   "catalog/8736/2.jpg",
+   "catalog/8736/3.jpg",
+   "catalog/8736/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8736",
+  "parser": 3,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 8732,
+  "slug": "honda-cb1000r-2019-8732",
+  "type": "moto",
+  "brand": "Honda",
+  "model": "CB1000R",
+  "name": "Honda CB1000R",
+  "raw": "Honda CB1000R",
+  "year": 2019,
+  "km": 651,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1107000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-03T00:52:40+00:00",
+  "features": [
+   "Круглая светодиодная фара",
+   "Боковая сумка",
+   "Двухканальный видеорегистратор"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Комплектация"
+   },
+   {
+    "k": "li",
+    "t": "Цвет чёрный с серебром"
+   },
+   {
+    "k": "li",
+    "t": "Круглая светодиодная фара"
+   },
+   {
+    "k": "li",
+    "t": "Боковая сумка"
+   },
+   {
+    "k": "li",
+    "t": "Двухканальный видеорегистратор"
+   },
+   {
+    "k": "li",
+    "t": "Есть небольшой тюнинг"
+   },
+   {
+    "k": "li",
+    "t": "Общее состояние хорошее для своего года"
+   },
+   {
+    "k": "h",
+    "t": "ДТП / падения / скольжения"
+   },
+   {
+    "k": "li",
+    "t": "Нет"
+   }
+  ],
+  "photos": [
+   "catalog/8732/1.jpg",
+   "catalog/8732/2.jpg",
+   "catalog/8732/3.jpg",
+   "catalog/8732/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8732",
+  "parser": 3,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 8728,
+  "slug": "bmw-r-1250-gs-adventure-2022-8728",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "R 1250 GS Adventure",
+  "name": "BMW R 1250 GS Adventure",
+  "raw": "BMW R1250GS Adventure",
+  "year": 2022,
+  "km": 14722,
+  "volume": "1254 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1815000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-03T00:49:52+00:00",
+  "features": [
+   "Полная оклейка в стиле M",
+   "Глушитель Remus",
+   "Защита рук Barkbusters со светодиодами"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Комплектация"
+   },
+   {
+    "k": "li",
+    "t": "Полная оклейка в стиле M (родной цвет Ice Grey)"
+   },
+   {
+    "k": "li",
+    "t": "Глушитель Remus"
+   },
+   {
+    "k": "li",
+    "t": "Защита рук Barkbusters со светодиодами"
+   },
+   {
+    "k": "li",
+    "t": "Рычаг переключения передач Touratech"
+   },
+   {
+    "k": "h",
+    "t": "ДТП / падения / скольжения"
+   },
+   {
+    "k": "li",
+    "t": "Нет"
+   }
+  ],
+  "photos": [
+   "catalog/8728/1.jpg",
+   "catalog/8728/2.jpg",
+   "catalog/8728/3.jpg",
+   "catalog/8728/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8728",
+  "parser": 3,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 8724,
+  "slug": "bmw-s-1000-r-2026-8724",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 R",
+  "name": "BMW S 1000 R",
+  "raw": "BMW S1000R",
+  "year": 2026,
+  "km": 2600,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1991000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-03T00:46:09+00:00",
+  "features": [
+   "Подогрев ручек",
+   "Ветровое стекло",
+   "Болты под подкатные стойки"
+  ],
+  "body": [
+   {
+    "k": "h",
+    "t": "Комплектация"
+   },
+   {
+    "k": "li",
+    "t": "Цвет Sapphire Blue"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев ручек"
+   },
+   {
+    "k": "li",
+    "t": "Ветровое стекло"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальные слайдеры передней и задней оси"
+   },
+   {
+    "k": "li",
+    "t": "Болты под подкатные стойки"
+   },
+   {
+    "k": "li",
+    "t": "Двухпортовая быстрая зарядка USB Type-C"
+   },
+   {
+    "k": "li",
+    "t": "Удлинённая боковая подножка"
+   },
+   {
+    "k": "li",
+    "t": "Куплен новым 14.08.2026"
+   },
+   {
+    "k": "li",
+    "t": "Плановое ТО на 1 000 km пройдено"
+   },
+   {
+    "k": "li",
+    "t": "Обкатка завершена"
+   },
+   {
+    "k": "li",
+    "t": "Состояние нового мотоцикла"
+   },
+   {
+    "k": "h",
+    "t": "ДТП / падения / скольжения"
+   },
+   {
+    "k": "li",
+    "t": "Нет"
+   }
+  ],
+  "photos": [
+   "catalog/8724/1.jpg",
+   "catalog/8724/2.jpg",
+   "catalog/8724/3.jpg",
+   "catalog/8724/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8724",
+  "parser": 3,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 8720,
+  "slug": "bmw-s-1000-r-2026-8720",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 R",
+  "name": "BMW S 1000 R",
+  "raw": "BMW S1000R",
+  "year": 2026,
+  "km": 410,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1800000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-03T00:43:51+00:00",
+  "features": [
+   "Без ДТП и падений",
+   "Тюнинг: слайдеры рамы Puig",
+   "Защитная решётка радиатора BMW"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Практически новый BMW S1000R 2026 года, куплен в октябре 2026 у официального дилера BMW Motorrad в Сеуле. Без ДТП и падений. Тюнинг: слайдеры рамы Puig, мультимедиа-система с видеорегистратором Chigee AIO-5, оригинальные слайдеры двигателя GB Racing, защитная решётка радиатора BMW, наколенные грип-пады"
+   }
+  ],
+  "photos": [
+   "catalog/8720/1.jpg",
+   "catalog/8720/2.jpg",
+   "catalog/8720/3.jpg",
+   "catalog/8720/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8720",
+  "parser": 3,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 8716,
+  "slug": "bmw-s-1000-rr-m-package-2022-8716",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR M Package",
+  "raw": "BMW S1000RR M Package",
+  "year": 2022,
+  "km": 13667,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1735000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-03T00:38:08+00:00",
+  "features": [
+   "Без ДТП и падений",
+   "Тюнинг: слип-он SC-Project",
+   "Оригинальный пластик в комплекте"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "BMW S1000RR 2022 года в комплектации M Package, без ДТП и падений. Тюнинг: слип-он SC-Project (переоборудование оформлено), блок управления выхлопной заслонкой HealTech с 3 режимами, оригинальный пластик в комплекте. Карбон RCM: накладки бака, боковые панели обтекателя, хвостовой обтекатель, винглеты образца 2023 года, переднее крыло SBK; новые карбоновые ветровое стекло и полная накладка бака будут установлены на следующей неделе. Карбоновое заднее крыло ITS, держатель SP Connect с беспроводной зарядкой и виброгасителем, слайдеры, защита двигателя (3 элемента), боковые наклейки и наклейка на бак. Резина Pirelli Diablo Rosso IV Corsa. Обслуживание у официального дилера BMW Motorrad: ТО на 8 000 km и на 13 000 km (сентябрь 2026) замечаний не выявили, масло Motul 7100 заменено в октябре 2026"
+   }
+  ],
+  "photos": [
+   "catalog/8716/1.jpg",
+   "catalog/8716/2.jpg",
+   "catalog/8716/3.jpg",
+   "catalog/8716/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8716",
+  "parser": 3,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 8712,
+  "slug": "bmw-s-1000-xr-2019-8712",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 XR",
+  "name": "BMW S 1000 XR",
+  "raw": "BMW S1000XR",
+  "year": 2019,
+  "km": 20757,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1138000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-03T00:29:28+00:00",
+  "features": [
+   "Без ДТП",
+   "Установлены выхлоп LeoVince",
+   "Подогрев ручек и кофры"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "BMW S1000XR 2019 года в синем цвете, без ДТП. Установлены выхлоп LeoVince (официально зарегистрирован), отдельный дисплей с поддержкой Android Auto и CarPlay, подогрев ручек и кофры. Недавно заменены шины и моторное масло"
+   }
+  ],
+  "photos": [
+   "catalog/8712/1.jpg",
+   "catalog/8712/2.jpg",
+   "catalog/8712/3.jpg",
+   "catalog/8712/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8712",
+  "parser": 3,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 8708,
+  "slug": "bmw-s-1000-xr-2020-8708",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 XR",
+  "name": "BMW S 1000 XR",
+  "raw": "BMW S1000XR",
+  "year": 2020,
+  "km": 13000,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1356000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-03T00:25:56+00:00",
+  "features": [
+   "Масляный фильтр и шины",
+   "Установлены держатель для телефона",
+   "Подогрев ручек и слайдеры рамы"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "BMW S1000XR 2020 года с небольшим пробегом. Пройдено ТО у официального дилера BMW: заменены моторное масло, масляный фильтр и шины. Остаток протектора передней и задней шины — более 60%. Установлены держатель для телефона, подогрев ручек и слайдеры рамы"
+   }
+  ],
+  "photos": [
+   "catalog/8708/1.jpg",
+   "catalog/8708/2.jpg",
+   "catalog/8708/3.jpg",
+   "catalog/8708/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8708",
+  "parser": 3,
+  "hd": true,
+  "hdv": 2
+ },
+ {
   "id": 8698,
   "slug": "yamaha-yzf-r6-2020-8698",
   "type": "moto",
@@ -489,7 +945,9 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/8668",
   "parser": 3,
-  "orig": true
+  "orig": true,
+  "hd": true,
+  "hdv": 2
  },
  {
   "id": 8660,
@@ -6608,46 +7066,6 @@
    "catalog/8359/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/8359",
-  "parser": 3,
-  "orig": true,
-  "hd": true,
-  "hdv": 2
- },
- {
-  "id": 8355,
-  "slug": "bmw-r-1250-gs-adventure-2022-8355",
-  "type": "moto",
-  "brand": "BMW",
-  "model": "R 1250 GS Adventure",
-  "name": "BMW R 1250 GS Adventure",
-  "raw": "BMW R1250GS Adventure",
-  "year": 2022,
-  "km": 14722,
-  "volume": "1254 см³",
-  "power": null,
-  "drive": null,
-  "gearbox": null,
-  "price": 1904000,
-  "priceLabel": "под ключ",
-  "date": "2026-10-29T14:47:26+00:00",
-  "features": [
-   "Без ДТП",
-   "Состояние соответствует фото",
-   "Мощный 1254-кубовый боксер"
-  ],
-  "body": [
-   {
-    "k": "p",
-    "t": "BMW R1250GS Adventure 2022 года в цвете Ice Grey. Без ДТП, состояние соответствует фото. Мощный 1254-кубовый боксер, большой бак и лучшая платформа для дальних путешествий по любым дорогам. Подробности по комплектации и состоянию — уточним у продавца по запросу"
-   }
-  ],
-  "photos": [
-   "catalog/8355/1.jpg",
-   "catalog/8355/2.jpg",
-   "catalog/8355/3.jpg",
-   "catalog/8355/4.jpg"
-  ],
-  "post": "https://t.me/koreamotocycles_veltor/8/8355",
   "parser": 3,
   "orig": true,
   "hd": true,
