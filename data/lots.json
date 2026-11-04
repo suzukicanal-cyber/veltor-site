@@ -1,5 +1,207 @@
 [
  {
+  "id": 8846,
+  "slug": "yamaha-yzf-r7-2022-8846",
+  "type": "moto",
+  "brand": "Yamaha",
+  "model": "YZF-R7",
+  "name": "Yamaha YZF-R7",
+  "raw": "Yamaha R7",
+  "year": 2022,
+  "km": 8400,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 920000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-04T13:55:57+00:00",
+  "features": [
+   "Без ДТП и падений",
+   "С первого владельца",
+   "Установлены слайдеры рамы Evotech"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Yamaha R7 в отличном состоянии, без ДТП и падений. С первого владельца, своевременно обслуживался и бережно эксплуатировался. Установлены слайдеры рамы Evotech, защита радиатора Evotech, крышка двигателя GB Racing, оригинальный Quick Shifter Yamaha, защита бака TechSpec, видеорегистратор 2CH и USB-порт."
+   }
+  ],
+  "photos": [
+   "catalog/8846/1.jpg",
+   "catalog/8846/2.jpg",
+   "catalog/8846/3.jpg",
+   "catalog/8846/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8846",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 8842,
+  "slug": "harley-davidson-fat-bob-114-2021-8842",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Fat Bob 114",
+  "name": "Harley-Davidson Fat Bob 114",
+  "raw": "Harley-Davidson Fat Bob 114",
+  "year": 2021,
+  "km": 6300,
+  "volume": "1868 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1422000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-04T13:53:33+00:00",
+  "features": [
+   "Мотоцикл снят с учёта",
+   "Техосмотр пройден",
+   "Документы готовы к экспорту"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Harley-Davidson Fat Bob 114 2021 года в чёрном цвете. Мотоцикл снят с учёта, техосмотр пройден, документы готовы к экспорту"
+   }
+  ],
+  "photos": [
+   "catalog/8842/1.jpg",
+   "catalog/8842/2.jpg",
+   "catalog/8842/3.jpg",
+   "catalog/8842/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8842",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 8834,
+  "slug": "bmw-s-1000-r-2023-8834",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 R",
+  "name": "BMW S 1000 R",
+  "raw": "BMW S1000R",
+  "year": 2023,
+  "km": 7300,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1475000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-04T13:48:08+00:00",
+  "features": [
+   "Оригинальный глушитель сохранён"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "BMW S1000R без ДТП и падений. Установлены слайдеры рамы и защита двигателя. Оригинальный глушитель сохранён. Пройдено техническое обслуживание на 7 000 km в BMW Motorrad Seoul."
+   }
+  ],
+  "photos": [
+   "catalog/8834/1.jpg",
+   "catalog/8834/2.jpg",
+   "catalog/8834/3.jpg",
+   "catalog/8834/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8834",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 8830,
+  "slug": "bmw-r-1250-gs-adventure-2023-8830",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "R 1250 GS Adventure",
+  "name": "BMW R 1250 GS Adventure",
+  "raw": "BMW R1250GS Adventure",
+  "year": 2023,
+  "km": 2623,
+  "volume": "1254 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2028000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-04T13:45:25+00:00",
+  "features": [
+   "Без ДТП",
+   "По заявлению продавца",
+   "Мотоцикл безаварийный"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "BMW R 1250 GS Adventure в отличном состоянии, без ДТП. Установлены три алюминиевых кофра и держатель с быстрой беспроводной зарядкой. Пробег всего 2 623 км. По заявлению продавца, мотоцикл безаварийный"
+   }
+  ],
+  "photos": [
+   "catalog/8830/1.jpg",
+   "catalog/8830/2.jpg",
+   "catalog/8830/3.jpg",
+   "catalog/8830/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8830",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 8818,
+  "slug": "bmw-s-1000-rr-m-package-2023-8818",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR M Package",
+  "raw": "BMW S1000RR M Package",
+  "year": 2023,
+  "km": 16857,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1806000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-04T13:33:32+00:00",
+  "features": [
+   "Мотоцикл прошёл техосмотр",
+   "Документы готовы к регистрации",
+   "Тюнинг: слип-он выхлоп Austin Racing"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "BMW S1000RR 2023 года в комплектации M Package. Мотоцикл прошёл техосмотр, документы готовы к регистрации."
+   },
+   {
+    "k": "p",
+    "t": "Тюнинг: слип-он выхлоп Austin Racing (официально узаконен), видеорегистратор на 2 камеры, защита двигателя GB Racing, карбоновые детали ST, слайдеры рамы."
+   },
+   {
+    "k": "p",
+    "t": "Обслуживание: недавно установлены новые шины Michelin Power 2, проведена полная компьютерная диагностика сканером Texa"
+   }
+  ],
+  "photos": [
+   "catalog/8818/1.jpg",
+   "catalog/8818/2.jpg",
+   "catalog/8818/3.jpg",
+   "catalog/8818/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8818",
+  "parser": 3,
+  "orig": true
+ },
+ {
   "id": 8801,
   "slug": "mercedes-benz-gls-450d-4matic-2024-8801",
   "type": "car",
@@ -14825,73 +15027,6 @@
   "origPhotos": [
    "catalog/7892/1.jpg",
    "catalog/7892/2.jpg"
-  ],
-  "hdv": 2
- },
- {
-  "id": 7886,
-  "slug": "bmw-r-1250-gs-adventure-2023-7886",
-  "type": "moto",
-  "brand": "BMW",
-  "model": "R 1250 GS Adventure",
-  "name": "BMW R 1250 GS Adventure",
-  "raw": "BMW R 1250 GS Adventure",
-  "year": 2023,
-  "km": 2623,
-  "volume": "1254 см³",
-  "power": null,
-  "drive": null,
-  "gearbox": null,
-  "price": 2120000,
-  "priceLabel": "под ключ",
-  "date": "2026-10-23T13:24:35+00:00",
-  "features": [
-   "Без ДТП",
-   "Очень небольшой пробег — 2’623 км",
-   "Аккуратная эксплуатация и обслуживание"
-  ],
-  "body": [
-   {
-    "k": "h",
-    "t": "Состояние мотоцикла"
-   },
-   {
-    "k": "li",
-    "t": "Без ДТП"
-   },
-   {
-    "k": "li",
-    "t": "Очень небольшой пробег — 2’623 км"
-   },
-   {
-    "k": "li",
-    "t": "Хорошее общее техническое и внешнее состояние"
-   },
-   {
-    "k": "li",
-    "t": "Аккуратная эксплуатация и обслуживание"
-   },
-   {
-    "k": "p",
-    "t": "BMW R 1250 GS Adventure — туристический эндуро, сочетающий комфорт в дальних поездках, устойчивость на дороге и универсальность в повседневной эксплуатации."
-   },
-   {
-    "k": "li",
-    "t": "Мотоцикл с небольшим пробегом относительно года выпуска, в хорошем состоянии"
-   }
-  ],
-  "photos": [
-   "catalog/7886/1.jpg",
-   "catalog/7886/2.jpg",
-   "catalog/7886/3.jpg",
-   "catalog/7886/4.jpg"
-  ],
-  "post": "https://t.me/koreamotocycles_veltor/8/7886",
-  "parser": 3,
-  "hd": true,
-  "origPhotos": [
-   "catalog/7886/1.jpg",
-   "catalog/7886/2.jpg"
   ],
   "hdv": 2
  },
