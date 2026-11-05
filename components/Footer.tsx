@@ -19,6 +19,7 @@ export default function Footer() {
             {moto.map((b) => <Link key={"m" + b.slug} href={brandHref("moto", b.brand)}>{b.brand}</Link>)}
             <Link href={typeHref("car")}>{TYPE.car.label} из Кореи</Link>
             {car.map((b) => <Link key={"c" + b.slug} href={brandHref("car", b.brand)}>{b.brand}</Link>)}
+            <Link href="/partners/">Партнёрам</Link>
           </nav>
           <div className="fbot">
             <span>© {new Date().getFullYear()} VELTOR · Мото и авто из Южной Кореи под ключ</span>

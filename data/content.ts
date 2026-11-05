@@ -215,4 +215,5 @@ export const NAV = [
   { href: "/#social", label: "Отзывы", top: true },
   { href: "/#faq", label: "Вопросы", top: true },
   { href: "/#contact", label: "Контакты", top: true },
+  { href: "/partners/", label: "Партнёрам", top: false },
 ];
