@@ -2,7 +2,6 @@ import Hero from "@/components/home/Hero";
 import Facts from "@/components/home/Facts";
 import Cats from "@/components/home/Cats";
 import Process from "@/components/home/Process";
-import Inspect from "@/components/home/Inspect";
 import Pay from "@/components/home/Pay";
 import Route from "@/components/home/Route";
 import Services from "@/components/home/Services";
@@ -27,7 +26,6 @@ export default function Home() {
       <Facts />
       <Cats />
       <Process />
-      <Inspect />
       <Pay />
       <Route />
       <Services />

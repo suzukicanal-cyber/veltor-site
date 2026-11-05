@@ -776,7 +776,7 @@ html.mnav-lock{overflow:hidden}
 .f5-mid::before{content:"";position:absolute;left:0;right:0;top:50%;height:1px;background:repeating-linear-gradient(90deg,var(--line-2) 0 6px,transparent 6px 12px)}
 .f5-mid i{position:absolute;top:50%;left:0;width:8px;height:8px;margin:-4px 0 0 -4px;border-radius:50%;background:#fff;box-shadow:0 0 16px 3px rgba(207,224,255,.7);animation:f5go 6s cubic-bezier(.45,0,.25,1) infinite}
 @keyframes f5go{0%{left:0;opacity:0}10%{opacity:1}90%{opacity:1}100%{left:100%;opacity:0}}
-.f5-mid span{position:relative;padding:4px 10px;background:var(--ink);font:500 11px/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.f5-mid span{position:relative;padding:4px 10px;background:transparent;font:500 11px/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 @media (max-width:760px){.f5-clocks{grid-template-columns:1fr;text-align:left}.f5-r{text-align:left}.f5-mid{height:28px}}
 @media (prefers-reduced-motion:reduce){.f5-mid i{animation:none;left:50%}}
 
@@ -1055,3 +1055,10 @@ html.lb-lock{overflow:hidden}
 .nav-links a[href="/partners/"]{color:var(--fg)}
 @media (min-width:1200px){.nav-links a{font-size:13px}.nav-in{gap:16px}}
 @media (min-width:1340px) and (max-width:1439px){.nav-phone{display:none}}
+
+/* footer: no box under «45 дней» — the dashed line breaks around the label instead; caption centred below it */
+.f5-mid::before{-webkit-mask-image:linear-gradient(90deg,#000 calc(50% - 64px),transparent calc(50% - 56px),transparent calc(50% + 56px),#000 calc(50% + 64px));mask-image:linear-gradient(90deg,#000 calc(50% - 64px),transparent calc(50% - 56px),transparent calc(50% + 56px),#000 calc(50% + 64px))}
+.f5-note{position:absolute;left:50%;top:calc(50% + 20px);transform:translateX(-50%);margin:0;white-space:nowrap;text-align:center;color:var(--muted);font-size:14px}
+@media (max-width:760px){.f5-mid{height:auto;padding-top:14px;display:grid;justify-items:center}.f5-mid::before,.f5-mid i{top:23px}.f5-note{position:static;transform:none;margin-top:14px;white-space:normal}}
+/* Instagram icon in the business card: no border, so the gradient has no seams at the edges */
+.rs4 .rs-ig .rs-ic{border:0}
