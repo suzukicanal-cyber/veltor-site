@@ -181,9 +181,9 @@ export const FAQ: QA[] = [
 ];
 
 export const TEAM = [
-  { name: "Ева", role: "Партнёр VELTOR", photo: "team/eva.jpg", duties: ["Выкуп техники", "Финансовое сопровождение", "Работа с дилерами"] },
-  { name: "Сергей", role: "Партнёр VELTOR", photo: "team/sergey.jpg", duties: ["Клиентское сопровождение", "Документооборот", "Логистика"] },
-  { name: "Анатолий", role: "Партнёр VELTOR", photo: "team/anatoliy.jpg", duties: ["Подбор техники", "Контроль состояния", "Комплектация и подготовка"] },
+  { name: "Ева", ig: "https://www.instagram.com/bahteeva.e/", role: "Партнёр VELTOR", photo: "team/eva.jpg", duties: ["Выкуп техники", "Финансовое сопровождение", "Работа с дилерами"] },
+  { name: "Сергей", ig: "https://www.instagram.com/s.orexov/", role: "Партнёр VELTOR", photo: "team/sergey.jpg", duties: ["Клиентское сопровождение", "Документооборот", "Логистика"] },
+  { name: "Анатолий", ig: "https://www.instagram.com/you_know_who_is_dushnila/", role: "Партнёр VELTOR", photo: "team/anatoliy.jpg", duties: ["Подбор техники", "Контроль состояния", "Комплектация и подготовка"] },
 ];
 
 /** Instagram reels playlist (files in /public/media). */

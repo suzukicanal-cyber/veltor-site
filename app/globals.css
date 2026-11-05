@@ -1062,3 +1062,41 @@ html.lb-lock{overflow:hidden}
 @media (max-width:760px){.f5-mid{height:auto;padding-top:14px;display:grid;justify-items:center}.f5-mid::before,.f5-mid i{top:23px}.f5-note{position:static;transform:none;margin-top:14px;white-space:normal}}
 /* Instagram icon in the business card: no border, so the gradient has no seams at the edges */
 .rs4 .rs-ig .rs-ic{border:0}
+/* team: Instagram of each partner over the photo */
+.tm-ig{position:absolute;left:clamp(14px,1.6vw,20px);top:clamp(14px,1.6vw,20px);z-index:3;display:inline-flex;align-items:center;gap:10px;max-width:calc(100% - 28px);padding:6px 14px 6px 6px;border-radius:999px;background:rgba(10,11,13,.62);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.18);color:#fff;text-decoration:none;font:500 13px/1 var(--f-head);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:background .3s,border-color .3s,transform .35s var(--ease)}
+.tm-ig:hover{background:rgba(10,11,13,.85);border-color:#fff;transform:translateY(-2px)}
+.tm-ig-ic{width:28px;height:28px;flex:none;display:grid;place-items:center;border-radius:9px;background:radial-gradient(circle at 30% 107%,#fdf497 0%,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285AEB 90%)}
+.tm-ig-ic svg{width:15px;height:15px}
+
+/* ---------- contact business card: the team on call ---------- */
+.vk{perspective:1200px;width:100%}
+.vk-logo{font:600 22px/1 var(--f-wide);letter-spacing:.32em}
+.vk-mono{font:500 10px/1.4 var(--f-mono);letter-spacing:.16em;text-transform:uppercase;color:var(--dim)}
+.vk-ic{width:40px;height:40px;flex:none;display:grid;place-items:center;border-radius:50%;color:#fff}
+.vk-ic svg{width:19px;height:19px}
+.vk-ph .vk-ic{background:#34C759}.vk-tg .vk-ic{background:#2AABEE}
+.vk-ig .vk-ic{background:radial-gradient(circle at 30% 107%,#fdf497 0%,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285AEB 90%);border-radius:12px}
+.vk-av .vk-ic{background:#fff}.vk-av .vk-ic svg{width:26px;height:26px}
+.vk-a{display:flex;align-items:center;gap:14px;color:var(--fg);text-decoration:none}
+.vk-a b{font:500 17px/1.25 var(--f-head)}
+.vk-ph b{font-family:var(--f-mono);letter-spacing:.02em}
+.vk4-card{position:relative;overflow:hidden;border-radius:16px;border:1px solid var(--line-2);background:linear-gradient(160deg,#16191F,#0C0D10 70%);box-shadow:0 40px 80px -40px rgba(0,0,0,.9);transform:rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg));transition:transform .5s var(--ease);transform-style:preserve-3d}
+.vk4-card::after{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(420px circle at var(--gx,30%) var(--gy,20%),rgba(207,224,255,.10),transparent 60%)}
+.vk4-card{padding:28px;display:grid;gap:20px}
+.vk4-head{display:flex;align-items:center;gap:20px;padding-bottom:20px;border-bottom:1px solid var(--line)}
+.vk4-faces{display:flex;flex:none}
+.vk4-faces img{width:58px;height:58px;border-radius:50%;object-fit:cover;border:2px solid #121418;margin-left:-14px;filter:grayscale(.25)}
+.vk4-faces img:first-child{margin-left:0}
+.vk4-head p{margin:10px 0 0;color:var(--muted);font-size:14px;line-height:1.45}
+.vk4-list{list-style:none;margin:0;padding:0;display:grid}
+.vk4-list .vk-a{padding:12px 0;border-bottom:1px solid var(--line)}
+.vk4-list li:last-child .vk-a{border-bottom:0}
+.vk4-list .vk-a b{display:block}.vk4-list .vk-a em{display:block;font-style:normal;font-size:12.5px;color:var(--muted)}
+.vk4-list .vk-a>i{margin-left:auto;font-style:normal;color:var(--dim);transition:transform .3s,color .3s}.vk4-list .vk-a:hover>i{transform:translate(3px,-3px);color:var(--fg)}
+.vk4-foot{display:flex;align-items:center;gap:18px;padding:16px;border-radius:12px;background:rgba(255,255,255,.03);border:1px solid var(--line)}
+.vk4-qr{width:84px;height:84px;border-radius:6px;flex:none}
+.vk4-foot p{margin:6px 0 0;font-size:14px;color:var(--muted);line-height:1.45}
+.vk4-faces a{display:block;margin-left:-14px;border-radius:50%;transition:transform .3s var(--ease)}
+.vk4-faces a:first-child{margin-left:0}
+.vk4-faces a:hover{transform:translateY(-3px);z-index:1}
+.vk4-faces a img{margin-left:0}

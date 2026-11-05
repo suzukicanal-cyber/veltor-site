@@ -72,7 +72,8 @@ export default function Social() {
           <div className="tms">
             {TEAM.map((m) => (
               <article className="tm" data-light="" key={m.name}>
-                <div className="tm-ph"><img src={asset(m.photo)} alt={`${m.name}, партнёр VELTOR`} width={760} height={1350} loading="lazy" decoding="async" /></div>
+                <div className="tm-ph"><img src={asset(m.photo)} alt={`${m.name}, партнёр VELTOR`} width={760} height={1350} loading="lazy" decoding="async" />
+                  <a className="tm-ig" href={m.ig} target="_blank" rel="noopener" aria-label={`${m.name} в Instagram`}><span className="tm-ig-ic"><IgIcon /></span>@{m.ig.split("/").filter(Boolean).pop()}</a></div>
                 <div className="tm-b sr-only"><h3>{m.name}</h3><p>{m.role}</p><ul>{m.duties.map((d) => <li key={d}>{d}</li>)}</ul></div>
               </article>
             ))}
