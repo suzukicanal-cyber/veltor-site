@@ -1019,7 +1019,7 @@ html.lb-lock{overflow:hidden}
 
 .pt-cta{padding-block:clamp(100px,11vw,140px) clamp(80px,9vw,120px)}
 .pt-cta-in{display:flex;flex-wrap:wrap;gap:48px;align-items:flex-end;justify-content:space-between}
-.pt-ctah{margin:0;font:200 clamp(48px,8.5vw,140px)/.92 var(--f-wide);letter-spacing:-.05em}
+.pt-ctah{margin:0;flex:1 1 560px;font:200 clamp(36px,5.2vw,84px)/1 var(--f-wide);letter-spacing:-.045em;text-wrap:balance}
 .pt-ctah b{font-weight:500}
 .pt-btns{display:flex;flex-direction:column;gap:12px;min-width:min(100%,320px)}
 .pt-btn{display:flex;align-items:center;justify-content:space-between;gap:16px;height:64px;padding:0 28px;background:var(--fg);color:var(--ink);font:600 17px/1 var(--f-head);text-decoration:none;transition:background .25s,color .25s}

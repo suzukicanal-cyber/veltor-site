@@ -151,7 +151,7 @@ export default function PartnersPage() {
 
       <section className="pt-cta wrap">
         <div className="inner pt-cta-in">
-          <h2 className="pt-ctah">Давайте<br /><b>работать<i>.</i></b></h2>
+          <h2 className="pt-ctah">Открыты к сотрудничеству —<br /><b>свяжитесь с нами<i>.</i></b></h2>
           <div className="pt-btns">
             <a className="pt-btn" href={TG} target="_blank" rel="noopener">Написать в Telegram <span>↗</span></a>
             <a className="pt-btn pt-btn-o" href={PHONE_HREF}>{PHONE} <span aria-hidden="true">☏</span></a>
