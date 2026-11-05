@@ -1,5 +1,49 @@
 [
  {
+  "id": 8919,
+  "slug": "aprilia-rs660-2023-8919",
+  "type": "moto",
+  "brand": "Aprilia",
+  "model": "RS660",
+  "name": "Aprilia RS660",
+  "raw": "Aprilia RS660",
+  "year": 2023,
+  "km": 2600,
+  "volume": "659 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1312000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-05T05:14:14+00:00",
+  "features": [
+   "Мотоцикл без ДТП по заявлению продавца",
+   "Обслуживался в официальном Motoplex",
+   "Продавец отмечает удобную посадку"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Мотоцикл без ДТП по заявлению продавца. Обслуживался в официальном Motoplex. Продавец отмечает удобную посадку, сочетающую спортивный характер и комфорт для повседневной езды."
+   },
+   {
+    "k": "li",
+    "t": "*15.3"
+   }
+  ],
+  "photos": [
+   "catalog/8919/1.jpg",
+   "catalog/8919/2.jpg",
+   "catalog/8919/3.jpg",
+   "catalog/8919/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8919",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
   "id": 8915,
   "slug": "bmw-r-1300-rt-2026-8915",
   "type": "moto",
@@ -67,6 +111,7 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/8915",
   "parser": 3,
+  "orig": true,
   "hd": true,
   "hdv": 2
  },
