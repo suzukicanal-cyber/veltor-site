@@ -1,5 +1,877 @@
 [
  {
+  "id": 8896,
+  "slug": "ducati-diavel-2017-8896",
+  "type": "moto",
+  "brand": "Ducati",
+  "model": "Diavel",
+  "name": "Ducati Diavel",
+  "raw": "Ducati Diavel",
+  "year": 2017,
+  "km": 17349,
+  "volume": "1198 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1231000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-05T01:03:36+00:00",
+  "features": [
+   "Двигатель 1198 cc",
+   "Без ДТП"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Двигатель 1198 cc"
+   },
+   {
+    "k": "li",
+    "t": "Цвет: чёрный"
+   },
+   {
+    "k": "li",
+    "t": "Без ДТП"
+   }
+  ],
+  "photos": [
+   "catalog/8896/1.jpg",
+   "catalog/8896/2.jpg",
+   "catalog/8896/3.jpg",
+   "catalog/8896/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8896",
+  "parser": 3,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 8892,
+  "slug": "ducati-multistrada-v4-pikes-peak-2022-8892",
+  "type": "moto",
+  "brand": "Ducati",
+  "model": "Multistrada V4 Pikes Peak",
+  "name": "Ducati Multistrada V4 Pikes Peak",
+  "raw": "Ducati Multistrada V4 Pikes Peak",
+  "year": 2022,
+  "km": 12805,
+  "volume": "1158 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2453000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-05T01:01:04+00:00",
+  "features": [
+   "Двигатель 1158 cc",
+   "Версия Pikes Peak",
+   "Полный тюнинг"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Двигатель 1158 cc"
+   },
+   {
+    "k": "li",
+    "t": "Версия Pikes Peak"
+   },
+   {
+    "k": "li",
+    "t": "Полный тюнинг"
+   },
+   {
+    "k": "li",
+    "t": "Дополнительное оборудование и доработки"
+   },
+   {
+    "k": "li",
+    "t": "Без ДТП"
+   }
+  ],
+  "photos": [
+   "catalog/8892/1.jpg",
+   "catalog/8892/2.jpg",
+   "catalog/8892/3.jpg",
+   "catalog/8892/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8892",
+  "parser": 3,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 8888,
+  "slug": "ducati-monster-1200s-2020-8888",
+  "type": "moto",
+  "brand": "Ducati",
+  "model": "Monster 1200S",
+  "name": "Ducati Monster 1200S",
+  "raw": "Ducati Monster 1200S",
+  "year": 2020,
+  "km": 12326,
+  "volume": "1198 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1293000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-05T00:58:34+00:00",
+  "features": [
+   "Двигатель 1198 cc",
+   "Спортивный воздушный фильтр",
+   "Прозрачная крышка сцепления"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Двигатель 1198 cc"
+   },
+   {
+    "k": "li",
+    "t": "Выхлоп Termignoni с изменённой конструкцией"
+   },
+   {
+    "k": "li",
+    "t": "Спортивный воздушный фильтр"
+   },
+   {
+    "k": "li",
+    "t": "Прозрачная крышка сцепления"
+   },
+   {
+    "k": "li",
+    "t": "Рычаг Easy Clutch"
+   },
+   {
+    "k": "li",
+    "t": "Руль Rizoma"
+   },
+   {
+    "k": "li",
+    "t": "Комфортное высокое сиденье"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальное ветровое стекло Ducati"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев ручек"
+   },
+   {
+    "k": "li",
+    "t": "Карбоновые детали Ilmberger"
+   },
+   {
+    "k": "li",
+    "t": "Карбоновая защита одностороннего маятника"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальные карбоновые детали Akrapovič"
+   },
+   {
+    "k": "li",
+    "t": "Комплект Evotech: задний фонарь и крепление номерного знака"
+   },
+   {
+    "k": "li",
+    "t": "Двухканальный видеорегистратор"
+   },
+   {
+    "k": "li",
+    "t": "Демпфер рулевого управления Öhlins"
+   },
+   {
+    "k": "li",
+    "t": "Подставка для одностороннего маятника не входит в комплект"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальные заводские детали в наличии"
+   },
+   {
+    "k": "li",
+    "t": "Передняя шина Pirelli Diablo Rosso IV — новая"
+   },
+   {
+    "k": "li",
+    "t": "Задняя шина — остаток 80%"
+   },
+   {
+    "k": "li",
+    "t": "Без ДТП и падений"
+   },
+   {
+    "k": "li",
+    "t": "Аккуратная эксплуатация, без царапин"
+   },
+   {
+    "k": "li",
+    "t": "Замена масла ежегодно независимо от пробега"
+   },
+   {
+    "k": "li",
+    "t": "Зимой мотоцикл не эксплуатировался, хранился на подземном паркинге"
+   }
+  ],
+  "photos": [
+   "catalog/8888/1.jpg",
+   "catalog/8888/2.jpg",
+   "catalog/8888/3.jpg",
+   "catalog/8888/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8888",
+  "parser": 3,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 8884,
+  "slug": "indian-scout-bobber-twenty-2021-8884",
+  "type": "moto",
+  "brand": "Indian",
+  "model": "Scout Bobber Twenty",
+  "name": "Indian Scout Bobber Twenty",
+  "raw": "Indian Scout Bobber Twenty",
+  "year": 2021,
+  "km": 14353,
+  "volume": "1133 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1045000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-05T00:55:38+00:00",
+  "features": [
+   "Двигатель V-Twin",
+   "Тюнингованный выхлоп",
+   "Пассажирская спинка"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Двигатель V-Twin, объём 1133 cc"
+   },
+   {
+    "k": "li",
+    "t": "Тюнингованный выхлоп"
+   },
+   {
+    "k": "li",
+    "t": "Выхлопная система с оформленным изменением конструкции"
+   },
+   {
+    "k": "li",
+    "t": "Пассажирская спинка"
+   },
+   {
+    "k": "li",
+    "t": "Ветровое стекло"
+   },
+   {
+    "k": "li",
+    "t": "Защита двигателя"
+   },
+   {
+    "k": "li",
+    "t": "Боковые кофры"
+   },
+   {
+    "k": "li",
+    "t": "Все проверки пройдены"
+   },
+   {
+    "k": "li",
+    "t": "Двигатель работает ровно, посторонних шумов нет"
+   },
+   {
+    "k": "li",
+    "t": "Ходовые качества и баланс в норме"
+   },
+   {
+    "k": "li",
+    "t": "Техническое состояние отличное, полностью готов к эксплуатации"
+   }
+  ],
+  "photos": [
+   "catalog/8884/1.jpg",
+   "catalog/8884/2.jpg",
+   "catalog/8884/3.jpg",
+   "catalog/8884/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8884",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 8880,
+  "slug": "harley-davidson-softail-low-rider-s-2024-8880",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Softail Low Rider S",
+  "name": "Harley-Davidson Softail Low Rider S",
+  "raw": "Harley-Davidson Softail Low Rider S",
+  "year": 2024,
+  "km": 5173,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1735000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-05T00:52:26+00:00",
+  "features": [
+   "Без ДТП",
+   "Падений и скольжений",
+   "История эксплуатации прозрачная"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Без ДТП, падений и скольжений"
+   },
+   {
+    "k": "li",
+    "t": "История эксплуатации прозрачная"
+   },
+   {
+    "k": "li",
+    "t": "Двухканальный видеорегистратор Jinet"
+   },
+   {
+    "k": "li",
+    "t": "Передняя крышка оси"
+   },
+   {
+    "k": "li",
+    "t": "Защита рамы"
+   },
+   {
+    "k": "li",
+    "t": "Защита глушителя"
+   },
+   {
+    "k": "li",
+    "t": "Защита катушки зажигания"
+   },
+   {
+    "k": "li",
+    "t": "Ручки руля"
+   },
+   {
+    "k": "li",
+    "t": "Беспроводной зарядный держатель Alus"
+   },
+   {
+    "k": "li",
+    "t": "Разъём CTEK"
+   },
+   {
+    "k": "li",
+    "t": "Ветровое стекло"
+   },
+   {
+    "k": "li",
+    "t": "Кожаный чехол для смарт-ключа на шнурке"
+   },
+   {
+    "k": "li",
+    "t": "В комплекте один смарт-ключ"
+   }
+  ],
+  "photos": [
+   "catalog/8880/1.jpg",
+   "catalog/8880/2.jpg",
+   "catalog/8880/3.jpg",
+   "catalog/8880/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8880",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 8876,
+  "slug": "harley-davidson-softail-slim-2020-8876",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Softail Slim",
+  "name": "Harley-Davidson Softail Slim",
+  "raw": "Harley-Davidson Softail Slim",
+  "year": 2020,
+  "km": 9750,
+  "volume": "1746 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1539000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-05T00:48:28+00:00",
+  "features": [
+   "Двигатель Milwaukee-Eight 107",
+   "Руль 14 дюймов",
+   "Доработанный впуск"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Двигатель Milwaukee-Eight 107, объём 1746 cc"
+   },
+   {
+    "k": "li",
+    "t": "Руль 14 дюймов (изменение конструкции официально зарегистрировано)"
+   },
+   {
+    "k": "li",
+    "t": "Доработанный впуск"
+   },
+   {
+    "k": "li",
+    "t": "Защитные дуги"
+   },
+   {
+    "k": "li",
+    "t": "Защита двигателя"
+   },
+   {
+    "k": "li",
+    "t": "Ветровое стекло"
+   },
+   {
+    "k": "li",
+    "t": "Боковые кожаные кофры"
+   },
+   {
+    "k": "li",
+    "t": "Подножки Kuryakyn Multi-Peg"
+   },
+   {
+    "k": "li",
+    "t": "Сиденье Saddlemen"
+   },
+   {
+    "k": "li",
+    "t": "Сумка на руль"
+   },
+   {
+    "k": "li",
+    "t": "Провода зажигания Screamin’ Eagle"
+   },
+   {
+    "k": "li",
+    "t": "Пятка-переключатель передач Heel-Toe Shifter"
+   },
+   {
+    "k": "li",
+    "t": "Держатель телефона"
+   }
+  ],
+  "photos": [
+   "catalog/8876/1.jpg",
+   "catalog/8876/2.jpg",
+   "catalog/8876/3.jpg",
+   "catalog/8876/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8876",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 8872,
+  "slug": "suzuki-hayabusa-2025-8872",
+  "type": "moto",
+  "brand": "Suzuki",
+  "model": "Hayabusa",
+  "name": "Suzuki Hayabusa",
+  "raw": "Suzuki Hayabusa",
+  "year": 2025,
+  "km": null,
+  "volume": "1340 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1912000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-05T00:40:40+00:00",
+  "features": [
+   "Новый Suzuki Hayabusa",
+   "Двигатель 1340 cc"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Новый Suzuki Hayabusa"
+   },
+   {
+    "k": "li",
+    "t": "Двигатель 1340 cc"
+   },
+   {
+    "k": "li",
+    "t": "Цвет — чёрный"
+   },
+   {
+    "k": "li",
+    "t": "В подарок — двухканальный видеорегистратор Jinet"
+   },
+   {
+    "k": "li",
+    "t": "20% скидка на оригинальные аксессуары Suzuki (установка оплачивается отдельно)"
+   }
+  ],
+  "photos": [
+   "catalog/8872/1.jpg",
+   "catalog/8872/2.jpg",
+   "catalog/8872/3.jpg",
+   "catalog/8872/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8872",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 8868,
+  "slug": "suzuki-gsx-s1000gt-2026-8868",
+  "type": "moto",
+  "brand": "Suzuki",
+  "model": "GSX-S1000GT",
+  "name": "Suzuki GSX-S1000GT",
+  "raw": "Suzuki GSX-S1000GT",
+  "year": 2026,
+  "km": null,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1646000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-05T00:37:53+00:00",
+  "features": [
+   "Новый мотоцикл Suzuki GSX-S1000GT",
+   "Двигатель 999 cc"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Новый мотоцикл Suzuki GSX-S1000GT"
+   },
+   {
+    "k": "li",
+    "t": "Двигатель 999 cc"
+   },
+   {
+    "k": "li",
+    "t": "Цвет — чёрный"
+   }
+  ],
+  "photos": [
+   "catalog/8868/1.jpg",
+   "catalog/8868/2.jpg",
+   "catalog/8868/3.jpg",
+   "catalog/8868/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8868",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 8864,
+  "slug": "yamaha-tracer-9-2021-8864",
+  "type": "moto",
+  "brand": "Yamaha",
+  "model": "Tracer 9",
+  "name": "Yamaha Tracer 9",
+  "raw": "Yamaha Tracer 9",
+  "year": 2021,
+  "km": 18193,
+  "volume": "890 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 920000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-05T00:34:57+00:00",
+  "features": [
+   "Двигатель 890 cc",
+   "Туристический мотоцикл Yamaha Tracer 9",
+   "Оригинальный топкейс Yamaha"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Двигатель 890 cc"
+   },
+   {
+    "k": "li",
+    "t": "Туристический мотоцикл Yamaha Tracer 9"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальный топкейс Yamaha"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальный топливный бак"
+   },
+   {
+    "k": "li",
+    "t": "Боковая подставка с увеличенной площадкой"
+   },
+   {
+    "k": "li",
+    "t": "Держатель телефона RAM Mount"
+   },
+   {
+    "k": "li",
+    "t": "Двухканальный Black Box"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальный демпфер рулевого управления"
+   },
+   {
+    "k": "li",
+    "t": "Защита двигателя"
+   },
+   {
+    "k": "li",
+    "t": "Боковые защитные элементы двигателя"
+   },
+   {
+    "k": "li",
+    "t": "Защита радиатора"
+   },
+   {
+    "k": "li",
+    "t": "Дополнительные туристические аксессуары"
+   },
+   {
+    "k": "li",
+    "t": "Без ДТП"
+   }
+  ],
+  "photos": [
+   "catalog/8864/1.jpg",
+   "catalog/8864/2.jpg",
+   "catalog/8864/3.jpg",
+   "catalog/8864/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8864",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 8859,
+  "slug": "honda-nt1100dct-2023-8859",
+  "type": "moto",
+  "brand": "Honda",
+  "model": "NT1100DCT",
+  "name": "Honda NT1100DCT",
+  "raw": "Honda NT1100DCT",
+  "year": 2023,
+  "km": 14400,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1417000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-05T00:27:07+00:00",
+  "features": [
+   "Оригинальный комплект из трёх кофров",
+   "Оригинальные боковые крепления",
+   "Двухканальный Black Box"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Honda NT1100 DCT, туристический мотоцикл с автоматизированной трансмиссией DCT и вместительным багажным оснащением."
+   },
+   {
+    "k": "li",
+    "t": "Оригинальный комплект из трёх кофров"
+   },
+   {
+    "k": "li",
+    "t": "Оригинальные боковые крепления"
+   },
+   {
+    "k": "li",
+    "t": "Двухканальный Black Box"
+   },
+   {
+    "k": "li",
+    "t": "Защита рук"
+   },
+   {
+    "k": "li",
+    "t": "Удлинитель боковой подножки"
+   },
+   {
+    "k": "li",
+    "t": "Держатель телефона"
+   },
+   {
+    "k": "li",
+    "t": "Дополнительная передняя защита"
+   },
+   {
+    "k": "li",
+    "t": "Боковые дуги безопасности"
+   },
+   {
+    "k": "li",
+    "t": "9 мая 2026 года заменено моторное масло на пробеге 12 700 км"
+   },
+   {
+    "k": "li",
+    "t": "Заменена передняя шина"
+   },
+   {
+    "k": "li",
+    "t": "Выполнена регулировка натяжения цепи"
+   },
+   {
+    "k": "li",
+    "t": "20 апреля заменён аккумулятор"
+   },
+   {
+    "k": "li",
+    "t": "22 мая выполнена переклейка защитной плёнки"
+   },
+   {
+    "k": "li",
+    "t": "Двигатель и другие узлы обслуживались в дилерском центре Honda Daejeon"
+   },
+   {
+    "k": "li",
+    "t": "Остаток протектора передней шины — 95%"
+   },
+   {
+    "k": "li",
+    "t": "Остаток протектора задней шины — 80%"
+   },
+   {
+    "k": "li",
+    "t": "Готов к эксплуатации"
+   },
+   {
+    "k": "li",
+    "t": "ДТП не было"
+   }
+  ],
+  "photos": [
+   "catalog/8859/1.jpg",
+   "catalog/8859/2.jpg",
+   "catalog/8859/3.jpg",
+   "catalog/8859/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8859",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 8857,
+  "slug": "bmw-s-1000-rm-package-2026-8857",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RM Package",
+  "name": "BMW S 1000 RM Package",
+  "raw": "BMW S1000RM Package",
+  "year": 2026,
+  "km": 750,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2061000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-05T00:20:26+00:00",
+  "features": [
+   "Кованые диски M Forged Wheels",
+   "Спортивное сиденье M",
+   "Облегчённая батарея M"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "BMW S1000R в заводской комплектации M Package"
+   },
+   {
+    "k": "li",
+    "t": "Кованые диски M Forged Wheels"
+   },
+   {
+    "k": "li",
+    "t": "Спортивное сиденье M"
+   },
+   {
+    "k": "li",
+    "t": "Облегчённая батарея M"
+   },
+   {
+    "k": "li",
+    "t": "Цепь M Endurance"
+   },
+   {
+    "k": "li",
+    "t": "Спортивный глушитель Akrapovič"
+   },
+   {
+    "k": "li",
+    "t": "M Quick Action Throttle"
+   },
+   {
+    "k": "h",
+    "t": "Дополнительно установлены"
+   },
+   {
+    "k": "li",
+    "t": "Защита радиатора BMW"
+   },
+   {
+    "k": "li",
+    "t": "Слайдеры R&G на раму, вилку и маятник"
+   },
+   {
+    "k": "li",
+    "t": "Топливная крышка Bonamici"
+   },
+   {
+    "k": "li",
+    "t": "Держатель SP Connect"
+   },
+   {
+    "k": "li",
+    "t": "USB-C"
+   },
+   {
+    "k": "li",
+    "t": "Контроллер Healtech"
+   },
+   {
+    "k": "li",
+    "t": "Первое ТО пройдено на 750 км, масло и фильтр заменены"
+   },
+   {
+    "k": "li",
+    "t": "ДТП, падений и скольжений не было"
+   }
+  ],
+  "photos": [
+   "catalog/8857/1.jpg",
+   "catalog/8857/2.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8857",
+  "parser": 3,
+  "orig": true
+ },
+ {
   "id": 8846,
   "slug": "yamaha-yzf-r7-2022-8846",
   "type": "moto",
