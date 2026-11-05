@@ -1,3 +1,5 @@
+/* Unbounded 300 with merged contours: outlined words (text-stroke) show no seams inside letters (scripts/make_outline_font.py) */
+@font-face{font-family:"Unbounded Outline";src:url("/fonts/unbounded-300-outline.woff2") format("woff2");font-weight:300;font-display:swap}
 :root{
   /* Layout: ночной шоурум — первый экран с 3D-сканом техники, который вращается за курсором; дальше спокойная сетка с воздухом, характеристики набраны моноширинным */
   --ink:#0A0B0D;
@@ -161,7 +163,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
   .split:has(> .panel:nth-child(2):hover){grid-template-columns:minmax(0,.88fr) minmax(0,1.25fr) minmax(0,.88fr)}
   .split:has(> .panel:nth-child(3):hover){grid-template-columns:minmax(0,.88fr) minmax(0,.88fr) minmax(0,1.25fr)}
 }
-.panel-word{grid-row:1;position:relative;font:300 clamp(52px,6.2vw,92px)/.82 var(--f-wide);letter-spacing:-.02em;white-space:nowrap;color:transparent;-webkit-text-stroke:1px var(--line-2);
+.panel-word{grid-row:1;position:relative;font:300 clamp(52px,6.2vw,92px)/.82 "Unbounded Outline",var(--f-wide);letter-spacing:-.02em;white-space:nowrap;color:transparent;-webkit-text-stroke:1px var(--line-2);
   background:radial-gradient(240px circle at var(--lx,-400px) var(--ly,-400px),var(--fg),transparent 72%);-webkit-background-clip:text;background-clip:text}
 .panel-body{display:contents}
 .panel-body > h3{grid-row:3}
@@ -181,7 +183,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .step{position:relative;display:grid;grid-template-columns:110px minmax(0,1fr) minmax(0,1.35fr) 170px;gap:24px;align-items:baseline;padding:30px 0;border-top:1px solid var(--line)}
 .step::before{content:"";position:absolute;inset:0 -24px;pointer-events:none;opacity:0;transition:opacity .35s;background:radial-gradient(380px circle at calc(var(--lx,0px) + 24px) var(--ly,50%),var(--glow),transparent 70%)}
 .step:hover::before{opacity:1}
-.step-n{position:relative;font:300 38px/1 var(--f-wide);color:transparent;-webkit-text-stroke:1px var(--line-2);transition:color .35s,-webkit-text-stroke-color .35s;font-variant-numeric:tabular-nums}
+.step-n{position:relative;font:300 38px/1 "Unbounded Outline",var(--f-wide);color:transparent;-webkit-text-stroke:1px var(--line-2);transition:color .35s,-webkit-text-stroke-color .35s;font-variant-numeric:tabular-nums}
 .step:hover .step-n{color:var(--fg);-webkit-text-stroke-color:var(--fg)}
 .step-t{position:relative;font:500 clamp(22px,2vw,28px)/1.15 var(--f-head)}
 .step-d{position:relative;color:var(--muted)}
