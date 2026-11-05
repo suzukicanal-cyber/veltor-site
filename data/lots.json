@@ -1,5 +1,225 @@
 [
  {
+  "id": 8960,
+  "slug": "bmw-s-1000-rr-m-package-2022-8960",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR M Package",
+  "raw": "BMW S1000RR M Package",
+  "year": 2022,
+  "km": 13000,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1656000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-05T13:06:51+00:00",
+  "features": [
+   "Двигатель: 999 cc",
+   "Рядный 4-цилиндровый",
+   "Комплектация M Package"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Двигатель: 999 cc, рядный 4-цилиндровый"
+   },
+   {
+    "k": "p",
+    "t": "Комплектация M Package. Установлены выхлопная система Akrapovič Slip-on, защита двигателя GB Racing, рычаги M, спортивные подножки, передний и задний видеорегистраторы, слайдеры Gilles. Мотоцикл снят с регистрации, находится на обслуживании. По словам продавца, пробег небольшой для своего года, техническое состояние хорошее."
+   }
+  ],
+  "photos": [
+   "catalog/8960/1.jpg",
+   "catalog/8960/2.jpg",
+   "catalog/8960/3.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8960",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 8956,
+  "slug": "bmw-r-1300-gs-option-719-2024-8956",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "R 1300 GS",
+  "name": "BMW R 1300 GS Option 719",
+  "raw": "BMW R1300GS OPTION 719",
+  "year": 2024,
+  "km": 800,
+  "volume": "1300 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2519000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-05T12:42:12+00:00",
+  "features": [
+   "Комплектация Option 719",
+   "Защита руля Hepco & Becker",
+   "Защита фары"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Первая регистрация: 02.2025"
+   },
+   {
+    "k": "p",
+    "t": "Комплектация Option 719. Установлена полная выхлопная система Akrapovič Double Black с официальным оформлением защита двигателя и радиатора Touratech, защита руля Hepco & Becker, защита фары, расширитель боковой подставки, беспроводная зарядка и зарядное устройство аккумулятора. Установлен двухканальный видеорегистратор GNET Pro. В комплекте оригинальные три кофра BMW. По заявлению продавца, мотоцикл без ДТП и падений, состояние практически нового."
+   }
+  ],
+  "photos": [
+   "catalog/8956/1.jpg",
+   "catalog/8956/2.jpg",
+   "catalog/8956/3.jpg",
+   "catalog/8956/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8956",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 8952,
+  "slug": "ducati-xdiavel-s-2020-8952",
+  "type": "moto",
+  "brand": "Ducati",
+  "model": "XDiavel S",
+  "name": "Ducati XDiavel S",
+  "raw": "Ducati XDiavel S",
+  "year": 2020,
+  "km": 10400,
+  "volume": "1262 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1324000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-05T12:34:09+00:00",
+  "features": [
+   "Двигатель Testastretta DVT",
+   "V-Twin",
+   "Версия S"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Двигатель Testastretta DVT, V-Twin, 1262 cc. Версия S. Один владелец, мотоцикл на постоянном обслуживании. Установлены передний и задний видеорегистраторы, ветровое стекло и защита рамы Frame Slider. Общее состояние хорошее, расходные материалы в хорошем состоянии. Имеются небольшие царапины на обоих зеркалах."
+   }
+  ],
+  "photos": [
+   "catalog/8952/1.jpg",
+   "catalog/8952/2.jpg",
+   "catalog/8952/3.jpg",
+   "catalog/8952/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8952",
+  "parser": 3
+ },
+ {
+  "id": 8948,
+  "slug": "ducati-xdiavel-s-2017-8948",
+  "type": "moto",
+  "brand": "Ducati",
+  "model": "XDiavel S",
+  "name": "Ducati XDiavel S",
+  "raw": "Ducati XDiavel S",
+  "year": 2017,
+  "km": 22000,
+  "volume": "1262 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1133000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-05T12:32:25+00:00",
+  "features": [
+   "Двигатель Testastretta DVT",
+   "V-Twin",
+   "Версия S"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Двигатель Testastretta DVT, V-Twin, 1262 cc"
+   },
+   {
+    "k": "h",
+    "t": "Комплектация и дополнительное оборудование"
+   },
+   {
+    "k": "li",
+    "t": "Версия S"
+   },
+   {
+    "k": "li",
+    "t": "Полная выхлопная система Termignoni"
+   },
+   {
+    "k": "li",
+    "t": "Карбоновые элементы"
+   },
+   {
+    "k": "li",
+    "t": "Спинка пассажира"
+   },
+   {
+    "k": "li",
+    "t": "Двухканальный видеорегистратор"
+   },
+   {
+    "k": "li",
+    "t": "SP Connect"
+   },
+   {
+    "k": "li",
+    "t": "Удлинённое ветровое стекло"
+   },
+   {
+    "k": "h",
+    "t": "Состояние и обслуживание"
+   },
+   {
+    "k": "li",
+    "t": "Без ДТП"
+   },
+   {
+    "k": "li",
+    "t": "Изменение конструкции выхлопной системы официально оформлено"
+   },
+   {
+    "k": "li",
+    "t": "Расходные материалы с хорошим остатком"
+   },
+   {
+    "k": "li",
+    "t": "Подтёков масла нет"
+   },
+   {
+    "k": "li",
+    "t": "Аккуратное внешнее состояние"
+   },
+   {
+    "k": "li",
+    "t": "*12"
+   }
+  ],
+  "photos": [
+   "catalog/8948/1.jpg",
+   "catalog/8948/2.jpg",
+   "catalog/8948/3.jpg",
+   "catalog/8948/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8948",
+  "parser": 3,
+  "orig": true
+ },
+ {
   "id": 8943,
   "slug": "harley-davidson-low-rider-s-117-2025-8943",
   "type": "moto",
@@ -344,8 +564,7 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/8929",
   "parser": 3,
-  "hd": true,
-  "hdv": 2
+  "orig": true
  },
  {
   "id": 8925,
