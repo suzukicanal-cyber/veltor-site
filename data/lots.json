@@ -42,6 +42,7 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/8896",
   "parser": 3,
+  "orig": true,
   "hd": true,
   "hdv": 2
  },
@@ -97,6 +98,7 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/8892",
   "parser": 3,
+  "orig": true,
   "hd": true,
   "hdv": 2
  },
@@ -224,8 +226,7 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/8888",
   "parser": 3,
-  "hd": true,
-  "hdv": 2
+  "orig": true
  },
  {
   "id": 8884,
