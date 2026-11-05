@@ -7,7 +7,7 @@ export type Shape = { pos: Float32Array; br: Float32Array; col: Uint8Array; tags
 
 
 export const TAU = Math.PI * 2;
-export const COL = ["#F3F6FA", "#D9E8FF", "#FF5446", "#BFD6FF"];
+export const COL = ["#F3F6FA", "#D9E8FF", "#FF5446", "#BFD6FF", "#4DA3FF", "#3550E0"]; // 4, 5: M livery blues
 export const D = 4.4, PIV = 0.5;
 
 function rng(seed){let a=seed>>>0;return function(){a=(a+0x6D2B79F5)|0;let t=Math.imul(a^(a>>>15),1|a);t=(t+Math.imul(t^(t>>>7),61|t))^t;return((t^(t>>>14))>>>0)/4294967296;};}
@@ -28,41 +28,114 @@ class Cloud{
   box(c,sx,sy,sz,n,b){const A=[sy*sz,sx*sz,sx*sy],T=A[0]+A[1]+A[2];for(let i=0;i<n;i++){const r=R()*T,sg=R()<.5?-.5:.5;let x=(R()-.5)*sx,y=(R()-.5)*sy,z=(R()-.5)*sz;if(r<A[0])x=sg*sx;else if(r<A[0]+A[1])y=sg*sy;else z=sg*sz;this.add(c[0]+x,c[1]+y,c[2]+z,b);}}
 }
 
-/* sport motorcycle, metres, front = +x */
+/* BMW M 1000 RR (2025+) silhouette, metres, front = +x, ground y = 0.
+   Fully faired superbike: pointed nose with a central intake and slim LEDs, tall bubble screen,
+   M winglets on the front fairing, M livery stripes, high sharp tail with a hanging plate holder,
+   carbon wheels, underslung swingarm and the angled Akrapovič silencer on the right. */
 function moto(){
-  const C=new Cloud(),F=[.70,.31,0],B=[-.72,.31,0];
-  C.torus(F[0],F[1],F[2],.27,.055,560,.95);
-  C.torus(B[0],B[1],B[2],.27,.08,680,.95);
-  C.ring(F[0],F[1],0,.215,150,.5,.02); C.ring(B[0],B[1],0,.215,150,.5,.03);
-  C.spokes(F[0],F[1],0,.04,.215,6,14,.4,.25); C.spokes(B[0],B[1],0,.04,.215,6,14,.4,.6);
-  C.annulus(F[0],F[1],.078,.115,.165,170,.75); C.annulus(F[0],F[1],-.078,.115,.165,170,.75);
-  C.annulus(B[0],B[1],-.105,.075,.105,80,.6);
-  for(let i=0;i<120;i++){const a=.2+R()*1.5;C.add(F[0]+.34*Math.cos(a),F[1]+.34*Math.sin(a),(R()*2-1)*.06,.6);}
+  const C=new Cloud(),F=[.71,.30,0],B=[-.71,.30,0];
+  const lerp=(a,b,t)=>a+(b-a)*t;
+  /* loft: shell through cross-sections [x, yBottom, yTop, halfWidth]; flat-sided superellipse, narrower at the top */
+  const loft=(S,n,b,keep,colFn,pw=.42)=>{
+    const L=[];let tot=0;for(let i=0;i<S.length-1;i++){const d=Math.abs(S[i+1][0]-S[i][0]);L.push(d);tot+=d;}
+    let k=0,tries=0;
+    while(k<n&&tries<n*6){tries++;
+      let r=R()*tot,i=0;while(i<L.length-1&&r>L[i]){r-=L[i];i++;}
+      const t=L[i]?r/L[i]:0,a=S[i],e=S[i+1];
+      const x=lerp(a[0],e[0],t),y0=lerp(a[1],e[1],t),y1=lerp(a[2],e[2],t),w=lerp(a[3],e[3],t);
+      const q=R()*TAU,c=Math.cos(q),sn=Math.sin(q),v=Math.sign(sn)*Math.pow(Math.abs(sn),pw);
+      const y=(y0+y1)/2+(y1-y0)/2*v,z=w*(1-.28*Math.max(0,v))*Math.sign(c)*Math.pow(Math.abs(c),pw);
+      if(keep&&!keep(x,y,z))continue;
+      const cc=colFn?colFn(x,y,z):0;C.add(x,y,z,cc?1:b,cc);k++;
+    }
+  };
+  /* M livery on the fairing sides: light blue, dark blue and red stripes rising towards the tank */
+  const livery=(x,y,z)=>{
+    if(x<.08||x>.68||Math.abs(z)<.11)return 0;
+    const o=y-(.3+(x-.1)*.62);
+    return o>0&&o<.05?4:o>=.05&&o<.09?5:o>=.09&&o<.14?2:0;
+  };
+
+  /* wheels: 120/70 front, 200/55 rear, carbon rims with 10 spokes, discs and calipers */
+  C.torus(F[0],F[1],F[2],.248,.052,900,1);
+  C.torus(B[0],B[1],B[2],.235,.09,1050,1);
+  C.ring(F[0],F[1],0,.2,150,.55,.03); C.ring(B[0],B[1],0,.2,150,.55,.05);
+  C.spokes(F[0],F[1],0,.035,.2,10,10,.45,.1); C.spokes(B[0],B[1],0,.035,.2,10,10,.45,.4);
+  C.annulus(F[0],F[1],.072,.11,.16,170,.75); C.annulus(F[0],F[1],-.072,.11,.16,170,.75);
+  C.annulus(B[0],B[1],-.1,.07,.1,70,.6);
+  for(const s of [1,-1]) C.box([F[0]-.1,F[1]+.11,.085*s],.05,.09,.03,40,.9);
+  /* front mudguard hugging the tyre */
+  for(let i=0;i<150;i++){const a=.35+R()*1.45;C.add(F[0]+.315*Math.cos(a),F[1]+.315*Math.sin(a),(R()*2-1)*.06,.6);}
+
+  /* upside-down fork, clamps, clip-ons */
   for(const s of [1,-1]){
-    C.cyl([.70,.31,.085*s],[.50,.88,.085*s],.024,120,.8);
-    C.cyl([.46,.87,.11*s],[.41,.85,.33*s],.014,50,.75);
-    C.cyl([.48,.88,.11*s],[-.18,.62,.13*s],.03,170,.72);
-    C.cyl([-.18,.48,.12*s],[-.72,.31,.12*s],.028,150,.72);
-    C.line([-.12,.45,.13*s],[-.12,.45,.25*s],14,.6);
+    C.cyl([F[0],F[1],.085*s],[.51,.9,.085*s],.026,140,.8);
+    C.cyl([.52,.88,.1*s],[.47,.86,.26*s],.014,40,.75);
   }
-  C.box([.49,.90,0],.09,.035,.23,60,.7);
-  C.ellip([.56,.84,0],.17,.15,.17,560,.85,x=>x>.47);
-  C.ellip([.71,.83,0],.022,.032,.085,90,1,null,1);
-  C.ellip([.46,1.0,0],.11,.07,.12,140,.45,(x,y)=>y>.985&&x>.40);
-  C.ellip([.20,.90,0],.27,.12,.165,760,.85,(x,y)=>y>.83);
-  C.ellip([.32,.62,0],.30,.22,.175,700,.62,(x,y,z)=>Math.abs(z)>.12&&x>.06&&y>.47&&x<.40+(y-.47)*.9);
-  C.ellip([.14,.34,0],.30,.10,.15,260,.5,(x,y)=>y<.36);
-  C.box([.08,.46,0],.40,.30,.24,420,.5);
-  C.box([.20,.64,0],.18,.14,.26,140,.5);
-  C.cyl([-.14,.72,0],[-.30,.43,0],.03,60,.55);
-  for(let i=0;i<120;i++){const a=1.25+R()*.95;C.add(B[0]+.33*Math.cos(a),B[1]+.33*Math.sin(a),(R()*2-1)*.07,.55);}
-  for(let i=0;i<380;i++){const u=R(),x=-.44+.38*u,w=.14*(1-.2*(1-u)),z=(R()*2-1)*w;C.add(x,.84+.04*(1-u)-.6*z*z,z,.65);}
-  for(let i=0;i<640;i++){const s=R(),x=-.38-.54*s,w=.15*(1-.6*s),top=.89+.12*s,bot=top-.17*(1-.3*s);
-    if(R()<.62){C.add(x,bot+(top-bot)*R(),(R()<.5?-1:1)*w,.72);}else{const z=(R()*2-1)*w;C.add(x,top-.35*z*z,z,.8);}}
-  C.ellip([-.925,.975,0],.014,.022,.06,70,1,null,2);
-  C.cyl([-.02,.30,.11],[-.50,.56,.17],.055,300,.68);
-  return {C,tags:[{t:"Подвеска",a:[.60,.60,.09]},{t:"Двигатель",a:[.06,.40,.13]},{t:"Шины и диски",a:[-.72,.64,0]},{t:"Пластик и ЛКП",a:[.24,1.02,0]}],
-    checks:[[.08,.46,.14],[.34,.68,.17],[.70,.31,.10],[.50,.95,0]]};
+  C.box([.5,.91,0],.08,.03,.2,50,.7);
+
+  /* front fairing: pointed nose with a central intake, flat sides, lower fairing behind the wheel; open window over the frame */
+  const keepFront=(x,y,z)=>!(x>.84&&Math.abs(z)<.05&&y>.69&&y<.82)&&!(Math.abs(z)>.1&&x>-.02&&x<.26&&y>.6&&y<.8);
+  loft([[.97,.76,.8,.02],[.9,.69,.86,.08],[.8,.62,.92,.15],[.68,.58,.96,.2],[.57,.54,.97,.22],
+        [.47,.36,.95,.225],[.38,.18,.9,.22],[.24,.15,.86,.2],[.1,.16,.84,.18],[-.04,.24,.8,.15],[-.1,.32,.78,.13]],
+       1900,.55,keepFront,livery);
+  /* fuel tank hump between the fairing and the seat */
+  loft([[.5,.86,.96,.12],[.36,.84,1.0,.17],[.18,.82,1.0,.18],[.02,.8,.94,.16],[-.08,.8,.87,.13]],800,.6,(x,y)=>y>.83);
+  /* aluminium frame spars seen through the window */
+  for(const s of [1,-1]){C.cyl([.42,.9,.13*s],[-.06,.62,.14*s],.025,160,.85);C.cyl([.24,.62,.12*s],[.0,.68,.13*s],.02,60,.6);}
+  /* bright feature lines: they carry the silhouette, the surfaces only fill it */
+  const poly=(P,n,b,col)=>{const L=[];let tot=0;for(let i=0;i<P.length-1;i++){const d=Math.hypot(P[i+1][0]-P[i][0],P[i+1][1]-P[i][1],P[i+1][2]-P[i][2]);L.push(d);tot+=d;}
+    for(let k=0;k<n;k++){let r=R()*tot,i=0;while(i<L.length-1&&r>L[i]){r-=L[i];i++;}const t=L[i]?r/L[i]:0,a=P[i],e=P[i+1];
+      C.add(lerp(a[0],e[0],t)+(R()-.5)*.004,lerp(a[1],e[1],t)+(R()-.5)*.004,lerp(a[2],e[2],t)+(R()-.5)*.004,b,col||0);}};
+  for(const s of [1,-1]){
+    const S=(P)=>P.map(p=>[p[0],p[1],p[2]*s]);
+    poly(S([[.97,.79,.02],[.88,.85,.1],[.76,.9,.16],[.6,.92,.21],[.46,.88,.22]]),160,1);              /* upper fairing edge */
+    poly(S([[.97,.76,.02],[.86,.67,.1],[.66,.58,.2],[.5,.52,.22],[.42,.3,.22],[.32,.16,.2],[.1,.15,.18],[-.1,.3,.13]]),300,1); /* lower outline */
+    poly(S([[-.1,.31,.13],[-.03,.58,.15],[.04,.8,.16]]),80,.9);                                       /* rear edge of the side panel */
+    for(const [o,c] of [[0,4],[.05,5],[.09,2],[.14,2]]) poly(S([[.66,.65+o,.215],[.1,.3+o,.19]]),110,1,c);   /* M stripes, high at the nose */
+    poly(S([[.36,.86,.17],[.18,.86,.18],[.02,.82,.16],[-.08,.81,.13]]),110,.95);                       /* tank lower edge */
+    poly(S([[-.1,.63,.13],[-.4,.72,.115],[-.66,.85,.075],[-.9,.975,.012]]),170,1);                    /* tail underside */
+    poly(S([[-.12,.85,.13],[-.4,.93,.11],[-.66,.99,.07],[-.9,1.025,.012]]),170,1);                     /* tail top edge */
+    poly(S([[.82,.6,.21],[.57,.62,.33],[.57,.53,.335],[.8,.54,.33],[.82,.6,.21]]),120,1);             /* winglet outline */
+  }
+  poly([[.55,.97,0],[.36,1.0,0],[.16,1.0,0],[0,.94,0],[-.08,.87,0]],120,1);                          /* tank spine */
+  /* slim LED headlights either side of the intake */
+  for(const s of [1,-1]) C.line([.92,.74,.045*s],[.84,.7,.12*s],70,1);
+  C.line([.95,.775,-.025],[.95,.775,.025],14,1);
+
+  /* tall bubble screen, raked back */
+  for(let i=0;i<340;i++){const u=R(),v=R()*2-1,x=lerp(.86,.55,u),y=lerp(.88,1.13,Math.pow(u,.75))-.035*v*v,w=lerp(.06,.16,u);C.add(x,y,v*w,.4);}
+
+  /* M winglets: curved blades with end plates on the lower front fairing */
+  for(const s of [1,-1]){
+    for(let i=0;i<170;i++){const u=R(),x=lerp(.84,.56,u),z=s*lerp(.2,.33,R()),y=.6+.05*u-.02*Math.abs(z-.26*s)*8;C.add(x,y,z,.9);}
+    for(let i=0;i<70;i++){const u=R();C.add(lerp(.8,.57,u),lerp(.53,.63,R()),s*.335,.85);}
+  }
+  /* mirrors on stalks */
+  for(const s of [1,-1]){C.line([.62,.96,.2*s],[.6,1.0,.3*s],18,.6);C.ellip([.6,1.0,.33*s],.05,.022,.04,60,.75);}
+
+  /* seat, high sharp tail, tail light, hanging plate holder */
+  for(let i=0;i<420;i++){const u=R(),x=lerp(-.02,-.4,u),w=.13*(1-.25*u),z=(R()*2-1)*w;C.add(x,.84-.02*u-.5*z*z,z,.7);}
+  loft([[-.1,.62,.86,.13],[-.4,.71,.94,.115],[-.66,.84,1.0,.075],[-.9,.97,1.03,.012]],1000,.58,null,(x,y,z)=>x<-.3&&x>-.6&&Math.abs(z)>.07&&y>.86&&y<.9?4:0);
+  C.ellip([-.86,.985,0],.02,.012,.05,60,1,null,2);
+  C.line([-.72,.9,0],[-.86,.72,0],40,.6);
+  C.box([-.875,.66,0],.012,.11,.17,90,.6);
+
+  /* underslung swingarm, chain, rearsets */
+  for(const s of [1,-1]){
+    C.cyl([-.12,.43,.11*s],[B[0],B[1],.11*s],.032,190,.75);
+    C.line([-.16,.37,.1*s],[-.6,.27,.1*s],60,.55);
+    C.cyl([-.2,.45,.2*s],[-.24,.4,.22*s],.012,24,.7);
+    C.line([-.17,.5,.19*s],[-.27,.38,.2*s],20,.55);
+  }
+  C.line([-.08,.4,-.13],[B[0],B[1]+.05,-.13],70,.45); C.line([-.08,.32,-.13],[B[0],B[1]-.05,-.13],70,.45);
+
+  /* Akrapovič: link pipe under the engine, short silencer angled up on the right */
+  C.cyl([.3,.13,.1],[-.12,.3,.19],.04,160,.6);
+  C.cyl([-.14,.31,.2],[-.56,.56,.24],.065,420,.82);
+  C.ring(-.57,.565,.24,.058,40,.95,.0);
+
+  return {C,tags:[],checks:[[.1,.4,.2],[.6,.62,.09],[.71,.3,.1],[.45,1.0,0]]};
 }
 
 /* sedan, scaled units, front = +x */
@@ -101,7 +174,7 @@ function car(){
   for(let i=0;i<300;i++){const z=(R()*2-1)*.44;C.add(1.235-.08*(z/.47)*(z/.47),.16+R()*.18,z,.5);}
   for(let i=0;i<260;i++){const z=(R()*2-1)*.44;C.add(-1.235+.06*(z/.47)*(z/.47),.16+R()*.29,z,.48);}
   for(let i=0;i<160;i++){const z=(R()*2-1)*.44;C.add(-1.228+.05*(z/.47)*(z/.47),.44+(R()-.5)*.016,z,1,2);}
-  return {C,tags:[{t:"Кузов и ЛКП",a:[.72,.46,0]},{t:"Оптика",a:[1.14,.39,.34]},{t:"Салон",a:[-.15,.73,0]},{t:"Ходовая",a:[-.78,.185,.46]}],
+  return {C,tags:[],
     checks:[[.85,.45,0],[-.05,.32,.47],[.76,.185,.45],[.36,.50,.18]]};
 }
 

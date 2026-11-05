@@ -81,7 +81,7 @@ export default function Hero() {
       raf = requestAnimationFrame(frame);
       if (!visible) return;
       const idle = now - lastMove > 2600 && dragX === null;
-      if (idle && !reduce) { tYaw = .55 + Math.sin(now * .00026) * .8; tPitch = .22 + Math.sin(now * .00041) * .05; }
+      if (idle && !reduce) { tYaw = .45 + Math.sin(now * .00026) * .55; tPitch = .22 + Math.sin(now * .00041) * .05; }
       yaw += (tYaw - yaw) * .065; pitch += (tPitch - pitch) * .065;
       let e = 1;
       if (morphing) {
