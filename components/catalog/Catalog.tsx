@@ -5,12 +5,12 @@ import { LOTS, Lot, LotType, yawFor } from "@/lib/lots";
 import { plural } from "@/lib/format";
 import LotCard from "./LotCard";
 import { CC_STEPS, MOTO_CLASSES, motoSpec } from "@/lib/moto-specs";
+import Combo, { Opt, norm } from "./Combo";
 
 type T = "all" | LotType;
-const PRICES = [
-  { v: "0-1000000", t: "до 1 млн ₽" }, { v: "1000000-1500000", t: "1–1,5 млн ₽" }, { v: "1500000-2000000", t: "1,5–2 млн ₽" },
-  { v: "2000000-3000000", t: "2–3 млн ₽" }, { v: "3000000-5000000", t: "3–5 млн ₽" }, { v: "5000000-", t: "от 5 млн ₽" },
-];
+/** Price typed by hand: digits only, shown in groups of three ("1 500 000"). */
+const digits = (s: string) => s.replace(/\D/g, "").replace(/^0+/, "").slice(0, 9);
+const groupsOf = (s: string) => s.replace(/\B(?=(\d{3})+(?!\d))/g, "\u00a0");
 /** Mileage steps: "N" = up to N km, ">N" = over N km. Motorcycles get fine steps, cars — wider ones. */
 const kmSteps = (list: number[], over: number) => [
   { v: "0", t: "Только новые" },
@@ -25,10 +25,11 @@ const en = (a: string, b: string) => a.localeCompare(b, "en", { sensitivity: "ba
 export default function Catalog() {
   const [type, setType] = useState<T>("all");
   const [brand, setBrand] = useState("");
-  const [model, setModel] = useState(""); // "Brand|Model"
+  const [model, setModel] = useState(""); // typed or picked model name
   const [yFrom, setYFrom] = useState("");
   const [yTo, setYTo] = useState("");
-  const [price, setPrice] = useState("");
+  const [pFrom, setPFrom] = useState("");
+  const [pTo, setPTo] = useState("");
   const [km, setKm] = useState("");
   const [cc, setCc] = useState("");
   const [cls, setCls] = useState("");
@@ -41,33 +42,35 @@ export default function Catalog() {
     const t = q.get("type"), b = q.get("brand"), m = q.get("model");
     if (t === "moto" || t === "car") setType(t);
     if (b) setBrand(b);
-    if (b && m) setModel(b + "|" + m);
+    if (m) setModel(m);
     if (b) setOpen(true);
   }, []);
 
   const ofType = useMemo(() => LOTS.filter((l) => type === "all" || l.type === type), [type]);
-  const brands = useMemo(() => [...new Set(ofType.map((l) => l.brand))].sort(en), [ofType]);
-  const models = useMemo(() => {
+  const brandOk = (l: Lot) => !norm(brand) || norm(l.brand).includes(norm(brand));
+  const brandOpts = useMemo<Opt[]>(() => [...new Set(ofType.map((l) => l.brand))].sort(en).map((b) => ({ value: b, label: b })), [ofType]);
+  const modelOpts = useMemo<Opt[]>(() => {
     const by: Record<string, Set<string>> = {};
-    ofType.filter((l) => !brand || l.brand === brand).forEach((l) => { (by[l.brand] ||= new Set()).add(l.model); });
-    return Object.keys(by).sort(en).map((b) => ({ b, ms: [...by[b]].sort((x, y) => x.localeCompare(y, "ru", { numeric: true })) }));
-  }, [ofType, brand]);
+    ofType.filter(brandOk).forEach((l) => { (by[l.brand] ||= new Set()).add(l.model); });
+    const bs = Object.keys(by).sort(en), one = bs.length === 1;
+    return bs.flatMap((b) => [...by[b]].sort((x, y) => x.localeCompare(y, "ru", { numeric: true }))
+      .map((m) => ({ value: b + "|" + m, label: m, group: one ? undefined : b, brand: b })));
+  }, [ofType, brand]); // eslint-disable-line react-hooks/exhaustive-deps
   const years = useMemo(() => [...new Set(LOTS.map((l) => l.year))].sort((a, b) => b - a), []);
 
   // mileage steps differ for motorcycles and cars
   const kms = type === "car" ? KMS_CAR : KMS_MOTO;
   useEffect(() => { if (km && !kms.some((k) => k.v === km)) setKm(""); if (type === "car") { setCc(""); setCls(""); } }, [type]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  // keep the picked brand / model only if it still exists for the chosen type
-  useEffect(() => { if (brand && !brands.includes(brand)) setBrand(""); }, [brands, brand]);
-  useEffect(() => { if (model && !models.some((g) => g.ms.some((m) => g.b + "|" + m === model))) setModel(""); }, [models, model]);
 
   const pass = (l: Lot) => {
-    if (brand && l.brand !== brand) return false;
-    if (model && l.brand + "|" + l.model !== model) return false;
+    if (!brandOk(l)) return false;
+    const nm = norm(model);
+    if (nm && !norm(l.model).includes(nm) && !norm(l.name).includes(nm)) return false;
     if (yFrom && l.year < +yFrom) return false;
     if (yTo && l.year > +yTo) return false;
-    if (price) { const [lo, hi] = price.split("-"); if (l.price < +lo || (hi && l.price >= +hi)) return false; }
+    if (pFrom && l.price < +pFrom) return false;
+    if (pTo && l.price > +pTo) return false;
     if ((cc || cls) && l.type !== "moto") return false;
     if (cc || cls) {
       const sp = motoSpec(l);
@@ -80,10 +83,9 @@ export default function Catalog() {
   };
   const list = ofType.filter(pass).sort((a, b) =>
     sort === "new" ? b.date.localeCompare(a.date) || b.id - a.id : sort === "cheap" ? a.price - b.price : b.price - a.price);
-  const active = [brand, model, yFrom || yTo, price, km, cc, cls].filter(Boolean).length;
+  const active = [brand, model, yFrom || yTo, pFrom || pTo, km, cc, cls].filter(Boolean).length;
   const clsCount = useMemo(() => { const c: Record<string, number> = {}; for (const l of LOTS) { const k = motoSpec(l).cls; if (k) c[k] = (c[k] || 0) + 1; } return c; }, []);
-  const reset = () => { setType("all"); setBrand(""); setModel(""); setYFrom(""); setYTo(""); setPrice(""); setKm(""); setCc(""); setCls(""); };
-  const pickModel = (v: string) => { setModel(v); if (v && !brand) setBrand(v.split("|")[0]); };
+  const reset = () => { setType("all"); setBrand(""); setModel(""); setYFrom(""); setYTo(""); setPFrom(""); setPTo(""); setKm(""); setCc(""); setCls(""); };
 
   return (
     <>
@@ -103,19 +105,9 @@ export default function Catalog() {
         </div>
       </div>
       <div className={"cat-filters" + (open ? " open" : "")} id="cat-filters">
-        <label className="cat-f"><span>Марка</span>
-          <select id="f-brand" value={brand} onChange={(e) => { setBrand(e.target.value); }}>
-            <option value="">Все марки</option>{brands.map((b) => <option key={b} value={b}>{b}</option>)}
-          </select>
-        </label>
-        <label className="cat-f"><span>Модель</span>
-          <select id="f-model-c" value={model} onChange={(e) => pickModel(e.target.value)}>
-            <option value="">Все модели</option>
-            {brand
-              ? models.flatMap((g) => g.ms.map((m) => <option key={g.b + m} value={g.b + "|" + m}>{m}</option>))
-              : models.map((g) => <optgroup key={g.b} label={g.b}>{g.ms.map((m) => <option key={m} value={g.b + "|" + m}>{m}</option>)}</optgroup>)}
-          </select>
-        </label>
+        <Combo id="f-brand" label="Марка" placeholder="Все марки" value={brand} options={brandOpts} onChange={setBrand} />
+        <Combo id="f-model-c" label="Модель" placeholder="Все модели" value={model} options={modelOpts} onChange={setModel}
+          onPick={(o) => { if (o.brand && !brandOpts.some((b) => b.label === brand)) setBrand(o.brand); }} />
         <div className="cat-f" role="group" aria-label="Год выпуска"><span>Год выпуска</span>
           <div className="cat-range">
             <select id="f-year-from" aria-label="Год выпуска от" value={yFrom} onChange={(e) => { setYFrom(e.target.value); if (yTo && e.target.value && +e.target.value > +yTo) setYTo(""); }}>
@@ -126,11 +118,14 @@ export default function Catalog() {
             </select>
           </div>
         </div>
-        <label className="cat-f"><span>Цена</span>
-          <select id="f-price" value={price} onChange={(e) => setPrice(e.target.value)}>
-            <option value="">Любая</option>{PRICES.map((p) => <option key={p.v} value={p.v}>{p.t}</option>)}
-          </select>
-        </label>
+        <div className="cat-f" role="group" aria-label="Цена, ₽"><span>Цена, ₽</span>
+          <div className="cat-range">
+            <input id="f-price-from" className="cat-num" type="text" inputMode="numeric" autoComplete="off" aria-label="Цена от, рублей" placeholder="от"
+              value={groupsOf(pFrom)} onChange={(e) => setPFrom(digits(e.target.value))} />
+            <input id="f-price-to" className="cat-num" type="text" inputMode="numeric" autoComplete="off" aria-label="Цена до, рублей" placeholder="до"
+              value={groupsOf(pTo)} onChange={(e) => setPTo(digits(e.target.value))} />
+          </div>
+        </div>
         <label className="cat-f"><span>Пробег</span>
           <select id="f-km" value={km} onChange={(e) => setKm(e.target.value)}>
             <option value="">Любой</option>{kms.map((p) => <option key={p.v} value={p.v}>{p.t}</option>)}
