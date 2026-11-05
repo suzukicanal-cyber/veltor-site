@@ -1049,3 +1049,9 @@ html.lb-lock{overflow:hidden}
 .combo-o.is-sel{color:var(--xenon)}
 .combo-list{min-width:220px}
 @media (max-width:899px){.combo input,.cat-num{font-size:16px}}
+/* top menu with «Для партнёров»: one line at every desktop width */
+.nav-links{gap:clamp(12px,1.25vw,20px)}
+.nav-links a{white-space:nowrap}
+.nav-links a[href="/partners/"]{color:var(--fg)}
+@media (min-width:1200px){.nav-links a{font-size:13px}.nav-in{gap:16px}}
+@media (min-width:1340px) and (max-width:1439px){.nav-phone{display:none}}
