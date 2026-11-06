@@ -1,5 +1,53 @@
 [
  {
+  "id": 8969,
+  "slug": "bmw-r-1300-r-performance-2026-8969",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "R 1300 R Performance",
+  "name": "BMW R 1300 R Performance",
+  "raw": "BMW R1300R Performance",
+  "year": 2026,
+  "km": 11800,
+  "volume": "1300 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2094000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-06T02:26:25+00:00",
+  "features": [
+   "Двигатель Boxer 1300 см³",
+   "Установлен выхлоп Akrapovič",
+   "Ветровое стекло"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "BMW R 1300 R в исполнении Performance с системой ASA (Automated Shift Assistant), позволяющей переключать передачи без использования рычага сцепления. Двигатель Boxer 1300 см³."
+   },
+   {
+    "k": "p",
+    "t": "Установлен выхлоп Akrapovič, изменение конструкции выхлопной системы официально оформлено. Передний золотистый перевёрнутый амортизатор USD, ветровое стекло, защитные наклейки, кофры Hepco & Becker, двухканальный видеорегистратор, крышка пассажирского сиденья и защитные кожухи головок цилиндров."
+   },
+   {
+    "k": "p",
+    "t": "Яркое исполнение M Performance с эксклюзивной графикой и спортивными элементами. Оснащение подходит как для динамичной езды, так и для дальних поездок."
+   }
+  ],
+  "photos": [
+   "catalog/8969/1.jpg",
+   "catalog/8969/2.jpg",
+   "catalog/8969/3.jpg",
+   "catalog/8969/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/8969",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
   "id": 8965,
   "slug": "harley-davidson-fat-bob-2022-8965",
   "type": "moto",
