@@ -1,5 +1,45 @@
 [
  {
+  "id": 9040,
+  "slug": "bmw-s-1000-rr-2025-9040",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR",
+  "raw": "BMW S1000RR",
+  "year": 2025,
+  "km": 1262,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2061000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-07T08:58:14+00:00",
+  "features": [
+   "Двигатель 999 cc",
+   "Один владелец",
+   "Без ДТП и падений"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "BMW S1000RR, двигатель 999 cc. Один владелец, без ДТП и падений. Пройдено первое ТО на 1’000 km, масло заменено. По заявлению продавца, расходные материалы в хорошем состоянии, двигатель и коробка передач работают отлично. Остаток заводской гарантии"
+   }
+  ],
+  "photos": [
+   "catalog/9040/1.jpg",
+   "catalog/9040/2.jpg",
+   "catalog/9040/3.jpg",
+   "catalog/9040/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/9040",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
   "id": 9034,
   "slug": "yamaha-yzf-r1-2020-9034",
   "type": "moto",
