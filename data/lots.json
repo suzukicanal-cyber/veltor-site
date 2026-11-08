@@ -1,5 +1,103 @@
 [
  {
+  "id": 9130,
+  "slug": "bmw-s-1000-r-m-package-2026-9130",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 R",
+  "name": "BMW S 1000 R M Package",
+  "raw": "BMW S1000R M Package",
+  "year": 2026,
+  "km": 750,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2061000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-08T08:35:14+00:00",
+  "features": [
+   "Кованые диски M Forged Wheels",
+   "Спортивное сиденье M",
+   "Облегчённая батарея M"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "BMW S1000R в заводской комплектации M Package"
+   },
+   {
+    "k": "li",
+    "t": "Кованые диски M Forged Wheels"
+   },
+   {
+    "k": "li",
+    "t": "Спортивное сиденье M"
+   },
+   {
+    "k": "li",
+    "t": "Облегчённая батарея M"
+   },
+   {
+    "k": "li",
+    "t": "Цепь M Endurance"
+   },
+   {
+    "k": "li",
+    "t": "Спортивный глушитель Akrapovič"
+   },
+   {
+    "k": "li",
+    "t": "M Quick Action Throttle"
+   },
+   {
+    "k": "h",
+    "t": "Дополнительно установлены"
+   },
+   {
+    "k": "li",
+    "t": "Защита радиатора BMW"
+   },
+   {
+    "k": "li",
+    "t": "Слайдеры R&G на раму, вилку и маятник"
+   },
+   {
+    "k": "li",
+    "t": "Топливная крышка Bonamici"
+   },
+   {
+    "k": "li",
+    "t": "Держатель SP Connect"
+   },
+   {
+    "k": "li",
+    "t": "USB-C"
+   },
+   {
+    "k": "li",
+    "t": "Контроллер Healtech"
+   },
+   {
+    "k": "li",
+    "t": "Первое ТО пройдено на 750 км, масло и фильтр заменены"
+   },
+   {
+    "k": "li",
+    "t": "ДТП, падений и скольжений не было"
+   }
+  ],
+  "photos": [
+   "catalog/9130/1.jpg",
+   "catalog/9130/2.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/9130",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
   "id": 9123,
   "slug": "honda-cbr600rr-2025-9123",
   "type": "moto",
@@ -152,7 +250,7 @@
   "slug": "bmw-k-1600-b-bagger-719-2023-9115",
   "type": "moto",
   "brand": "BMW",
-  "model": "K 1600 B",
+  "model": "K 1600 B Bagger 719",
   "name": "BMW K 1600 B Bagger 719",
   "raw": "BMW K 1600 B Bagger 719",
   "year": 2023,
@@ -195,7 +293,9 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/9115",
   "parser": 3,
-  "orig": true
+  "orig": true,
+  "hd": true,
+  "hdv": 2
  },
  {
   "id": 9111,
@@ -4254,104 +4354,6 @@
    "catalog/8859/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/8859",
-  "parser": 3,
-  "orig": true,
-  "hd": true,
-  "hdv": 2
- },
- {
-  "id": 8857,
-  "slug": "bmw-s-1000-rm-package-2026-8857",
-  "type": "moto",
-  "brand": "BMW",
-  "model": "S 1000 RM Package",
-  "name": "BMW S 1000 RM Package",
-  "raw": "BMW S1000RM Package",
-  "year": 2026,
-  "km": 750,
-  "volume": null,
-  "power": null,
-  "drive": null,
-  "gearbox": null,
-  "price": 2061000,
-  "priceLabel": "под ключ",
-  "date": "2026-11-05T00:20:26+00:00",
-  "features": [
-   "Кованые диски M Forged Wheels",
-   "Спортивное сиденье M",
-   "Облегчённая батарея M"
-  ],
-  "body": [
-   {
-    "k": "li",
-    "t": "BMW S1000R в заводской комплектации M Package"
-   },
-   {
-    "k": "li",
-    "t": "Кованые диски M Forged Wheels"
-   },
-   {
-    "k": "li",
-    "t": "Спортивное сиденье M"
-   },
-   {
-    "k": "li",
-    "t": "Облегчённая батарея M"
-   },
-   {
-    "k": "li",
-    "t": "Цепь M Endurance"
-   },
-   {
-    "k": "li",
-    "t": "Спортивный глушитель Akrapovič"
-   },
-   {
-    "k": "li",
-    "t": "M Quick Action Throttle"
-   },
-   {
-    "k": "h",
-    "t": "Дополнительно установлены"
-   },
-   {
-    "k": "li",
-    "t": "Защита радиатора BMW"
-   },
-   {
-    "k": "li",
-    "t": "Слайдеры R&G на раму, вилку и маятник"
-   },
-   {
-    "k": "li",
-    "t": "Топливная крышка Bonamici"
-   },
-   {
-    "k": "li",
-    "t": "Держатель SP Connect"
-   },
-   {
-    "k": "li",
-    "t": "USB-C"
-   },
-   {
-    "k": "li",
-    "t": "Контроллер Healtech"
-   },
-   {
-    "k": "li",
-    "t": "Первое ТО пройдено на 750 км, масло и фильтр заменены"
-   },
-   {
-    "k": "li",
-    "t": "ДТП, падений и скольжений не было"
-   }
-  ],
-  "photos": [
-   "catalog/8857/1.jpg",
-   "catalog/8857/2.jpg"
-  ],
-  "post": "https://t.me/koreamotocycles_veltor/8/8857",
   "parser": 3,
   "orig": true,
   "hd": true,
