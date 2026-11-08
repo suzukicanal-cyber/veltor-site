@@ -1,5 +1,117 @@
 [
  {
+  "id": 9095,
+  "slug": "yamaha-yzf-r1-2012-9095",
+  "type": "moto",
+  "brand": "Yamaha",
+  "model": "YZF-R1",
+  "name": "Yamaha YZF-R1",
+  "raw": "Yamaha YZF-R1",
+  "year": 2012,
+  "km": 330,
+  "volume": "998 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1609000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-08T04:44:11+00:00",
+  "features": [
+   "Без ДТП",
+   "Передняя вилка Öhlins",
+   "Задний амортизатор Öhlins"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Без ДТП"
+   },
+   {
+    "k": "h",
+    "t": "Тюнинг"
+   },
+   {
+    "k": "li",
+    "t": "Передняя вилка Öhlins"
+   },
+   {
+    "k": "li",
+    "t": "Задний амортизатор Öhlins"
+   },
+   {
+    "k": "li",
+    "t": "Полная титановая выхлопная система LeoVince"
+   },
+   {
+    "k": "li",
+    "t": "Армированные тормозные шланги Goodridge спереди"
+   },
+   {
+    "k": "li",
+    "t": "Кованые суппорты Brembo"
+   },
+   {
+    "k": "li",
+    "t": "Передние волновые тормозные диски Braking"
+   },
+   {
+    "k": "li",
+    "t": "Power Commander V"
+   },
+   {
+    "k": "li",
+    "t": "Auto Tune"
+   },
+   {
+    "k": "li",
+    "t": "Квикшифтер"
+   },
+   {
+    "k": "li",
+    "t": "Переключатель двух карт двигателя"
+   },
+   {
+    "k": "li",
+    "t": "Защита двигателя"
+   },
+   {
+    "k": "li",
+    "t": "Датчики температуры шин"
+   },
+   {
+    "k": "li",
+    "t": "Задний карбоновый брызговик"
+   },
+   {
+    "k": "li",
+    "t": "Кованые алюминиевые диски Gale Speed"
+   },
+   {
+    "k": "li",
+    "t": "Задняя звезда Gale Speed"
+   },
+   {
+    "k": "li",
+    "t": "Подножки Vortex"
+   },
+   {
+    "k": "li",
+    "t": "*20"
+   }
+  ],
+  "photos": [
+   "catalog/9095/1.jpg",
+   "catalog/9095/2.jpg",
+   "catalog/9095/3.jpg",
+   "catalog/9095/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/9095",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
   "id": 9084,
   "slug": "kia-k5-2-0-prestige-2023-9084",
   "type": "car",
@@ -193,6 +305,7 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/7/9084",
   "parser": 3,
+  "orig": true,
   "hd": true,
   "hdv": 2
  },
@@ -1030,50 +1143,6 @@
    "catalog/9030/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/9030",
-  "parser": 3,
-  "orig": true,
-  "hd": true,
-  "hdv": 2
- },
- {
-  "id": 9026,
-  "slug": "yamaha-yzf-r1-2012-9026",
-  "type": "moto",
-  "brand": "Yamaha",
-  "model": "YZF-R1",
-  "name": "Yamaha YZF-R1",
-  "raw": "YAMAHA YZF R1",
-  "year": 2012,
-  "km": 330,
-  "volume": "998 см³",
-  "power": null,
-  "drive": null,
-  "gearbox": null,
-  "price": 1666000,
-  "priceLabel": "под ключ",
-  "date": "2026-11-07T04:55:01+00:00",
-  "features": [
-   "Мотоцикл в серебристом цвете",
-   "Auto Tune",
-   "Quickshifter"
-  ],
-  "body": [
-   {
-    "k": "p",
-    "t": "Yamaha YZF R1 объёмом 998 cc. Мотоцикл в серебристом цвете, выставлен на продажу официальным дилером Yamaha. Установлена подвеска Öhlins спереди и сзади, титановая полная выхлопная система LeoVince, армированные тормозные шланги Goodridge, кованые тормозные суппорты Brembo и передние волнообразные тормозные диски Braking. Дополнительно установлены Power Commander V, Auto Tune, Quickshifter, переключатель двух режимов карт двигателя, защита двигателя, датчик температуры шин, заднее карбоновое крыло, кованые алюминиевые диски Gale Speed, задняя звезда Gale Speed и задние подножки Vortex."
-   },
-   {
-    "k": "li",
-    "t": "Мотоцикл прошёл проверку и находится в выставочном зале. Заявлен как безаварийный"
-   }
-  ],
-  "photos": [
-   "catalog/9026/1.jpg",
-   "catalog/9026/2.jpg",
-   "catalog/9026/3.jpg",
-   "catalog/9026/4.jpg"
-  ],
-  "post": "https://t.me/koreamotocycles_veltor/8/9026",
   "parser": 3,
   "orig": true,
   "hd": true,
