@@ -1,5 +1,107 @@
 [
  {
+  "id": 9150,
+  "slug": "harley-davidson-street-glide-ultra-2025-9150",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Street Glide Ultra",
+  "name": "Harley-Davidson Street Glide Ultra",
+  "raw": "Harley-Davidson Street Glide Ultra",
+  "year": 2025,
+  "km": 456,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2979000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-08T13:46:24+00:00",
+  "features": [
+   "Без ДТП",
+   "Состояние нового",
+   "Двойной рычаг переключения передач"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Без ДТП"
+   },
+   {
+    "k": "li",
+    "t": "Демо-мотоцикл официального дилера Harley-Davidson, состояние нового"
+   },
+   {
+    "k": "h",
+    "t": "Тюнинг"
+   },
+   {
+    "k": "li",
+    "t": "Двойной рычаг переключения передач (heel-toe)"
+   },
+   {
+    "k": "li",
+    "t": "Держатель телефона Aluss с беспроводной зарядкой"
+   },
+   {
+    "k": "li",
+    "t": "Видеорегистратор Zinet на 2 камеры"
+   },
+   {
+    "k": "li",
+    "t": "*40,9"
+   }
+  ],
+  "photos": [
+   "catalog/9150/1.jpg",
+   "catalog/9150/2.jpg",
+   "catalog/9150/3.jpg",
+   "catalog/9150/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/9150",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 9146,
+  "slug": "harley-davidson-road-glide-2025-9146",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Road Glide",
+  "name": "Harley-Davidson Road Glide",
+  "raw": "Harley-Davidson Road Glide",
+  "year": 2025,
+  "km": 0,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2756000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-08T13:40:53+00:00",
+  "features": [
+   "*37,5"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "*37,5"
+   }
+  ],
+  "photos": [
+   "catalog/9146/1.jpg",
+   "catalog/9146/2.jpg",
+   "catalog/9146/3.jpg",
+   "catalog/9146/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/9146",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
   "id": 9136,
   "slug": "hyundai-venue-1-6-modern-plus-2022-9136",
   "type": "car",
