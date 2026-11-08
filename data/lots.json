@@ -1,5 +1,419 @@
 [
  {
+  "id": 9123,
+  "slug": "honda-cbr600rr-2025-9123",
+  "type": "moto",
+  "brand": "Honda",
+  "model": "CBR600RR",
+  "name": "Honda CBR600RR",
+  "raw": "Honda CBR600RR",
+  "year": 2025,
+  "km": 5000,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1448000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-08T06:02:56+00:00",
+  "features": [
+   "Мотоцикл с небольшим пробегом",
+   "Moriwaki Muffler 101.0 dB",
+   "Puig ветровое стекло"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Honda CBR600RR 2025 года в яркой спортивной расцветке HRC. Мотоцикл с небольшим пробегом, ухоженный и с большим количеством дополнительного оборудования."
+   },
+   {
+    "k": "h",
+    "t": "Дополнительное оборудование"
+   },
+   {
+    "k": "p",
+    "t": "Moriwaki Muffler 101.0 dB (конструкция изменена, шумоглушитель и оригинальный глушитель сохранены), SmartCar BG-X1 двухканальный видеорегистратор, Puig ветровое стекло (оригинальное в наличии), Koso подогрев ручек (оригинальные в наличии), Rizoma Stealth Mirrors (оригинальные в наличии), Easy Grip прозрачные накладки на бак, Mototrone задние подножки (оригинальные в наличии), Kijima крепление руля, SP Connect + зарядное устройство Komine C-to-C, тормозная жидкость HRC, оригинальный задний кожух (в наличии), Evotech регулируемые рычаги сцепления и тормоза (оригинальные в наличии), GB Racing защита двигателя."
+   },
+   {
+    "k": "li",
+    "t": "В комплекте также руководство, 2 ключа и оригинальные детали от установленного тюнинга"
+   },
+   {
+    "k": "h",
+    "t": "Обслуживание"
+   },
+   {
+    "k": "li",
+    "t": "На пробеге 3’954 km заменён двигатель. После замены пройдено около 5’000 km обкатки"
+   },
+   {
+    "k": "p",
+    "t": "Каждые 500–1’000 km выполнялась чистка и смазка цепи. Мотоцикл регулярно мылся и содержался в ухоженном состоянии. Хранился в подземном паркинге."
+   },
+   {
+    "k": "li",
+    "t": "До продажи возможен небольшой прирост пробега"
+   }
+  ],
+  "photos": [
+   "catalog/9123/1.jpg",
+   "catalog/9123/2.jpg",
+   "catalog/9123/3.jpg",
+   "catalog/9123/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/9123",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 9119,
+  "slug": "bmw-rninet-scrambler-option-719-2021-9119",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "RnineT Scrambler",
+  "name": "BMW RnineT Scrambler Option 719",
+  "raw": "BMW RnineT Scrambler Option 719",
+  "year": 2021,
+  "km": 17000,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1217000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-08T05:58:12+00:00",
+  "features": [
+   "Crow Protect — защита фары",
+   "Противотуманных фар и поворотников",
+   "Зеркала ROVU RM03"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "BMW R nineT Scrambler в комплектации Option 719 с большим количеством дополнительного оборудования"
+   },
+   {
+    "k": "p",
+    "t": "Мотоцикл в отличном визуальном исполнении, с многочисленными защитными элементами и туристическими аксессуарами."
+   },
+   {
+    "k": "h",
+    "t": "Дополнительное оборудование"
+   },
+   {
+    "k": "p",
+    "t": "Crow Protect — защита фары, противотуманных фар и поворотников, зеркала ROVU RM03, съёмные LED противотуманные фары ROVU L7S, оригинальные крепления противотуманных фар ROVU, райзеры руля ROVU, защита рук Barkbusters, двухпортовый зарядный модуль Komine, расширитель боковой подножки James, защита двигателя, защита бака, кронштейны боковых сумок и центрального кофра."
+   },
+   {
+    "k": "li",
+    "t": "Защитные элементы и кронштейны окрашены в полуматовый чёрный цвет методом порошковой окраски"
+   },
+   {
+    "k": "h",
+    "t": "Обслуживание"
+   },
+   {
+    "k": "li",
+    "t": "500 км назад — замена тормозной жидкости"
+   },
+   {
+    "k": "p",
+    "t": "После 1 000 км пробега — замена моторного масла, масла КПП, масла карданной передачи и масляного фильтра."
+   },
+   {
+    "k": "li",
+    "t": "Установлен многоразовый воздушный фильтр"
+   },
+   {
+    "k": "li",
+    "t": "По словам владельца, ДТП и падений не было. История эксплуатации требует дополнительной проверки"
+   },
+   {
+    "k": "li",
+    "t": "*14"
+   }
+  ],
+  "photos": [
+   "catalog/9119/1.jpg",
+   "catalog/9119/2.jpg",
+   "catalog/9119/3.jpg",
+   "catalog/9119/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/9119",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 9115,
+  "slug": "bmw-k-1600-b-bagger-719-2023-9115",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "K 1600 B",
+  "name": "BMW K 1600 B Bagger 719",
+  "raw": "BMW K 1600 B Bagger 719",
+  "year": 2023,
+  "km": 4317,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2714000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-08T05:54:41+00:00",
+  "features": [
+   "По заявлению владельца",
+   "ДТП и падений не было",
+   "Кастомное сиденье"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "BMW K 1600 B в эксклюзивной комплектации 719. Премиальный туристический круизер с рядным шестицилиндровым двигателем и богатым оснащением."
+   },
+   {
+    "k": "p",
+    "t": "Мотоцикл приобретён новым в 2023 году. По заявлению владельца, пробег менее 5 000 км, ДТП и падений не было."
+   },
+   {
+    "k": "h",
+    "t": "Дополнительное оборудование"
+   },
+   {
+    "k": "li",
+    "t": "Кастомное сиденье, боковые кофры, дополнительная защита двигателя, туристическое оснащение"
+   }
+  ],
+  "photos": [
+   "catalog/9115/1.jpg",
+   "catalog/9115/2.jpg",
+   "catalog/9115/3.jpg",
+   "catalog/9115/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/9115",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 9111,
+  "slug": "bmw-r-1250-gs-adventure-triple-black-2022-9111",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "R 1250 GS Adventure",
+  "name": "BMW R 1250 GS Adventure Triple Black",
+  "raw": "BMW R 1250 GS Adventure Triple Black",
+  "year": 2022,
+  "km": 15000,
+  "volume": "1254 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2218000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-08T05:50:58+00:00",
+  "features": [
+   "Akrapovič Exhaust",
+   "Ron Rider Full Decal MMX",
+   "Комплект из трёх кофров Ron Rider"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "BMW R 1250 GS Adventure в полной туристической комплектации с большим количеством дополнительного оборудования. Практически полностью подготовлен для дальних путешествий. Все кофры и аксессуары Ron Rider приобретались новыми."
+   },
+   {
+    "k": "h",
+    "t": "Дополнительное оборудование"
+   },
+   {
+    "k": "p",
+    "t": "Akrapovič Exhaust (удалён DB Killer, внесены изменения в регистрационные документы), Ron Rider Full Decal MMX, комплект из трёх кофров Ron Rider, мини-кофры Ron Rider на защиту двигателя, сумка на руль Ron Rider, водонепроницаемые внутренние сумки для кофров, заниженное сиденье Wunderlich (переднее и заднее), увеличенное ветровое стекло Givi, мультимедийная система Chigee AIO-5, пульт Chigee, TPMS, двухканальный видеорегистратор, зеркала ROVU RM03, съёмные LED противотуманные фары L7S, защита поворотников и противотуманных фар Crow Protect, защита рук Barkbusters, USB-порты Komine (2 шт.), райзеры руля, защита двигателя и бака, кронштейны боковых кофров и центрального кофра, удлинитель боковой подножки James, дополнительные защитные элементы."
+   },
+   {
+    "k": "li",
+    "t": "Все защитные элементы и кронштейны окрашены матовым чёрным порошковым покрытием"
+   },
+   {
+    "k": "h",
+    "t": "Обслуживание"
+   },
+   {
+    "k": "li",
+    "t": "10 000 км — плановое ТО"
+   },
+   {
+    "k": "li",
+    "t": "12 000 км — замена моторного масла и тормозной жидкости"
+   },
+   {
+    "k": "li",
+    "t": "14 000 км — переборка спиц переднего колеса"
+   },
+   {
+    "k": "p",
+    "t": "По информации владельца, мотоцикл не участвовал в ДТП. У предыдущего владельца был случай статичного завала на правую сторону. Следы на защитных элементах устранены порошковой окраской."
+   }
+  ],
+  "photos": [
+   "catalog/9111/1.jpg",
+   "catalog/9111/2.jpg",
+   "catalog/9111/3.jpg",
+   "catalog/9111/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/9111",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 9107,
+  "slug": "bmw-r-1250-gs-adventure-40th-anniversary-2021-9107",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "R 1250 GS Adventure",
+  "name": "BMW R 1250 GS Adventure 40th Anniversary",
+  "raw": "BMW R 1250 GS Adventure 40th Anniversary",
+  "year": 2021,
+  "km": 6512,
+  "volume": "1254 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2251000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-08T05:48:06+00:00",
+  "features": [
+   "Мотоцикл с небольшим пробегом",
+   "По заявлению владельца — без ДТП",
+   "Падений и скользящих повреждений"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "BMW R 1250 GS Adventure в юбилейной расцветке 40 Years Edition. Выпуск и передача первым владельцу в мае 2021 года через официальный дилерский центр Namseoul."
+   },
+   {
+    "k": "li",
+    "t": "Мотоцикл с небольшим пробегом, по заявлению владельца — без ДТП, падений и скользящих повреждений"
+   },
+   {
+    "k": "h",
+    "t": "Дополнительное оснащение"
+   },
+   {
+    "k": "p",
+    "t": "Сиденье Wunderlich, кофры BMW (боковые и центральный на фотографиях), дополнительное туристическое оборудование."
+   }
+  ],
+  "photos": [
+   "catalog/9107/1.jpg",
+   "catalog/9107/2.jpg",
+   "catalog/9107/3.jpg",
+   "catalog/9107/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/9107",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 9103,
+  "slug": "triumph-rocket3r-2023-9103",
+  "type": "moto",
+  "brand": "Triumph",
+  "model": "Rocket3R",
+  "name": "Triumph Rocket3R",
+  "raw": "Triumph Rocket3R",
+  "year": 2023,
+  "km": 14511,
+  "volume": "2458 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1683000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-08T05:44:00+00:00",
+  "features": [
+   "Матовый серый цвет",
+   "Quickshifter",
+   "Боковые кофры"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Мощный круизер Triumph Rocket 3 R с трёхцилиндровым двигателем объёмом 2 458 cc. Матовый серый цвет, эффектный внешний вид и богатое оснащение."
+   },
+   {
+    "k": "h",
+    "t": "Дополнительное оборудование"
+   },
+   {
+    "k": "p",
+    "t": "Quickshifter, боковые кофры, двухканальный видеорегистратор, USB-порт, держатель телефона, бар-энд зеркала, переднее мини-ветровое стекло."
+   },
+   {
+    "k": "li",
+    "t": "По информации продавца, проведена проверка на отсутствие ДТП, общее состояние мотоцикла хорошее"
+   }
+  ],
+  "photos": [
+   "catalog/9103/1.jpg",
+   "catalog/9103/2.jpg",
+   "catalog/9103/3.jpg",
+   "catalog/9103/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/9103",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 9099,
+  "slug": "aprilia-rs-660-track-full-tuning-2023-9099",
+  "type": "moto",
+  "brand": "Aprilia",
+  "model": "RS 660 Track Full Tuning",
+  "name": "Aprilia RS 660 Track Full Tuning",
+  "raw": "Aprilia RS 660 Track Full Tuning",
+  "year": 2023,
+  "km": 3126,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2608000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-08T05:40:06+00:00",
+  "features": [
+   "По заявлению продавца",
+   "SC Project Full System",
+   "Öhlins Rear Shock"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Трековая Aprilia RS 660 с масштабным профессиональным тюнингом. По заявлению продавца, стоимость установленных компонентов превышает 60 000 000₩."
+   },
+   {
+    "k": "p",
+    "t": "SC Project Full System, Öhlins Rear Shock, Öhlins Front Cartridge, Marchesini Forged Wheels, Brembo GP4 RX Calipers, Brembo T-Drive Discs, Brembo 17RCS Master Cylinder, Brembo Clutch Lever, SIXFIBER Racing Complete FRP, Gabro Racing Airbox, Jetprime Quick Throttle, Jetprime Racing Switch, Puig Racing Screen, Spider Racing Rearsets, Spider Engine Slider, Spider Handlebar, Spider Top Bridge, Spider Brake Lever Guard, R&G Radiator Guard, CNC Swingarm Spools, CNC Fuel Cap, Carbon Front Mudguard, Carbon Rear Mudguard, Sprint Racing Air Filter, IMU Bracket, Mride Accelerator Module, Slipper Clutch."
+   },
+   {
+    "k": "li",
+    "t": "Без ДТП по информации продавца"
+   }
+  ],
+  "photos": [
+   "catalog/9099/1.jpg",
+   "catalog/9099/2.jpg",
+   "catalog/9099/3.jpg",
+   "catalog/9099/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/9099",
+  "parser": 3,
+  "orig": true
+ },
+ {
   "id": 9095,
   "slug": "yamaha-yzf-r1-2012-9095",
   "type": "moto",
