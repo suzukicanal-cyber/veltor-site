@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { BodyLine, LOTS, Lot, likeLink, similar, yawFor } from "@/lib/lots";
+import { BodyLine, LOTS, Lot, likeLink, lotHref, similar, yawFor } from "@/lib/lots";
 import { dateLong, dateRu, groups, kmLabel, money } from "@/lib/format";
-import { PHONE, PHONE_HREF } from "@/lib/site";
-import { AVITO_RATING } from "@/data/content";
+import { PHONE, PHONE_HREF, SITE_URL, tgText } from "@/lib/site";
 import { facts } from "./MotoCard";
 import LotGallery from "./LotGallery";
 import LotCard from "./LotCard";
@@ -39,6 +38,8 @@ export function lotData(l: Lot) {
 type D = ReturnType<typeof lotData>;
 
 /* ---------------- building blocks ---------------- */
+/** Telegram message to the manager: the client wants this exact lot inspected. */
+const inspectLink = (l: Lot) => tgText(`Здравствуйте! Хочу заказать осмотр этого варианта: ${l.name} ${l.year}, ${kmLabel(l.km)}, ${money(l.price)}.\n${SITE_URL}${lotHref(l)}`);
 const Check = () => <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 6.2 5 8.6 9.5 3.6" /></svg>;
 function Badges({ d }: { d: D }) {
   if (!d.f.noCrash && !d.f.deal) return null;
@@ -65,15 +66,6 @@ function Cta({ l, stack }: { l: Lot; stack?: boolean }) {
       <LikeButton className="btn btn-primary" tgHref={likeLink(l)} />
       <a className="btn btn-ghost" href={PHONE_HREF}>Позвонить {PHONE}</a>
     </div>
-  );
-}
-function Trust() {
-  return (
-    <ul className="lv-trust">
-      <li><b>{AVITO_RATING.score}★</b><span>{AVITO_RATING.count} отзывов на Авито</span></li>
-      <li><b>до 45 дн</b><span>доставка, рекорд — 25</span></li>
-      <li><b>Осмотр</b><span>фото и видео до покупки</span></li>
-    </ul>
   );
 }
 function Desc({ d }: { d: D }) {
@@ -163,10 +155,17 @@ export default function LotView({ l }: { l: Lot }) {
           <h1 className="lv-h1">{l.name}</h1>
           <Nums d={d} />
           <div className="lv-pay">
+            <div className="lv-pay-row">
             <div className="lv-pay-main">
-              <span className="cw-mono">Цена под ключ · полный расчёт</span>
+              <span className="cw-mono">Полный расчёт</span>
               <b>{money(l.price)}</b>
               <em>{d.f.deal ? `На ${d.f.deal.pct}% ниже средней цены похожих в каталоге` : `Актуально на ${dateRu(l.date)}`}</em>
+            </div>
+            <a className="lv-insp" href={inspectLink(l)} target="_blank" rel="noopener">
+              <span className="cw-mono">Осмотр · 12 500 ₽</span>
+              <b>Заказать осмотр&nbsp;<i aria-hidden="true">↗</i></b>
+              <em>Фото и видео до покупки — решение принимаете вы</em>
+            </a>
             </div>
             <ul className="lv-pay-alt">
               <li><span>Предоплата 10%</span><b>≈ {money(d.pre)}</b></li>
@@ -175,7 +174,6 @@ export default function LotView({ l }: { l: Lot }) {
             </ul>
           </div>
           <Cta l={l} stack />
-          <Trust />
         </div>
       </div>
       <div className="lv3-ch lv-chapters">{ch.map((c) => <section key={c.t} className="lv3-c"><div className="lv3-n"><span>{c.n}</span><h2>{c.t}</h2></div><div className="lv3-body">{c.c}</div></section>)}</div>

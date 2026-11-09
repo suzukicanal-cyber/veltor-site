@@ -1381,3 +1381,13 @@ html.lb-lock{overflow:hidden}
 @keyframes lv-ping{from{transform:scale(.6);opacity:.9}to{transform:scale(2.2);opacity:0}}
 @media (prefers-reduced-motion:reduce){.lv4-top>*,.lv-pay-main::after,.lv-route.is-v::after,.lv-m-me::before{animation:none!important}}
 .lv-cta.is-stack .like,.lv-cta.is-stack .like>.btn{width:100%;display:flex}
+/* price + «Заказать осмотр» side by side, ways to pay listed below */
+.lv-pay-row{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr)}
+.lv-insp{display:grid;gap:8px;align-content:start;padding:20px;color:var(--fg);text-decoration:none;border-left:1px solid var(--line-2);background:rgba(255,255,255,.03);transition:background .3s}
+.lv-insp:hover{background:rgba(207,224,255,.08)}
+.lv-insp b{font:500 clamp(20px,1.8vw,24px)/1.1 var(--f-wide);letter-spacing:-.02em}
+.lv-insp b i{font-style:normal;display:inline-block;transition:transform .3s var(--ease)}.lv-insp:hover b i{transform:translate(3px,-3px)}
+.lv-insp em{font-style:normal;font-size:12.5px;line-height:1.4;color:var(--muted)}
+.lv-pay-alt{border-top:1px solid var(--line-2)}
+@media (max-width:560px){.lv-pay-row{grid-template-columns:1fr}.lv-insp{border-left:0;border-top:1px solid var(--line-2)}}
+.lv-insp b{font-size:clamp(18px,1.6vw,22px)}
