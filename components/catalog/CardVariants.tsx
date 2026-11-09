@@ -34,8 +34,8 @@ function Badges({ f, cls = "" }: { f: ReturnType<typeof facts>; cls?: string }) 
   if (!f.noCrash && !f.deal) return null;
   return (
     <ul className={"cw-badges " + cls}>
-      {f.deal && <li className="cw-deal">Выгодно · −{f.deal.pct}%</li>}
-      {f.noCrash && <li className="cw-ok">Без ДТП</li>}
+      {f.deal && <li className="cw-deal"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M6 2v8M2.5 6.5 6 10l3.5-3.5" /></svg>Выгодно · −{f.deal.pct}%</li>}
+      {f.noCrash && <li className="cw-ok"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 6.2 5 8.6 9.5 3.6" /></svg>Без ДТП</li>}
     </ul>
   );
 }
@@ -154,17 +154,17 @@ export function CardHud({ lot, yaw }: { lot: Lot; yaw: number }) {
 }
 
 /* Итог: метки на фото, крупные год / пробег / объём (из «Ценника»), цена с кнопкой (из «Постера») */
-export function CardFinal({ lot, yaw }: { lot: Lot; yaw: number }) {
+export function CardFinal({ lot, yaw, tone = "" }: { lot: Lot; yaw: number; tone?: string }) {
   const f = facts(lot), href = lotHref(lot);
   return (
-    <article className="lot cw6" data-light="">
+    <article className={"lot cw6 " + tone} data-light="">
       <div className="cw3-media"><LotMedia hd={lot.hd} photos={lot.photos} name={lot.name} shape={lot.type} yaw={yaw} href={href} kind={typeLabel(lot.type)} /><Badges f={f} cls="cw3-b" /></div>
       <div className="lot-body">
         <div><span className="cw-mono">{lot.brand}{f.cls ? ` · ${f.cls}` : ""}</span><h3 className="lot-t cw6-t"><Link href={href}>{lot.model}</Link></h3></div>
-        <dl className="cw2-nums">
+        <dl className="cw2-nums cw6-nums">
           <div><dt>год</dt><dd>{lot.year}</dd></div>
-          <div><dt>пробег</dt><dd>{lot.km ? groups(lot.km) : "0"}<small> км</small></dd></div>
-          <div><dt>объём</dt><dd>{f.cc ? f.cc.replace(/\s*см³/, "") : "—"}<small> см³</small></dd></div>
+          <div><dt>пробег, км</dt><dd>{lot.km ? groups(lot.km) : "новый"}</dd></div>
+          <div><dt>объём, см³</dt><dd>{f.cc ? f.cc.replace(/\s*см³/, "") : "—"}</dd></div>
         </dl>
         <div className="cw1-foot cw6-foot"><div><b>{money(lot.price)}</b><em>под ключ · {dateRu(lot.date)}</em></div><LikeButton className="lot-cta" tgHref={likeLink(lot)} /></div>
       </div>

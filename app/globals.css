@@ -1210,3 +1210,20 @@ html.lb-lock{overflow:hidden}
 .cw6-t{margin:4px 0 0}
 .cw6-foot{margin-top:auto;border-top:0;padding-top:4px}
 .cw6-foot b{color:var(--fg)}.cw6-foot em{color:var(--muted)}
+/* numbers never cross the column rules: units live in the label */
+.cw6-nums>div{min-width:0}
+.cw6-nums dd{overflow:hidden;text-overflow:ellipsis;font-size:clamp(17px,1.5vw,20px)}
+/* badges with icons; tone options */
+.cw-badges li{display:inline-flex;align-items:center;gap:5px}
+.cw-badges svg{width:12px;height:12px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.tn-gold .cw-deal{background:linear-gradient(135deg,#EBDDB6,#C9AE74);color:#1A160C}
+.tn-gold .cw-ok{background:rgba(10,11,13,.6);color:#E9DCB8;border-color:rgba(217,198,155,.5)}
+.tn-red .cw-deal{background:var(--tail);color:#fff}
+.tn-red .cw-ok{background:rgba(10,11,13,.6);color:#fff;border-color:rgba(255,255,255,.3)}
+.tn-glass .cw-deal{background:rgba(255,255,255,.88);color:var(--ink);backdrop-filter:blur(8px)}
+.tn-glass .cw-ok{background:rgba(10,11,13,.45);color:#fff;border-color:rgba(255,255,255,.35)}
+.tn-glow .cw-deal{background:rgba(10,11,13,.6);color:var(--xenon);border:1px solid rgba(207,224,255,.6);box-shadow:0 0 14px rgba(207,224,255,.35);backdrop-filter:blur(8px)}
+.tn-glow .cw-ok{background:rgba(10,11,13,.6);color:#8FD6A8;border:1px solid rgba(143,214,168,.45)}
+.cw6-nums{grid-template-columns:minmax(min-content,.8fr) minmax(min-content,1.1fr) minmax(min-content,1fr)}
+.cw6-nums dd{overflow:visible;text-overflow:clip;white-space:nowrap}
+.cw6-nums dt{white-space:nowrap}
