@@ -1,8 +1,26 @@
+(security) {
+    header {
+        # браузер всегда открывает сайт только по HTTPS (год)
+        Strict-Transport-Security "max-age=31536000; includeSubDomains"
+        # сайт нельзя встроить в чужую страницу (защита от подмены кликов); Вебвизор Метрики разрешён
+        Content-Security-Policy "frame-ancestors 'self' https://metrika.yandex.ru https://metrika.yandex.by https://metrica.yandex.com https://webvisor.com https://*.webvisor.com; base-uri 'self'; object-src 'none'; form-action 'self'"
+        X-Content-Type-Options "nosniff"
+        Referrer-Policy "strict-origin-when-cross-origin"
+        Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()"
+        Cross-Origin-Opener-Policy "same-origin"
+        -Server
+        -X-Powered-By
+    }
+}
+
 veltormotokorea.ru {
+    import security
+    encode zstd gzip
     reverse_proxy web:80
 }
 
 www.veltormotokorea.ru {
+    import security
     redir https://veltormotokorea.ru{uri} permanent
 }
 

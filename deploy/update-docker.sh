@@ -24,7 +24,15 @@ if [ "${FREE_MB:-0}" -lt 3000 ]; then
   docker builder prune -af >/dev/null 2>&1 || true
   docker image prune -af >/dev/null 2>&1 || true
 fi
-if docker compose -f compose.yaml -f compose.ssl.yaml up -d --build web; then
+DC="docker compose -f compose.yaml -f compose.ssl.yaml"
+# свежие базовые образы (исправления безопасности nginx/node/caddy подтягиваются сами)
+$DC pull -q caddy >/dev/null 2>&1 || true
+if $DC build --pull -q web && $DC up -d web caddy; then
+  # изменились настройки Caddy (заголовки безопасности, домены) — применяем без остановки сайта
+  if [ -n "$PREV" ] && ! git diff --quiet "$PREV" "$TARGET" -- deploy/Caddyfile 2>/dev/null; then
+    $DC exec -T caddy caddy reload --config /etc/caddy/Caddyfile >/dev/null 2>&1 || $DC restart caddy
+    echo "$(date '+%F %T') настройки Caddy применены"
+  fi
   echo "$TARGET" > .deployed
   docker image prune -f >/dev/null
   docker builder prune -f --filter until=48h >/dev/null 2>&1 || true
