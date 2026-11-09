@@ -1,12 +1,13 @@
 import Link from "next/link";
 import { BodyLine, LOTS, Lot, likeLink, similar, yawFor } from "@/lib/lots";
 import { dateLong, dateRu, groups, kmLabel, money } from "@/lib/format";
-import { PHONE, PHONE_HREF, asset } from "@/lib/site";
-import { AVITO_RATING, TEAM } from "@/data/content";
+import { PHONE, PHONE_HREF } from "@/lib/site";
+import { AVITO_RATING } from "@/data/content";
 import { facts } from "./MotoCard";
 import LotGallery from "./LotGallery";
 import LotCard from "./LotCard";
 import LikeButton from "./LikeButton";
+import LotFx from "./LotFx";
 
 /* ---------------- data shared by all five lot-page designs (everything from the post or the site's own facts) ---------------- */
 function sections(body: BodyLine[]) {
@@ -66,16 +67,8 @@ function Trust() {
     <ul className="lv-trust">
       <li><b>{AVITO_RATING.score}★</b><span>{AVITO_RATING.count} отзывов на Авито</span></li>
       <li><b>до 45 дн</b><span>доставка, рекорд — 25</span></li>
-      <li><b>10%</b><span>предоплата — остальное по прибытии</span></li>
+      <li><b>Осмотр</b><span>фото и видео до покупки</span></li>
     </ul>
-  );
-}
-function Team({ compact }: { compact?: boolean }) {
-  return (
-    <div className={"lv-team" + (compact ? " is-compact" : "")}>
-      <div className="lv-faces">{TEAM.map((m) => <img key={m.name} src={asset(m.photo)} alt="" width={48} height={48} loading="lazy" />)}</div>
-      <p>Ева, Сергей и Анатолий ответят в Telegram и помогут с выбором</p>
-    </div>
   );
 }
 function Desc({ d }: { d: D }) {
@@ -106,9 +99,9 @@ function Route({ d, vertical }: { d: D; vertical?: boolean }) {
 function Buy({ l, d }: { l: Lot; d: D }) {
   return (
     <div className="lv-buy">
+      <div className="is-main"><span className="cw-mono">Полная оплата</span><b>{money(l.price)}</b><p>Безнал, наличные или с юрлица.</p></div>
       <div><span className="cw-mono">Предоплата 10%</span><b>≈ {money(d.pre)}</b><p>Договор через автосалон-партнёр Da Motors, 90% — после получения в России. Есть комиссия партнёра.</p></div>
       <div><span className="cw-mono">Кредит</span><b>10+ банков</b><p>Условия рассчитываем индивидуально.</p></div>
-      <div><span className="cw-mono">Полная оплата</span><b>{money(l.price)}</b><p>Безнал, наличные или с юрлица.</p></div>
     </div>
   );
 }
@@ -120,7 +113,7 @@ function Market({ l, d }: { l: Lot; d: D }) {
   const pos = (v: number) => `${4 + (v - lo) / span * 92}%`;
   return (
     <div className="lv-market">
-      <div className="lv-m-head"><h3>Цена против рынка</h3><span className="cw-mono">{p.length} объявлений {l.brand} {l.model} в каталоге</span></div>
+      <div className="lv-m-head"><h3>Цена среди похожих</h3><span className="cw-mono">{p.length} объявлений {l.brand} {l.model} в каталоге</span></div>
       <div className="lv-m-plot" role="img" aria-label={`Цена ${money(l.price)} среди ${p.length} похожих объявлений, средняя ${money(avg)}`}>
         <div className="lv-m-axis"></div>
         {p.filter((x) => !x.me).map((x, i) => <i key={x.id} className="lv-m-dot" style={{ left: pos(x.price), top: `${30 + (i * 37) % 40}%` }} title={`${x.year}, ${money(x.price)}`}></i>)}
@@ -164,17 +157,25 @@ export default function LotView({ l }: { l: Lot }) {
           <Badges d={d} /><span className="cw-mono lv-kick">Досье № {l.id} · {l.brand}{d.f.cls ? ` · ${d.f.cls}` : ""} · {l.year}</span>
           <h1 className="lv-h1">{l.name}</h1>
           <Nums d={d} />
-          <div className="lv4-pay">
-            <div className="lv4-pay-main"><span className="cw-mono">Цена под ключ</span><b>{money(l.price)}</b><em>{d.f.deal ? `−${d.f.deal.pct}% к средней по рынку` : `актуально на ${dateRu(l.date)}`}</em></div>
-            <div className="lv4-pay-pre"><span className="cw-mono">Чтобы начать</span><b>≈ {money(d.pre)}</b><em>предоплата 10%, остальное — по прибытии</em></div>
+          <div className="lv-pay">
+            <div className="lv-pay-main">
+              <span className="cw-mono">Цена под ключ · полный расчёт</span>
+              <b>{money(l.price)}</b>
+              <em>{d.f.deal ? `На ${d.f.deal.pct}% ниже средней цены похожих в каталоге` : `Актуально на ${dateRu(l.date)}`}</em>
+            </div>
+            <ul className="lv-pay-alt">
+              <li><span>Предоплата 10%</span><b>≈ {money(d.pre)}</b></li>
+              <li><span>Кредит</span><b>10+ банков</b></li>
+              <li><span>Оплата</span><b>безнал, наличные, юрлицо</b></li>
+            </ul>
           </div>
           <Cta l={l} stack />
           <Trust />
         </div>
       </div>
       <div className="lv3-ch lv-chapters">{ch.map((c) => <section key={c.t} className="lv3-c"><div className="lv3-n"><span>{c.n}</span><h2>{c.t}</h2></div><div className="lv3-body">{c.c}</div></section>)}</div>
-      <div className="lv-after"><Team /><Note l={l} /></div>
+      <div className="lv-after"><Note l={l} /></div>
       <Similar l={l} />
-    </div><MobileBar l={l} /></section>
+    </div><MobileBar l={l} /><LotFx /></section>
   );
 }

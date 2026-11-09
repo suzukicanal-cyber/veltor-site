@@ -1342,3 +1342,42 @@ html.lb-lock{overflow:hidden}
 .lv-after{display:grid;gap:14px;max-width:720px;margin-top:40px}
 .lv3 .lv-price b{font-size:clamp(30px,3vw,42px)}
 
+
+/* lot page: full-price plaque with the other ways to pay listed under it */
+.lv-pay{border:1px solid var(--line-2);border-radius:12px;overflow:hidden}
+.lv-pay-main{position:relative;overflow:hidden;padding:20px 20px 18px;background:#fff;color:var(--ink);display:grid;gap:8px}
+.lv-pay-main .cw-mono{color:#5A6170}
+.lv-pay-main b{font:500 clamp(32px,3vw,44px)/1 var(--f-wide);letter-spacing:-.035em}
+.lv-pay-main em{font-style:normal;font-size:13px;font-weight:600;color:#2C3340}
+.lv-pay-main::after{content:"";position:absolute;top:0;bottom:0;width:40%;left:-60%;background:linear-gradient(100deg,transparent,rgba(207,224,255,.55),transparent);animation:lv-shine 5.5s ease-in-out 1.2s infinite}
+@keyframes lv-shine{0%{left:-60%}35%,100%{left:130%}}
+.lv-pay-alt{list-style:none;margin:0;padding:6px 20px;display:grid}
+.lv-pay-alt li{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px dashed var(--line);font-size:13.5px}
+.lv-pay-alt li:last-child{border-bottom:0}
+.lv-pay-alt span{color:var(--muted)}.lv-pay-alt b{font-weight:500;text-align:right}
+.lv-buy>.is-main{background:#fff;color:var(--ink);border-color:#fff}
+.lv-buy>.is-main .cw-mono{color:#5A6170}.lv-buy>.is-main p{color:#3A4150}
+
+/* lot page motion */
+.lv4-top>*{animation:lv-rise .9s var(--ease) both}
+.lv4-info{animation-delay:.12s!important}
+@keyframes lv-rise{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+.lv-fx .lv3-c,.lv-fx .lv-buy,.lv-fx .lv-sim{opacity:0;transform:translateY(28px);transition:opacity .8s var(--ease),transform .9s var(--ease)}
+.lv-fx .lv3-c.is-in,.lv-fx .lv-buy.is-in,.lv-fx .lv-sim.is-in{opacity:1;transform:none}
+.lv-fx .lv3-c .lv3-n span{transition:color 1s .3s}.lv-fx .lv3-c.is-in .lv3-n span{color:var(--fg)}
+/* route: stops light up one after another, a glowing dot runs down to Moscow */
+.lv-fx .lv-route li{opacity:.25;transition:opacity .5s}
+.lv-fx .lv-route.is-in li{opacity:1}
+.lv-fx .lv-route.is-in li:nth-child(2){transition-delay:.35s}.lv-fx .lv-route.is-in li:nth-child(3){transition-delay:.7s}
+.lv-fx .lv-route.is-in li:nth-child(4){transition-delay:1.05s}.lv-fx .lv-route.is-in li:nth-child(5){transition-delay:1.4s}
+.lv-route.is-v{position:relative}
+.lv-route.is-v::after{content:"";position:absolute;left:3px;top:4px;width:7px;height:7px;border-radius:50%;background:#fff;box-shadow:0 0 12px 3px rgba(207,224,255,.8);opacity:0}
+.lv-route.is-v.is-in::after{animation:lv-run 4s cubic-bezier(.45,0,.25,1) 1.8s infinite}
+@keyframes lv-run{0%{top:4px;opacity:0}10%{opacity:1}85%{opacity:1}100%{top:calc(100% - 40px);opacity:0}}
+/* price plot: dots drop in, this one pulses */
+.lv-fx .lv-m-dot,.lv-fx .lv-m-avg{opacity:0;transition:opacity .6s .3s}
+.lv-fx .lv-market.is-in .lv-m-dot,.lv-fx .lv-market.is-in .lv-m-avg{opacity:1}
+.lv-m-me::before{content:"";position:absolute;inset:-6px;border-radius:50%;border:1px solid #fff;animation:lv-ping 2.2s ease-out infinite}
+@keyframes lv-ping{from{transform:scale(.6);opacity:.9}to{transform:scale(2.2);opacity:0}}
+@media (prefers-reduced-motion:reduce){.lv4-top>*,.lv-pay-main::after,.lv-route.is-v::after,.lv-m-me::before{animation:none!important}}
+.lv-cta.is-stack .like,.lv-cta.is-stack .like>.btn{width:100%;display:flex}
