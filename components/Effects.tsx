@@ -27,7 +27,16 @@ export default function Effects() {
         el.style.setProperty("--lx", (lx - r.left).toFixed(0) + "px"); el.style.setProperty("--ly", (ly - r.top).toFixed(0) + "px");
       });
     };
-    on("pointermove", (e) => { lx = e.clientX; ly = e.clientY; if (!lq) { lq = true; requestAnimationFrame(updLights); } }, { passive: true });
+    // one soft light that follows the cursor over the whole page (cards keep their own brighter light)
+    const glow = document.createElement("div"); glow.className = "page-glow"; glow.setAttribute("aria-hidden", "true"); document.body.appendChild(glow);
+    off.push(() => glow.remove());
+    on("pointermove", (e) => {
+      lx = e.clientX; ly = e.clientY;
+      if (e.pointerType === "mouse") { glow.style.transform = `translate3d(${lx}px,${ly}px,0)`; glow.classList.add("on"); }
+      if (!lq) { lq = true; requestAnimationFrame(updLights); }
+    }, { passive: true });
+    on("pointerleave", () => glow.classList.remove("on"));
+    document.documentElement.addEventListener("mouseleave", () => glow.classList.remove("on"));
 
     // custom cursor
     let raf = 0;

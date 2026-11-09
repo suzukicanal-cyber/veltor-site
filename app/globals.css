@@ -1446,3 +1446,7 @@ body:has(.lv-mbar) .mbar{display:none!important}
 .step-ph button{width:100%}
 .step-ph img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
 @media (max-width:899px){.step-ph ul{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.step-ph img{height:auto}}
+/* soft light under the cursor across the whole site */
+.page-glow{position:fixed;left:0;top:0;z-index:1;width:720px;height:720px;margin:-360px 0 0 -360px;border-radius:50%;pointer-events:none;background:radial-gradient(circle,rgba(207,224,255,.075) 0%,rgba(207,224,255,.03) 35%,transparent 68%);opacity:0;transition:opacity .5s;will-change:transform}
+.page-glow.on{opacity:1}
+@media (hover:none),(prefers-reduced-motion:reduce){.page-glow{display:none}}
