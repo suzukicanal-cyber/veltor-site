@@ -33,7 +33,7 @@ function Badges({ f, cls = "" }: { f: ReturnType<typeof facts>; cls?: string }) 
   if (!f.noCrash && !f.deal) return null;
   return (
     <ul className={"cw-badges " + cls}>
-      {f.deal && <li className="cw-deal"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M6 2v8M2.5 6.5 6 10l3.5-3.5" /></svg>Выгодно · −{f.deal.pct}%</li>}
+      {f.deal && <li className="cw-deal"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M6 2v8M2.5 6.5 6 10l3.5-3.5" /></svg>Ниже рынка · −{f.deal.pct}%</li>}
       {f.noCrash && <li className="cw-ok"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 6.2 5 8.6 9.5 3.6" /></svg>Без ДТП</li>}
     </ul>
   );
