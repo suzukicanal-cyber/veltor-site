@@ -60,7 +60,7 @@ npm run build    # статический сайт в папке out/
 - sitemap.xml с датами публикации, robots.txt с директивой Host.
 
 ## Товары ВКонтакте
-`scripts/build-feed.mjs` при каждой сборке пишет `https://veltormotokorea.ru/vk-moto.yml`: мотоциклы за 14 дней,
+`scripts/build-feed.mjs` при каждой сборке пишет `https://veltormotokorea.ru/vk-moto.xml` (и то же в .yml): мотоциклы за 14 дней,
 повторы одного мотоцикла убраны, в описании «Цена актуальна на ДД.ММ.ГГГГ» (дата поста). Загрузка в группу
 https://vk.ru/moto_liis: «Добавить товар» → «Из файла» → эта ссылка.
 

@@ -12,3 +12,4 @@ public/feed.yml
 scripts/models/RealESRGAN_x4plus.pth
 hdout/
 public/vk-moto.yml
+public/vk-moto.xml

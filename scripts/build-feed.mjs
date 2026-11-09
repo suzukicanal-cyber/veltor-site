@@ -88,7 +88,7 @@ ${pics.map((p) => `<picture>${esc(p)}</picture>`).join("\n")}
 <param name="Пробег">${esc(km(l.km))}</param>
 </offer>`;
 });
-writeFileSync(new URL("../public/vk-moto.yml", import.meta.url), `<?xml version="1.0" encoding="UTF-8"?>
+const vkXml = `<?xml version="1.0" encoding="UTF-8"?>
 <yml_catalog date="${date}">
 <shop>
 <name>VELTOR</name>
@@ -103,5 +103,8 @@ ${vkOffers.join("\n")}
 </offers>
 </shop>
 </yml_catalog>
-`);
+`;
+// .xml — окно выбора файла ВК принимает только это расширение; .yml оставлен для старой ссылки
+writeFileSync(new URL("../public/vk-moto.yml", import.meta.url), vkXml);
+writeFileSync(new URL("../public/vk-moto.xml", import.meta.url), vkXml);
 console.log(`vk-moto.yml: ${vkOffers.length} мотоциклов за ${VK_DAYS} дней`);
