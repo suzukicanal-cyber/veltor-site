@@ -1,4 +1,5 @@
 import Link from "next/link";
+import LogoMark from "./Logo";
 import Clock from "./Clock";
 import { TYPE, brandGroups, brandHref, typeHref } from "@/lib/seo";
 import { PHONE, PHONE_HREF } from "@/lib/site";
@@ -21,7 +22,7 @@ export default function Footer() {
             {car.map((b) => <Link key={"c" + b.slug} href={brandHref("car", b.brand)}>{b.brand}</Link>)}
           </nav>
           <div className="fbot">
-            <span>© {new Date().getFullYear()} VELTOR · Мото и авто из Южной Кореи под ключ</span>
+            <span className="fcopy"><LogoMark className="logo-mark logo-mark-f" />© {new Date().getFullYear()} VELTOR · Мото и авто из Южной Кореи под ключ</span>
             <a className="fphone" href={PHONE_HREF}>{PHONE}</a>
             <span className="fleg">Цены в каталоге указаны на дату публикации и не являются публичной офертой.</span>
             <a className="ftop" href="#top">Наверх ↑</a>

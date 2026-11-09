@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import LogoMark from "./Logo";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { NAV } from "@/data/content";
@@ -47,7 +48,7 @@ export default function Header() {
     <>
       <header className={"nav wrap" + (solid ? " is-solid" : "")} id="nav">
         <div className="inner nav-in">
-          <Link className="logo" href="/#top" aria-label="VELTOR, на главную"><b>VELTOR</b></Link>
+          <Link className="logo" href="/#top" aria-label="VELTOR, на главную"><LogoMark /><b>VELTOR</b></Link>
           <ul className="nav-links">
             {NAV.filter((n) => n.top).map((n) => (
               <li key={n.href}><Link href={n.href} className={n.href === "/catalog/" ? "nav-cat" : undefined}>{n.label}</Link></li>
