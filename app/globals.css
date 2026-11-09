@@ -1431,3 +1431,12 @@ html.lb-lock{overflow:hidden}
 .cc-note{margin:16px 0 0;font-size:12px;line-height:1.5;color:var(--dim)}
 @media (max-width:760px){.cc-grid{grid-template-columns:1fr}.cc-terms{grid-template-columns:repeat(3,minmax(0,1fr))}}
 body:has(.lv-mbar) .mbar{display:none!important}
+/* process step 4: photos of buy-out and shipping */
+.step-ph{grid-column:2/-1;position:relative;margin-top:14px;min-width:0}
+.step-ph ul{list-style:none;margin:0;padding:0 0 6px;display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:thin}
+.step-ph li{flex:0 0 auto;scroll-snap-align:start}
+.step-ph button{display:block;padding:0;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:#000;cursor:zoom-in;transition:border-color .3s,transform .4s var(--ease)}
+.step-ph button:hover{border-color:var(--line-2);transform:translateY(-3px)}
+.step-ph img{display:block;height:150px;width:auto;object-fit:cover;transition:transform .6s var(--ease)}
+.step-ph button:hover img{transform:scale(1.04)}
+@media (max-width:899px){.step-ph img{height:120px}}
