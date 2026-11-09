@@ -4,6 +4,7 @@ import { asset } from "@/lib/site";
 import { hdSrc } from "@/lib/lots";
 import MiniCanvas from "../MiniCanvas";
 import Lightbox from "./Lightbox";
+import { landFly } from "../Motion";
 
 /** Lot page gallery: large photo, arrows / keys / swipe, thumbnails. Falls back to the point-cloud preview. */
 export default function LotGallery({ photos, name, shape, hd }: { photos: string[]; name: string; shape: "moto" | "car"; hd?: boolean }) {
@@ -14,6 +15,8 @@ export default function LotGallery({ photos, name, shape, hd }: { photos: string
   const x0 = useRef<number | null>(null);
   const thumbs = useRef<HTMLDivElement>(null);
   const first = useRef<HTMLImageElement>(null);
+  const stage = useRef<HTMLDivElement>(null);
+  useEffect(() => { landFly(stage.current); }, []);
   const go = (d: number) => setI((k) => (k + d + n) % n);
 
   // the first photo may have failed before hydration (expired Telegram link) — show the point cloud then
@@ -31,7 +34,7 @@ export default function LotGallery({ photos, name, shape, hd }: { photos: string
   return (
     <div className="lp-gal">
       <div
-        className="lp-stage" tabIndex={0} aria-roledescription="галерея" aria-label={`Фото ${i + 1} из ${n}`}
+        ref={stage} className="lp-stage" tabIndex={0} aria-roledescription="галерея" aria-label={`Фото ${i + 1} из ${n}`}
         onKeyDown={(e) => { if (e.key === "ArrowRight") go(1); if (e.key === "ArrowLeft") go(-1); }}
         onPointerDown={(e) => { x0.current = e.clientX; }}
         onPointerUp={(e) => { const moved = x0.current !== null && Math.abs(e.clientX - x0.current) > 40; if (moved) go(e.clientX < x0.current! ? 1 : -1); else if ((e.target as Element).tagName === "IMG") setLb(true); x0.current = null; }}

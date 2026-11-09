@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Effects from "@/components/Effects";
+import Motion from "@/components/Motion";
 import Metrika from "@/components/Metrika";
 import JsonLd from "@/components/JsonLd";
 import { LINKS, PHONE_HREF, SITE_DESCRIPTION, SITE_NAME, SITE_TITLE, SITE_URL, asset } from "@/lib/site";
@@ -56,6 +57,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main>{children}</main>
         <Footer />
         <Effects />
+        <Motion />
         <Metrika />
       </body>
     </html>

@@ -1450,3 +1450,17 @@ body:has(.lv-mbar) .mbar{display:none!important}
 .page-glow{position:fixed;left:0;top:0;z-index:1;width:720px;height:720px;margin:-360px 0 0 -360px;border-radius:50%;pointer-events:none;background:radial-gradient(circle,rgba(207,224,255,.075) 0%,rgba(207,224,255,.03) 35%,transparent 68%);opacity:0;transition:opacity .5s;will-change:transform}
 .page-glow.on{opacity:1}
 @media (hover:none),(prefers-reduced-motion:reduce){.page-glow{display:none}}
+
+/* 1 — headings lit by a sweep of xenon light as they scroll in */
+.lr{background:linear-gradient(100deg,#3a3f47 0%,#3a3f47 42%,#fff 48%,var(--xenon) 50%,#fff 52%,#fff 100%);background-size:260% 100%;background-position:100% 0;-webkit-background-clip:text;background-clip:text;color:transparent}
+.lr *{-webkit-text-fill-color:currentColor}
+.lr.lr-go{animation:lr-sweep 1.6s var(--ease) forwards}
+@keyframes lr-sweep{to{background-position:0 0}}
+/* 5 — faint film grain over everything */
+html.grain body::after{content:"";position:fixed;inset:-50%;z-index:300;pointer-events:none;opacity:.055;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");animation:grain 1.2s steps(4) infinite}
+@keyframes grain{0%,100%{transform:translate(0,0)}25%{transform:translate(-4%,3%)}50%{transform:translate(3%,-4%)}75%{transform:translate(-2%,-2%)}}
+@media (max-width:899px){html.grain body::after{animation:none}}
+/* 7 — photo flying from the card into the lot page */
+.fly-img{position:fixed;z-index:250;object-fit:cover;border-radius:8px;pointer-events:none;box-shadow:0 30px 60px -20px rgba(0,0,0,.8);transition:left .7s var(--ease),top .7s var(--ease),width .7s var(--ease),height .7s var(--ease),border-radius .7s,opacity .35s}
+.lp-stage.is-landing img{opacity:0!important}
+.lv4-top:has(.lp-stage.is-landing)>.lp-gal{animation:none}
