@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Reposted listings: when the same vehicle is published in the Telegram group again, keep only the newest post.
 
-Two lots are the same vehicle when they have the same type, model name and year AND one of:
+Two lots of the same type and brand are the same vehicle when the model name differs (or the year by one) but the photo
+is the same (≤ 5 bits) and the mileage matches (± 5 %); or they have the same model name and year AND one of:
   • the same "exact" mileage (not a round number, e.g. 5 135 km; ± 0.5 %) and photos not clearly different (≤ 18 bits);
   • the same photo (perceptual hash, ≤ 3 bits apart);
   • a very similar photo (≤ 8 bits) and mileage within 30 %;
@@ -46,12 +47,24 @@ def key(l):
     return (l["type"], re.sub(r"[^a-z0-9а-я]+", "", l["name"].lower()), l["year"])
 
 
+def group(l):
+    return (l["type"], l["brand"])
+
+
 def ham(ha, hb):
     return min((bin(x ^ y).count("1") for x in ha for y in hb), default=99)
 
 
 def same_vehicle(a, b, ha, hb):
     ka, kb, h = a["km"], b["km"], ham(ha, hb)
+    if key(a) != key(b):
+        # the name was written differently ("Race Pack" / "Race Package", "M Package" or not) or the year moved by one:
+        # only the same photo (≤ 5 bits) together with the same mileage (± 5 %) counts
+        if abs(a["year"] - b["year"]) > 1 or h > 5:
+            return False
+        if ka and kb:
+            return abs(ka - kb) <= max(150, 0.05 * max(ka, kb))
+        return not ka and not kb
     if h <= 3:
         return True
     if ka and kb:
@@ -75,7 +88,7 @@ def main():
     redirects = json.load(open(REDIRECTS, encoding="utf-8")) if os.path.exists(REDIRECTS) else {}
     groups = {}
     for l in lots:
-        groups.setdefault(key(l), []).append(l)
+        groups.setdefault(group(l), []).append(l)
     remove = {}
     for g in groups.values():
         if len(g) < 2:
