@@ -1,5 +1,6 @@
 // Товарный фид для Яндекса (формат YML): каждое объявление каталога с ценой, фото и характеристиками.
 // Собирается при каждой сборке сайта (Dockerfile) → https://veltormotokorea.ru/feed.yml
+// Второй файл — товары для группы ВКонтакте (только мото за 14 дней) → https://veltormotokorea.ru/vk-moto.yml
 import { readFileSync, writeFileSync } from "node:fs";
 
 const SITE = (process.env.NEXT_PUBLIC_SITE_URL || "https://veltormotokorea.ru").replace(/\/$/, "");
@@ -49,3 +50,58 @@ ${offers.join("\n")}
 `;
 writeFileSync(new URL("../public/feed.yml", import.meta.url), xml);
 console.log(`feed.yml: ${offers.length} предложений`);
+
+// ---------- ВКонтакте: только мотоциклы за последние VK_DAYS дней ----------
+// ВК: до 5 фото, не больше 2 свойств, без HTML. В описании — дата поста в Telegram, на которую актуальна цена.
+const VK_DAYS = 14;
+const since = new Date(Date.now() - VK_DAYS * 864e5).toISOString();
+const msk = (iso) => new Date(new Date(iso).getTime() + 3 * 36e5).toISOString().slice(0, 10).split("-").reverse().join(".");
+const seen = new Set();
+const vkLots = lots.filter((l) => {            // lots уже отсортированы от новых к старым — у повторов берём свежий пост
+  if (l.type !== "moto" || !(l.price > 0) || !l.photos.length || l.date < since) return false;
+  const key = `${l.name}|${l.year}|${l.km}`;
+  if (seen.has(key)) return false;
+  seen.add(key);
+  return true;
+});
+const vkOffers = vkLots.map((l) => {
+  const pics = l.photos.slice(0, 5).map((p) => (/^https?:/.test(p) ? p : `${SITE}/${l.hd ? p.replace(/\.jpg$/, "@2x.jpg") : p}`));
+  const body = (l.body || []).map((b) => (b.k === "h" ? `\n${b.t}:` : b.t)).join("\n").trim();
+  const desc = [
+    `Год: ${l.year}`,
+    `Пробег: ${km(l.km)}`,
+    `Цена под ключ: ${l.price.toLocaleString("ru-RU").replace(/\s/g, " ")} ₽`,
+    `Цена актуальна на ${msk(l.date)} и меняется вместе с курсом валют.`,
+    "Мотоцикл из Южной Кореи под заказ — наличие уточняйте.",
+    body ? `\n${body}` : "",
+    `\nПодробнее и все фото: ${SITE}/catalog/${l.slug}/`,
+  ].filter(Boolean).join("\n").slice(0, 3800);
+  return `<offer id="${l.id}" available="true">
+<url>${SITE}/catalog/${esc(l.slug)}/</url>
+<price>${l.price}</price>
+<currencyId>RUR</currencyId>
+<categoryId>1</categoryId>
+${pics.map((p) => `<picture>${esc(p)}</picture>`).join("\n")}
+<name>${esc(`${l.raw || l.name}, ${l.year}`.slice(0, 100))}</name>
+<description>${esc(desc)}</description>
+<param name="Год">${l.year}</param>
+<param name="Пробег">${esc(km(l.km))}</param>
+</offer>`;
+});
+writeFileSync(new URL("../public/vk-moto.yml", import.meta.url), `<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="${date}">
+<shop>
+<name>VELTOR</name>
+<company>VELTOR</company>
+<url>${SITE}/</url>
+<currencies><currency id="RUR" rate="1"/></currencies>
+<categories>
+<category id="1">Мотоциклы</category>
+</categories>
+<offers>
+${vkOffers.join("\n")}
+</offers>
+</shop>
+</yml_catalog>
+`);
+console.log(`vk-moto.yml: ${vkOffers.length} мотоциклов за ${VK_DAYS} дней`);

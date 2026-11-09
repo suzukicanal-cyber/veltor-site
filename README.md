@@ -59,5 +59,10 @@ npm run build    # статический сайт в папке out/
 - Organization, FAQPage (15 вопросов), ItemList каталога;
 - sitemap.xml с датами публикации, robots.txt с директивой Host.
 
+## Товары ВКонтакте
+`scripts/build-feed.mjs` при каждой сборке пишет `https://veltormotokorea.ru/vk-moto.yml`: мотоциклы за 14 дней,
+повторы одного мотоцикла убраны, в описании «Цена актуальна на ДД.ММ.ГГГГ» (дата поста). Загрузка в группу
+https://vk.ru/moto_liis: «Добавить товар» → «Из файла» → эта ссылка.
+
 Адрес сайта для sitemap и canonical берётся из `/opt/veltor/.env.production` (`NEXT_PUBLIC_SITE_URL`), его пишет `setup.sh`.
 После запуска: добавьте сайт в Яндекс.Вебмастер и вставьте код подтверждения в `app/layout.tsx` (`verification: { yandex: "…" }`).
