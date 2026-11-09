@@ -1227,3 +1227,4 @@ html.lb-lock{overflow:hidden}
 .cw6-nums{grid-template-columns:minmax(min-content,.8fr) minmax(min-content,1.1fr) minmax(min-content,1fr)}
 .cw6-nums dd{overflow:visible;text-overflow:clip;white-space:nowrap}
 .cw6-nums dt{white-space:nowrap}
+.cw6 .cw3-b{max-width:calc(100% - 24px)}

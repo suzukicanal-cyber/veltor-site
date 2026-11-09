@@ -3,9 +3,11 @@ import { Lot, likeLink, lotHref, specs, typeLabel } from "@/lib/lots";
 import { dateRu, money } from "@/lib/format";
 import LotMedia from "./LotMedia";
 import LikeButton from "./LikeButton";
+import MotoCard from "./MotoCard";
 
 /** Catalog card. data-* attributes are what the client-side filters read. */
 export default function LotCard({ lot, yaw, eager }: { lot: Lot; yaw: number; eager?: boolean }) {
+  if (lot.type === "moto") return <MotoCard lot={lot} yaw={yaw} eager={eager} />;
   const href = lotHref(lot);
   return (
     <article className="lot" data-light="">

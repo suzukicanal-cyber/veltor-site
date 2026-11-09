@@ -88,7 +88,6 @@ export default function LotMedia({ hd, photos, name, shape, yaw: baseYaw, href, 
         </div>
       )}
       <canvas className="mini" ref={cnvRef} data-shape={shape} aria-hidden="true"></canvas>
-      <span className="lot-kind">{kind}</span>
       {n > 0 && <div className="lot-dots">{photos.map((u, i) => <i key={u} className={i === cur ? "on" : undefined}></i>)}</div>}
       {n > 0 && <span className="lot-n">{cur + 1} / {n}</span>}
     </Link>
