@@ -1204,3 +1204,9 @@ html.lb-lock{overflow:hidden}
 .cw2-nums dd{font-size:19px}
 @media (max-width:1300px){.cw1-foot,.cw3-foot,.cw5-foot{flex-wrap:wrap}.cw1-foot .lot-cta,.cw3-foot .lot-cta,.cw5-foot .lot-cta{flex:1 1 100%;text-align:center}}
 .cw1-over{margin-top:-30px}.cw5-glass{margin-top:-40px}
+/* «Выгодно» in the site palette: xenon light-blue on ink */
+.cw-deal{background:var(--xenon);color:var(--ink)}
+.cw6 .lot-body{gap:14px}
+.cw6-t{margin:4px 0 0}
+.cw6-foot{margin-top:auto;border-top:0;padding-top:4px}
+.cw6-foot b{color:var(--fg)}.cw6-foot em{color:var(--muted)}

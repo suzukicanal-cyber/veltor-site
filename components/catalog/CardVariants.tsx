@@ -152,3 +152,22 @@ export function CardHud({ lot, yaw }: { lot: Lot; yaw: number }) {
     </article>
   );
 }
+
+/* Итог: метки на фото, крупные год / пробег / объём (из «Ценника»), цена с кнопкой (из «Постера») */
+export function CardFinal({ lot, yaw }: { lot: Lot; yaw: number }) {
+  const f = facts(lot), href = lotHref(lot);
+  return (
+    <article className="lot cw6" data-light="">
+      <div className="cw3-media"><LotMedia hd={lot.hd} photos={lot.photos} name={lot.name} shape={lot.type} yaw={yaw} href={href} kind={typeLabel(lot.type)} /><Badges f={f} cls="cw3-b" /></div>
+      <div className="lot-body">
+        <div><span className="cw-mono">{lot.brand}{f.cls ? ` · ${f.cls}` : ""}</span><h3 className="lot-t cw6-t"><Link href={href}>{lot.model}</Link></h3></div>
+        <dl className="cw2-nums">
+          <div><dt>год</dt><dd>{lot.year}</dd></div>
+          <div><dt>пробег</dt><dd>{lot.km ? groups(lot.km) : "0"}<small> км</small></dd></div>
+          <div><dt>объём</dt><dd>{f.cc ? f.cc.replace(/\s*см³/, "") : "—"}<small> см³</small></dd></div>
+        </dl>
+        <div className="cw1-foot cw6-foot"><div><b>{money(lot.price)}</b><em>под ключ · {dateRu(lot.date)}</em></div><LikeButton className="lot-cta" tgHref={likeLink(lot)} /></div>
+      </div>
+    </article>
+  );
+}
