@@ -1400,3 +1400,34 @@ html.lb-lock{overflow:hidden}
 .lv-insp em{font:600 14px/1.2 var(--f-head);color:var(--fg)}
 .lv-insp em i{font-style:normal;display:inline-block;transition:transform .3s var(--ease)}.lv-insp:hover em i{transform:translate(3px,-3px)}
 @container (max-width:520px){.lv-pay-row{grid-template-columns:1fr}.lv-insp{border-left:0;border-top:1px solid var(--line-2)}}
+.lv-src{margin:0;color:var(--dim)}
+.lv-route.is-v li{padding-bottom:26px}
+.lv-route b{font-size:16px}
+/* credit calculator */
+.cc{margin-top:18px;padding:24px;border-radius:12px;border:1px solid var(--line-2);background:rgba(255,255,255,.02)}
+.cc-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:20px}
+.cc-head h3{margin:0;font:600 19px/1.2 var(--f-head)}
+.cc-grid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(240px,1fr);gap:28px}
+.cc-in{display:grid;gap:22px}
+.cc-f{display:grid;gap:12px}
+.cc-f>span{display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+.cc-f em{font-style:normal;font-size:13.5px;color:var(--muted)}
+.cc-f b{font:500 15px/1 var(--f-mono)}
+.cc input[type=range]{-webkit-appearance:none;appearance:none;width:100%;height:4px;border-radius:2px;background:linear-gradient(90deg,var(--fg) var(--p),var(--line-2) var(--p));cursor:pointer}
+.cc input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:22px;height:22px;border-radius:50%;background:#fff;border:4px solid var(--ink);box-shadow:0 0 0 1px #fff}
+.cc input[type=range]::-moz-range-thumb{width:16px;height:16px;border-radius:50%;background:#fff;border:4px solid var(--ink);box-shadow:0 0 0 1px #fff}
+.cc input[type=range]:focus-visible{outline:2px solid var(--xenon);outline-offset:6px}
+.cc-terms{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:6px}
+.cc-terms button{height:40px;border-radius:6px;border:1px solid var(--line-2);background:transparent;color:var(--fg);font:500 14px/1 var(--f-mono);cursor:pointer;transition:background .2s,color .2s}
+.cc-terms button[aria-pressed=true]{background:var(--fg);color:var(--ink);border-color:var(--fg)}
+.cc-out{display:grid;gap:12px;align-content:start;padding:20px;border-radius:10px;background:#fff;color:var(--ink)}
+.cc-out .cw-mono{color:#5A6170}
+.cc-pay{font:500 clamp(28px,2.6vw,38px)/1 var(--f-wide);letter-spacing:-.03em;white-space:nowrap}
+.cc-out dl{margin:0;display:grid;gap:6px}
+.cc-out dl>div{display:flex;justify-content:space-between;gap:10px;font-size:13.5px}
+.cc-out dt{color:#5A6170}.cc-out dd{margin:0;font-weight:600}
+.cc-go{margin-top:6px;background:var(--ink)!important;color:#fff!important;width:100%}
+.cc-go:hover{background:#262A31!important}
+.cc-note{margin:16px 0 0;font-size:12px;line-height:1.5;color:var(--dim)}
+@media (max-width:760px){.cc-grid{grid-template-columns:1fr}.cc-terms{grid-template-columns:repeat(3,minmax(0,1fr))}}
+body:has(.lv-mbar) .mbar{display:none!important}

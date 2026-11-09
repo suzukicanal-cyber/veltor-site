@@ -7,6 +7,7 @@ import LotGallery from "./LotGallery";
 import LotCard from "./LotCard";
 import LikeButton from "./LikeButton";
 import LotFx from "./LotFx";
+import CreditCalc from "./CreditCalc";
 
 /** Days from today to arrival in Moscow: the earliest (record trip + preparation) and the latest. Change here. */
 export const ARRIVE_MIN = 40, ARRIVE_MAX = 60;
@@ -71,6 +72,7 @@ function Cta({ l, stack }: { l: Lot; stack?: boolean }) {
 function Desc({ d }: { d: D }) {
   return (
     <div className="lv-desc">
+      <p className="cw-mono lv-src">Описание из объявления в Южной Корее</p>
       {d.about.map((t) => <p key={t} className="lv-about">{t}</p>)}
       {d.warn.length > 0 && <div className="lp-warn" role="note"><b>Важно знать</b>{d.warn.map((w) => <p key={w}>{w}</p>)}</div>}
       <div className="lv-secs">
@@ -80,16 +82,15 @@ function Desc({ d }: { d: D }) {
   );
 }
 const ROUTE = [
-  { t: "Осмотр в Корее", s: "фото- и видеоотчёт, 12 500 ₽" },
-  { t: "Договор и оплата", s: "от 10% предоплаты" },
-  { t: "Выкуп и отправка", s: "каждый шаг на фото и видео" },
-  { t: "Доставка", s: "до 45 дней с отплытия" },
-  { t: "Москва", s: "" },
+  { t: "Осмотр техники специалистом в Южной Корее", s: "Подробный фото- и видеоотчёт перед покупкой" },
+  { t: "Оформление", s: "Оформление договора и выбор наиболее удобного формата оплаты для вас" },
+  { t: "Выкуп и консолидация", s: "Выкуп мотоцикла и отправка в порт" },
+  { t: "Доставка в Москву", s: "До 45 дней с даты отплытия судна" },
 ];
 function Route({ d, vertical }: { d: D; vertical?: boolean }) {
   return (
     <ol className={"lv-route" + (vertical ? " is-v" : "")}>
-      {ROUTE.map((r, i) => <li key={r.t} className={i === ROUTE.length - 1 ? "is-end" : ""}><i aria-hidden="true"></i><b>{r.t}</b><span>{i === ROUTE.length - 1 ? `ориентировочно ${d.eta}` : r.s}</span></li>)}
+      {ROUTE.map((r, i) => <li key={r.t} className={i === ROUTE.length - 1 ? "is-end" : ""}><i aria-hidden="true"></i><b>{i + 1}. {r.t}</b><span>{r.s}{i === ROUTE.length - 1 ? ` · ориентировочно ${d.eta}` : ""}</span></li>)}
     </ol>
   );
 }
@@ -97,8 +98,8 @@ function Buy({ l, d }: { l: Lot; d: D }) {
   return (
     <div className="lv-buy">
       <div className="is-main"><span className="cw-mono">Полная оплата</span><b>{money(l.price)}</b><p>Безнал, наличные или с юрлица.</p></div>
-      <div><span className="cw-mono">Предоплата 10%</span><b>≈ {money(d.pre)}</b><p>Договор через автосалон-партнёр Da Motors, 90% — после получения в России. Есть комиссия партнёра.</p></div>
-      <div><span className="cw-mono">Кредит</span><b>10+ банков</b><p>Условия рассчитываем индивидуально.</p></div>
+      <div><span className="cw-mono">Предоплата 10%</span><b>≈ {money(d.pre)}</b><p>Договор через автосалон-партнёр Da Motors, 90% — после получения в России. Есть комиссия партнёра. Подробности уточняйте у менеджера.</p></div>
+      <div><span className="cw-mono">Кредит</span><b>10+ банков</b><p>Более 10 банков-партнёров. Условия рассчитываем индивидуально.</p></div>
     </div>
   );
 }
@@ -142,8 +143,8 @@ export default function LotView({ l }: { l: Lot }) {
     { n: "01", t: "Техника", c: <dl className="lv-table">{([["Марка", l.brand], ["Модель", l.model], ["Тип", d.f.cls || "—"], ["Год", String(l.year)], ["Пробег", kmLabel(l.km)], ["Объём", d.f.cc || "—"], ...(l.power ? [["Мощность", l.power]] : []), ...(l.drive ? [["Привод", l.drive]] : []), ...(l.gearbox ? [["Коробка", l.gearbox]] : [])] as [string, string][]).map(([k, v]) => <div key={k}><dt>{k}</dt><dd>{v}</dd></div>)}</dl> },
     { n: "02", t: "Состояние", c: <Desc d={d} /> },
     ...(d.peers.length >= 3 ? [{ n: "", t: "Цена", c: <><Price l={l} d={d} /><Market l={l} d={d} /></> }] : []),
+    { n: "", t: "Покупка", c: <><Buy l={l} d={d} /><CreditCalc l={l} /></> },
     { n: "", t: "Доставка", c: <Route d={d} vertical /> },
-    { n: "", t: "Покупка", c: <Buy l={l} d={d} /> },
   ].map((c, i) => ({ ...c, n: String(i + 1).padStart(2, "0") }));
   return (
     <section className="catalog-page lv lv3 wrap" id="top"><div className="inner">
