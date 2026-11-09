@@ -1391,3 +1391,12 @@ html.lb-lock{overflow:hidden}
 .lv-pay-alt{border-top:1px solid var(--line-2)}
 @media (max-width:560px){.lv-pay-row{grid-template-columns:1fr}.lv-insp{border-left:0;border-top:1px solid var(--line-2)}}
 .lv-insp b{font-size:clamp(18px,1.6vw,22px)}
+/* price plaque: numbers never overlap, stacks when the panel is narrow */
+.lv-pay{container-type:inline-size}
+.lv-pay-row{grid-template-columns:minmax(max-content,1.35fr) minmax(0,1fr)}
+.lv-pay-main b{font-size:clamp(28px,2.6vw,40px);white-space:nowrap}
+.lv-insp{align-content:center}
+.lv-insp b{font:500 clamp(24px,2.1vw,32px)/1 var(--f-wide);letter-spacing:-.03em;white-space:nowrap}
+.lv-insp em{font:600 14px/1.2 var(--f-head);color:var(--fg)}
+.lv-insp em i{font-style:normal;display:inline-block;transition:transform .3s var(--ease)}.lv-insp:hover em i{transform:translate(3px,-3px)}
+@container (max-width:520px){.lv-pay-row{grid-template-columns:1fr}.lv-insp{border-left:0;border-top:1px solid var(--line-2)}}

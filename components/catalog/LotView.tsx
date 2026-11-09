@@ -162,16 +162,11 @@ export default function LotView({ l }: { l: Lot }) {
               <em>{d.f.deal ? `На ${d.f.deal.pct}% ниже средней цены похожих в каталоге` : `Актуально на ${dateRu(l.date)}`}</em>
             </div>
             <a className="lv-insp" href={inspectLink(l)} target="_blank" rel="noopener">
-              <span className="cw-mono">Осмотр · 12 500 ₽</span>
-              <b>Заказать осмотр&nbsp;<i aria-hidden="true">↗</i></b>
-              <em>Фото и видео до покупки — решение принимаете вы</em>
+              <span className="cw-mono">Осмотр в Корее</span>
+              <b>12 500 ₽</b>
+              <em>Заказать осмотр <i aria-hidden="true">↗</i></em>
             </a>
             </div>
-            <ul className="lv-pay-alt">
-              <li><span>Предоплата 10%</span><b>≈ {money(d.pre)}</b></li>
-              <li><span>Кредит</span><b>10+ банков</b></li>
-              <li><span>Оплата</span><b>безнал, наличные, юрлицо</b></li>
-            </ul>
           </div>
           <Cta l={l} stack />
         </div>
