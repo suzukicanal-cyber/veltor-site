@@ -216,6 +216,7 @@ export function toLot(p, known) {
   for (const l of p.lines.slice(1)) {
     const t = l.t;
     if (isSignature(t) || HEAD_RX.some((rx) => rx.test(t))) continue;
+    if (/^\s*\*\s*[\d.,\s]+$/.test(t)) continue; // internal mark like "*12,9" at the end of a post
     if (l.warn) { body.push({ k: "warn", t: cap(t.replace(/^[^\p{L}\d]+/u, "")) }); continue; }
     const numbered = t.match(/^\d+\.\s+(.+)/);
     if (/:$/.test(t) || numbered || (l.bold && !/\.$/.test(t) && t.length < 48)) body.push({ k: "h", t: (numbered ? numbered[1] : t).replace(/:$/, "") });
