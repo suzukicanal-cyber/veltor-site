@@ -2,16 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import JsonLd from "@/components/JsonLd";
-import LotGallery from "@/components/catalog/LotGallery";
-import LotCard from "@/components/catalog/LotCard";
-import LikeButton from "@/components/catalog/LikeButton";
-import { BodyLine, LOTS, REDIRECTS, hdSrc, likeLink, lotBySlug, lotHref, similar, typeLabel, yawFor } from "@/lib/lots";
-import { dateLong, dateRu, kmLabel, money } from "@/lib/format";
+import LotView from "@/components/catalog/LotView";
+import { LOTS, REDIRECTS, hdSrc, lotBySlug, lotHref } from "@/lib/lots";
+import { dateRu, kmLabel, money } from "@/lib/format";
 import { SITE_URL, asset } from "@/lib/site";
-import { lotLanding } from "@/lib/seo";
-import { motoSpec } from "@/lib/moto-specs";
 
-const CLASS_ONE: Record<string, string> = { "Спортбайки": "спортбайк", "Нейкеды": "нейкед", "Круизеры": "круизер", "Туристические": "туристический", "Спорт-туристы": "спорт-турист", "Эндуро-туристы": "эндуро-турист", "Ретро и классика": "ретро / классика", "Скутеры": "скутер", "Трициклы": "трицикл" };
 
 export const dynamicParams = false;
 export function generateStaticParams() {
@@ -35,20 +30,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-/** Groups the post text into sections: heading + list; warnings go separately. */
-function sections(body: BodyLine[]) {
-  const out: { h: string; items: string[] }[] = [];
-  const warn: string[] = [];
-  const about: string[] = [];
-  for (const b of body) {
-    if (b.k === "warn") warn.push(b.t);
-    else if (b.k === "p") about.push(b.t);
-    else if (b.k === "h") out.push({ h: b.t, items: [] });
-    else { if (!out.length) out.push({ h: "Комплектация", items: [] }); out[out.length - 1].items.push(b.t); }
-  }
-  return { out: out.filter((s) => s.items.length), warn, about };
-}
-
 export default async function LotPage({ params }: Props) {
   const slug = (await params).slug;
   const l = lotBySlug(slug);
@@ -68,18 +49,6 @@ export default async function LotPage({ params }: Props) {
     );
   }
   if (!l) notFound();
-  const { out, warn, about } = sections(l.body);
-  const rows: [string, string][] = [
-    ["Год", String(l.year)],
-    ["Пробег", kmLabel(l.km)],
-    ...(l.volume || motoSpec(l).cc ? [["Объём двигателя", l.volume || `${motoSpec(l).cc} см³`] as [string, string]] : []),
-    ...(motoSpec(l).cls ? [["Тип", CLASS_ONE[motoSpec(l).cls!]] as [string, string]] : []),
-    ...(l.power ? [["Мощность", l.power] as [string, string]] : []),
-    ...(l.drive ? [["Привод", l.drive] as [string, string]] : []),
-    ...(l.gearbox ? [["Коробка", l.gearbox] as [string, string]] : []),
-    ["Марка", l.brand],
-    ["Модель", l.model],
-  ];
   const url = `${SITE_URL}${lotHref(l)}`;
   const ld = [
     {
@@ -105,62 +74,9 @@ export default async function LotPage({ params }: Props) {
   ];
 
   return (
-    <section className="catalog-page lp wrap" id="top">
+    <>
       <JsonLd data={ld} />
-      <div className="inner">
-        <nav className="lp-crumbs" aria-label="Навигация">
-          <Link href="/">Главная</Link><span aria-hidden="true">/</span><Link href="/catalog/">Каталог</Link><span aria-hidden="true">/</span><span>{l.name}</span>
-        </nav>
-
-        <div className="lp-top">
-          <LotGallery photos={l.photos} name={l.name} shape={l.type} hd={l.hd} />
-          <div className="lp-info">
-            <span className="lp-kind">{typeLabel(l.type)} · {l.year}</span>
-            <h1 className="lp-h1">{l.name}</h1>
-            <Link className="link link-q lp-all" href={lotLanding(l).href}>{lotLanding(l).label} →</Link>
-            <dl className="lp-specs">
-              {rows.map(([k, v]) => <div key={k}><dt>{k}</dt><dd>{v}</dd></div>)}
-            </dl>
-            <div className="lp-price">
-              <b>{money(l.price)}</b>
-              <span>{l.priceLabel} · актуально на <em>{dateRu(l.date)}</em></span>
-            </div>
-            <div className="lp-cta">
-              <LikeButton className="btn btn-primary" tgHref={likeLink(l)} />
-              <a className="btn btn-ghost" href={l.post} target="_blank" rel="noopener">Пост в Telegram ↗</a>
-            </div>
-            <p className="lp-note">Вариант опубликован в нашем Telegram-канале {dateLong(l.date)}. Конкретный экземпляр мог уже уйти к новому владельцу — мы найдём аналогичный, осмотрим его в Корее и привезём под ключ. Цена меняется вместе с курсом валют.</p>
-          </div>
-        </div>
-
-        {(out.length > 0 || warn.length > 0 || about.length > 0) && (
-          <div className="lp-body">
-            <h2 className="lp-h2">Описание и комплектация</h2>
-            {warn.length > 0 && (
-              <div className="lp-warn" role="note"><b>Важно знать</b>{warn.map((w) => <p key={w}>{w}</p>)}</div>
-            )}
-            {about.length > 0 && <div className="lp-about">{about.map((t) => <p key={t}>{t}</p>)}</div>}
-            <div className="lp-secs">
-              {out.map((s) => (
-                <div className="lp-sec" key={s.h}>
-                  <h3>{s.h}</h3>
-                  <ul>{s.items.map((t, i) => <li key={i}>{t}</li>)}</ul>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
-
-        <div className="lp-more">
-          <div className="cat-head lp-more-h">
-            <div><h2>Похожие варианты</h2></div>
-            <Link className="link arrow" href="/catalog/">Весь каталог</Link>
-          </div>
-          <div className="lots">
-            {similar(l).map((x, i) => <LotCard key={x.id} lot={x} yaw={yawFor(i)} />)}
-          </div>
-        </div>
-      </div>
-    </section>
+      <LotView l={l} />
+    </>
   );
 }
