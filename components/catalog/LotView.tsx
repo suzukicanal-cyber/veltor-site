@@ -9,6 +9,9 @@ import LotCard from "./LotCard";
 import LikeButton from "./LikeButton";
 import LotFx from "./LotFx";
 
+/** Days from today to arrival in Moscow: the earliest (record trip + preparation) and the latest. Change here. */
+export const ARRIVE_MIN = 40, ARRIVE_MAX = 60;
+
 /* ---------------- data shared by all five lot-page designs (everything from the post or the site's own facts) ---------------- */
 function sections(body: BodyLine[]) {
   const out: { h: string; items: string[] }[] = []; const warn: string[] = []; const about: string[] = [];
@@ -23,7 +26,9 @@ export function lotData(l: Lot) {
   const f = facts(l);
   const s = sections(l.body);
   const peers = LOTS.filter((x) => x.type === l.type && x.brand === l.brand && x.model === l.model).map((x) => ({ id: x.id, year: x.year, price: x.price, km: x.km, me: x.id === l.id }));
-  const eta = new Date(Date.now() + 45 * 864e5).toLocaleDateString("ru-RU", { day: "numeric", month: "long" });
+  /* Arrival window counted from today: inspection, payment, purchase and getting to the port take ARRIVE_MIN..ARRIVE_MAX days in all with the sea and road trip. */
+  const day = (n: number) => new Date(Date.now() + n * 864e5).toLocaleDateString("ru-RU", { day: "numeric", month: "long" });
+  const eta = `с ${day(ARRIVE_MIN)} по ${day(ARRIVE_MAX)}`;
   const nums = [
     { k: "Год", v: String(l.year), u: "" },
     { k: "Пробег", v: l.km ? groups(l.km) : "новый", u: l.km ? "км" : "" },
@@ -92,7 +97,7 @@ const ROUTE = [
 function Route({ d, vertical }: { d: D; vertical?: boolean }) {
   return (
     <ol className={"lv-route" + (vertical ? " is-v" : "")}>
-      {ROUTE.map((r, i) => <li key={r.t} className={i === ROUTE.length - 1 ? "is-end" : ""}><i aria-hidden="true"></i><b>{r.t}</b><span>{i === ROUTE.length - 1 ? `ориентировочно к ${d.eta}` : r.s}</span></li>)}
+      {ROUTE.map((r, i) => <li key={r.t} className={i === ROUTE.length - 1 ? "is-end" : ""}><i aria-hidden="true"></i><b>{r.t}</b><span>{i === ROUTE.length - 1 ? `ориентировочно ${d.eta}` : r.s}</span></li>)}
     </ol>
   );
 }
