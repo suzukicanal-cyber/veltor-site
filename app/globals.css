@@ -1440,3 +1440,9 @@ body:has(.lv-mbar) .mbar{display:none!important}
 .step-ph img{display:block;height:150px;width:auto;object-fit:cover;transition:transform .6s var(--ease)}
 .step-ph button:hover img{transform:scale(1.04)}
 @media (max-width:899px){.step-ph img{height:120px}}
+/* process photos: two rows of three, larger */
+.step-ph ul{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;overflow:visible;padding:0}
+.step-ph li{min-width:0}
+.step-ph button{width:100%}
+.step-ph img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+@media (max-width:899px){.step-ph ul{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.step-ph img{height:auto}}
