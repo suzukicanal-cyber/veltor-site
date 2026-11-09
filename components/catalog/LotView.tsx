@@ -43,10 +43,9 @@ type D = ReturnType<typeof lotData>;
 const inspectLink = (l: Lot) => tgText(`Здравствуйте! Хочу заказать осмотр этого варианта: ${l.name} ${l.year}, ${kmLabel(l.km)}, ${money(l.price)}.\n${SITE_URL}${lotHref(l)}`);
 const Check = () => <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 6.2 5 8.6 9.5 3.6" /></svg>;
 function Badges({ d }: { d: D }) {
-  if (!d.f.noCrash && !d.f.deal) return null;
+  if (!d.f.deal) return null;
   return <ul className="cw-badges tn-glass lv-badges">
     {d.f.deal && <li className="cw-deal"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M6 2v8M2.5 6.5 6 10l3.5-3.5" /></svg>Ниже рынка · −{d.f.deal.pct}%</li>}
-    {d.f.noCrash && <li className="cw-ok"><Check />Без ДТП</li>}
   </ul>;
 }
 function Nums({ d, cls = "" }: { d: D; cls?: string }) {
