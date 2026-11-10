@@ -10,6 +10,7 @@ export default function Hero() {
   const hudRef = useRef<HTMLDivElement>(null);
   const angleRef = useRef<HTMLElement>(null);
   const setShapeRef = useRef<(i: number) => void>(() => {});
+  const lastPick = useRef(-1e9);
   const [shape, setShape] = useState(0);
 
   useEffect(() => {
@@ -137,14 +138,23 @@ export default function Hero() {
     }
     raf = requestAnimationFrame(frame);
 
+    // moto and car take turns on their own: every 8 s, only while the first screen is on view,
+    // not while someone drags it, and not for 20 s after a manual pick
+    const auto = reduce ? 0 : window.setInterval(() => {
+      if (!visible || document.hidden || morphing || dragX !== null || performance.now() - lastPick.current < 20000) return;
+      const next = target ? 0 : 1;
+      setShape(next); setShapeRef.current(next);
+    }, 8000);
+
     return () => {
+      clearInterval(auto);
       cancelAnimationFrame(raf); ro.disconnect(); io.disconnect();
       hero.removeEventListener("pointermove", move); hero.removeEventListener("pointerdown", down);
       hero.removeEventListener("pointerup", endDrag); hero.removeEventListener("pointercancel", endDrag); hero.removeEventListener("pointerleave", leave);
     };
   }, []);
 
-  const pick = (i: number) => { setShape(i); setShapeRef.current(i); };
+  const pick = (i: number) => { lastPick.current = performance.now(); setShape(i); setShapeRef.current(i); };
 
   return (
     <section className="hero" id="top" data-cursor="Вращайте" ref={heroRef}>
