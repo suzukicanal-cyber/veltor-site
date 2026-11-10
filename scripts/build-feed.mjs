@@ -65,6 +65,11 @@ const vkLots = lots.filter((l) => {            // lots уже отсортиро
   seen.add(key);
   return true;
 });
+// пробег в названии — его видно в ленте товаров; если не влезает в 100 знаков, режем модель, а не пробег
+const vkName = (l) => {
+  const tail = `, ${l.year}, ${km(l.km)}`;
+  return `${(l.raw || l.name).slice(0, 100 - tail.length)}${tail}`;
+};
 const vkOffers = vkLots.map((l) => {
   const pics = l.photos.slice(0, 5).map((p) => (/^https?:/.test(p) ? p : `${SITE}/${l.hd ? p.replace(/\.jpg$/, "@2x.jpg") : p}`));
   const body = (l.body || []).map((b) => (b.k === "h" ? `\n${b.t}:` : b.t)).join("\n").trim();
@@ -83,7 +88,7 @@ const vkOffers = vkLots.map((l) => {
 <currencyId>RUR</currencyId>
 <categoryId>1</categoryId>
 ${pics.map((p) => `<picture>${esc(p)}</picture>`).join("\n")}
-<name>${esc(`${l.raw || l.name}, ${l.year}`.slice(0, 100))}</name>
+<name>${esc(vkName(l))}</name>
 <description>${esc(desc)}</description>
 </offer>`;
 });
