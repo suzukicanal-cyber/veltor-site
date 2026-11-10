@@ -1375,9 +1375,9 @@ html.lb-lock{overflow:hidden}
 .lv-fx .lv-route.is-in li:nth-child(2){transition-delay:.35s}.lv-fx .lv-route.is-in li:nth-child(3){transition-delay:.7s}
 .lv-fx .lv-route.is-in li:nth-child(4){transition-delay:1.05s}.lv-fx .lv-route.is-in li:nth-child(5){transition-delay:1.4s}
 .lv-route.is-v{position:relative}
-.lv-route.is-v::after{content:"";position:absolute;left:3px;top:4px;width:7px;height:7px;border-radius:50%;background:#fff;box-shadow:0 0 12px 3px rgba(207,224,255,.8);opacity:0}
+.lv-route.is-v::after{content:"";position:absolute;left:3px;top:3px;width:7px;height:7px;border-radius:50%;background:#fff;box-shadow:0 0 12px 3px rgba(207,224,255,.8);opacity:0}
 .lv-route.is-v.is-in::after{animation:lv-run 4s cubic-bezier(.45,0,.25,1) 1.8s infinite}
-@keyframes lv-run{0%{top:4px;opacity:0}10%{opacity:1}85%{opacity:1}100%{top:calc(100% - 40px);opacity:0}}
+@keyframes lv-run{0%{top:3px;opacity:0}8%{opacity:1}75%{top:var(--run-end,calc(100% - 60px));opacity:1}100%{top:var(--run-end,calc(100% - 60px));opacity:0}}
 /* price plot: dots drop in, this one pulses */
 .lv-fx .lv-m-dot,.lv-fx .lv-m-avg{opacity:0;transition:opacity .6s .3s}
 .lv-fx .lv-market.is-in .lv-m-dot,.lv-fx .lv-market.is-in .lv-m-avg{opacity:1}
