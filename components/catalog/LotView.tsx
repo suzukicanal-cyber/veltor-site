@@ -3,6 +3,7 @@ import { BodyLine, LOTS, Lot, likeLink, lotHref, similar, yawFor } from "@/lib/l
 import { dateLong, dateRu, groups, kmLabel, money } from "@/lib/format";
 import { PHONE, PHONE_HREF, SITE_URL, tgText } from "@/lib/site";
 import { facts } from "@/lib/lot-facts";
+import { TYPE, findBrand, brandHref, slugify, typeHref } from "@/lib/seo";
 import LotGallery from "./LotGallery";
 import LotCard from "./LotCard";
 import LikeButton from "./LikeButton";
@@ -133,7 +134,18 @@ const Note = ({ l }: { l: Lot }) => <p className="lv-note">Опубликова�
 function MobileBar({ l }: { l: Lot }) {
   return <div className="lv-mbar"><div><b>{money(l.price)}</b><span>под ключ</span></div><LikeButton className="btn btn-primary" tgHref={likeLink(l)} /></div>;
 }
-const Crumbs = ({ l }: { l: Lot }) => <nav className="lp-crumbs" aria-label="Навигация"><Link href="/">Главная</Link><span aria-hidden="true">/</span><Link href="/catalog/">Каталог</Link><span aria-hidden="true">/</span><span>{l.name}</span></nav>;
+/** Главная / Мотоциклы из Кореи / BMW / лот: the path also leads search engines to the type and brand pages. */
+const Crumbs = ({ l }: { l: Lot }) => {
+  const b = findBrand(l.type, slugify(l.brand));
+  return (
+    <nav className="lp-crumbs" aria-label="Навигация">
+      <Link href="/">Главная</Link><span aria-hidden="true">/</span>
+      <Link href={typeHref(l.type)}>{TYPE[l.type].label} из Кореи</Link><span aria-hidden="true">/</span>
+      {b && <><Link href={brandHref(l.type, l.brand)}>{l.brand}</Link><span aria-hidden="true">/</span></>}
+      <span>{l.name}</span>
+    </nav>
+  );
+};
 
 /* ================= Страница объявления: фото + панель покупки, ниже — досье по главам ================= */
 export default function LotView({ l }: { l: Lot }) {

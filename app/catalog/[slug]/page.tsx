@@ -6,6 +6,7 @@ import LotView from "@/components/catalog/LotView";
 import { LOTS, REDIRECTS, hdSrc, lotBySlug, lotHref } from "@/lib/lots";
 import { dateRu, kmLabel, money } from "@/lib/format";
 import { SITE_URL, asset } from "@/lib/site";
+import { TYPE, findBrand, brandHref, slugify, typeHref } from "@/lib/seo";
 
 
 export const dynamicParams = false;
@@ -55,9 +56,12 @@ export default async function LotPage({ params }: Props) {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Главная", item: `${SITE_URL}/` },
-        { "@type": "ListItem", position: 2, name: "Каталог", item: `${SITE_URL}/catalog/` },
-        { "@type": "ListItem", position: 3, name: l.name, item: url },
+        ...[
+          { name: "Главная", item: `${SITE_URL}/` },
+          { name: `${TYPE[l.type].label} из Кореи`, item: `${SITE_URL}${typeHref(l.type)}` },
+          ...(findBrand(l.type, slugify(l.brand)) ? [{ name: l.brand, item: `${SITE_URL}${brandHref(l.type, l.brand)}` }] : []),
+          { name: l.name, item: url },
+        ].map((x, i) => ({ "@type": "ListItem", position: i + 1, ...x })),
       ],
     },
     {

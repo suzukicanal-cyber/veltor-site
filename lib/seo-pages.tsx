@@ -47,7 +47,7 @@ export function typeLanding(type: LotType) {
   const top = brands.slice(0, 4).map((b) => b.brand).join(", ");
   const h1 = `${t.label} из Южной Кореи под ключ`;
   return {
-    meta: meta(typeHref(type), `${t.label} из Кореи под ключ — цены и каталог`, `${t.label} из Южной Кореи с доставкой в Москву: ${countLabel(s.count, type)} в каталоге ${priceRange(s)}. Подбор, живой осмотр, выкуп, доставка в среднем 45 дней, СБКТС и ЭПТС.`, lots[0]?.photos[0]),
+    meta: meta(typeHref(type), `${t.label} из Южной Кореи под ключ — цены и каталог`, `${t.label} из Южной Кореи под ключ с доставкой в Москву и любой город России: ${countLabel(s.count, type)} в каталоге ${priceRange(s)}. Подбор, живой осмотр, выкуп, доставка в среднем 45 дней, СБКТС и ЭПТС.`, lots[0]?.photos[0]),
     props: {
       crumbs: [HOME, { href: typeHref(type), label: `${t.label} из Кореи` }],
       eyebrow: `${t.short} · Южная Корея → Россия`,
@@ -76,7 +76,7 @@ export function brandLanding(type: LotType, slug: string) {
   const subject = `${t.one} ${b.brand}`;
   const models = b.models.slice(0, 5).map((m) => m.model).join(", ");
   return {
-    meta: meta(brandHref(type, b.brand), `${t.label} ${b.brand} из Кореи под ключ — цены`, `${t.label} ${b.brand} из Южной Кореи с доставкой в Москву: ${countLabel(s.count, type)} ${yearRange(s)} годов ${priceRange(s)}. Осмотр перед покупкой, доставка в среднем 45 дней.`, b.lots[0]?.photos[0]),
+    meta: meta(brandHref(type, b.brand), `${t.label} ${b.brand} из Южной Кореи под ключ — цены`, `${t.label} ${b.brand} из Южной Кореи с доставкой в Москву: ${countLabel(s.count, type)} ${yearRange(s)} годов ${priceRange(s)}. Осмотр перед покупкой, доставка в среднем 45 дней.`, b.lots[0]?.photos[0]),
     props: {
       crumbs: [HOME, { href: typeHref(type), label: `${t.label} из Кореи` }, { href: brandHref(type, b.brand), label: b.brand }],
       eyebrow: `${b.brand} · Южная Корея → Россия`,
