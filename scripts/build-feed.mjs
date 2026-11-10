@@ -52,7 +52,8 @@ writeFileSync(new URL("../public/feed.yml", import.meta.url), xml);
 console.log(`feed.yml: ${offers.length} предложений`);
 
 // ---------- ВКонтакте: только мотоциклы за последние VK_DAYS дней ----------
-// ВК: до 5 фото, не больше 2 свойств, без HTML. В описании — дата поста в Telegram, на которую актуальна цена.
+// ВК: до 5 фото, без HTML. Свойств (param) нет: у свойства не больше 50 значений на весь магазин,
+// а пробег у каждого мотоцикла свой — с ним ВК отклоняет файл. Год и пробег есть в описании. В описании — дата поста в Telegram, на которую актуальна цена.
 const VK_DAYS = 14;
 const since = new Date(Date.now() - VK_DAYS * 864e5).toISOString();
 const msk = (iso) => new Date(new Date(iso).getTime() + 3 * 36e5).toISOString().slice(0, 10).split("-").reverse().join(".");
@@ -84,8 +85,6 @@ const vkOffers = vkLots.map((l) => {
 ${pics.map((p) => `<picture>${esc(p)}</picture>`).join("\n")}
 <name>${esc(`${l.raw || l.name}, ${l.year}`.slice(0, 100))}</name>
 <description>${esc(desc)}</description>
-<param name="Год">${l.year}</param>
-<param name="Пробег">${esc(km(l.km))}</param>
 </offer>`;
 });
 const vkXml = `<?xml version="1.0" encoding="UTF-8"?>
