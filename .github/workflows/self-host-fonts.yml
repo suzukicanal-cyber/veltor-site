@@ -1,0 +1,21 @@
+# Once: copy the site's Google Fonts to public/fonts so visitors never load anything from Google.
+name: Self-host fonts
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fonts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 scripts/fetch_fonts.py
+      - run: |
+          git config user.name "veltor-bot"
+          git config user.email "veltor-bot@users.noreply.github.com"
+          git add public/fonts
+          git diff --cached --quiet || git commit -m "Шрифты на своём сервере (без загрузки с Google)"
+          git pull --rebase -q origin main && git push
