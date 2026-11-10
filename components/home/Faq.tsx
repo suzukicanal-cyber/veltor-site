@@ -5,7 +5,7 @@ export default function Faq() {
     <section className="section wrap" id="faq">
       <div className="inner">
         <div className="sec-head reveal">
-          <div><p className="eyebrow">FAQ</p><h2>Мотоциклы и авто из Кореи: ответы на вопросы</h2></div>
+          <div><p className="eyebrow">Вопросы и ответы</p><h2>Мотоциклы и авто из Кореи: ответы на вопросы</h2></div>
           <p className="lead">VELTOR подбирает, проверяет и привозит мотоциклы и автомобили из Южной Кореи под ключ. Собрали ответы на то, что чаще всего спрашивают перед покупкой.</p>
         </div>
         <div className="faq">

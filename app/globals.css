@@ -429,7 +429,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .bx:hover .bx-ic{transform:rotate(-8deg) scale(1.06)}
 .bx-tg .bx-ic{background:#2AABEE;box-shadow:0 8px 30px -8px rgba(42,171,238,.6)}
 .bx-tg .bx-ic svg{transform:translateX(-1px)}
-.bx-ig .bx-ic{border-radius:14px;background:radial-gradient(circle at 30% 107%,#fdf497 0%,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285AEB 90%);box-shadow:0 8px 30px -8px rgba(214,36,159,.55)}
+.bx-ig .bx-ic{border-radius:14px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18)}
 .bx-av .bx-ic{background:#fff;box-shadow:0 8px 30px -10px rgba(255,255,255,.35)}
 .bx-av .bx-ic svg{width:26px;height:26px}
 .bx-go{margin-top:auto;font:500 12px/1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);transition:color .25s}.bx:hover .bx-go{color:var(--fg)}
@@ -569,7 +569,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .rs-ar{font-size:18px;color:var(--muted);transition:transform .35s var(--ease),color .3s}
 a:hover>.rs-ar,a:hover .rs-ar{transform:translate(3px,-3px);color:var(--fg)}
 .rs4 .rs-tg .rs-ic{background:#2AABEE;border-color:#2AABEE;color:#fff}
-.rs4 .rs-ig .rs-ic{background:radial-gradient(circle at 30% 107%,#fdf497 0%,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285AEB 90%);border-color:transparent;color:#fff}
+.rs4 .rs-ig .rs-ic{color:#fff}
 .rs4 .rs-av .rs-ic{background:#fff;border-color:#fff}.rs4 .rs-av .rs-ic svg{width:28px;height:28px}
 /* 4 визитка */
 .rs4{perspective:1200px}
@@ -1068,10 +1068,8 @@ html.lb-lock{overflow:hidden}
 /* Instagram icon in the business card: no border, so the gradient has no seams at the edges */
 .rs4 .rs-ig .rs-ic{border:0}
 /* team: Instagram of each partner over the photo */
-.tm-ig{position:absolute;left:clamp(14px,1.6vw,20px);top:clamp(14px,1.6vw,20px);z-index:3;display:inline-flex;align-items:center;gap:10px;max-width:calc(100% - 28px);padding:6px 14px 6px 6px;border-radius:999px;background:rgba(10,11,13,.62);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.18);color:#fff;text-decoration:none;font:500 13px/1 var(--f-head);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:background .3s,border-color .3s,transform .35s var(--ease)}
+.tm-ig{position:absolute;left:clamp(14px,1.6vw,20px);top:clamp(14px,1.6vw,20px);z-index:3;display:inline-flex;align-items:center;gap:10px;max-width:calc(100% - 28px);padding:9px 14px;border-radius:999px;background:rgba(10,11,13,.62);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.18);color:#fff;text-decoration:none;font:500 13px/1 var(--f-head);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:background .3s,border-color .3s,transform .35s var(--ease)}
 .tm-ig:hover{background:rgba(10,11,13,.85);border-color:#fff;transform:translateY(-2px)}
-.tm-ig-ic{width:28px;height:28px;flex:none;display:grid;place-items:center;border-radius:9px;background:radial-gradient(circle at 30% 107%,#fdf497 0%,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285AEB 90%)}
-.tm-ig-ic svg{width:15px;height:15px}
 
 /* ---------- contact business card: the team on call ---------- */
 .vk{perspective:1200px;width:100%}
@@ -1080,7 +1078,7 @@ html.lb-lock{overflow:hidden}
 .vk-ic{width:40px;height:40px;flex:none;display:grid;place-items:center;border-radius:50%;color:#fff}
 .vk-ic svg{width:19px;height:19px}
 .vk-ph .vk-ic{background:#34C759}.vk-tg .vk-ic{background:#2AABEE}
-.vk-ig .vk-ic{background:radial-gradient(circle at 30% 107%,#fdf497 0%,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285AEB 90%);border-radius:12px}
+.vk-ig .vk-ic{background:rgba(255,255,255,.08);border-radius:12px}
 .vk-av .vk-ic{background:#fff}.vk-av .vk-ic svg{width:26px;height:26px}
 .vk-a{display:flex;align-items:center;gap:14px;color:var(--fg);text-decoration:none}
 .vk-a b{font:500 17px/1.25 var(--f-head)}
@@ -1515,3 +1513,6 @@ html.grain body::after{content:"";position:fixed;inset:-50%;z-index:300;pointer-
   .av .like-opt b{font-size:14px}
   .av .like-opt em{font-size:11px;letter-spacing:0}
 }
+
+/* how the «Ниже рынка» badge is calculated (the comparison must be explained, 38-ФЗ ст. 5) */
+.deal-note{margin:20px 0 0;max-width:80ch;font-size:12.5px;line-height:1.5;color:var(--dim)}

@@ -54,7 +54,7 @@ export default function Reels({ children }: { children: React.ReactNode }) {
           onTimeUpdate={(e) => { const v = e.currentTarget; if (v.duration) setProg(v.currentTime / v.duration); }}
           onEnded={() => load((st.current.cur + 1) % REELS.length, st.current.visible)}
         ></video>
-        <span className="ph-live">Reels</span>
+        <span className="ph-live">Видео</span>
         <button type="button" className="ig-snd" aria-label={sound ? "Выключить звук" : "Включить звук"} aria-pressed={sound} onClick={(e) => { e.stopPropagation(); toggleSound(); }}>
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4Z" fill="currentColor" /><path className="snd-off" d="m16 9 5 6m0-6-5 6" stroke="currentColor" strokeWidth="1.8" fill="none" strokeLinecap="round" /><path className="snd-on" d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" stroke="currentColor" strokeWidth="1.8" fill="none" strokeLinecap="round" /></svg>
         </button>

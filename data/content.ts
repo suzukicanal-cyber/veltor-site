@@ -213,6 +213,6 @@ export const NAV = [
   { href: "/#route", label: "Доставка", top: true },
   { href: "/#services", label: "Услуги", top: true },
   { href: "/#social", label: "Отзывы", top: true },
-  { href: "/#faq", label: "FAQ", top: true },
+  { href: "/#faq", label: "Вопросы", top: true },
   { href: "/#contact", label: "Контакты", top: true },
 ];

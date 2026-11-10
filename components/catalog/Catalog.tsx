@@ -180,6 +180,7 @@ export default function Catalog({ items }: { items: Item[] }) {
           <button type="button" className="btn btn-ghost" onClick={() => setShown((n) => n + STEP)}>Показать ещё · {list.length - shown}</button>
         </div>
       )}
+      <p className="deal-note">«Ниже рынка» — цена ниже медианной цены той же модели близких годов выпуска (±1 год) среди предложений в нашем каталоге на дату публикации.</p>
       <div className="cat-cta">
         <div><h3>Не нашли нужную модель?</h3><p>Подберём технику под ваш запрос: модель, год, пробег, цвет и бюджет.</p></div>
         <Link className="btn btn-primary arrow" data-magnetic="" href="/#contact">Оставить заявку</Link>

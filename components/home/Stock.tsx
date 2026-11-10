@@ -18,6 +18,7 @@ export default function Stock() {
           {dealTeaser().map((l, i) => <LotCard key={l.id} lot={l} f={facts(l)} yaw={yawFor(i)} />)}
         </div>
         <SwipeHint target=".lots-teaser" />
+        <p className="deal-note">«Ниже рынка» — цена ниже медианной цены той же модели близких годов выпуска (±1 год) среди предложений в нашем каталоге на дату публикации.</p>
         <div className="stock-foot">
           <Link className="btn btn-primary arrow" data-magnetic="" href="/catalog/">Открыть каталог</Link>
           <a className="btn btn-ghost arrow" href={LINKS.channel} target="_blank" rel="noopener">Telegram-канал</a>

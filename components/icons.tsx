@@ -8,8 +8,9 @@ export const PhoneIcon = () => (
   <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.3 0 .7-.2 1l-2.3 2.2Z" fill="currentColor" /></svg>
 );
 
-export const IgIcon = () => (
-  <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" strokeWidth="1.8" /><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" strokeWidth="1.8" /><circle cx="17.4" cy="6.6" r="1.2" fill="currentColor" /></svg>
+/** Neutral "video" icon. The Instagram logo is not used on the site: Meta is designated extremist in Russia (КоАП 20.3). */
+export const PlayIcon = () => (
+  <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4.5" width="18" height="15" rx="4" fill="none" stroke="currentColor" strokeWidth="1.8" /><path d="M10.2 9.2v5.6l4.8-2.8z" fill="currentColor" /></svg>
 );
 
 export const AvitoIcon = () => (

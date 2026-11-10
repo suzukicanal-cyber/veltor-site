@@ -9,7 +9,7 @@ function Badges({ f, cls = "" }: { f: Facts; cls?: string }) {
   if (!f.deal) return null;
   return (
     <ul className={"cw-badges " + cls}>
-      {f.deal && <li className="cw-deal"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M6 2v8M2.5 6.5 6 10l3.5-3.5" /></svg><span className="cw-deal-l">Ниже рынка · </span>−{f.deal.pct}%</li>}
+      {f.deal && <li className="cw-deal" title="Цена ниже медианной цены той же модели близких годов выпуска в нашем каталоге"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M6 2v8M2.5 6.5 6 10l3.5-3.5" /></svg><span className="cw-deal-l">Ниже рынка · </span>−{f.deal.pct}%</li>}
     </ul>
   );
 }

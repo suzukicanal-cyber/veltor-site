@@ -2,7 +2,7 @@
 import { useRef } from "react";
 import { LINKS, PHONE, PHONE_HREF, asset } from "@/lib/site";
 import { TEAM } from "@/data/content";
-import { AvitoIcon, IgIcon, PhoneIcon, TgIcon } from "../icons";
+import { AvitoIcon, PhoneIcon, PlayIcon, TgIcon } from "../icons";
 import Qr from "../Qr";
 
 /** Contact business card: the team's faces (each opens their Instagram), contacts and the QR to the channel; tilts toward the cursor. */
@@ -21,7 +21,7 @@ function useTilt() {
 const LINKS4 = [
   { k: "ph", href: PHONE_HREF, ic: <PhoneIcon />, t: PHONE, s: "Звонок", ext: false },
   { k: "tg", href: LINKS.channel, ic: <TgIcon />, t: "Telegram", s: "Канал с подборами", ext: true },
-  { k: "ig", href: LINKS.instagram, ic: <IgIcon />, t: "Instagram", s: "Видео и сторис", ext: true },
+  { k: "ig", href: LINKS.instagram, ic: <PlayIcon />, t: "Видео", s: "Рилсы и сторис", ext: true },
   { k: "av", href: LINKS.avito, ic: <AvitoIcon />, t: "Авито", s: "Отзывы клиентов", ext: true },
 ];
 const ext = (e: boolean) => (e ? { target: "_blank", rel: "noopener" } : {});

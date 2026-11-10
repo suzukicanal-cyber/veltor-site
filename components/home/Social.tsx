@@ -1,6 +1,6 @@
 import { AVITO_RATING, FEED, TEAM } from "@/data/content";
 import { LINKS, asset } from "@/lib/site";
-import { AvitoIcon, IgIcon, TgIcon } from "../icons";
+import { AvitoIcon, PlayIcon, TgIcon } from "../icons";
 import Qr from "../Qr";
 import MiniCanvas from "../MiniCanvas";
 import SwipeHint from "../SwipeHint";
@@ -50,7 +50,7 @@ export default function Social() {
             </div>
 
             <Reels>
-              <span className="bx-ic"><IgIcon /></span><p className="eyebrow">Instagram</p><h3>Техника из Кореи в фото и видео</h3>
+              <span className="bx-ic bx-ic-v"><PlayIcon /></span><p className="eyebrow">Видео</p><h3>Техника из Кореи в фото и видео</h3>
             </Reels>
 
             <a className="bx bx-av" href={LINKS.avito} target="_blank" rel="noopener" data-light="">
@@ -73,7 +73,7 @@ export default function Social() {
             {TEAM.map((m) => (
               <article className="tm" data-light="" key={m.name}>
                 <div className="tm-ph"><img src={asset(m.photo)} alt={`${m.name}, партнёр VELTOR`} width={760} height={1350} loading="lazy" decoding="async" />
-                  {m.ig && <a className="tm-ig" href={m.ig} target="_blank" rel="noopener" aria-label={`${m.name} в Instagram`}><span className="tm-ig-ic"><IgIcon /></span>@{m.ig.split("/").filter(Boolean).pop()}</a>}</div>
+                  {m.ig && <a className="tm-ig" href={m.ig} target="_blank" rel="noopener" aria-label={`${m.name} в Instagram`}>@{m.ig.split("/").filter(Boolean).pop()}</a>}</div>
                 <div className="tm-b sr-only"><h3>{m.name}</h3><p>{m.role}</p><ul>{m.duties.map((d) => <li key={d}>{d}</li>)}</ul></div>
               </article>
             ))}

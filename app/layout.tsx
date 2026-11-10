@@ -42,10 +42,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="ru">
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        {/* eslint-disable-next-line @next/next/no-page-custom-font */}
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Unbounded:wght@200..700&family=Wix+Madefor+Display:wght@400..700&family=Wix+Madefor+Text:wght@400..600&display=swap" />
+        {/* fonts are served from this site (scripts/fetch_fonts.py): no requests to Google, so visitors' IPs stay in Russia */}
+        {/* eslint-disable-next-line @next/next/no-page-custom-font, @next/next/no-css-tags */}
+        <link rel="stylesheet" href={asset("fonts/fonts.css")} />
         <JsonLd data={[ORG, {
           "@context": "https://schema.org", "@type": "WebSite", "@id": `${SITE_URL}/#website`,
           url: `${SITE_URL}/`, name: SITE_NAME, alternateName: "ВЕЛТОР", inLanguage: "ru-RU",
