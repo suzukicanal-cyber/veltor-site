@@ -15,8 +15,8 @@ export default function Social() {
       <div className="inner">
         <div className="sv sv1">
           <div className="sec-head">
-            <div><p className="eyebrow">Отзывы и соцсети</p><h2>Истории тех, чья мечта уже в гараже</h2></div>
-            <p className="lead">Каждая доставка для нас — чья-то сбывшаяся мечта. Следите за новыми подборами, смотрите, как техника едет из Кореи, и читайте, что говорят те, кто уже прошёл этот путь с нами.</p>
+            <div><p className="eyebrow">Отзывы и соцсети</p><h2>Отзывы тех, кто уже забрал технику</h2></div>
+            <p className="lead">Следите за новыми подборами, смотрите, как техника едет из Кореи, и читайте, что говорят те, кто уже прошёл этот путь с нами.</p>
           </div>
           <div className="bento">
             <div className="bx bx-tg" data-light="">
@@ -66,7 +66,7 @@ export default function Social() {
 
         <div className="team">
           <div className="sec-head">
-            <div><p className="eyebrow">Команда</p><h2>Люди, которые ведут вашу мечту до гаража</h2></div>
+            <div><p className="eyebrow">Команда</p><h2>Три партнёра ведут сделку от Кореи до гаража</h2></div>
             <p className="lead">Каждый отвечает за свой участок пути: от выбора в Корее до документов и доставки. На каждом этапе с вами работает живой человек.</p>
           </div>
           <div className="tms">

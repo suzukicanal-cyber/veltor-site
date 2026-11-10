@@ -24,9 +24,9 @@ export default function MotoCard({ lot, f, yaw, eager }: { lot: Lot; f: Facts; y
       <div className="lot-body">
         <div><span className="cw-mono">{lot.brand}{f.cls ? ` · ${f.cls}` : ""}</span><h3 className="lot-t cw6-t"><Link href={href}>{lot.model}</Link></h3></div>
         <dl className="cw2-nums cw6-nums">
-          <div><dt>год</dt><dd>{lot.year}</dd></div>
-          <div><dt>пробег, км</dt><dd>{lot.km ? groups(lot.km) : "новый"}</dd></div>
-          <div><dt>объём, см³</dt><dd>{f.cc ? f.cc.replace(/\s*см³/, "") : "—"}</dd></div>
+          <div><dt>Год</dt><dd>{lot.year}</dd></div>
+          <div><dt>Пробег, км</dt><dd>{lot.km ? groups(lot.km) : "новый"}</dd></div>
+          <div><dt>Объём, см³</dt><dd>{f.cc ? f.cc.replace(/\s*см³/, "") : "—"}</dd></div>
         </dl>
         <div className="cw1-foot cw6-foot"><div><b>{money(lot.price)}</b><em>под ключ · {dateRu(lot.date)}</em></div><LikeButton className="lot-cta" tgHref={likeLink(lot)} /></div>
       </div>

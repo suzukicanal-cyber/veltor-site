@@ -56,7 +56,7 @@ export default function Header() {
           </ul>
           <div className="nav-act">
             <a className="nav-phone" href={PHONE_HREF}>{PHONE}</a>
-            <Link className="btn btn-primary btn-s nav-cat-btn" href="/catalog/">Каталог</Link>
+            <Link className="btn btn-ghost btn-s nav-cat-btn" href="/catalog/">Каталог</Link>
             <Link className="btn btn-ghost btn-s nav-coop-btn" href="/partners/">Сотрудничество</Link>
             <a className="btn btn-ghost btn-s nav-tg" data-magnetic="" href={LINKS.manager} target="_blank" rel="noopener">Написать в Telegram</a>
             <button className="burger" type="button" id="burger" aria-label={open ? "Закрыть меню" : "Открыть меню"} aria-expanded={open} aria-controls="mnav" onClick={() => setOpen(!open)}><i></i><i></i></button>

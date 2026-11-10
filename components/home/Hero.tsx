@@ -153,7 +153,6 @@ export default function Hero() {
   return (
     <section className="hero" id="top" data-cursor="Вращайте" ref={heroRef}>
       <div className="hero-light" data-light=""></div>
-      <div className="hero-word" aria-hidden="true">VELTOR</div>
       <canvas id="scan" ref={cvRef} aria-hidden="true"></canvas>
       <div className="hud on" id="hud" ref={hudRef} aria-hidden="true"></div>
       <p className="sr">Интерактивный 3D-скан мотоцикла или автомобиля: он поворачивается вслед за курсором.</p>
@@ -169,9 +168,9 @@ export default function Hero() {
         <div className="wrap">
           <div className="inner foot-row">
             <div className="hero-copy">
-              <h1 className="eyebrow">Мотоциклы и автомобили из Южной Кореи под ключ</h1>
-              <p className="h1-look">Ваша мечта уже ждёт вас в Южной Корее</p>
-              <p>Вы выбираете мечту, мы берём на себя её путь до вашего гаража. Подбор, осмотр, выкуп, доставка и документы проходят спокойно, а вы просто ждёте встречи.</p>
+              <p className="eyebrow">Инчхон → Москва · в среднем 45 дней</p>
+              <h1 className="h1-look">Мотоциклы и автомобили из Южной Кореи под ключ</h1>
+              <p>Подбираем, осматриваем, выкупаем и оформляем документы. Каждый этап подтверждаем фото- и видеоотчётом, а вы просто ждёте встречи.</p>
               <div className="ctas">
                 <Link className="btn btn-primary" data-magnetic="" href="/#contact">Подобрать технику</Link>
                 <Link className="btn btn-ghost" data-magnetic="" href="/#process">Как мы работаем</Link>

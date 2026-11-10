@@ -57,7 +57,7 @@ export default function Route() {
         <div className="route-head">
           <div className="copy reveal">
             <p className="eyebrow">Доставка из Кореи в Москву</p>
-            <h2>Каждый день приближает <em>вас к мечте</em></h2>
+            <h2>Маршрут из Инчхона в Москву</h2>
             <p className="lead">Инчхон → Китай → Кашгар → Бишкек → Москва. Каждый этап сопровождаем фото- и видеоотчётами.</p>
           </div>
           <div className="dstats reveal">

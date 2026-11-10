@@ -3,7 +3,7 @@ import { useEffect } from "react";
 
 /**
  * Site-wide motion (chosen by the owner 2026-11-09):
- *  5. a faint film grain over the dark background (CSS, html.grain);
+ *  5. (film grain removed 2026-11-10 in the unslop pass);
  *  6. smooth wheel scrolling with inertia on computers;
  *  7. the card photo flies into the big photo of the lot page (catalog → lot).
  * Everything is off for people who ask the system for less motion.
@@ -15,7 +15,6 @@ export default function Motion() {
     const fine = matchMedia("(pointer: fine)").matches;
     const root = document.documentElement;
     const off: (() => void)[] = [];
-    if (!reduce) root.classList.add("grain");
 
     // 6 — inertial wheel scrolling; native scroll position stays the truth (sticky, observers, anchors keep working)
     if (fine && !reduce) {
@@ -67,7 +66,7 @@ export default function Motion() {
       document.addEventListener("click", click, true);
       off.push(() => document.removeEventListener("click", click, true));
     }
-    return () => { off.forEach((f) => f()); root.classList.remove("grain"); };
+    return () => { off.forEach((f) => f()); };
   }, []);
   return null;
 }
