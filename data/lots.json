@@ -1,5 +1,169 @@
 [
  {
+  "id": 9268,
+  "slug": "kawasaki-ninja-zx-6r-2026-9268",
+  "type": "moto",
+  "brand": "Kawasaki",
+  "model": "Ninja ZX-6R",
+  "name": "Kawasaki Ninja ZX-6R",
+  "raw": "Kawasaki Ninja ZX-6R",
+  "year": 2026,
+  "km": 1536,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1667000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-10T13:06:31+00:00",
+  "features": [
+   "Один владелец",
+   "Механическая коробка передач",
+   "Есть следы эксплуатации"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Мотоцикл прошёл профессиональную диагностику"
+   },
+   {
+    "k": "p",
+    "t": "Один владелец, механическая коробка передач. Есть следы эксплуатации. Передняя шина: остаток 90%, задняя: 85%. Тормозные колодки: передние 80%, задние 90%. Моторное масло, масляный фильтр и охлаждающая жидкость в хорошем состоянии, установлен новый аккумулятор."
+   },
+   {
+    "k": "p",
+    "t": "Дополнительное оборудование: видеорегистратор MVR G1 Pro 2CH Blackbox, крепление SP Connect Moto Stem Mount Pro, два USB-порта для зарядки, балансировочные грузы руля Daegu Gongdol 4050, ручки Domino, накладки TechSpec на колени и защитная накладка на бак."
+   }
+  ],
+  "photos": [
+   "catalog/9268/1.jpg",
+   "catalog/9268/2.jpg",
+   "catalog/9268/3.jpg",
+   "catalog/9268/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/9268",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 9260,
+  "slug": "kawasaki-ninja-zx-6r-2026-9260",
+  "type": "moto",
+  "brand": "Kawasaki",
+  "model": "Ninja ZX-6R",
+  "name": "Kawasaki Ninja ZX-6R",
+  "raw": "Kawasaki Ninja ZX-6R",
+  "year": 2026,
+  "km": 2800,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1478000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-10T13:02:52+00:00",
+  "features": [
+   "Мотоцикл в отличном состоянии",
+   "Без ДТП и падений",
+   "Реальный пробег"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Мотоцикл в отличном состоянии, без ДТП и падений. Реальный пробег, заводское состояние. Расходные материалы в состоянии нового мотоцикла, гарантия. Проведено техническое обслуживание, заменены моторное масло и масляный фильтр. Подтёков масла нет, двигатель работает без посторонних шумов, вся электроника исправна. Установлен тюнинговый карбоновый выхлоп AkrapovičТакже указаны дополнительные элементы тюнинга: задние подножки, слайдеры и видеорегистратор."
+   }
+  ],
+  "photos": [
+   "catalog/9260/1.jpg",
+   "catalog/9260/2.jpg",
+   "catalog/9260/3.jpg",
+   "catalog/9260/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/9260",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 9256,
+  "slug": "kawasaki-ninja-zx-6r-2026-9256",
+  "type": "moto",
+  "brand": "Kawasaki",
+  "model": "Ninja ZX-6R",
+  "name": "Kawasaki Ninja ZX-6R",
+  "raw": "Kawasaki Ninja ZX-6R",
+  "year": 2026,
+  "km": null,
+  "volume": "636 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1728000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-10T13:01:09+00:00",
+  "features": [
+   "Новый мотоцикл",
+   "Зелёный цвет",
+   "Двигатель 636 см³"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Новый мотоцикл, зелёный цвет, двигатель 636 см³. Без ДТП, состояние нового мотоцикла"
+   }
+  ],
+  "photos": [
+   "catalog/9256/1.jpg",
+   "catalog/9256/2.jpg",
+   "catalog/9256/3.jpg",
+   "catalog/9256/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/9256",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 9251,
+  "slug": "bmw-m-1000-rr-full-carbon-2023-9251",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "M 1000 RR",
+  "name": "BMW M 1000 RR Full Carbon",
+  "raw": "BMW M1000RR Full Carbon",
+  "year": 2023,
+  "km": 11000,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2518000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-10T07:56:16+00:00",
+  "features": [
+   "Без падений и ДТП",
+   "Полная оклейка PPF",
+   "Оригинальные зеркала Rizoma"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "BMW M1000RR в исполнении Full Carbon. Заявлено полностью бесаварийное состояние, без падений и ДТП. Полная оклейка PPF, установлен видеорегистратор Black Box с двумя камерами, оригинальные зеркала Rizoma. Выхлопная система доработана, конструкция выхлопа официально зарегистрирована. Установлена цепь M-Chain, нижняя защита выхлопной системы."
+   }
+  ],
+  "photos": [
+   "catalog/9251/1.jpg",
+   "catalog/9251/2.jpg",
+   "catalog/9251/3.jpg",
+   "catalog/9251/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/9251",
+  "parser": 3,
+  "orig": true
+ },
+ {
   "id": 9247,
   "slug": "honda-gold-wing-1800-sidecar-2015-9247",
   "type": "moto",
@@ -31461,52 +31625,6 @@
    "catalog/7114/10.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/7/7114",
-  "parser": 3,
-  "hd": true,
-  "hdv": 2
- },
- {
-  "id": 7110,
-  "slug": "bmw-m-1000-rr-2023-7110",
-  "type": "moto",
-  "brand": "BMW",
-  "model": "M 1000 RR",
-  "name": "BMW M 1000 RR",
-  "raw": "BMW M1000RR",
-  "year": 2023,
-  "km": 11000,
-  "volume": null,
-  "power": null,
-  "drive": null,
-  "gearbox": null,
-  "price": 2771000,
-  "priceLabel": "под ключ",
-  "date": "2026-10-11T13:27:36+00:00",
-  "features": [
-   "Который BMW выпустила с завода",
-   "Мотоцикл абсолютно безаварийный"
-  ],
-  "body": [
-   {
-    "k": "li",
-    "t": "Продаю BMW M1000RR с полностью карбоновым обвесом, который BMW выпустила с завода"
-   },
-   {
-    "k": "li",
-    "t": "После этого BMW больше не выпускала M1000RR с таким полностью карбоновым обвесом"
-   },
-   {
-    "k": "li",
-    "t": "Мотоцикл абсолютно безаварийный, и на нём нет никаких следов падений даже на месте"
-   }
-  ],
-  "photos": [
-   "catalog/7110/1.jpg",
-   "catalog/7110/2.jpg",
-   "catalog/7110/3.jpg",
-   "catalog/7110/4.jpg"
-  ],
-  "post": "https://t.me/koreamotocycles_veltor/8/7110",
   "parser": 3,
   "hd": true,
   "hdv": 2
