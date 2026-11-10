@@ -118,7 +118,8 @@ def main():
                         rec["d"] = 1 if rf > lf else -1
                 else:
                     fb = (whole @ te.T)[0]
-                    rec["v"] = "front" if (fb[0] - fb[1]).item() > 0 else "rear"
+                    rec["fb"] = round((fb[0] - fb[1]).item(), 4)   # > 0 looks like the front end, < 0 the back
+                    rec["v"] = "front" if rec["fb"] > 0 else "rear"
                 rec["s"] = round(rf - lf, 4)
             bx = [round(x1 / W, 3), round(y1 / H, 3), round(x2 / W, 3), round(y2 / H, 3)]
             rec["b"] = bx
