@@ -9,7 +9,7 @@ function Badges({ f, cls = "" }: { f: Facts; cls?: string }) {
   if (!f.deal) return null;
   return (
     <ul className={"cw-badges " + cls}>
-      {f.deal && <li className="cw-deal"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M6 2v8M2.5 6.5 6 10l3.5-3.5" /></svg>Ниже рынка · −{f.deal.pct}%</li>}
+      {f.deal && <li className="cw-deal"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M6 2v8M2.5 6.5 6 10l3.5-3.5" /></svg><span className="cw-deal-l">Ниже рынка · </span>−{f.deal.pct}%</li>}
     </ul>
   );
 }
@@ -29,6 +29,12 @@ export default function MotoCard({ lot, f, yaw, eager }: { lot: Lot; f: Facts; y
           <div><dt>объём, см³</dt><dd>{f.cc ? f.cc.replace(/\s*см³/, "") : "—"}</dd></div>
         </dl>
         <div className="cw1-foot cw6-foot"><div><b>{money(lot.price)}</b><em>под ключ · {dateRu(lot.date)}</em></div><LikeButton className="lot-cta" tgHref={likeLink(lot)} /></div>
+      </div>
+      <div className="av">
+        <Link className="av-t" href={href}>{lot.name}, {lot.year}, {lot.km ? `${groups(lot.km)}\u00a0км` : "новый"}</Link>
+        <LikeButton className="av-like" tgHref={likeLink(lot)} heart />
+        <b className="av-p">{money(lot.price)}</b>
+        <span className="av-m">под ключ · {dateRu(lot.date)}</span>
       </div>
     </article>
   );

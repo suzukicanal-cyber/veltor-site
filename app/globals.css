@@ -1486,3 +1486,31 @@ html.grain body::after{content:"";position:fixed;inset:-50%;z-index:300;pointer-
 .nav-links a:hover,.nav-links a:focus-visible{color:#fff}
 .nav-links a:hover::after,.nav-links a:focus-visible::after{transform:scaleX(1)}
 @media (prefers-reduced-motion:reduce){.nav-links a::after{transition:none}}
+
+/* Catalog on phones: two columns of compact cards, like a classifieds feed (photo, title with year and mileage, price) */
+.av{display:none}
+@media (max-width:600px){
+  #cat-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 10px}
+  #cat-grid>.lot{position:relative;background:none;border:0;border-radius:0;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none;overflow:visible}
+  #cat-grid>.lot::before,#cat-grid>.lot::after{display:none}
+  #cat-grid .lot-body{display:none}
+  #cat-grid .lot-media{aspect-ratio:1;border:0;border-radius:12px}
+  #cat-grid .cw3-media{border-radius:12px;overflow:hidden}
+  #cat-grid .lot-n{display:none}
+  #cat-grid .lot-dots{left:10px;right:10px;bottom:8px}
+  #cat-grid .cw3-b{left:8px;top:8px;max-width:calc(100% - 16px)}
+  #cat-grid .cw-deal{font-size:11px;padding:4px 8px}
+  #cat-grid .cw-deal-l{display:none}
+  #cat-grid .av{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:start;gap:2px 4px;padding-top:10px}
+  .av-t{font:500 14.5px/1.3 var(--f-text);color:var(--fg);text-decoration:none;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+  .av-p{grid-column:1/-1;margin-top:4px;font:700 17px/1.2 var(--f-head);color:var(--fg);letter-spacing:-.01em}
+  .av-m{grid-column:1/-1;font-size:12.5px;line-height:1.35;color:var(--dim)}
+  .av .like{position:static}
+  .av-like{display:grid;place-items:center;width:30px;height:30px;margin:-4px -4px 0 0;padding:0;border:0;background:none;color:var(--fg);cursor:pointer}
+  .av-like svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.6}
+  .av-like[aria-expanded="true"] svg{fill:currentColor}
+  .av .like-pop{top:auto;bottom:calc(100% - 40px);padding:4px}
+  .av .like-opt{gap:10px;padding:10px 8px}
+  .av .like-opt b{font-size:14px}
+  .av .like-opt em{font-size:11px;letter-spacing:0}
+}

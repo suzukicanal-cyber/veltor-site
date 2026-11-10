@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Lot, likeLink, lotHref, specs, typeLabel } from "@/lib/lot-base";
 import type { Facts } from "@/lib/lot-facts";
-import { dateRu, money } from "@/lib/format";
+import { dateRu, groups, money } from "@/lib/format";
 import LotMedia from "./LotMedia";
 import LikeButton from "./LikeButton";
 import MotoCard from "./MotoCard";
@@ -22,6 +22,12 @@ export default function LotCard({ lot, f, yaw, eager }: { lot: Lot; f: Facts; ya
           <LikeButton className="lot-cta" tgHref={likeLink(lot)} />
           <a className="lot-tg" href={lot.post} target="_blank" rel="noopener">Пост ↗</a>
         </div>
+      </div>
+      <div className="av">
+        <Link className="av-t" href={href}>{lot.name}, {lot.year}, {lot.km ? `${groups(lot.km)}\u00a0км` : "новый"}</Link>
+        <LikeButton className="av-like" tgHref={likeLink(lot)} heart />
+        <b className="av-p">{money(lot.price)}</b>
+        <span className="av-m">под ключ · {dateRu(lot.date)}</span>
       </div>
     </article>
   );
