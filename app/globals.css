@@ -1054,7 +1054,7 @@ html.lb-lock{overflow:hidden}
 .combo-o.is-sel{color:var(--xenon)}
 .combo-list{min-width:220px}
 @media (max-width:899px){.combo input,.cat-num{font-size:16px}}
-/* top menu with «Для партнёров»: one line at every desktop width */
+/* top menu with «Сотрудничество»: one line at every desktop width */
 .nav-links{gap:clamp(12px,1.25vw,20px)}
 .nav-links a{white-space:nowrap}
 .nav-links a[href="/partners/"]{color:var(--fg)}
@@ -1464,3 +1464,18 @@ html.grain body::after{content:"";position:fixed;inset:-50%;z-index:300;pointer-
 .fly-img{position:fixed;z-index:250;object-fit:cover;border-radius:8px;pointer-events:none;box-shadow:0 30px 60px -20px rgba(0,0,0,.8);transition:left .7s var(--ease),top .7s var(--ease),width .7s var(--ease),height .7s var(--ease),border-radius .7s,opacity .35s}
 .lp-stage.is-landing img{opacity:0!important}
 .lv4-top:has(.lp-stage.is-landing)>.lp-gal{animation:none}
+
+/* «Сотрудничество» next to «Каталог» on phones and tablets: two separate pill buttons */
+@media (min-width:1200px){.nav-coop-btn{display:none}}
+@media (max-width:1199px){
+  .nav-cat-btn,.nav-coop-btn,.nav-tg{border-radius:999px}
+  .burger{border-radius:50%}
+}
+@media (max-width:899px) and (min-width:601px){.nav-phone{display:none!important}}
+@media (max-width:600px){
+  .logo b{display:none}
+  .nav-act{gap:8px}
+  .nav-cat-btn,.nav-coop-btn{height:40px;padding:0 14px}
+}
+@media (max-width:374px){.nav-cat-btn,.nav-coop-btn{padding:0 11px;font-size:13px}.nav-act{gap:6px}}
+@media (max-width:340px){.nav-cat-btn,.nav-coop-btn{padding:0 9px;font-size:12.5px}.burger{width:40px;height:40px}.burger i{left:11px;right:11px}.burger i:first-child{top:15px}.burger i:last-child{top:23px}.burger[aria-expanded="true"] i{top:19px!important}}
