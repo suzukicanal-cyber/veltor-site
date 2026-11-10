@@ -34,7 +34,9 @@ export default function Visitka() {
       <div className="vk4-card" ref={t.ref}>
         <div className="vk4-head">
           <div className="vk4-faces">
-            {TEAM.map((m) => <a key={m.name} href={m.ig} target="_blank" rel="noopener" aria-label={`${m.name} в Instagram`}><img src={asset(m.photo)} alt="" width={64} height={64} loading="lazy" /></a>)}
+            {TEAM.map((m) => m.ig
+              ? <a key={m.name} href={m.ig} target="_blank" rel="noopener" aria-label={`${m.name} в Instagram`}><img src={asset(m.photo)} alt="" width={64} height={64} loading="lazy" /></a>
+              : <span key={m.name}><img src={asset(m.photo)} alt={m.name} width={64} height={64} loading="lazy" /></span>)}
           </div>
           <div><span className="vk-logo">VELTOR</span><p>Ева, Сергей и Анатолий — на связи в Москве и Инчхоне</p></div>
         </div>
