@@ -26,3 +26,11 @@ export function facts(l: Lot): Facts {
     deal: deal(l),
   };
 }
+
+/** Home page «Что мы подбираем в Корее»: the newest lots priced below the market (the «Ниже рынка» badge);
+ *  topped up with the newest lots if there are fewer than n such. */
+export function dealTeaser(n = 4) {
+  const out = LOTS.filter((l) => deal(l)).slice(0, n);
+  for (const l of LOTS) { if (out.length >= n) break; if (!out.includes(l)) out.push(l); }
+  return out;
+}

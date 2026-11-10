@@ -1,11 +1,11 @@
 import Link from "next/link";
 import { LINKS } from "@/lib/site";
-import { teaser, yawFor } from "@/lib/lots";
-import { facts } from "@/lib/lot-facts";
+import { yawFor } from "@/lib/lots";
+import { dealTeaser, facts } from "@/lib/lot-facts";
 import LotCard from "../catalog/LotCard";
 import SwipeHint from "../SwipeHint";
 
-/** Home teaser of the catalog: the newest lots from the Telegram channel. */
+/** Home teaser of the catalog: the newest lots priced below the market. */
 export default function Stock() {
   return (
     <section className="section wrap" id="stock">
@@ -15,7 +15,7 @@ export default function Stock() {
           <p className="lead">Это варианты, которые мы подбирали и публиковали в Telegram-канале. Конкретный экземпляр мог уже уйти к новому владельцу, но мы найдём аналогичный. Цены указаны на дату публикации и меняются вместе с курсом валют.</p>
         </div>
         <div className="lots lots-teaser">
-          {teaser().map((l, i) => <LotCard key={l.id} lot={l} f={facts(l)} yaw={yawFor(i)} />)}
+          {dealTeaser().map((l, i) => <LotCard key={l.id} lot={l} f={facts(l)} yaw={yawFor(i)} />)}
         </div>
         <SwipeHint target=".lots-teaser" />
         <div className="stock-foot">

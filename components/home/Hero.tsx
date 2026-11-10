@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import { COL, D, PIV, getClouds, prefersReduced } from "@/lib/cloud";
 
 /** First screen: 3D point-cloud scan of a motorcycle / car that turns after the cursor (drag on touch). */
@@ -10,8 +10,6 @@ export default function Hero() {
   const hudRef = useRef<HTMLDivElement>(null);
   const angleRef = useRef<HTMLElement>(null);
   const setShapeRef = useRef<(i: number) => void>(() => {});
-  const lastPick = useRef(-1e9);
-  const [shape, setShape] = useState(0);
 
   useEffect(() => {
     const hero = heroRef.current!, cv = cvRef.current!, hud = hudRef.current!, angleEl = angleRef.current!;
@@ -138,13 +136,11 @@ export default function Hero() {
     }
     raf = requestAnimationFrame(frame);
 
-    // moto and car take turns on their own: every 8 s, only while the first screen is on view,
-    // not while someone drags it, and not for 20 s after a manual pick
+    // moto and car take turns on their own every 15 s, only while the first screen is on view and nobody drags it
     const auto = reduce ? 0 : window.setInterval(() => {
-      if (!visible || document.hidden || morphing || dragX !== null || performance.now() - lastPick.current < 20000) return;
-      const next = target ? 0 : 1;
-      setShape(next); setShapeRef.current(next);
-    }, 8000);
+      if (!visible || document.hidden || morphing || dragX !== null) return;
+      setShapeRef.current(target ? 0 : 1);
+    }, 15000);
 
     return () => {
       clearInterval(auto);
@@ -153,8 +149,6 @@ export default function Hero() {
       hero.removeEventListener("pointerup", endDrag); hero.removeEventListener("pointercancel", endDrag); hero.removeEventListener("pointerleave", leave);
     };
   }, []);
-
-  const pick = (i: number) => { lastPick.current = performance.now(); setShape(i); setShapeRef.current(i); };
 
   return (
     <section className="hero" id="top" data-cursor="Вращайте" ref={heroRef}>
@@ -184,10 +178,6 @@ export default function Hero() {
               </div>
             </div>
             <div className="hero-ctrl">
-              <div className="seg" role="group" aria-label="Что показать в 3D-скане">
-                <button type="button" aria-pressed={shape === 0} onClick={() => pick(0)}>Мото</button>
-                <button type="button" aria-pressed={shape === 1} onClick={() => pick(1)}>Авто</button>
-              </div>
               <p className="readout"><span>Угол обзора</span><b id="angle" ref={angleRef}>032°</b></p>
               <p className="hint"><span className="hint-fine">Ведите курсором по экрану, чтобы осмотреть технику со всех сторон</span><span className="hint-touch">Проведите пальцем по экрану, чтобы повернуть технику</span></p>
             </div>
