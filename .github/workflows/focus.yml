@@ -48,11 +48,15 @@ jobs:
           ARGS="--limit ${{ github.event.inputs.limit || '0' }}"
           if [ "${{ github.event.inputs.sheet }}" = "yes" ]; then ARGS="$ARGS --sheet focus-sheet.jpg"; fi
           python3 scripts/focus.py $ARGS
-      - uses: actions/upload-artifact@v4
+      - name: Control sheet to the focus-check branch (for review, the site is not changed)
         if: ${{ github.event.inputs.sheet == 'yes' }}
-        with:
-          name: focus-sheet
-          path: focus-sheet.jpg
+        run: |
+          git config user.name "veltor-bot"
+          git config user.email "veltor-bot@users.noreply.github.com"
+          git checkout -q -B focus-check
+          git add -f focus-sheet.jpg data/focus.json
+          git commit -q -m "focus: контрольный лист"
+          git push -q -f origin focus-check
       - name: Commit
         if: ${{ github.event.inputs.sheet != 'yes' }}
         run: |
