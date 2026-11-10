@@ -6,13 +6,13 @@ import { asset } from "@/lib/site";
 import { hdSrc } from "@/lib/lot-base";
 import Lightbox from "./Lightbox";
 
-type Props = { hd?: boolean; photos: string[]; name: string; shape: "moto" | "car"; yaw: number; href: string; kind: string; eager?: boolean };
+type Props = { hd?: boolean; photos: string[]; focus?: (number[] | null)[]; name: string; shape: "moto" | "car"; yaw: number; href: string; kind: string; eager?: boolean };
 
 /**
  * Card photo: move the cursor (or finger) across it to scrub through the photos.
  * Until a photo loads — or if it can't — a point-cloud preview of the shape is shown and turns instead.
  */
-export default function LotMedia({ hd, photos, name, shape, yaw: baseYaw, href, kind, eager }: Props) {
+export default function LotMedia({ hd, photos, focus, name, shape, yaw: baseYaw, href, kind, eager }: Props) {
   const n = photos.length;
   const cnvRef = useRef<HTMLCanvasElement>(null);
   const firstRef = useRef<HTMLImageElement>(null);
@@ -22,6 +22,8 @@ export default function LotMedia({ hd, photos, name, shape, yaw: baseYaw, href, 
   const [all, setAll] = useState(false);
   const [touched, setTouched] = useState(false);
   const [lb, setLb] = useState<number | null>(null);
+  // crop position per photo, so the preview keeps the vehicle's front in view (scripts/focus.py)
+  const fp = (i: number) => { const f = focus?.[i]; return f ? ({ "--o43": `${f[0]}% ${f[1]}%`, "--o11": `${f[2]}% ${f[3]}%` } as React.CSSProperties) : undefined; };
 
   // point-cloud preview, redrawn on resize
   useEffect(() => {
@@ -79,11 +81,11 @@ export default function LotMedia({ hd, photos, name, shape, yaw: baseYaw, href, 
         <div className="lot-gal">
           <img
             ref={firstRef} src={asset(hd ? hdSrc(photos[0]) : photos[0])} alt={`${name} из Южной Кореи — фото 1 из ${n}`}
-            loading={eager ? "eager" : "lazy"} decoding="async" className={cur === 0 ? "on" : undefined}
+            loading={eager ? "eager" : "lazy"} decoding="async" className={cur === 0 ? "on" : undefined} style={fp(0)}
             onLoad={() => setPhoto(true)} onError={() => setPhoto(false)}
           />
           {all && photos.slice(1).map((u, i) => (
-            <img key={u} src={asset(hd ? hdSrc(u) : u)} alt={`${name} — фото ${i + 2} из ${n}`} decoding="async" className={cur === i + 1 ? "on" : undefined} />
+            <img key={u} src={asset(hd ? hdSrc(u) : u)} alt={`${name} — фото ${i + 2} из ${n}`} decoding="async" className={cur === i + 1 ? "on" : undefined} style={fp(i + 1)} />
           ))}
         </div>
       )}

@@ -28,6 +28,8 @@ export type Lot = {
   post: string;
   /** photos have neural ×2 copies "<n>@2x.jpg" (scripts/upscale.py) */
   hd?: boolean;
+  /** per photo: object-position for the 4:3 and the 1:1 card, [x43, y43, x11, y11] in % (scripts/focus.py) */
+  focus?: (number[] | null)[];
 };
 
 /** Sharper ×2 copy of a local catalog photo. */

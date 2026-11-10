@@ -20,7 +20,7 @@ export default function MotoCard({ lot, f, yaw, eager }: { lot: Lot; f: Facts; y
   const href = lotHref(lot);
   return (
     <article className="lot cw6 tn-glass" data-light="">
-      <div className="cw3-media"><LotMedia hd={lot.hd} photos={lot.photos} name={lot.name} shape={lot.type} yaw={yaw} href={href} kind={typeLabel(lot.type)} eager={eager} /><Badges f={f} cls="cw3-b" /></div>
+      <div className="cw3-media"><LotMedia hd={lot.hd} photos={lot.photos} focus={lot.focus} name={lot.name} shape={lot.type} yaw={yaw} href={href} kind={typeLabel(lot.type)} eager={eager} /><Badges f={f} cls="cw3-b" /></div>
       <div className="lot-body">
         <div><span className="cw-mono">{lot.brand}{f.cls ? ` · ${f.cls}` : ""}</span><h3 className="lot-t cw6-t"><Link href={href}>{lot.model}</Link></h3></div>
         <dl className="cw2-nums cw6-nums">

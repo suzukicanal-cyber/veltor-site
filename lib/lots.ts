@@ -1,12 +1,32 @@
 import raw from "@/data/lots.json";
 import redirectsRaw from "@/data/redirects.json";
+import focusRaw from "@/data/focus.json";
 import { motoSpec } from "./moto-specs";
 import type { Lot } from "./lot-base";
 
 export * from "./lot-base";
 
+type Focus = { v: string; d: number; fb?: number; p43?: number[]; p11?: number[] };
+const FOCUS = focusRaw as Record<string, Focus>;
+const SHOWS_FRONT = new Set(["side", "front"]);
+/** a main photo that hides the front: a close-up, a car interior (no car found on it), or a clear view from behind */
+const hidesFront = (f: Focus | undefined, type: string) =>
+  !!f && (f.v === "detail" || (f.v === "none" && type === "car") || (f.v === "rear" && (f.fb ?? 0) < -0.03));
+
+/** The main photo must show the vehicle's front: if the first one is a rear view or a detail shot,
+ *  the first side / front view goes first. Each photo also gets its crop position (scripts/focus.py). */
+function framed(l: Lot): Lot {
+  let photos = l.photos;
+  if (hidesFront(FOCUS[photos[0]], l.type)) {
+    const i = photos.findIndex((p) => SHOWS_FRONT.has(FOCUS[p]?.v));
+    if (i > 0) photos = [photos[i], ...photos.slice(0, i), ...photos.slice(i + 1)];
+  }
+  const focus = photos.map((p) => { const f = FOCUS[p]; return f?.p43 && f.p11 ? [...f.p43, ...f.p11] : null; });
+  return { ...l, photos, focus: focus.some(Boolean) ? focus : undefined };
+}
+
 /** All lots, newest first (the order of publication in the Telegram channel). */
-export const LOTS: Lot[] = (raw as Lot[]).slice().sort((a, b) => b.date.localeCompare(a.date) || b.id - a.id);
+export const LOTS: Lot[] = (raw as Lot[]).map(framed).sort((a, b) => b.date.localeCompare(a.date) || b.id - a.id);
 
 export const lotBySlug = (slug: string) => LOTS.find((l) => l.slug === slug);
 
