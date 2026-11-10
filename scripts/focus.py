@@ -21,13 +21,13 @@ LOTS = os.path.join(ROOT, "data", "lots.json")
 PUB = os.path.join(ROOT, "public")
 
 COCO = {"moto": {3}, "car": {2, 7, 5}}          # motorcycle; car, truck, bus
-VIEWS = {
-    "side": "a side view photo of a whole {v}",
-    "front": "a photo of a whole {v} seen from the front",
-    "rear": "a photo of a whole {v} seen from behind",
-    "detail": "a close-up photo of a {v} part, dashboard, engine or wheel",
+NOUN = {"moto": "motorcycle", "car": "car"}
+WHOLE = ("a photo of an entire {v}", "a close-up photo of a part of a {v}")
+ENDS = {  # what the front and the back end of the vehicle look like
+    "moto": ("the front wheel, front fork and headlight of a motorcycle", "the rear wheel, exhaust and tail of a motorcycle"),
+    "car": ("the front of a car with headlights and grille", "the back of a car with taillights and trunk"),
 }
-FACE = ("a photo of a {v} facing left", "a photo of a {v} facing right")
+SIDE_RATIO = {"moto": 1.2, "car": 1.75}     # box width / height above this: side or three-quarter view
 MARGIN = 0.03
 
 
@@ -73,17 +73,18 @@ def main():
     model, _, prep = open_clip.create_model_and_transforms("ViT-B-32", pretrained="laion2b_s34b_b79k")
     tok = open_clip.get_tokenizer("ViT-B-32")
     model.eval()
-    texts = {}
-    for t, v in (("moto", "motorcycle"), ("car", "car")):
-        with torch.no_grad():
-            vs = model.encode_text(tok([s.format(v=v) for s in VIEWS.values()]))
-            fs = model.encode_text(tok([s.format(v=v) for s in FACE]))
-        texts[t] = (vs / vs.norm(dim=-1, keepdim=True), fs / fs.norm(dim=-1, keepdim=True))
 
-    def clip(imgs):
+    def txt(lines):
         with torch.no_grad():
-            f = model.encode_image(torch.stack([prep(i) for i in imgs]))
+            t = model.encode_text(tok(list(lines)))
+        return t / t.norm(dim=-1, keepdim=True)
+
+    def img(ims):
+        with torch.no_grad():
+            f = model.encode_image(torch.stack([prep(i) for i in ims]))
         return f / f.norm(dim=-1, keepdim=True)
+
+    T = {t: (txt(s.format(v=NOUN[t]) for s in WHOLE), txt(ENDS[t])) for t in COCO}
 
     sheet = []
     for n, (typ, p) in enumerate(todo, 1):
@@ -91,31 +92,39 @@ def main():
         W, H = im.size
         r = det(im, verbose=False)[0]
         box = None
-        for b, c in zip(r.boxes.xyxy.tolist(), r.boxes.cls.tolist()):
+        for bb, c in zip(r.boxes.xyxy.tolist(), r.boxes.cls.tolist()):
             if int(c) in COCO[typ]:
-                area = (b[2] - b[0]) * (b[3] - b[1])
+                area = (bb[2] - bb[0]) * (bb[3] - bb[1])
                 if box is None or area > box[0]:
-                    box = (area, b)
-        vt, ft = texts[typ]
-        crop = im.crop(tuple(int(x) for x in box[1])) if box else im
-        e = clip([crop, crop.transpose(Image.FLIP_LEFT_RIGHT)])
-        view_p = (100 * e[0:1] @ vt.T).softmax(dim=-1)[0].tolist()
-        view = list(VIEWS)[max(range(len(view_p)), key=lambda i: view_p[i])]
-        s = (e @ ft.T).tolist()                       # [[left, right] original, [left, right] mirrored]
-        lr = (s[0][1] - s[0][0]) - (s[1][1] - s[1][0])  # > 0: front points right
-        d = 0
-        if box and view == "side" and abs(lr) > 0.004:
-            d = 1 if lr > 0 else -1
-        if not box:
-            view = "none" if view != "detail" else view
-        rec = {"v": view, "d": d}
+                    box = (area, bb)
+        tw, te = T[typ]
+        rec = {"v": "none", "d": 0}
         if box:
             x1, y1, x2, y2 = box[1]
+            bw, bh = x2 - x1, y2 - y1
+            whole = img([im.crop((int(x1), int(y1), int(x2), int(y2)))])
+            part = (100 * whole @ tw.T).softmax(dim=-1)[0, 1].item()
+            if part > 0.6:
+                rec["v"] = "detail"
+            else:
+                # which end is where: compare the left and the right part of the box against "front end" / "back end"
+                lft = im.crop((int(x1), int(y1), int(x1 + bw * .45), int(y2)))
+                rgt = im.crop((int(x2 - bw * .45), int(y1), int(x2), int(y2)))
+                e = img([lft, rgt]) @ te.T                       # rows: left, right; cols: front, back
+                lf, rf = (e[0, 0] - e[0, 1]).item(), (e[1, 0] - e[1, 1]).item()
+                if bw / bh > SIDE_RATIO[typ]:
+                    rec["v"] = "side"
+                    if abs(rf - lf) > 0.004:
+                        rec["d"] = 1 if rf > lf else -1
+                else:
+                    fb = (whole @ te.T)[0]
+                    rec["v"] = "front" if (fb[0] - fb[1]).item() > 0 else "rear"
+                rec["s"] = round(rf - lf, 4)
             bx = [round(x1 / W, 3), round(y1 / H, 3), round(x2 / W, 3), round(y2 / H, 3)]
             rec["b"] = bx
             for key, at in (("p43", 4 / 3), ("p11", 1.0)):
                 ww, wh = window(W / H, at)
-                rec[key] = [pos(bx[0], bx[2], ww, d), pos(bx[1], bx[3], wh, 0)]
+                rec[key] = [pos(bx[0], bx[2], ww, rec["d"]), pos(bx[1], bx[3], wh, 0)]
         data[p] = rec
         if a.sheet and len(sheet) < 60:
             sheet.append((im, rec))
@@ -137,7 +146,7 @@ def main():
                 lx = (1 - ww) * px / 100 * W; ly = (1 - wh) * py / 100 * H
                 dr.rectangle([lx, ly, lx + ww * W, ly + wh * H], outline=(255, 60, 60), width=3)
             dr.rectangle([0, 0, W, 22], fill=(0, 0, 0))
-            dr.text((4, 4), f"{rec['v']} d={rec['d']}", fill=(255, 255, 255))
+            dr.text((4, 4), f"{rec['v']} d={rec['d']} s={rec.get('s')}", fill=(255, 255, 255))
             tiles.append(t)
         cols = 6; rows = (len(tiles) + cols - 1) // cols
         out = Image.new("RGB", (cols * 400, rows * 400), (20, 20, 20))
