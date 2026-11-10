@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Catalog from "@/components/catalog/Catalog";
+import Catalog, { type Item } from "@/components/catalog/Catalog";
+import { facts } from "@/lib/lot-facts";
 import JsonLd from "@/components/JsonLd";
 import { LOTS, lotHref } from "@/lib/lots";
 import { SITE_URL } from "@/lib/site";
@@ -23,6 +24,9 @@ const LIST_LD = {
   itemListElement: LOTS.map((l, i) => ({ "@type": "ListItem", position: i + 1, url: `${SITE_URL}${lotHref(l)}`, name: l.name })),
 };
 
+/** Only what a card and the filters need: no post text. */
+const ITEMS: Item[] = LOTS.map((l) => ({ l: { ...l, body: [] }, f: facts(l) }));
+
 export default function CatalogPage() {
   return (
     <section className="catalog-page wrap" id="top" aria-label="Каталог">
@@ -33,7 +37,7 @@ export default function CatalogPage() {
           <div><h1 className="cat-h1">Мотоциклы и автомобили из Кореи</h1></div>
           <p className="lead">Это варианты, которые мы подбирали и публиковали в Telegram-канале. Конкретный экземпляр мог уже уйти к новому владельцу, но мы найдём аналогичный. Цены указаны на дату публикации и меняются вместе с курсом валют.</p>
         </div>
-        <Catalog />
+        <Catalog items={ITEMS} />
       </div>
     </section>
   );

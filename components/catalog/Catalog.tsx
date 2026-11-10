@@ -1,7 +1,8 @@
 "use client";
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
-import { LOTS, Lot, LotType, yawFor } from "@/lib/lots";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { Lot, LotType, yawFor } from "@/lib/lot-base";
+import type { Facts } from "@/lib/lot-facts";
 import { plural } from "@/lib/format";
 import LotCard from "./LotCard";
 import { CC_STEPS, MOTO_CLASSES, motoSpec } from "@/lib/moto-specs";
@@ -21,8 +22,17 @@ const KMS_MOTO = kmSteps([1000, 2000, 3000, 5000, 10000, 15000, 20000, 25000, 30
 const KMS_CAR = kmSteps([10000, 20000, 30000, 50000, 70000, 100000], 100000);
 const en = (a: string, b: string) => a.localeCompare(b, "en", { sensitivity: "base" });
 
-/** Catalog with filters. Brands, models and years are collected from the lots, so they grow with the Telegram channel. */
-export default function Catalog() {
+export type Item = { l: Lot; f: Facts };
+/** Cards rendered at first; more are added as the visitor scrolls (rendering all 400+ at once froze the page). */
+const STEP = 24;
+
+/** Catalog with filters. Brands, models and years are collected from the lots, so they grow with the Telegram channel.
+ *  The lots arrive as props from the server page, so the browser never downloads the full lots.json. */
+export default function Catalog({ items }: { items: Item[] }) {
+  const LOTS = useMemo(() => items.map((x) => x.l), [items]);
+  const factsOf = useMemo(() => new Map(items.map((x) => [x.l.id, x.f])), [items]);
+  const [shown, setShown] = useState(STEP);
+  const more = useRef<HTMLDivElement>(null);
   const [type, setType] = useState<T>("all");
   const [brand, setBrand] = useState("");
   const [model, setModel] = useState(""); // typed or picked model name
@@ -46,7 +56,7 @@ export default function Catalog() {
     if (b) setOpen(true);
   }, []);
 
-  const ofType = useMemo(() => LOTS.filter((l) => type === "all" || l.type === type), [type]);
+  const ofType = useMemo(() => LOTS.filter((l) => type === "all" || l.type === type), [LOTS, type]);
   const brandOk = (l: Lot) => !norm(brand) || norm(l.brand).includes(norm(brand));
   const brandOpts = useMemo<Opt[]>(() => [...new Set(ofType.map((l) => l.brand))].sort(en).map((b) => ({ value: b, label: b })), [ofType]);
   const modelOpts = useMemo<Opt[]>(() => {
@@ -56,7 +66,7 @@ export default function Catalog() {
     return bs.flatMap((b) => [...by[b]].sort((x, y) => x.localeCompare(y, "ru", { numeric: true }))
       .map((m) => ({ value: b + "|" + m, label: m, group: one ? undefined : b, brand: b })));
   }, [ofType, brand]); // eslint-disable-line react-hooks/exhaustive-deps
-  const years = useMemo(() => [...new Set(LOTS.map((l) => l.year))].sort((a, b) => b - a), []);
+  const years = useMemo(() => [...new Set(LOTS.map((l) => l.year))].sort((a, b) => b - a), [LOTS]);
 
   // mileage steps differ for motorcycles and cars
   const kms = type === "car" ? KMS_CAR : KMS_MOTO;
@@ -84,7 +94,18 @@ export default function Catalog() {
   const list = ofType.filter(pass).sort((a, b) =>
     sort === "new" ? b.date.localeCompare(a.date) || b.id - a.id : sort === "cheap" ? a.price - b.price : b.price - a.price);
   const active = [brand, model, yFrom || yTo, pFrom || pTo, km, cc, cls].filter(Boolean).length;
-  const clsCount = useMemo(() => { const c: Record<string, number> = {}; for (const l of LOTS) { const k = motoSpec(l).cls; if (k) c[k] = (c[k] || 0) + 1; } return c; }, []);
+  const clsCount = useMemo(() => { const c: Record<string, number> = {}; for (const l of LOTS) { const k = motoSpec(l).cls; if (k) c[k] = (c[k] || 0) + 1; } return c; }, [LOTS]);
+  // a new filter or sort starts from the top of the list again
+  const key = [type, brand, model, yFrom, yTo, pFrom, pTo, km, cc, cls, sort].join("|");
+  useEffect(() => { setShown(STEP); }, [key]);
+  // add the next cards shortly before the visitor reaches the end
+  useEffect(() => {
+    const el = more.current;
+    if (!el || shown >= list.length) return;
+    const io = new IntersectionObserver((es) => { if (es[0].isIntersecting) setShown((n) => n + STEP); }, { rootMargin: "1200px 0px" });
+    io.observe(el);
+    return () => io.disconnect();
+  }, [shown, list.length]);
   const reset = () => { setType("all"); setBrand(""); setModel(""); setYFrom(""); setYTo(""); setPFrom(""); setPTo(""); setKm(""); setCc(""); setCls(""); };
 
   return (
@@ -152,8 +173,13 @@ export default function Catalog() {
         <b>По этим параметрам ничего нет</b>Измените фильтры или оставьте заявку, и мы найдём такой вариант в Корее.
       </div>
       <div className="lots" id="cat-grid">
-        {list.map((l, i) => <LotCard key={l.id} lot={l} yaw={yawFor(l.id)} eager={i < 4} />)}
+        {list.slice(0, shown).map((l, i) => <LotCard key={l.id} lot={l} f={factsOf.get(l.id)!} yaw={yawFor(l.id)} eager={i < 4} />)}
       </div>
+      {shown < list.length && (
+        <div className="cat-more" ref={more}>
+          <button type="button" className="btn btn-ghost" onClick={() => setShown((n) => n + STEP)}>Показать ещё · {list.length - shown}</button>
+        </div>
+      )}
       <div className="cat-cta">
         <div><h3>Не нашли нужную модель?</h3><p>Подберём технику под ваш запрос: модель, год, пробег, цвет и бюджет.</p></div>
         <Link className="btn btn-primary arrow" data-magnetic="" href="/#contact">Оставить заявку</Link>

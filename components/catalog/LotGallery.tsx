@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import { asset } from "@/lib/site";
-import { hdSrc } from "@/lib/lots";
+import { hdSrc } from "@/lib/lot-base";
 import MiniCanvas from "../MiniCanvas";
 import Lightbox from "./Lightbox";
 import { landFly } from "../Motion";

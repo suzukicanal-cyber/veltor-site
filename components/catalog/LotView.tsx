@@ -2,7 +2,7 @@ import Link from "next/link";
 import { BodyLine, LOTS, Lot, likeLink, lotHref, similar, yawFor } from "@/lib/lots";
 import { dateLong, dateRu, groups, kmLabel, money } from "@/lib/format";
 import { PHONE, PHONE_HREF, SITE_URL, tgText } from "@/lib/site";
-import { facts } from "./MotoCard";
+import { facts } from "@/lib/lot-facts";
 import LotGallery from "./LotGallery";
 import LotCard from "./LotCard";
 import LikeButton from "./LikeButton";
@@ -125,7 +125,7 @@ function Similar({ l }: { l: Lot }) {
   return (
     <div className="lv-sim">
       <div className="lv-sim-h"><h2>Похожие варианты</h2><Link className="link arrow" href="/catalog/">Весь каталог</Link></div>
-      <div className="lots">{similar(l).map((x, i) => <LotCard key={x.id} lot={x} yaw={yawFor(i)} />)}</div>
+      <div className="lots">{similar(l).map((x, i) => <LotCard key={x.id} lot={x} f={facts(x)} yaw={yawFor(i)} />)}</div>
     </div>
   );
 }

@@ -1,0 +1,17 @@
+name: check-build
+on:
+  push:
+    branches-ignore: [main]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - run: npx tsc --noEmit
+      - run: npm run build
+      - name: Client JS size per route
+        run: du -sh out/_next/static/chunks; ls -S -l out/_next/static/chunks/*.js | head -8; ls -S -l out/_next/static/chunks/app/catalog/*.js 2>/dev/null | head

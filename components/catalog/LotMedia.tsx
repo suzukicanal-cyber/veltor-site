@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { drawMini } from "@/lib/cloud";
 import { asset } from "@/lib/site";
-import { hdSrc } from "@/lib/lots";
+import { hdSrc } from "@/lib/lot-base";
 import Lightbox from "./Lightbox";
 
 type Props = { hd?: boolean; photos: string[]; name: string; shape: "moto" | "car"; yaw: number; href: string; kind: string; eager?: boolean };

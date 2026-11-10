@@ -1,7 +1,7 @@
 // Engine displacement and class of motorcycles by model — for catalog filters.
 // Posts rarely mention the displacement, so it comes from this table; a value written in the post wins.
 // New models: add a line here (brand, pattern for the model, cc, class). Unknown models fall back to keywords.
-import type { Lot } from "./lots";
+import type { Lot } from "./lot-base";
 
 export const MOTO_CLASSES = [
   "Спортбайки",

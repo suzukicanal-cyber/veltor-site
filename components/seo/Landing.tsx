@@ -1,6 +1,7 @@
 import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
 import LotCard from "@/components/catalog/LotCard";
+import { facts } from "@/lib/lot-facts";
 import { Lot, lotHref, yawFor } from "@/lib/lots";
 import { SITE_URL, TG_DEFAULT } from "@/lib/site";
 
@@ -79,7 +80,7 @@ export default function Landing({ crumbs, eyebrow, h1, lead, text, chipsTitle, c
         )}
 
         <div className="lots seo-lots">
-          {lots.slice(0, show).map((l, i) => <LotCard key={l.id} lot={l} yaw={yawFor(i)} eager={i < 4} />)}
+          {lots.slice(0, show).map((l, i) => <LotCard key={l.id} lot={l} f={facts(l)} yaw={yawFor(i)} eager={i < 4} />)}
         </div>
         {lots.length > show && (
           <div className="seo-more"><Link className="btn btn-ghost arrow" href={moreHref}>{moreLabel}</Link></div>

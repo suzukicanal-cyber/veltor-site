@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { LINKS } from "@/lib/site";
 import { teaser, yawFor } from "@/lib/lots";
+import { facts } from "@/lib/lot-facts";
 import LotCard from "../catalog/LotCard";
 import SwipeHint from "../SwipeHint";
 
@@ -14,7 +15,7 @@ export default function Stock() {
           <p className="lead">Это варианты, которые мы подбирали и публиковали в Telegram-канале. Конкретный экземпляр мог уже уйти к новому владельцу, но мы найдём аналогичный. Цены указаны на дату публикации и меняются вместе с курсом валют.</p>
         </div>
         <div className="lots lots-teaser">
-          {teaser().map((l, i) => <LotCard key={l.id} lot={l} yaw={yawFor(i)} />)}
+          {teaser().map((l, i) => <LotCard key={l.id} lot={l} f={facts(l)} yaw={yawFor(i)} />)}
         </div>
         <SwipeHint target=".lots-teaser" />
         <div className="stock-foot">

@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { Lot, lotHref } from "@/lib/lots";
+import { Lot, lotHref } from "@/lib/lot-base";
 import { money } from "@/lib/format";
 import { SITE_URL, tgText } from "@/lib/site";
 
