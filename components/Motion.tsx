@@ -1,29 +1,14 @@
 "use client";
 import { useEffect } from "react";
-import { usePathname } from "next/navigation";
 
 /**
  * Site-wide motion (chosen by the owner 2026-11-09):
- *  1. section headings are lit up by a sweep of light when they scroll into view;
  *  5. a faint film grain over the dark background (CSS, html.grain);
  *  6. smooth wheel scrolling with inertia on computers;
  *  7. the card photo flies into the big photo of the lot page (catalog → lot).
  * Everything is off for people who ask the system for less motion.
  */
 export default function Motion() {
-  const path = usePathname();
-
-  // 1 — light sweep over headings, re-armed on every page
-  useEffect(() => {
-    if (matchMedia("(prefers-reduced-motion: reduce)").matches || !("IntersectionObserver" in window)) return;
-    const hs = [...document.querySelectorAll<HTMLElement>("main h2, .sec-head h2, .lv-h2, .pt-h2")].filter((h) => !h.closest(".lb,.qv,.lv-mbar"));
-    const io = new IntersectionObserver((es) => es.forEach((e) => {
-      if (e.isIntersecting) { e.target.classList.add("lr-go"); io.unobserve(e.target); }
-    }), { rootMargin: "0px 0px -15% 0px" });
-    hs.forEach((h) => { if (!h.classList.contains("lr-go")) { h.classList.add("lr"); io.observe(h); } });
-    return () => io.disconnect();
-  }, [path]);
-
   // 5 + 6 + 7 (click side) — once
   useEffect(() => {
     const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
