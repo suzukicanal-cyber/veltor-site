@@ -45,8 +45,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* fonts are served from this site (scripts/fetch_fonts.py): no requests to Google, so visitors' IPs stay in Russia */}
         {/* eslint-disable-next-line @next/next/no-page-custom-font, @next/next/no-css-tags */}
         <link rel="stylesheet" href={asset("fonts/fonts.css")} />
-        {/* display fonts used below the first screen arrive after the page has loaded (scripts/late_fonts.py) */}
-        <script dangerouslySetInnerHTML={{ __html: `addEventListener("load",function(){var l=document.createElement("link");l.rel="stylesheet";l.href=${JSON.stringify(asset("fonts/fonts-late.css"))};document.head.appendChild(l)})` }} />
+        {/* sections lay out in full before any jump to an #anchor, so it lands on the right spot (see main>.section in globals.css) */}
+        <script dangerouslySetInnerHTML={{ __html: `(function(){var d=document.documentElement,off=function(){d.classList.add("cv-off")};if(location.hash)off();addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a[href*='#']");if(a)off()},true)})()` }} />
+        {/* display fonts used below the first screen arrive after the page has loaded and the browser is idle (scripts/late_fonts.py) */}
+        <script dangerouslySetInnerHTML={{ __html: `addEventListener("load",function(){var go=function(){var l=document.createElement("link");l.rel="stylesheet";l.href=${JSON.stringify(asset("fonts/fonts-late.css"))};document.head.appendChild(l)};window.requestIdleCallback?requestIdleCallback(go,{timeout:2000}):setTimeout(go,300)})` }} />
         <JsonLd data={[ORG, {
           "@context": "https://schema.org", "@type": "WebSite", "@id": `${SITE_URL}/#website`,
           url: `${SITE_URL}/`, name: SITE_NAME, alternateName: "ВЕЛТОР", inLanguage: "ru-RU",

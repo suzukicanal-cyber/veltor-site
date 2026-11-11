@@ -146,6 +146,10 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 
 /* sections */
 .section{padding-block:clamp(80px,10vw,140px);scroll-margin-top:72px}
+/* home sections below the first screen skip layout until they near the viewport, so font swaps re-lay only what is seen */
+main>.section{content-visibility:auto;contain-intrinsic-size:auto 900px}
+/* jumps to #anchors need real heights above the target (app/layout.tsx sets the class) */
+.cv-off main>.section{content-visibility:visible}
 .sec-head{display:grid;gap:22px;margin-bottom:clamp(40px,6vw,72px)}
 .sec-head > div{display:grid;gap:18px}
 @media (min-width:900px){.sec-head{grid-template-columns:minmax(0,7fr) minmax(0,5fr);align-items:end}}
