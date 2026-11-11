@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title,
     description,
     alternates: { canonical: lotHref(l) },
-    openGraph: { type: "article", locale: "ru_RU", siteName: "VELTOR", url: lotHref(l), title, description, images: [{ url: asset(l.photos[0] || "feed/f0.jpg") }] },
+    openGraph: { type: "article", locale: "ru_RU", siteName: "VELTOR", url: lotHref(l), title, description, images: [{ url: asset(l.photos[0] || "og.jpg") }] },
   };
 }
 

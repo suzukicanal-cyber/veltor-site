@@ -33,7 +33,7 @@ function meta(path: string, title: string, description: string, image?: string):
     title,
     description,
     alternates: { canonical: path },
-    openGraph: { type: "website", locale: "ru_RU", siteName: "VELTOR", url: path, title, description, images: [{ url: asset(image || "feed/f0.jpg") }] },
+    openGraph: { type: "website", locale: "ru_RU", siteName: "VELTOR", url: path, title, description, images: [{ url: asset(image || "og.jpg") }] },
   };
 }
 

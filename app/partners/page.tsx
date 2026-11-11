@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     type: "website", locale: "ru_RU", siteName: "VELTOR", url: "/partners/",
     title: "Партнёрам — VELTOR",
     description: "Ищем партнёров в мото- и авто-теме. Подбор, осмотр, выкуп, доставка и документы — на нас. Условия под ваш объём.",
-    images: [{ url: "/feed/f0.jpg", width: 560, height: 420 }],
+    images: [{ url: "/og.jpg", width: 1200, height: 630 }],
   },
 };
 
