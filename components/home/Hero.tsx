@@ -12,6 +12,21 @@ export default function Hero() {
   const setShapeRef = useRef<(i: number) => void>(() => {});
 
   useEffect(() => {
+    // the scan starts once the page has loaded and the browser is idle, so building and drawing the cloud
+    // does not compete with the first paint and hydration
+    let stop: (() => void) | null = null, idleId = 0, dead = false;
+    const begin = () => { if (!dead) stop = start(); };
+    const ric = typeof requestIdleCallback === "function";
+    const whenIdle = () => { idleId = ric ? requestIdleCallback(begin, { timeout: 1500 }) : window.setTimeout(begin, 200); };
+    if (document.readyState === "complete") whenIdle(); else addEventListener("load", whenIdle, { once: true });
+    return () => {
+      dead = true; removeEventListener("load", whenIdle);
+      if (ric) cancelIdleCallback(idleId); else clearTimeout(idleId);
+      stop?.();
+    };
+  }, []);
+
+  function start() {
     const hero = heroRef.current!, cv = cvRef.current!, hud = hudRef.current!, angleEl = angleRef.current!;
     const ctx = cv.getContext("2d")!;
     const reduce = prefersReduced();
@@ -148,7 +163,7 @@ export default function Hero() {
       hero.removeEventListener("pointermove", move); hero.removeEventListener("pointerdown", down);
       hero.removeEventListener("pointerup", endDrag); hero.removeEventListener("pointercancel", endDrag); hero.removeEventListener("pointerleave", leave);
     };
-  }, []);
+  }
 
   return (
     <section className="hero" id="top" data-cursor="Вращайте" ref={heroRef}>
