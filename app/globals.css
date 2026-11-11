@@ -1,4 +1,10 @@
 /* "Unbounded Outline" and the rest of Unbounded are declared in public/fonts/fonts-late.css (scripts/late_fonts.py) */
+/* system fonts sized to the site's fonts, so text does not jump when they swap in (scripts/fallback_metrics.py) */
+@font-face{font-family:"Wix Madefor Text Arial";src:local("Arial");size-adjust:102.62%;ascent-override:98.23%;descent-override:24.56%;line-gap-override:0%}
+@font-face{font-family:"Wix Madefor Text Roboto";src:local("Roboto");size-adjust:100.89%;ascent-override:99.91%;descent-override:24.98%;line-gap-override:0%}
+@font-face{font-family:"Wix Madefor Display Arial";src:local("Arial");size-adjust:104.04%;ascent-override:96.89%;descent-override:24.22%;line-gap-override:0%}
+@font-face{font-family:"Wix Madefor Display Roboto";src:local("Roboto");size-adjust:102.29%;ascent-override:98.55%;descent-override:24.64%;line-gap-override:0%}
+@font-face{font-family:"IBM Plex Mono Consolas";src:local("Consolas");size-adjust:109.13%;ascent-override:93.92%;descent-override:25.20%;line-gap-override:0%}
 :root{
   /* Layout: ночной шоурум — первый экран с 3D-сканом техники, который вращается за курсором; дальше спокойная сетка с воздухом, характеристики набраны моноширинным */
   --ink:#0A0B0D;
@@ -16,9 +22,9 @@
   --xenon-a:rgba(207,224,255,.32);
   --tail:#FF4B3E;
   --f-wide:"Unbounded","Arial Black",Arial,sans-serif;
-  --f-head:"Wix Madefor Display","Helvetica Neue",Arial,sans-serif;
-  --f-text:"Wix Madefor Text","Helvetica Neue",Arial,sans-serif;
-  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  --f-head:"Wix Madefor Display","Wix Madefor Display Arial","Wix Madefor Display Roboto","Helvetica Neue",Arial,sans-serif;
+  --f-text:"Wix Madefor Text","Wix Madefor Text Arial","Wix Madefor Text Roboto","Helvetica Neue",Arial,sans-serif;
+  --f-mono:"IBM Plex Mono","IBM Plex Mono Consolas",ui-monospace,Menlo,Consolas,monospace;
   --ease:cubic-bezier(.2,.7,.2,1);
   color-scheme:dark;
 }
@@ -105,8 +111,9 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .meta-row{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font:500 11px/1.4 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 .foot-row{display:flex;justify-content:space-between;align-items:flex-end;gap:32px}
 .hero-copy{max-width:600px;display:grid;gap:18px}
-.hero-copy .h1-look{color:var(--fg);font:500 clamp(30px,3.4vw,50px)/1.05 var(--f-head);letter-spacing:-.025em;text-wrap:balance;max-width:17ch}
-.hero-copy p{color:var(--muted);max-width:46ch}
+.hero-copy .h1-look{color:var(--fg);font:500 clamp(30px,3.4vw,50px)/1.05 var(--f-head);letter-spacing:-.025em;text-wrap:balance;max-width:11.03em}
+.hero-copy p{color:var(--muted);max-width:29.44em}
+/* 17ch and 46ch of the site's fonts written in em: ch follows whatever font is drawn, so a fallback font re-wrapped the heading */
 .ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px}
 .hero-ctrl{display:grid;gap:14px;justify-items:end;text-align:right;flex-shrink:0}
 .seg{display:inline-flex;padding:3px;border:1px solid var(--line-2);border-radius:5px;background:var(--glass);backdrop-filter:blur(10px)}
