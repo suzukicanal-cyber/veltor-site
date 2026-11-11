@@ -34,3 +34,6 @@ for subset, block in blocks:
 with open(os.path.join(OUT, "fonts.css"), "w", encoding="utf-8") as f:
     f.write("\n".join(out) + "\n")
 print("font files:", n)
+
+import rub_subset  # ₽ in its own ~1 KB files, so prices no longer pull in the whole latin-ext subset
+rub_subset.main()
