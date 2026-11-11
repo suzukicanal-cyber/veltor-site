@@ -1,24 +1,34 @@
 import raw from "@/data/lots.json";
 import redirectsRaw from "@/data/redirects.json";
 import focusRaw from "@/data/focus.json";
+import mainRaw from "@/data/main-photo.json";
 import { motoSpec } from "./moto-specs";
 import type { Lot } from "./lot-base";
 
 export * from "./lot-base";
 
-type Focus = { v: string; d: number; fb?: number; p43?: number[]; p11?: number[] };
+type Focus = { v: string; d: number; fb?: number; b?: number[]; p43?: number[]; p11?: number[] };
 const FOCUS = focusRaw as Record<string, Focus>;
 const SHOWS_FRONT = new Set(["side", "front"]);
-/** a main photo that hides the front: a close-up, a car interior (no car found on it), or a clear view from behind */
+/** share of the photo taken by the vehicle; a small one is a picture on a booklet, a key fob or a far-away shot */
+const area = (f?: Focus) => (f?.b ? (f.b[2] - f.b[0]) * (f.b[3] - f.b[1]) : 0);
+/** a main photo that hides the front: a close-up, a car interior (no car found on it), a clear view from behind,
+ *  or a vehicle too small to be the subject (e.g. the bike pictured on a service book) */
 const hidesFront = (f: Focus | undefined, type: string) =>
-  !!f && (f.v === "detail" || (f.v === "none" && type === "car") || (f.v === "rear" && (f.fb ?? 0) < -0.03));
+  !!f && (f.v === "detail" || (f.v === "none" && type === "car") || (f.v === "rear" && (f.fb ?? 0) < -0.03) || (!!f.b && area(f) < 0.12));
+const goodMain = (f?: Focus) => !!f && SHOWS_FRONT.has(f.v) && area(f) >= 0.12;
+/** manual picks: { "9273": 2 } puts photo №2 of lot 9273 first (when the automatic choice is wrong) */
+const MAIN = mainRaw as Record<string, number>;
 
 /** The main photo must show the vehicle's front: if the first one is a rear view or a detail shot,
  *  the first side / front view goes first. Each photo also gets its crop position (scripts/focus.py). */
 function framed(l: Lot): Lot {
   let photos = l.photos;
-  if (hidesFront(FOCUS[photos[0]], l.type)) {
-    const i = photos.findIndex((p) => SHOWS_FRONT.has(FOCUS[p]?.v));
+  const pick = MAIN[String(l.id)];
+  if (pick && pick > 1 && pick <= photos.length) {
+    photos = [photos[pick - 1], ...photos.slice(0, pick - 1), ...photos.slice(pick)];
+  } else if (hidesFront(FOCUS[photos[0]], l.type)) {
+    const i = photos.findIndex((p) => goodMain(FOCUS[p]));
     if (i > 0) photos = [photos[i], ...photos.slice(0, i), ...photos.slice(i + 1)];
   }
   const focus = photos.map((p) => { const f = FOCUS[p]; return f?.p43 && f.p11 ? [...f.p43, ...f.p11] : null; });
