@@ -975,7 +975,8 @@ html.lb-lock{overflow:hidden}
 .pt-marq{background:var(--fg);color:var(--ink);padding:22px 0;overflow:hidden;white-space:nowrap}
 .pt-marq-in{display:inline-flex;animation:pt-marq 30s linear infinite}
 .pt-marq span{display:inline-flex;gap:40px;padding-right:40px;font:300 26px/1 var(--f-wide);letter-spacing:-.01em}
-.pt-marq i{font-style:normal;color:var(--tail)}
+.pt-marq i{font-style:normal;color:var(--tail);display:inline-flex;align-items:center;font-size:.8em}
+.pt-marq i svg{width:1em;height:1em;flex:none}
 @keyframes pt-marq{to{transform:translateX(-50%)}}
 
 .pt-sec{padding-block:clamp(80px,9vw,120px)}

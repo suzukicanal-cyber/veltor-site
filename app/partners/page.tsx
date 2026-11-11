@@ -46,6 +46,11 @@ const STEPS: [string, string][] = [
   ["Первая сделка", "Подбираем, проверяем и привозим первую единицу."],
 ];
 
+/** Eight-ray star drawn as SVG: the ✳ character turns into a green emoji on iPhone and Android. */
+const Star = () => (
+  <svg viewBox="0 0 24 24" width="1em" height="1em" aria-hidden="true"><g stroke="currentColor" strokeWidth="2.6" strokeLinecap="round"><path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M18.4 5.6 5.6 18.4" /></g></svg>
+);
+
 const MARQUEE = ["Подбор в Корее", "Живой осмотр", "Выкуп", "Доставка в любой город", "СБКТС и ЭПТС", "Отчёт на каждом этапе"];
 
 export default function PartnersPage() {
@@ -76,7 +81,7 @@ export default function PartnersPage() {
 
       <div className="pt-marq" aria-hidden="true">
         <div className="pt-marq-in">
-          {[0, 1].map((k) => MARQUEE.map((m) => (<span key={k + m}>{m}<i>✳</i></span>)))}
+          {[0, 1].map((k) => MARQUEE.map((m) => (<span key={k + m}>{m}<i><Star /></i></span>)))}
         </div>
       </div>
 
