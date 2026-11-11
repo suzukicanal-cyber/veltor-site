@@ -123,14 +123,16 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/9256",
   "parser": 3,
-  "orig": true
+  "orig": true,
+  "hd": true,
+  "hdv": 2
  },
  {
   "id": 9251,
   "slug": "bmw-m-1000-rr-full-carbon-2023-9251",
   "type": "moto",
   "brand": "BMW",
-  "model": "M 1000 RR",
+  "model": "M 1000 RR Full Carbon",
   "name": "BMW M 1000 RR Full Carbon",
   "raw": "BMW M1000RR Full Carbon",
   "year": 2023,
@@ -161,7 +163,9 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/9251",
   "parser": 3,
-  "orig": true
+  "orig": true,
+  "hd": true,
+  "hdv": 2
  },
  {
   "id": 9247,
@@ -279,7 +283,9 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/9239",
   "parser": 3,
-  "orig": true
+  "orig": true,
+  "hd": true,
+  "hdv": 2
  },
  {
   "id": 9235,
@@ -317,7 +323,9 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/9235",
   "parser": 3,
-  "orig": true
+  "orig": true,
+  "hd": true,
+  "hdv": 2
  },
  {
   "id": 9231,
