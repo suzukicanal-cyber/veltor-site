@@ -49,7 +49,7 @@ export default function Reels({ children }: { children: React.ReactNode }) {
       </div>
       <div className="ig-reel">
         <video
-          ref={vRef} className="ph-video" src={asset(REELS[0].src)} poster={asset(REELS[0].poster)} muted playsInline autoPlay preload="metadata"
+          ref={vRef} className="ph-video" src={asset(REELS[0].src)} poster={asset(REELS[0].poster)} muted playsInline preload="none"
           onClick={toggleSound}
           onTimeUpdate={(e) => { const v = e.currentTarget; if (v.duration) setProg(v.currentTime / v.duration); }}
           onEnded={() => load((st.current.cur + 1) % REELS.length, st.current.visible)}
