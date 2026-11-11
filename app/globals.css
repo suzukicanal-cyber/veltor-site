@@ -1,5 +1,4 @@
-/* Unbounded 300 with merged contours: outlined words (text-stroke) show no seams inside letters (scripts/make_outline_font.py) */
-@font-face{font-family:"Unbounded Outline";src:url("/fonts/unbounded-300-outline.woff2") format("woff2");font-weight:300;font-display:swap}
+/* "Unbounded Outline" and the rest of Unbounded are declared in public/fonts/fonts-late.css (scripts/late_fonts.py) */
 :root{
   /* Layout: ночной шоурум — первый экран с 3D-сканом техники, который вращается за курсором; дальше спокойная сетка с воздухом, характеристики набраны моноширинным */
   --ink:#0A0B0D;

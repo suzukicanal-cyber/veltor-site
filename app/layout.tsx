@@ -45,6 +45,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* fonts are served from this site (scripts/fetch_fonts.py): no requests to Google, so visitors' IPs stay in Russia */}
         {/* eslint-disable-next-line @next/next/no-page-custom-font, @next/next/no-css-tags */}
         <link rel="stylesheet" href={asset("fonts/fonts.css")} />
+        {/* display fonts used below the first screen arrive after the page has loaded (scripts/late_fonts.py) */}
+        <script dangerouslySetInnerHTML={{ __html: `addEventListener("load",function(){var l=document.createElement("link");l.rel="stylesheet";l.href=${JSON.stringify(asset("fonts/fonts-late.css"))};document.head.appendChild(l)})` }} />
         <JsonLd data={[ORG, {
           "@context": "https://schema.org", "@type": "WebSite", "@id": `${SITE_URL}/#website`,
           url: `${SITE_URL}/`, name: SITE_NAME, alternateName: "ВЕЛТОР", inLanguage: "ru-RU",
