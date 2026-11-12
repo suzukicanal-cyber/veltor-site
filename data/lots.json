@@ -1,5 +1,41 @@
 [
  {
+  "id": 9351,
+  "slug": "bmw-m-1000-xr-2026-9351",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "M 1000 XR",
+  "name": "BMW M 1000 XR",
+  "raw": "BMW M1000XR",
+  "year": 2026,
+  "km": 930,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2804000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-12T12:50:20+00:00",
+  "features": [],
+  "body": [
+   {
+    "k": "p",
+    "t": "Новый BMW M1000XR 2026 года с пробегом всего 930 km. Мотоцикл в идеальном состоянии: без ДТП и даже без мелких царапин. По запросу можно установить дополнительные опции"
+   }
+  ],
+  "photos": [
+   "catalog/9351/1.jpg",
+   "catalog/9351/2.jpg",
+   "catalog/9351/3.jpg",
+   "catalog/9351/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/9351",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
   "id": 9347,
   "slug": "kawasaki-versys-1000-se-2020-9347",
   "type": "moto",
@@ -217,7 +253,9 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/9331",
   "parser": 3,
-  "orig": true
+  "orig": true,
+  "hd": true,
+  "hdv": 2
  },
  {
   "id": 9322,
@@ -642,7 +680,9 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/9304",
   "parser": 3,
-  "orig": true
+  "orig": true,
+  "hd": true,
+  "hdv": 2
  },
  {
   "id": 9296,
@@ -9515,50 +9555,6 @@
    "catalog/8652/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/8652",
-  "parser": 3,
-  "orig": true,
-  "hd": true,
-  "hdv": 2
- },
- {
-  "id": 8648,
-  "slug": "bmw-m-1000-xr-2026-8648",
-  "type": "moto",
-  "brand": "BMW",
-  "model": "M 1000 XR",
-  "name": "BMW M 1000 XR",
-  "raw": "BMW M1000XR",
-  "year": 2026,
-  "km": 930,
-  "volume": "999 см³",
-  "power": null,
-  "drive": null,
-  "gearbox": null,
-  "price": 2822000,
-  "priceLabel": "под ключ",
-  "date": "2026-11-01T23:44:23+00:00",
-  "features": [
-   "Без ДТП и завалов",
-   "В отличном состоянии",
-   "Мотоцикл находится в мотосалоне"
-  ],
-  "body": [
-   {
-    "k": "li",
-    "t": "Практически новый BMW M 1000 XR с минимальным пробегом. Без ДТП и завалов, в отличном состоянии"
-   },
-   {
-    "k": "li",
-    "t": "Мотоцикл находится в мотосалоне"
-   }
-  ],
-  "photos": [
-   "catalog/8648/1.jpg",
-   "catalog/8648/2.jpg",
-   "catalog/8648/3.jpg",
-   "catalog/8648/4.jpg"
-  ],
-  "post": "https://t.me/koreamotocycles_veltor/8/8648",
   "parser": 3,
   "orig": true,
   "hd": true,
