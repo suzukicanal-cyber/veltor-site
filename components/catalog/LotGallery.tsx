@@ -29,9 +29,15 @@ export default function LotGallery({ photos, name, shape, hd }: { photos: string
     else if (im && im.complete) setWarm(true);
   }, []);
 
+  // keep the current thumbnail centred in its strip; only the strip scrolls (scrollIntoView also scrolled the page
+  // down to the strip on load when it sat below the fold), and nothing moves until the photo is changed
+  const moved = useRef(false);
   useEffect(() => {
-    const t = thumbs.current?.children[i] as HTMLElement | undefined;
-    t?.scrollIntoView({ block: "nearest", inline: "center", behavior: "smooth" });
+    const box = thumbs.current, t = box?.children[i] as HTMLElement | undefined;
+    if (!moved.current) { moved.current = true; return; }
+    if (!box || !t) return;
+    const b = box.getBoundingClientRect(), r = t.getBoundingClientRect();
+    box.scrollTo({ left: box.scrollLeft + r.left - b.left - (b.width - r.width) / 2, behavior: "smooth" });
   }, [i]);
 
   if (!n || broken) return <div className="lp-stage lp-empty"><MiniCanvas shape={shape} yaw={0.6} /></div>;
