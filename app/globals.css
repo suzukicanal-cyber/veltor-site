@@ -1074,6 +1074,8 @@ html.lb-lock{overflow:hidden}
 .rs4 .rs-ig .rs-ic{border:0}
 /* team: Instagram of each partner over the photo */
 .tm-ig{position:absolute;left:clamp(14px,1.6vw,20px);top:clamp(14px,1.6vw,20px);z-index:3;display:inline-flex;align-items:center;gap:10px;max-width:calc(100% - 28px);padding:9px 14px;border-radius:999px;background:rgba(10,11,13,.62);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.18);color:#fff;text-decoration:none;font:500 13px/1 var(--f-head);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:background .3s,border-color .3s,transform .35s var(--ease)}
+.tm-ig-arr{margin-left:-2px;opacity:.7;transition:transform .25s,opacity .25s}
+.tm-ig:hover .tm-ig-arr{opacity:1;transform:translate(2px,-2px)}
 .tm-ig:hover{background:rgba(10,11,13,.85);border-color:#fff;transform:translateY(-2px)}
 
 /* ---------- contact business card: the team on call ---------- */
