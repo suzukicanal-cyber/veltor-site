@@ -6,10 +6,13 @@ import MiniCanvas from "../MiniCanvas";
 import Lightbox from "./Lightbox";
 import { landFly } from "../Motion";
 
-/** Lot page gallery: large photo, arrows / keys / swipe, thumbnails. Falls back to the point-cloud preview. */
+/** Lot page gallery: large photo, arrows / keys / swipe, thumbnails. Falls back to the point-cloud preview.
+ *  The first photo loads alone and first; the others and the thumbnails follow once it is in (they sat in the same
+ *  spot, so lazy loading did not hold them back, and all of them competed with the photo people came for). */
 export default function LotGallery({ photos, name, shape, hd }: { photos: string[]; name: string; shape: "moto" | "car"; hd?: boolean }) {
   const n = photos.length;
   const [i, setI] = useState(0);
+  const [warm, setWarm] = useState(false);
   const [broken, setBroken] = useState(false);
   const [lb, setLb] = useState(false);
   const x0 = useRef<number | null>(null);
@@ -23,6 +26,7 @@ export default function LotGallery({ photos, name, shape, hd }: { photos: string
   useEffect(() => {
     const im = first.current;
     if (im && im.complete && im.naturalWidth === 0) setBroken(true);
+    else if (im && im.complete) setWarm(true);
   }, []);
 
   useEffect(() => {
@@ -40,9 +44,10 @@ export default function LotGallery({ photos, name, shape, hd }: { photos: string
         onPointerUp={(e) => { const moved = x0.current !== null && Math.abs(e.clientX - x0.current) > 40; if (moved) go(e.clientX < x0.current! ? 1 : -1); else if ((e.target as Element).tagName === "IMG") setLb(true); x0.current = null; }}
         data-cursor="Открыть фото"
       >
-        {photos.map((p, k) => (
+        {photos.map((p, k) => (k === 0 || k === i || warm) && (
           <img key={p} ref={k === 0 ? first : undefined} src={asset(hd ? hdSrc(p) : p)} alt={`${name} из Южной Кореи — фото ${k + 1} из ${n}`} className={k === i ? "on" : undefined}
-            loading={k === 0 ? "eager" : "lazy"} decoding="async" draggable={false} onError={k === 0 ? () => setBroken(true) : undefined} />
+            loading={k === 0 ? "eager" : "lazy"} fetchPriority={k === 0 ? "high" : undefined} decoding="async" draggable={false}
+            onLoad={k === 0 ? () => setWarm(true) : undefined} onError={k === 0 ? () => setBroken(true) : undefined} />
         ))}
         {n > 1 && <>
           <button type="button" className="lp-arr prev" aria-label="Предыдущее фото" onClick={() => go(-1)}>←</button>
@@ -54,7 +59,7 @@ export default function LotGallery({ photos, name, shape, hd }: { photos: string
         <div className="lp-thumbs" ref={thumbs}>
           {photos.map((p, k) => (
             <button key={p} type="button" className={k === i ? "on" : undefined} aria-label={`Фото ${k + 1}`} aria-pressed={k === i} onClick={() => setI(k)}>
-              <img src={asset(p)} alt="" loading="lazy" decoding="async" />
+              {warm && <img src={asset(p)} alt="" loading="lazy" decoding="async" />}
             </button>
           ))}
         </div>
