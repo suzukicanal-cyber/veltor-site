@@ -20,9 +20,21 @@ export default function Metrika() {
     const ym: Ym = function (...args: unknown[]) { (ym.a = ym.a || []).push(args); } as Ym;
     ym.l = Date.now();
     w.ym = ym;
-    const s = document.createElement("script");
-    s.async = true; s.src = `https://mc.yandex.ru/metrika/tag.js?id=${METRIKA_ID}`;
-    document.head.appendChild(s);
+    // the counter script (~300 ms of work on a mid phone) starts at the visitor's first action or after 5 s,
+    // not while the page is still getting ready (chosen by the owner 2026-11-12); calls made before it wait in ym.a
+    let started = false, timer = 0;
+    // only things a person does: page scripts scroll too, so "scroll" would start it on its own
+    const acts = ["pointerdown", "pointermove", "keydown", "touchstart", "wheel"] as const;
+    const start = () => {
+      if (started) return;
+      started = true; clearTimeout(timer);
+      acts.forEach((a) => removeEventListener(a, start));
+      const s = document.createElement("script");
+      s.async = true; s.src = `https://mc.yandex.ru/metrika/tag.js?id=${METRIKA_ID}`;
+      document.head.appendChild(s);
+    };
+    acts.forEach((a) => addEventListener(a, start, { passive: true }));
+    timer = window.setTimeout(start, 5000);
     ym(METRIKA_ID, "init", { ssr: true, webvisor: true, clickmap: true, ecommerce: "dataLayer", accurateTrackBounce: true, trackLinks: true });
 
     const onClick = (e: MouseEvent) => {
@@ -33,7 +45,7 @@ export default function Metrika() {
       else if (/^https:\/\/t\.me\/veltor_kor/i.test(href)) window.ym(METRIKA_ID, "reachGoal", "tg_click");
     };
     document.addEventListener("click", onClick, true);
-    return () => document.removeEventListener("click", onClick, true);
+    return () => { document.removeEventListener("click", onClick, true); clearTimeout(timer); acts.forEach((a) => removeEventListener(a, start)); };
   }, []);
 
   // page views when moving between pages without reload
