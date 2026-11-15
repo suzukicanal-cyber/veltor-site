@@ -1,5 +1,87 @@
 [
  {
+  "id": 9555,
+  "slug": "bmw-s-1000-r-2026-9555",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 R",
+  "name": "BMW S 1000 R",
+  "raw": "BMW S1000R",
+  "year": 2026,
+  "km": 5300,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1865000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-15T12:46:57+00:00",
+  "features": [
+   "Без ДТП",
+   "Падений и скользячек",
+   "Оригинальная защита радиатора BMW"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Без ДТП, падений и скользячек. Богатый дополнительный тюнинг: выхлоп SC Project Slip-on двухканальный видеорегистратор G-Net G1, оригинальная защита радиатора BMW, оригинальная защита двигателя GB Racing, слайдеры рамы, вилки и маятника Evotech, оригинальный буксировочный болт BMW, USB Type-C Komine, оригинальное ветровое стекло BMW, накладки Eazi-Grip на бак и колени. На глянцевые чёрные элементы и светотехнику нанесена защитная плёнка PPF, экран также защищён плёнкой."
+   }
+  ],
+  "photos": [
+   "catalog/9555/1.jpg",
+   "catalog/9555/2.jpg",
+   "catalog/9555/3.jpg",
+   "catalog/9555/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/9555",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 9551,
+  "slug": "bmw-s-1000-rr-m-package-2024-9551",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR M Package",
+  "raw": "BMW S1000RR M Package",
+  "year": 2024,
+  "km": 4000,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2126000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-15T12:42:53+00:00",
+  "features": [
+   "Без ДТП",
+   "Падений и скользячек",
+   "M Brake"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Без ДТП, падений и скользячек"
+   },
+   {
+    "k": "p",
+    "t": "Богатая комплектация с большим количеством оригинальных M-компонентов и дополнительного тюнинга. Установлены оригинальные M Carbon Wheels, M Brake, M Carbon Tank Cover, заднее карбоновое крыло, M подножки, оригинальные M-рычаги и защитные элементы с обеих сторон, M-сиденье (в комплекте также обычное комфортное сиденье), задняя крышка-соло (оригинальное пассажирское сиденье также отдают). Дополнительно: тонированное ветровое стекло WRS, регулируемый эмулятор Hilltech, слайдеры рамы PUIG, слайдер заднего маятника, защитные крышки двигателя GB Racing, накладки EasyGrip для коленей, оригинальные заглушки ниппелей BMW. Установлен оригинальный выхлоп SC Project CRT Slip-on, включая эмулятор, документы о легализации и полный комплект. Двухканальный видеорегистратор (у передней камеры повреждена линза, запись работает). Крепление для телефона с виброгасителем, оригинальная сумка на бак BMW Motorrad. На пробеге 3’500 km заменены моторное масло и фильтр. Заводская гарантия BMW до мая 2027 года. Заправлялся исключительно высокооктановым бензином, хранился в подземном паркинге, под дождём не эксплуатировался. Основной тюнинг уже выполнен, остаток ресурса шин большой."
+   }
+  ],
+  "photos": [
+   "catalog/9551/1.jpg",
+   "catalog/9551/2.jpg",
+   "catalog/9551/3.jpg",
+   "catalog/9551/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/9551",
+  "parser": 3,
+  "orig": true
+ },
+ {
   "id": 9546,
   "slug": "harley-davidson-breakout-117-2024-9546",
   "type": "moto",
@@ -44,7 +126,7 @@
   "slug": "harley-davidson-road-glide-special-2023-9542",
   "type": "moto",
   "brand": "Harley-Davidson",
-  "model": "Road Glide",
+  "model": "Road Glide Special",
   "name": "Harley-Davidson Road Glide Special",
   "raw": "Harley-Davidson Road Glide Special",
   "year": 2023,
@@ -86,7 +168,7 @@
   "slug": "kawasaki-z-h2-supercharged-2020-9538",
   "type": "moto",
   "brand": "Kawasaki",
-  "model": "Z H2",
+  "model": "Z H2 Supercharged",
   "name": "Kawasaki Z H2 Supercharged",
   "raw": "Kawasaki Z H2 Supercharged",
   "year": 2020,
@@ -124,7 +206,7 @@
   "slug": "kawasaki-ninja-1000sx-z1000sx-2021-9534",
   "type": "moto",
   "brand": "Kawasaki",
-  "model": "Ninja 1000SX",
+  "model": "Ninja 1000SX (Z1000SX)",
   "name": "Kawasaki Ninja 1000SX (Z1000SX)",
   "raw": "Kawasaki Ninja 1000SX (Z1000SX)",
   "year": 2021,
@@ -162,7 +244,7 @@
   "slug": "honda-cb1000r-neo-sports-caf-2019-9530",
   "type": "moto",
   "brand": "Honda",
-  "model": "CB1000R",
+  "model": "CB1000R Neo Sports Café",
   "name": "Honda CB1000R Neo Sports Café",
   "raw": "Honda CB1000R Neo Sports Café",
   "year": 2019,
