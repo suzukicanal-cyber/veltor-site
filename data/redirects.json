@@ -18,7 +18,7 @@
  "bmw-m-1000-r-2026-7246": "bmw-m-1000-r-2026-7373",
  "bmw-m-1000-r-2025-6609": "bmw-m-1000-r-2025-6702",
  "ducati-diavel-v4-2024-8260": "ducati-diavel-v4-2024-8389",
- "bmw-m-1000-r-2025-7052": "bmw-m-1000-r-2025-8432",
+ "bmw-m-1000-r-2025-7052": "bmw-m-1000-r-2025-9672",
  "bmw-s-1000-rr-m-package-2025-8421": "bmw-s-1000-rr-m-package-2025-9368",
  "yamaha-yzf-r9-2026-7896": "yamaha-yzf-r9-2026-8468",
  "harley-davidson-softail-slim-107-2020-8627": "harley-davidson-softail-slim-107-2020-8631",
@@ -43,7 +43,7 @@
  "bmw-s-1000-rr-race-package-2022-7713": "bmw-s-1000-rr-race-pack-2022-8907",
  "bmw-s-1000-rr-m-package-2025-7387": "bmw-s-1000-rr-2025-7872",
  "bmw-s-1000-rr-2026-7260": "bmw-s-1000-rr-m-package-2026-8039",
- "bmw-s-1000-r-2026-6850": "bmw-s-1000-r-m-package-2026-8337",
+ "bmw-s-1000-r-2026-6850": "bmw-s-1000-r-m-package-2026-9661",
  "bmw-s-1000-rr-2025-6782": "bmw-s-1000-rr-race-package-2025-8178",
  "bmw-s-1000-rr-m-2024-6755": "bmw-s-1000-rr-2024-6767",
  "bmw-s-1000-r-mpack-2024-6651": "bmw-s-1000-r-m-package-2024-9372",
@@ -64,5 +64,7 @@
  "mercedes-benz-glb-200-d-2022-7279": "mercedes-benz-glb-200-d-2022-9623",
  "bmw-s-1000-rr-m-package-2023-7381": "bmw-s-1000-rr-m-package-2023-9619",
  "bmw-s-1000-rr-2022-8758": "bmw-s-1000-rr-2022-9648",
- "ducati-diavel-1260s-2022-6910": "ducati-diavel-1260-s-2022-9640"
+ "ducati-diavel-1260s-2022-6910": "ducati-diavel-1260-s-2022-9640",
+ "bmw-m-1000-r-2025-8432": "bmw-m-1000-r-2025-9672",
+ "bmw-s-1000-r-m-package-2026-8337": "bmw-s-1000-r-m-package-2026-9661"
 }
