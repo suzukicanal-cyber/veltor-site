@@ -1,8 +1,18 @@
+# Используется только при ручной сборке образа (docker build). Сервер с 16.11.2026 образ не собирает:
+# см. deploy/update-docker.sh и compose.static.yaml. Папку data исключать нельзя — из неё строятся все страницы.
 node_modules
 .next
 out
+www
 .git
+.github
 .env*
 *.tsbuildinfo
+*.log
 .DS_Store
+hdout
 scripts/models
+__pycache__
+.deployed
+.indexnow-init
+.images-pulled

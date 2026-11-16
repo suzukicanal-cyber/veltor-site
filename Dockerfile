@@ -1,3 +1,6 @@
+# Ручная сборка образа (например, для запуска сайта на другом сервере).
+# Рабочий сервер этот файл не использует: сайт собирается без docker build (deploy/update-docker.sh).
+# Зависимости ставятся до копирования исходников, чтобы слой npm ci брался из кэша.
 FROM node:22-alpine AS build
 WORKDIR /app
 ENV NEXT_TELEMETRY_DISABLED=1

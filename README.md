@@ -24,7 +24,7 @@
 ```
 Telegram-группа ──(каждые 2 ч, GitHub Actions)──► репозиторий veltor-site: data/lots.json + public/catalog/
                                                          │
-                         сервер 213.159.209.117 ◄──(cron каждые 30 мин: git pull + docker build)
+                         сервер 213.159.209.117 ◄──(cron каждые 30 мин: git pull + сборка в одноразовом контейнере node → www/html, без docker build)
                          Docker: web (nginx со статикой) + caddy (HTTPS) → https://veltormotokorea.ru
 ```
 С российского сервера Telegram недоступен, поэтому посты и фото собирает GitHub Actions
@@ -38,7 +38,7 @@ Telegram-группа ──(каждые 2 ч, GitHub Actions)──► реп�
 | автообновление | `/etc/cron.d/veltor` → `deploy/update-docker.sh`, журнал `/var/log/veltor-update.log` |
 
 Включить автообновление (один раз): `bash /opt/veltor/deploy/install-cron.sh`
-Обновить сейчас: `FORCE=1 bash /opt/veltor/deploy/update-docker.sh`
+Обновить сейчас: `FORCE=1 bash /opt/veltor/deploy/update-docker.sh`. Сайт отдаёт `nginx:stable-alpine` из папки `/opt/veltor/www/html` (compose.static.yaml); Docker-образ сайта не собирается, поэтому кэш сборки не растёт.
 
 ### Правки
 Всё меняется через репозиторий: правки кода, текстов (`data/content.ts`) и вариантов (`data/lots.json`) коммитятся в `main`, сервер подхватывает их в течение 30 минут. Правки прямо на сервере затрутся при следующем обновлении.
