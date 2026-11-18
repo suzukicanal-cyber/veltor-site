@@ -15,6 +15,9 @@
 
 veltormotokorea.ru {
     import security
+    # фото объявлений (/catalog/<номер>/...) можно загружать со страниц avirona.ru (форма объявления); остальным сайтам доступ не открывается
+    @catalogimg path_regexp ^/catalog/[0-9]+/[^/]+\.(jpg|jpeg|png|webp)$
+    header @catalogimg Access-Control-Allow-Origin "https://avirona.ru"
     encode zstd gzip
     reverse_proxy web:80
 }
