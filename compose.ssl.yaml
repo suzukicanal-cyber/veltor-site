@@ -8,8 +8,11 @@ services:
       - "80:80"
       - "443:443"
       - "443:443/udp"
+    # папка, а не один файл: git заменяет Caddyfile новым файлом, и привязка одного файла
+    # продолжала бы показывать контейнеру старую версию (reload не видел изменений)
+    command: caddy run --config /etc/caddy-conf/Caddyfile --adapter caddyfile
     volumes:
-      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - ./deploy:/etc/caddy-conf:ro
       - caddy_data:/data
       - caddy_config:/config
     depends_on:

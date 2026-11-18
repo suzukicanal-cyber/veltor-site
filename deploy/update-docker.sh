@@ -87,7 +87,7 @@ main() {
     $DC exec -T web nginx -s reload >/dev/null 2>&1 || $DC restart web
   fi
   if [ -n "$PREV" ] && ! git diff --quiet "$PREV" "$TARGET" -- deploy/Caddyfile 2>/dev/null; then
-    $DC exec -T caddy caddy reload --config /etc/caddy/Caddyfile >/dev/null 2>&1 || $DC restart caddy
+    $DC exec -T caddy caddy reload --config /etc/caddy-conf/Caddyfile --adapter caddyfile >/dev/null 2>&1 || $DC restart caddy
     echo "$(date '+%F %T') настройки Caddy применены"
   fi
 
