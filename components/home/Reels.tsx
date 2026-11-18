@@ -45,7 +45,7 @@ export default function Reels({ children }: { children: React.ReactNode }) {
             </li>
           ))}
         </ul>
-        <a className="bx-go ig-link" href="https://www.instagram.com/veltor_koreaexport/" target="_blank" rel="noopener">Открыть Instagram ↗</a>
+        <a className="bx-go ig-link" href="https://www.instagram.com/veltor_koreaexport/" target="_blank" rel="noopener">Открыть Instagram* ↗</a>
       </div>
       <div className="ig-reel">
         <video

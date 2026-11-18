@@ -76,7 +76,7 @@ export default function Header() {
             <a className="btn btn-ghost mnav-cta mnav-phone" href={PHONE_HREF}>Позвонить {PHONE}</a>
             <div className="mnav-soc">
               <a href={LINKS.channel} target="_blank" rel="noopener">Telegram</a>
-              <a href={LINKS.instagram} target="_blank" rel="noopener">Instagram</a>
+              <a href={LINKS.instagram} target="_blank" rel="noopener">Instagram*</a>
               <a href={LINKS.avito} target="_blank" rel="noopener">Авито</a>
             </div>
           </div>

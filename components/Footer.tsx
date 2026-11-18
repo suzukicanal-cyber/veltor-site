@@ -24,7 +24,7 @@ export default function Footer() {
           <div className="fbot">
             <span className="fcopy"><LogoMark className="logo-mark logo-mark-f" />© {new Date().getFullYear()} VELTOR · Мото и авто из Южной Кореи под ключ</span>
             <a className="fphone" href={PHONE_HREF}>{PHONE}</a>
-            <span className="fleg">Цены в каталоге указаны на дату публикации и не являются публичной офертой.</span>
+            <span className="fleg">Цены в каталоге указаны на дату публикации и не являются публичной офертой.<br />*Instagram принадлежит компании Meta, признанной экстремистской организацией и запрещённой в РФ.</span>
             <a className="ftop" href="#top">Наверх ↑</a>
           </div>
         </div>
