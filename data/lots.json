@@ -1,5 +1,348 @@
 [
  {
+  "id": 9772,
+  "slug": "harley-davidson-low-rider-st-2024-9772",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Low Rider ST",
+  "name": "Harley-Davidson Low Rider ST",
+  "raw": "Harley-Davidson Low Rider ST",
+  "year": 2024,
+  "km": 2900,
+  "volume": "1923 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2184000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-18T04:25:12+00:00",
+  "features": [
+   "Мотор Milwaukee-Eight 117",
+   "Без ДТП",
+   "Все документы в порядке"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Harley-Davidson Low Rider ST 2024 модельного года, но с завода выпущен в мае 2026, поэтому заводская гарантия ещё долго действует. Мотор Milwaukee-Eight 117 (1923 см³). Без ДТП, все документы в порядке. Тюнинг: двухканальный видеорегистратор"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/9772/1.jpg",
+   "catalog/9772/2.jpg",
+   "catalog/9772/3.jpg",
+   "catalog/9772/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/9772",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 9768,
+  "slug": "harley-davidson-low-rider-st-2023-9768",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Low Rider ST",
+  "name": "Harley-Davidson Low Rider ST",
+  "raw": "Harley-Davidson Low Rider ST",
+  "year": 2023,
+  "km": 8900,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1854000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-18T04:20:18+00:00",
+  "features": [
+   "Байк в очень хорошем состоянии",
+   "Обслуживание: заменены моторное масло",
+   "Масляный фильтр"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Harley-Davidson Low Rider ST 2023 года в лимитированной расцветке Fast Johnnie. Байк в очень хорошем состоянии. Обслуживание: заменены моторное масло, масляный фильтр, воздушный фильтр и масло в трансмиссии. Тюнинг: держатель для телефона и защитные дуги двигателя"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/9768/1.jpg",
+   "catalog/9768/2.jpg",
+   "catalog/9768/3.jpg",
+   "catalog/9768/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/9768",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 9764,
+  "slug": "ducati-diavel-1260s-2020-9764",
+  "type": "moto",
+  "brand": "Ducati",
+  "model": "Diavel 1260S",
+  "name": "Ducati Diavel 1260S",
+  "raw": "Ducati Diavel 1260S",
+  "year": 2020,
+  "km": 14166,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1498000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-18T04:04:25+00:00",
+  "features": [
+   "Без падений и скольжений",
+   "Масло менялось вовремя",
+   "Поставили новый аккумулятор"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Ducati Diavel 1260S 2020 года. Без падений и скольжений. Обслуживание: в сервисе устранили течь масла (заменили прокладку двигателя и переделали прокладку прозрачного сцепления), масло менялось вовремя, в марте этого года на 13 881 km заменили масло и задние тормозные колодки, поставили новый аккумулятор. Есть небольшие следы эксплуатации по возрасту. Тюнинг: полная выхлопная система Termignoni, (стоковый выхлоп в комплекте), прозрачная крышка сцепления CNC (сток в комплекте), слайдеры передней вилки, слайдеры рамы и защита радиатора Evotech, разъём SP Connect, USB-зарядка, датчики давления в шинах. В комплекте оригинальная задняя сумка Ducati, красный ключ и мануал"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/9764/1.jpg",
+   "catalog/9764/2.jpg",
+   "catalog/9764/3.jpg",
+   "catalog/9764/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/9764",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 9760,
+  "slug": "bmw-k-1600-gtl-2025-9760",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "K 1600 GTL",
+  "name": "BMW K 1600 GTL",
+  "raw": "BMW K1600GTL",
+  "year": 2025,
+  "km": 2900,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2448000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-18T03:57:41+00:00",
+  "features": [
+   "Один владелец с нового",
+   "Без смены собственников",
+   "Без ДТП"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "BMW K1600GTL 2025 года в чёрном цвете. Один владелец с нового, без смены собственников. Без ДТП, ни разу не падал и не скользил, состояние как у нового. Тюнинг: двухканальный видеорегистратор, держатель для телефона, полная оклейка защитной плёнкой PPF."
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/9760/1.jpg",
+   "catalog/9760/2.jpg",
+   "catalog/9760/3.jpg",
+   "catalog/9760/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/9760",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 9756,
+  "slug": "bmw-k-1600-gtl-2025-9756",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "K 1600 GTL",
+  "name": "BMW K 1600 GTL",
+  "raw": "BMW K1600GTL",
+  "year": 2025,
+  "km": 8000,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2184000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-18T03:54:46+00:00",
+  "features": [
+   "Без ДТП",
+   "Поэтому продаётся дешевле рынка",
+   "Купить мотоцикл из Южной Кореи 🇰🇷"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "BMW K1600GTL 2025 года в голубом цвете. Без ДТП, но байк ронялся на левую и правую сторону, поэтому продаётся дешевле рынка. Двигатель и коробка в отличном состоянии"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/9756/1.jpg",
+   "catalog/9756/2.jpg",
+   "catalog/9756/3.jpg",
+   "catalog/9756/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/9756",
+  "parser": 3
+ },
+ {
+  "id": 9752,
+  "slug": "yamaha-yzf-r7-2022-9752",
+  "type": "moto",
+  "brand": "Yamaha",
+  "model": "YZF-R7",
+  "name": "Yamaha YZF-R7",
+  "raw": "Yamaha YZF-R7",
+  "year": 2022,
+  "km": 2253,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 923000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-18T00:51:06+00:00",
+  "features": [
+   "Без ДТП",
+   "Один владелец с момента покупки",
+   "Переоформлений не было"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Без ДТП, один владелец с момента покупки, переоформлений не было. Очень маленький пробег для своего года, отличное внешнее и техническое состояние."
+   },
+   {
+    "k": "p",
+    "t": "Установлены заводские передняя и задняя шины, остаток расходных материалов позволяет продолжать эксплуатацию без немедленной замены. В комплекте 3 оригинальных ключа, включая красный сервисный ключ."
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/9752/1.jpg",
+   "catalog/9752/2.jpg",
+   "catalog/9752/3.jpg",
+   "catalog/9752/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/9752",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 9748,
+  "slug": "honda-gold-wing-gl1800-2024-9748",
+  "type": "moto",
+  "brand": "Honda",
+  "model": "Gold Wing",
+  "name": "Honda Gold Wing GL1800",
+  "raw": "Honda Gold Wing GL1800",
+  "year": 2024,
+  "km": 12500,
+  "volume": "1833 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2714000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-18T00:47:32+00:00",
+  "features": [
+   "Двигатель 1833 cc",
+   "Без ДТП",
+   "Следов падений с обеих сторон нет"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Двигатель 1833 cc. Цвет Metallic Gray. Без ДТП. Следов падений с обеих сторон нет, на левом боковом кофре имеется царапина. В комплекте два ключа и полный комплект документов."
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/9748/1.jpg",
+   "catalog/9748/2.jpg",
+   "catalog/9748/3.jpg",
+   "catalog/9748/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/9748",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 9744,
+  "slug": "bmw-hp4-2014-9744",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "HP4",
+  "name": "BMW HP4",
+  "raw": "BMW HP4",
+  "year": 2014,
+  "km": 17798,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1040000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-18T00:43:02+00:00",
+  "features": [
+   "Без ДТП по заявлению продавца",
+   "Двигатель без посторонних шумов",
+   "Стабильный баланс при движении"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Лимитированная высокопроизводительная модель на базе BMW S1000RR. Отличается повышенной мощностью и крутящим моментом. Без ДТП по заявлению продавца. Двигатель без посторонних шумов, стабильный баланс при движении. Все проверки пройдены, остаток расходных материалов хороший. Отличное техническое состояние, готов к эксплуатации."
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/9744/1.jpg",
+   "catalog/9744/2.jpg",
+   "catalog/9744/3.jpg",
+   "catalog/9744/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/9744",
+  "parser": 3,
+  "orig": true
+ },
+ {
   "id": 9737,
   "slug": "bmw-s-1000-rr-m-package-2025-9737",
   "type": "moto",
