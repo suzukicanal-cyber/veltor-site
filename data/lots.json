@@ -1,5 +1,137 @@
 [
  {
+  "id": 9911,
+  "slug": "honda-gold-wing-tour-dct-airbag-2019-9911",
+  "type": "moto",
+  "brand": "Honda",
+  "model": "Gold Wing",
+  "name": "Honda Gold Wing Tour DCT Airbag",
+  "raw": "Honda Gold Wing Tour DCT Airbag",
+  "year": 2019,
+  "km": 5506,
+  "volume": "1833 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2409000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-19T13:21:39+00:00",
+  "features": [
+   "Двигатель 1833 см³",
+   "Без ДТП",
+   "Двигатель"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Honda Gold Wing Tour 2019 года в белом цвете, версия с роботом DCT и подушкой безопасности, двигатель 1833 см³. Пробег реальный и очень маленький. Без ДТП. Двигатель, коробка, электрика и расходники в хорошем состоянии, байк в отличной форме. Тюнинг: двухканальный видеорегистратор и держатель для телефона. В комплекте оба ключа"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/9911/1.jpg",
+   "catalog/9911/2.jpg",
+   "catalog/9911/3.jpg",
+   "catalog/9911/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/9911",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 9907,
+  "slug": "honda-gold-wing-2024-9907",
+  "type": "moto",
+  "brand": "Honda",
+  "model": "Gold Wing",
+  "name": "Honda Gold Wing",
+  "raw": "Honda Gold Wing",
+  "year": 2024,
+  "km": 12500,
+  "volume": "1833 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2738000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-19T13:19:36+00:00",
+  "features": [
+   "Двигатель 1833 см³",
+   "Без ДТП",
+   "Без падений и царапин с обеих сторон"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Honda Gold Wing 2024 года в цвете «серый металлик», двигатель 1833 см³. Без ДТП, без падений и царапин с обеих сторон. Из минусов только царапина на левом боковом кофре. В комплекте два ключа и все документы с момента покупки"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/9907/1.jpg",
+   "catalog/9907/2.jpg",
+   "catalog/9907/3.jpg",
+   "catalog/9907/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/9907",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 9903,
+  "slug": "honda-gold-wing-tour-dct-airbag-2021-9903",
+  "type": "moto",
+  "brand": "Honda",
+  "model": "Gold Wing",
+  "name": "Honda Gold Wing Tour DCT Airbag",
+  "raw": "Honda Gold Wing Tour DCT Airbag",
+  "year": 2021,
+  "km": 22800,
+  "volume": "1833 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2409000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-19T13:18:33+00:00",
+  "features": [
+   "Двигатель 1833 см³",
+   "Без ДТП",
+   "Байк в отличном состоянии"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Honda Gold Wing Tour 2021 года в бордовом цвете, версия с роботом DCT и подушкой безопасности, двигатель 1833 см³. Без ДТП. Байк в отличном состоянии. Владелец продаёт только потому, что не хватает времени на езду"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/9903/1.jpg",
+   "catalog/9903/2.jpg",
+   "catalog/9903/3.jpg",
+   "catalog/9903/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/9903",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
   "id": 9894,
   "slug": "bmw-r-1200-r-2015-9894",
   "type": "moto",
@@ -808,8 +940,7 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/9830",
   "parser": 3,
-  "hd": true,
-  "hdv": 2
+  "orig": true
  },
  {
   "id": 9826,
@@ -1688,48 +1819,6 @@
    "catalog/9752/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/9752",
-  "parser": 3,
-  "orig": true
- },
- {
-  "id": 9748,
-  "slug": "honda-gold-wing-gl1800-2024-9748",
-  "type": "moto",
-  "brand": "Honda",
-  "model": "Gold Wing",
-  "name": "Honda Gold Wing GL1800",
-  "raw": "Honda Gold Wing GL1800",
-  "year": 2024,
-  "km": 12500,
-  "volume": "1833 см³",
-  "power": null,
-  "drive": null,
-  "gearbox": null,
-  "price": 2714000,
-  "priceLabel": "под ключ",
-  "date": "2026-11-18T00:47:32+00:00",
-  "features": [
-   "Двигатель 1833 cc",
-   "Без ДТП",
-   "Следов падений с обеих сторон нет"
-  ],
-  "body": [
-   {
-    "k": "p",
-    "t": "Двигатель 1833 cc. Цвет Metallic Gray. Без ДТП. Следов падений с обеих сторон нет, на левом боковом кофре имеется царапина. В комплекте два ключа и полный комплект документов."
-   },
-   {
-    "k": "li",
-    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
-   }
-  ],
-  "photos": [
-   "catalog/9748/1.jpg",
-   "catalog/9748/2.jpg",
-   "catalog/9748/3.jpg",
-   "catalog/9748/4.jpg"
-  ],
-  "post": "https://t.me/koreamotocycles_veltor/8/9748",
   "parser": 3,
   "orig": true
  },
@@ -33809,89 +33898,6 @@
    "catalog/7233/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/7233",
-  "parser": 3,
-  "hd": true,
-  "hdv": 2
- },
- {
-  "id": 7222,
-  "slug": "honda-gold-wing-tour-dct-airbag-2019-7222",
-  "type": "moto",
-  "brand": "Honda",
-  "model": "Gold Wing",
-  "name": "Honda Gold Wing Tour DCT Airbag",
-  "raw": "Honda Gold Wing Tour DCT Airbag",
-  "year": 2019,
-  "km": 5506,
-  "volume": "1833 см³",
-  "power": null,
-  "drive": null,
-  "gearbox": null,
-  "price": 2404000,
-  "priceLabel": "под ключ",
-  "date": "2026-10-14T00:10:34+00:00",
-  "features": [
-   "ДТП: нет",
-   "Состояние двигателя: хорошее",
-   "Состояние трансмиссии: хорошее"
-  ],
-  "body": [
-   {
-    "k": "li",
-    "t": "ДТП: нет"
-   },
-   {
-    "k": "li",
-    "t": "Состояние двигателя: хорошее"
-   },
-   {
-    "k": "li",
-    "t": "Состояние трансмиссии: хорошее"
-   },
-   {
-    "k": "li",
-    "t": "Электрооборудование: исправно"
-   },
-   {
-    "k": "li",
-    "t": "Расходные материалы: в хорошем состоянии"
-   },
-   {
-    "k": "li",
-    "t": "Общее состояние: отличное"
-   },
-   {
-    "k": "li",
-    "t": "Комплектация и оборудование"
-   },
-   {
-    "k": "li",
-    "t": "Автоматическая коробка передач DCT"
-   },
-   {
-    "k": "li",
-    "t": "Подушка безопасности Airbag"
-   },
-   {
-    "k": "li",
-    "t": "Двухканальный видеорегистратор (2CH)"
-   },
-   {
-    "k": "li",
-    "t": "Держатель телефона"
-   },
-   {
-    "k": "li",
-    "t": "Два ключа в наличии"
-   }
-  ],
-  "photos": [
-   "catalog/7222/1.jpg",
-   "catalog/7222/2.jpg",
-   "catalog/7222/3.jpg",
-   "catalog/7222/4.jpg"
-  ],
-  "post": "https://t.me/koreamotocycles_veltor/8/7222",
   "parser": 3,
   "hd": true,
   "hdv": 2
