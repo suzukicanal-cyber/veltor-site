@@ -78,7 +78,20 @@ main() {
   # выкладка: только изменённые файлы; --delay-updates подменяет их в самом конце, почти одновременно
   command -v rsync >/dev/null || apt-get install -y -qq rsync >/dev/null
   mkdir -p "$WWW"
-  rsync -a --delete --delay-updates out/ "$WWW/"
+  # фото снятых объявлений (/catalog/<номер>/) не удаляем сразу: у посетителя может быть открыта старая
+  # страница каталога, и карточки остались бы без фото. Такие папки помечаются и удаляются через 3 дня.
+  rsync -a --delete --delay-updates --filter='P /catalog/[0-9]*/' out/ "$WWW/"
+  local d
+  for d in "$WWW"/catalog/[0-9]*/; do
+    [ -d "$d" ] || continue
+    if [ -d "out/catalog/$(basename "$d")" ]; then
+      rm -f "$d.removed"
+    elif [ ! -f "$d.removed" ]; then
+      touch "$d.removed"
+    elif [ -n "$(find "$d.removed" -mtime +2 2>/dev/null)" ]; then
+      rm -rf "$d"
+    fi
+  done
 
   # nginx без пересборки; --no-build на случай, если в compose.yaml остался build
   $DC up -d --no-build web caddy
