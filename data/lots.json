@@ -89,7 +89,9 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/10102",
   "parser": 3,
-  "orig": true
+  "orig": true,
+  "hd": true,
+  "hdv": 2
  },
  {
   "id": 10094,
@@ -135,7 +137,9 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/10094",
   "parser": 3,
-  "orig": true
+  "orig": true,
+  "hd": true,
+  "hdv": 2
  },
  {
   "id": 10090,
@@ -321,7 +325,7 @@
   "slug": "bmw-k-1600-gtl-719-2021-10062",
   "type": "moto",
   "brand": "BMW",
-  "model": "K 1600 Gtl",
+  "model": "K 1600 Gtl 719",
   "name": "BMW K 1600 Gtl 719",
   "raw": "BMW K 1600 GTL 719",
   "year": 2021,
