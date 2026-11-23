@@ -1,5 +1,382 @@
 [
  {
+  "id": 10621,
+  "slug": "honda-gold-wing-f6b-2017-10621",
+  "type": "moto",
+  "brand": "Honda",
+  "model": "Gold Wing",
+  "name": "Honda Gold Wing F6B",
+  "raw": "Honda Gold Wing F6B",
+  "year": 2017,
+  "km": 16000,
+  "volume": "1833 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1860000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-23T15:00:11+00:00",
+  "features": [
+   "Без ДТП и падений",
+   "Поставлена новая резина",
+   "Внешне в аккуратном состоянии"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Без ДТП и падений"
+   },
+   {
+    "k": "p",
+    "t": "Поставлена новая резина. Внешне в аккуратном состоянии. Есть спинка пассажира, багажник на кофре и держатель для телефона на руле"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10621/1.jpg",
+   "catalog/10621/2.jpg",
+   "catalog/10621/3.jpg",
+   "catalog/10621/4.jpg",
+   "catalog/10621/5.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10621",
+  "parser": 3,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 10611,
+  "slug": "honda-gold-wing-f6b-2016-10611",
+  "type": "moto",
+  "brand": "Honda",
+  "model": "Gold Wing",
+  "name": "Honda Gold Wing F6B",
+  "raw": "Honda Gold Wing F6B",
+  "year": 2016,
+  "km": 36900,
+  "volume": "1833 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1615000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-23T14:57:37+00:00",
+  "features": [
+   "Без ДТП и падений",
+   "Для своего года пробег небольшой",
+   "Двигатель в отличном состоянии"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Без ДТП и падений"
+   },
+   {
+    "k": "p",
+    "t": "Для своего года пробег небольшой, двигатель в отличном состоянии. По расходникам вложений не требуется — можно сразу ехать. Установлены противотуманки, хайвей-пеги, педаль переключения пятка-носок, LED-свет и LED-зеркала. Также стоят увеличенные подножки-платформы и двухканальный видеорегистратор."
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10611/1.jpg",
+   "catalog/10611/2.jpg",
+   "catalog/10611/3.jpg",
+   "catalog/10611/4.jpg",
+   "catalog/10611/5.jpg",
+   "catalog/10611/6.jpg",
+   "catalog/10611/7.jpg",
+   "catalog/10611/8.jpg",
+   "catalog/10611/9.jpg",
+   "catalog/10611/10.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10611",
+  "parser": 3,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 10607,
+  "slug": "honda-gold-wing-2023-10607",
+  "type": "moto",
+  "brand": "Honda",
+  "model": "Gold Wing",
+  "name": "Honda Gold Wing",
+  "raw": "Honda Gold Wing",
+  "year": 2023,
+  "km": 19000,
+  "volume": "1800 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2066000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-23T14:54:07+00:00",
+  "features": [
+   "Двигатель 1800 см³",
+   "Механическая коробка",
+   "Без ДТП и без падений"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Honda Gold Wing 2023 года, двигатель 1800 см³, цвет серый. Механическая коробка. Без ДТП и без падений. Второй владелец, недавно прошёл техосмотр. Есть сервисная книжка, оригинальное ветровое стекло лежит в комплекте, два смарт-ключа. У шин ещё большой запас. Опции: подогрев, розетка питания, кофры, аудиосистема, сигнализация, противотуманные фары. Тюнинг: тонированное ветровое стекло, беспроводная зарядка, спинки для водителя и пассажира, багажник"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10607/1.jpg",
+   "catalog/10607/2.jpg",
+   "catalog/10607/3.jpg",
+   "catalog/10607/4.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10607",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 10602,
+  "slug": "bmw-s-1000-rr-m-package-2024-10602",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR M Package",
+  "raw": "BMW S 1000 RR M Package",
+  "year": 2024,
+  "km": 5000,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2091000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-23T14:18:15+00:00",
+  "features": [
+   "Без ДТП и падений",
+   "Стоит выхлоп SC-Project",
+   "Есть защитные слайдеры и USB-порт"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Без ДТП и падений, состояние нового: мотоцикл только обкатан, на приборке до сих пор заводская плёнка. Стоит выхлоп SC-Project, есть защитные слайдеры и USB-порт. Карбоновые диски M. На ноябрь запланирована замена деталей по отзывной кампании и осмотр у официального дилера BMW."
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10602/1.jpg",
+   "catalog/10602/2.jpg",
+   "catalog/10602/3.jpg",
+   "catalog/10602/4.jpg",
+   "catalog/10602/5.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10602",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 10594,
+  "slug": "harley-davidson-xl1200cb-sportster-1200-custom-limited-b-2013-10594",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "XL1200CB Sportster 1200 Custom Limited B",
+  "name": "Harley-Davidson XL1200CB Sportster 1200 Custom Limited B",
+  "raw": "Harley-Davidson XL1200CB Sportster 1200 Custom Limited B",
+  "year": 2013,
+  "km": 4458,
+  "volume": "1200 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1409000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-23T12:50:44+00:00",
+  "features": [
+   "По информации продавца",
+   "Двигатель 1200 cc",
+   "Чёрный цвет"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Редкая лимитированная версия Sportster 1200 Custom Limited B, официально импортированная в Южную Корею. По информации продавца, в Корее было официально ввезено всего 2 экземпляра данной версии. Двигатель 1200 cc, чёрный цвет, без ДТП. Очень небольшой пробег для своего года. Установлены защита двигателя, спинка пассажира, боковая сумка и индикатор CTEK для контроля состояния аккумулятора. Классический дизайн Harley-Davidson с характерным стилем Sportster."
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10594/1.jpg",
+   "catalog/10594/2.jpg",
+   "catalog/10594/3.jpg",
+   "catalog/10594/4.jpg",
+   "catalog/10594/5.jpg",
+   "catalog/10594/6.jpg",
+   "catalog/10594/7.jpg",
+   "catalog/10594/8.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10594",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10589,
+  "slug": "harley-davidson-roadster-1200-2016-10589",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Roadster 1200",
+  "name": "Harley-Davidson Roadster 1200",
+  "raw": "Harley-Davidson Roadster 1200",
+  "year": 2016,
+  "km": 17000,
+  "volume": "1200 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1142000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-23T12:45:26+00:00",
+  "features": [
+   "Без ДТП",
+   "Усиленный кабель зажигания",
+   "Ветровое стекло"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Harley-Davidson Roadster 1200 в чёрном цвете, объём двигателя 1200 cc. Без ДТП. Спортивная модель с двумя передними тормозными дисками. Установлены выхлоп Screamin’ Eagle с оформленным изменением конструкции, открытый воздушный фильтр Screamin’ Eagle, усиленный кабель зажигания, ветровое стекло, руль, двойной держатель телефона, оригинальная LED-оптика Harley-Davidson с оформленным изменением конструкции, слайдеры передней вилки, тюнинговая крышка Derby, спинка пассажира, боковая сумка и видеорегистратор GermanEye 3 с двумя камерами. Заменены синтетическое моторное масло, масло сцепления, аккумулятор и свечи зажигания. Остаток передних и задних тормозных колодок — около 70%, шин — около 50%. Два Smart Key, ежегодный технический осмотр пройден."
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10589/1.jpg",
+   "catalog/10589/2.jpg",
+   "catalog/10589/3.jpg",
+   "catalog/10589/4.jpg",
+   "catalog/10589/5.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10589",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10581,
+  "slug": "harley-davidson-fat-bob-114-2018-10581",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Fat Bob 114",
+  "name": "Harley-Davidson Fat Bob 114",
+  "raw": "Harley-Davidson Fat Bob 114",
+  "year": 2018,
+  "km": 25225,
+  "volume": "1868 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1173000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-23T12:35:51+00:00",
+  "features": [
+   "Без ДТП",
+   "Установлен выхлоп Vance",
+   "Противотуманные фары"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Без ДТП. Установлен выхлоп Vance"
+   },
+   {
+    "k": "p",
+    "t": "Противотуманные фары, защита двигателя, держатель телефона и стакана, защита рук, топливная крышка, axle caps и боковые зеркала."
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10581/1.jpg",
+   "catalog/10581/2.jpg",
+   "catalog/10581/3.jpg",
+   "catalog/10581/4.jpg",
+   "catalog/10581/5.jpg",
+   "catalog/10581/6.jpg",
+   "catalog/10581/7.jpg",
+   "catalog/10581/8.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10581",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10569,
+  "slug": "bmw-s-1000-rr-m-package-2023-10569",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR M Package",
+  "raw": "BMW S1000RR M Package",
+  "year": 2023,
+  "km": 6633,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1891000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-23T09:55:25+00:00",
+  "features": [
+   "Без ДТП и падений",
+   "Полная оклейка кузова PPF",
+   "Матовое антискользящее покрытие"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "BMW S1000RR в комплектации M Package с карбоновыми колёсами. Без ДТП и падений. Установлен спортивный выхлоп Öhlins Racing с официально оформленным изменением конструкции. Полная оклейка кузова PPF, матовое антискользящее покрытие. Комплектация M Package включает сиденье M, подножки M, карбоновые элементы и другие заводские опции. Состояние близкое к новому, небольшой пробег, отличное состояние двигателя и расходных компонентов."
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10569/1.jpg",
+   "catalog/10569/2.jpg",
+   "catalog/10569/3.jpg",
+   "catalog/10569/4.jpg",
+   "catalog/10569/5.jpg",
+   "catalog/10569/6.jpg",
+   "catalog/10569/7.jpg",
+   "catalog/10569/8.jpg",
+   "catalog/10569/9.jpg",
+   "catalog/10569/10.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10569",
+  "parser": 3,
+  "orig": true
+ },
+ {
   "id": 10549,
   "slug": "yamaha-yzf-r1-2024-10549",
   "type": "moto",
@@ -48139,53 +48516,6 @@
    "catalog/6655/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/6655",
-  "parser": 3,
-  "hd": true,
-  "hdv": 2
- },
- {
-  "id": 6647,
-  "slug": "bmw-s-1000-rr-m-package-2024-6647",
-  "type": "moto",
-  "brand": "BMW",
-  "model": "S 1000 RR",
-  "name": "BMW S 1000 RR M Package",
-  "raw": "BMW S1000RR Mpack",
-  "year": 2024,
-  "km": 4500,
-  "volume": "999 см³",
-  "power": null,
-  "drive": null,
-  "gearbox": null,
-  "price": 2264000,
-  "priceLabel": "под ключ",
-  "date": "2026-10-01T11:36:02+00:00",
-  "features": [
-   "После 4000 км",
-   "Поменяно моторное масло",
-   "Сейчас пробег 4500 км"
-  ],
-  "body": [
-   {
-    "k": "p",
-    "t": "После 4000 км, поменяно моторное масло. Сейчас пробег 4500 км, и после замены масла мотоцикл не проехал и 500 км."
-   },
-   {
-    "k": "li",
-    "t": "SC выхлоп"
-   },
-   {
-    "k": "li",
-    "t": "карбоновые колёса"
-   }
-  ],
-  "photos": [
-   "catalog/6647/1.jpg",
-   "catalog/6647/2.jpg",
-   "catalog/6647/3.jpg",
-   "catalog/6647/4.jpg"
-  ],
-  "post": "https://t.me/koreamotocycles_veltor/8/6647",
   "parser": 3,
   "hd": true,
   "hdv": 2
