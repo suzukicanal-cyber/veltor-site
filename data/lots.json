@@ -1,5 +1,1300 @@
 [
  {
+  "id": 10549,
+  "slug": "yamaha-yzf-r1-2024-10549",
+  "type": "moto",
+  "brand": "Yamaha",
+  "model": "YZF-R1",
+  "name": "Yamaha YZF-R1",
+  "raw": "Yamaha YZF-R1",
+  "year": 2024,
+  "km": 10866,
+  "volume": "998 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1661000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-23T06:50:16+00:00",
+  "features": [
+   "Генератор",
+   "Прокладки и штатные болты",
+   "Ветровое Puig"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "По гарантии решили проблему с зарядкой: заменили АКБ, генератор, прокладки и штатные болты. Гарантия до апреля 2027. Стоит слип-он SC-Project без дБ-киллера, ветровое Puig, карбоновые винглеты, обогрев ручек Koso, хвост Lightech (сток в комплекте), видеорегистратор Gnet M1, Type-C зарядка и крепление SP Connect. Резина больше 80%, масло меняли на ~9700 км."
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10549/1.jpg",
+   "catalog/10549/2.jpg",
+   "catalog/10549/3.jpg",
+   "catalog/10549/4.jpg",
+   "catalog/10549/5.jpg",
+   "catalog/10549/6.jpg",
+   "catalog/10549/7.jpg",
+   "catalog/10549/8.jpg",
+   "catalog/10549/9.jpg",
+   "catalog/10549/10.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10549",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 10539,
+  "slug": "yamaha-yzf-r6-2020-10539",
+  "type": "moto",
+  "brand": "Yamaha",
+  "model": "YZF-R6",
+  "name": "Yamaha YZF-R6",
+  "raw": "Yamaha YZF-R6",
+  "year": 2020,
+  "km": 13844,
+  "volume": "599 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1332000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-23T04:12:39+00:00",
+  "features": [
+   "Состояние хорошее",
+   "Без ДТП",
+   "Тюнинг на фото"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Состояние хорошее"
+   },
+   {
+    "k": "li",
+    "t": "Без ДТП"
+   },
+   {
+    "k": "li",
+    "t": "Тюнинг на фото"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10539/1.jpg",
+   "catalog/10539/2.jpg",
+   "catalog/10539/3.jpg",
+   "catalog/10539/4.jpg",
+   "catalog/10539/5.jpg",
+   "catalog/10539/6.jpg",
+   "catalog/10539/7.jpg",
+   "catalog/10539/8.jpg",
+   "catalog/10539/9.jpg",
+   "catalog/10539/10.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10539",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10529,
+  "slug": "harley-davidson-low-rider-st-2024-10529",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Low Rider ST",
+  "name": "Harley-Davidson Low Rider ST",
+  "raw": "Harley-Davidson Low Rider ST",
+  "year": 2024,
+  "km": 5339,
+  "volume": "1923 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2290000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-23T03:44:44+00:00",
+  "features": [
+   "Без ДТП и падений",
+   "Купить мотоцикл из Южной Кореи 🇰🇷"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Без ДТП и падений"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10529/1.jpg",
+   "catalog/10529/2.jpg",
+   "catalog/10529/3.jpg",
+   "catalog/10529/4.jpg",
+   "catalog/10529/5.jpg",
+   "catalog/10529/6.jpg",
+   "catalog/10529/7.jpg",
+   "catalog/10529/8.jpg",
+   "catalog/10529/9.jpg",
+   "catalog/10529/10.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10529",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10519,
+  "slug": "harley-davidson-street-glide-117-2025-10519",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Street Glide 117",
+  "name": "Harley-Davidson Street Glide 117",
+  "raw": "Harley-Davidson Street Glide 117",
+  "year": 2025,
+  "km": 10500,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 3217000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-23T03:17:07+00:00",
+  "features": [
+   "Купить мотоцикл из Южной Кореи 🇰🇷"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Состояние и комплектацию уточним у продавца по запросу"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10519/1.jpg",
+   "catalog/10519/2.jpg",
+   "catalog/10519/3.jpg",
+   "catalog/10519/4.jpg",
+   "catalog/10519/5.jpg",
+   "catalog/10519/6.jpg",
+   "catalog/10519/7.jpg",
+   "catalog/10519/8.jpg",
+   "catalog/10519/9.jpg",
+   "catalog/10519/10.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10519",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10510,
+  "slug": "yamaha-yzf-r7-2022-10510",
+  "type": "moto",
+  "brand": "Yamaha",
+  "model": "YZF-R7",
+  "name": "Yamaha YZF-R7",
+  "raw": "Yamaha YZF-R7",
+  "year": 2022,
+  "km": 14000,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 865000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-23T03:15:58+00:00",
+  "features": [
+   "Состояние хорошее",
+   "Без ДТП",
+   "Более детально по запросу"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Состояние хорошее"
+   },
+   {
+    "k": "li",
+    "t": "Без ДТП"
+   },
+   {
+    "k": "li",
+    "t": "Более детально по запросу"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10510/1.jpg",
+   "catalog/10510/2.jpg",
+   "catalog/10510/3.jpg",
+   "catalog/10510/4.jpg",
+   "catalog/10510/5.jpg",
+   "catalog/10510/6.jpg",
+   "catalog/10510/7.jpg",
+   "catalog/10510/8.jpg",
+   "catalog/10510/9.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10510",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10500,
+  "slug": "bmw-m-1000-rr-2022-10500",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "M 1000 RR",
+  "name": "BMW M 1000 RR",
+  "raw": "BMW M 1000 RR",
+  "year": 2022,
+  "km": 9800,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2128000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-23T03:14:37+00:00",
+  "features": [
+   "Купить мотоцикл из Южной Кореи 🇰🇷"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Состояние и комплектацию уточним у продавца по запросу"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10500/1.jpg",
+   "catalog/10500/2.jpg",
+   "catalog/10500/3.jpg",
+   "catalog/10500/4.jpg",
+   "catalog/10500/5.jpg",
+   "catalog/10500/6.jpg",
+   "catalog/10500/7.jpg",
+   "catalog/10500/8.jpg",
+   "catalog/10500/9.jpg",
+   "catalog/10500/10.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10500",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10490,
+  "slug": "bmw-s-1000-rr-m-package-2022-10490",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR M Package",
+  "raw": "BMW S 1000 RR M Package",
+  "year": 2022,
+  "km": 8700,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1694000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-23T02:36:56+00:00",
+  "features": [
+   "Без ДТП и падений",
+   "Состояние отличное",
+   "На двигателе защитные крышки GBRacing"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Без ДТП и падений, состояние отличное. Стоит оригинальный слип-он SC-Project в карбоне. На двигателе защитные крышки GBRacing."
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10490/1.jpg",
+   "catalog/10490/2.jpg",
+   "catalog/10490/3.jpg",
+   "catalog/10490/4.jpg",
+   "catalog/10490/5.jpg",
+   "catalog/10490/6.jpg",
+   "catalog/10490/7.jpg",
+   "catalog/10490/8.jpg",
+   "catalog/10490/9.jpg",
+   "catalog/10490/10.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10490",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10484,
+  "slug": "honda-nt1100-dct-2024-10484",
+  "type": "moto",
+  "brand": "Honda",
+  "model": "NT1100",
+  "name": "Honda NT1100 DCT",
+  "raw": "Honda NT1100 DCT",
+  "year": 2024,
+  "km": 5988,
+  "volume": "1100 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1475000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-23T02:34:44+00:00",
+  "features": [
+   "Купить мотоцикл из Южной Кореи 🇰🇷"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Мотоцикл с автоматической трансмиссией DCT, цвет Silver. Объём двигателя 1100 cc. Ранее имелись повреждения вследствие падения"
+   },
+   {
+    "k": "p",
+    "t": "Для восстановления внешнего состояния заменены повреждённые элементы. Проведена проверка масла и всех расходных материалов. Установлен двухканальный видеорегистратор Black Box (передняя и задняя камеры). Возможна установка дополнительных опций."
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10484/1.jpg",
+   "catalog/10484/2.jpg",
+   "catalog/10484/3.jpg",
+   "catalog/10484/4.jpg",
+   "catalog/10484/5.jpg",
+   "catalog/10484/6.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10484",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10478,
+  "slug": "bmw-m-1000-xr-competition-package-2025-10478",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "M 1000 XR",
+  "name": "BMW M 1000 XR Competition Package",
+  "raw": "BMW M1000XR Competition Package",
+  "year": 2025,
+  "km": 9583,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2965000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-23T02:30:30+00:00",
+  "features": [
+   "Один владелец",
+   "Мотоцикл без ДТП",
+   "Падений и повреждений"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "2025 модельный год, первая регистрация — сентябрь 2025 года. Один владелец. Мотоцикл без ДТП, падений и повреждений. Хранился в помещении под чехлом, внешнее состояние отличное."
+   },
+   {
+    "k": "p",
+    "t": "Шины, цепь и тормозные колодки в хорошем состоянии. Установлен пакет Competition. Дополнительные опции: Power Outlet, багажные аксессуары."
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10478/1.jpg",
+   "catalog/10478/2.jpg",
+   "catalog/10478/3.jpg",
+   "catalog/10478/4.jpg",
+   "catalog/10478/5.jpg",
+   "catalog/10478/6.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10478",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10468,
+  "slug": "harley-davidson-breakout-117-2025-10468",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Breakout 117",
+  "name": "Harley-Davidson Breakout 117",
+  "raw": "Harley-Davidson Breakout 117",
+  "year": 2025,
+  "km": 9,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2389000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-23T02:28:58+00:00",
+  "features": [
+   "Без ДТП",
+   "По сути новый мотоцикл",
+   "Купить мотоцикл из Южной Кореи 🇰🇷"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Без ДТП, по сути новый мотоцикл. Установлены двухканальный видеорегистратор и держатель для телефона Alus с беспроводной зарядкой."
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10468/1.jpg",
+   "catalog/10468/2.jpg",
+   "catalog/10468/3.jpg",
+   "catalog/10468/4.jpg",
+   "catalog/10468/5.jpg",
+   "catalog/10468/6.jpg",
+   "catalog/10468/7.jpg",
+   "catalog/10468/8.jpg",
+   "catalog/10468/9.jpg",
+   "catalog/10468/10.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10468",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10458,
+  "slug": "bmw-k-1600-b-2022-10458",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "K 1600 B",
+  "name": "BMW K 1600 B",
+  "raw": "BMW K 1600 B",
+  "year": 2022,
+  "km": 8700,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2257000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-23T01:43:25+00:00",
+  "features": [
+   "Без ДТП",
+   "Состояние близко к новому",
+   "Остаток 60–70%"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Без ДТП, состояние близко к новому. Мотоцикл после рестайлинга: TFT-приборка и обновлённая передняя часть. Из опций стоят тонированное ветровое стекло, держатель для телефона и заниженное сиденье. Шины Metzeler Roadtec 01 спереди и сзади, остаток 60–70%, по расходникам вложений не требует. Пройдена проверка по 20+ пунктам: реальный пробег, отсутствие ДТП"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10458/1.jpg",
+   "catalog/10458/2.jpg",
+   "catalog/10458/3.jpg",
+   "catalog/10458/4.jpg",
+   "catalog/10458/5.jpg",
+   "catalog/10458/6.jpg",
+   "catalog/10458/7.jpg",
+   "catalog/10458/8.jpg",
+   "catalog/10458/9.jpg",
+   "catalog/10458/10.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10458",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10448,
+  "slug": "bmw-s-1000-rr-2021-10448",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR",
+  "raw": "BMW S1000RR",
+  "year": 2021,
+  "km": 22427,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1439000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-23T01:26:44+00:00",
+  "features": [
+   "Звук отличный",
+   "Всё отремонтировано",
+   "Тюнинг: слайдеры двигателя Evotech"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "BMW S1000RR 2021 года в хорошем состоянии, с большим количеством карбонового тюнинга. Выхлоп Austin Racing (оригинал, изменение конструкции официально оформлено) со слайдером на банке: с хлопками, звук отличный. Было лёгкое касание передней частью и падение на левый бок, всё отремонтировано. Тюнинг: слайдеры двигателя Evotech, защита двигателя GB Racing, подножки и рычаг сцепления Lightech, карбоновое брюхо и карбоновая накладка маятника RCM, карбоновые накладки на раму, подкрылок, маятник, защиту цепи и боковины, наклейки MMX, тёмное ветровое стекло WRS, двухканальный видеорегистратор Gnet, тент, антивибрационный модуль SP Connect, зарядный порт"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10448/1.jpg",
+   "catalog/10448/2.jpg",
+   "catalog/10448/3.jpg",
+   "catalog/10448/4.jpg",
+   "catalog/10448/5.jpg",
+   "catalog/10448/6.jpg",
+   "catalog/10448/7.jpg",
+   "catalog/10448/8.jpg",
+   "catalog/10448/9.jpg",
+   "catalog/10448/10.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10448",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10438,
+  "slug": "harley-davidson-street-rod-750-2018-10438",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Street Rod 750",
+  "name": "Harley-Davidson Street Rod 750",
+  "raw": "Harley-Davidson Street Rod 750",
+  "year": 2018,
+  "km": 11500,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 651000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-23T01:23:30+00:00",
+  "features": [
+   "Было лёгкое падение",
+   "В остальном состояние очень хорошее",
+   "Ошибок на приборке нет"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Было лёгкое падение, на пассажирском сиденье потёртость и облезшее покрытие. В остальном состояние очень хорошее, ошибок на приборке нет. Масло и расходники заменены. Стоит литиевый аккумулятор, к нему есть родное зарядное. Из доп. оборудования: зеркала в торцы руля, держатель для телефона, боковые сумки и дуги."
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10438/1.jpg",
+   "catalog/10438/2.jpg",
+   "catalog/10438/3.jpg",
+   "catalog/10438/4.jpg",
+   "catalog/10438/5.jpg",
+   "catalog/10438/6.jpg",
+   "catalog/10438/7.jpg",
+   "catalog/10438/8.jpg",
+   "catalog/10438/9.jpg",
+   "catalog/10438/10.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10438",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10433,
+  "slug": "harley-davidson-sportster-roadster-2018-10433",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Sportster Roadster",
+  "name": "Harley-Davidson Sportster Roadster",
+  "raw": "Harley-Davidson Sportster Roadster",
+  "year": 2018,
+  "km": 13020,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 997000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-23T01:09:56+00:00",
+  "features": [
+   "Без ДТП и падений",
+   "Состояние хорошее",
+   "Перед продажей полностью обслужен"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Без ДТП и падений, состояние хорошее, перед продажей полностью обслужен, по расходникам вложений не требует. В августе поменяны масло Iron Master и шины, после этого проехал меньше 200 км. Стоит выхлоп Vance & Hines 2-into-1 (узаконен), оригинальный обтекатель Harley-Davidson Club Style, райзеры Milwaukee, удлинённое двухместное сиденье от Azit Motor Shop и пассажирский кронштейн Redline. Заменены поворотники, стоп-сигнал, сигнал и впуск, есть провод для зарядки CTEK"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10433/1.jpg",
+   "catalog/10433/2.jpg",
+   "catalog/10433/3.jpg",
+   "catalog/10433/4.jpg",
+   "catalog/10433/5.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10433",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10425,
+  "slug": "honda-cbr600rr-2025-10425",
+  "type": "moto",
+  "brand": "Honda",
+  "model": "CBR600RR",
+  "name": "Honda CBR600RR",
+  "raw": "Honda CBR600RR",
+  "year": 2025,
+  "km": 5500,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1376000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-23T01:04:49+00:00",
+  "features": [
+   "Без ДТП и падений",
+   "Купить мотоцикл из Южной Кореи 🇰🇷"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Без ДТП и падений. На 2 декабря записан к официальному дилеру Honda на работы по отзывной кампании"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10425/1.jpg",
+   "catalog/10425/2.jpg",
+   "catalog/10425/3.jpg",
+   "catalog/10425/4.jpg",
+   "catalog/10425/5.jpg",
+   "catalog/10425/6.jpg",
+   "catalog/10425/7.jpg",
+   "catalog/10425/8.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10425",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10415,
+  "slug": "harley-davidson-street-glide-special-2016-10415",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Street Glide Special",
+  "name": "Harley-Davidson Street Glide Special",
+  "raw": "Harley-Davidson Street Glide Special",
+  "year": 2016,
+  "km": 8200,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1694000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-23T01:04:05+00:00",
+  "features": [
+   "Один владелец",
+   "Без ДТП и падений",
+   "Мотор Twin Cam 103"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Один владелец, без ДТП и падений. Мотор Twin Cam 103, цвет матовый чёрный. Заводские опции: мультимедиа Boom Box 6.5GT с сенсорным экраном, тормоза Brembo с четырёхпоршневыми суппортами и ABS, 19-дюймовые литые диски Enforcer, задняя подвеска с ручной регулировкой, иммобилайзер со смарт-ключом. Из тюнинга: светодиодная фара 7\", светодиодные противотуманки 4,5\", нижние обтекатели, хромированные дуги на двигатель с подножками для трассы и дуги кофров."
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10415/1.jpg",
+   "catalog/10415/2.jpg",
+   "catalog/10415/3.jpg",
+   "catalog/10415/4.jpg",
+   "catalog/10415/5.jpg",
+   "catalog/10415/6.jpg",
+   "catalog/10415/7.jpg",
+   "catalog/10415/8.jpg",
+   "catalog/10415/9.jpg",
+   "catalog/10415/10.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10415",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10405,
+  "slug": "harley-davidson-fat-bob-114-2022-10405",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Fat Bob 114",
+  "name": "Harley-Davidson Fat Bob 114",
+  "raw": "Harley-Davidson Fat Bob 114",
+  "year": 2022,
+  "km": 3720,
+  "volume": "1868 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1628000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-23T01:03:26+00:00",
+  "features": [
+   "Без ДТП и падений",
+   "Пройдено полное обслуживание",
+   "Заменены все расходники"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Без ДТП и падений"
+   },
+   {
+    "k": "p",
+    "t": "Пройдено полное обслуживание, заменены все расходники. Установлены видеорегистратор, держатель для телефона, защитные дуги двигателя, спинка пассажира (sissy bar) и боковая кожаная сумка."
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10405/1.jpg",
+   "catalog/10405/2.jpg",
+   "catalog/10405/3.jpg",
+   "catalog/10405/4.jpg",
+   "catalog/10405/5.jpg",
+   "catalog/10405/6.jpg",
+   "catalog/10405/7.jpg",
+   "catalog/10405/8.jpg",
+   "catalog/10405/9.jpg",
+   "catalog/10405/10.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10405",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10397,
+  "slug": "honda-cbr600rr-2025-10397",
+  "type": "moto",
+  "brand": "Honda",
+  "model": "CBR600RR",
+  "name": "Honda CBR600RR",
+  "raw": "Honda CBR600RR",
+  "year": 2025,
+  "km": 9100,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1661000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-23T01:02:49+00:00",
+  "features": [
+   "Без падений и ДТП",
+   "В остальном состояние хорошее",
+   "Ездил аккуратно"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Без падений и ДТП. Из косметики: небольшой скол краски на правом винглете от камня (есть подкраска в цвет), царапина на зеркале от задевания колонны на парковке и мелкие бытовые потёртости на баке. В остальном состояние хорошее, ездил аккуратно, без жёсткой эксплуатации. Летом прошёл отзывную кампанию у официального дилера Honda: двигатель в отличном состоянии, замена не потребовалась, есть подтверждающий документ"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10397/1.jpg",
+   "catalog/10397/2.jpg",
+   "catalog/10397/3.jpg",
+   "catalog/10397/4.jpg",
+   "catalog/10397/5.jpg",
+   "catalog/10397/6.jpg",
+   "catalog/10397/7.jpg",
+   "catalog/10397/8.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10397",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10387,
+  "slug": "yamaha-mt-09-sp-2023-10387",
+  "type": "moto",
+  "brand": "Yamaha",
+  "model": "MT-09",
+  "name": "Yamaha MT-09 SP",
+  "raw": "Yamaha MT-09 SP",
+  "year": 2023,
+  "km": 13000,
+  "volume": "890 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1117000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-23T00:27:29+00:00",
+  "features": [
+   "Мелкое ТО сделано",
+   "Стоит полная система SC-Project",
+   "Катализатор и штатный глушитель сняты"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Мелкое ТО сделано, после покупки достаточно поменять масло. Стоит полная система SC-Project (оригинал), катализатор и штатный глушитель сняты, но в комплекте, можно вернуть на место. Рулевой демпфер Matris, наклейки на бак и наколенники. Двухканальный видеорегистратор. Защита рук стоит только слева, вторая прилагается. Отдаются также имеющиеся в запасе расходники"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10387/1.jpg",
+   "catalog/10387/2.jpg",
+   "catalog/10387/3.jpg",
+   "catalog/10387/4.jpg",
+   "catalog/10387/5.jpg",
+   "catalog/10387/6.jpg",
+   "catalog/10387/7.jpg",
+   "catalog/10387/8.jpg",
+   "catalog/10387/9.jpg",
+   "catalog/10387/10.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10387",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10377,
+  "slug": "chevrolet-trailblazer-1-3-premier-2022-10377",
+  "type": "car",
+  "brand": "Chevrolet",
+  "model": "Trailblazer",
+  "name": "Chevrolet Trailblazer 1.3 Premier",
+  "raw": "Chevrolet Trailblazer 1.3 Premier",
+  "year": 2022,
+  "km": 56177,
+  "volume": "1.3 л",
+  "power": null,
+  "drive": "передний",
+  "gearbox": "вариатор",
+  "price": 1697000,
+  "priceLabel": "под ключ в Москве",
+  "date": "2026-11-23T00:06:28+00:00",
+  "features": [
+   "Двигатель: 156 л.с",
+   "LED-фары",
+   "Электропривод багажника"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Двигатель: 156 л.с"
+   },
+   {
+    "k": "h",
+    "t": "Комплектация"
+   },
+   {
+    "k": "li",
+    "t": "LED-фары"
+   },
+   {
+    "k": "li",
+    "t": "Электропривод багажника"
+   },
+   {
+    "k": "li",
+    "t": "Электроскладывание зеркал"
+   },
+   {
+    "k": "li",
+    "t": "Литые диски"
+   },
+   {
+    "k": "li",
+    "t": "Рейлинги на крыше"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев руля"
+   },
+   {
+    "k": "li",
+    "t": "Кнопки управления на руле"
+   },
+   {
+    "k": "li",
+    "t": "Автозатемняющееся зеркало заднего вида"
+   },
+   {
+    "k": "li",
+    "t": "Hi-Pass"
+   },
+   {
+    "k": "li",
+    "t": "Центральный замок"
+   },
+   {
+    "k": "li",
+    "t": "Усилитель руля"
+   },
+   {
+    "k": "li",
+    "t": "Электростеклоподъёмники"
+   },
+   {
+    "k": "li",
+    "t": "Фронтальные подушки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "Боковые подушки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "Шторки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "ABS"
+   },
+   {
+    "k": "li",
+    "t": "Антипробуксовочная система (TCS)"
+   },
+   {
+    "k": "li",
+    "t": "Система стабилизации (ESC)"
+   },
+   {
+    "k": "li",
+    "t": "Датчики давления в шинах"
+   },
+   {
+    "k": "li",
+    "t": "Система контроля полосы (LDWS)"
+   },
+   {
+    "k": "li",
+    "t": "Задние парктроники"
+   },
+   {
+    "k": "li",
+    "t": "Контроль слепых зон"
+   },
+   {
+    "k": "li",
+    "t": "Камера заднего вида"
+   },
+   {
+    "k": "li",
+    "t": "Адаптивный круиз-контроль"
+   },
+   {
+    "k": "li",
+    "t": "Электронный ручник"
+   },
+   {
+    "k": "li",
+    "t": "Климат-контроль"
+   },
+   {
+    "k": "li",
+    "t": "Смарт-ключ"
+   },
+   {
+    "k": "li",
+    "t": "Центральный замок с ДУ"
+   },
+   {
+    "k": "li",
+    "t": "Автоматический свет фар"
+   },
+   {
+    "k": "li",
+    "t": "Мультимедийный экран"
+   },
+   {
+    "k": "li",
+    "t": "Bluetooth"
+   },
+   {
+    "k": "li",
+    "t": "USB"
+   },
+   {
+    "k": "li",
+    "t": "AUX"
+   },
+   {
+    "k": "li",
+    "t": "Кожаный салон"
+   },
+   {
+    "k": "li",
+    "t": "Электрорегулировка водительского сиденья"
+   },
+   {
+    "k": "li",
+    "t": "Вентиляция передних сидений"
+   }
+  ],
+  "photos": [
+   "catalog/10377/1.jpg",
+   "catalog/10377/2.jpg",
+   "catalog/10377/3.jpg",
+   "catalog/10377/4.jpg",
+   "catalog/10377/5.jpg",
+   "catalog/10377/6.jpg",
+   "catalog/10377/7.jpg",
+   "catalog/10377/8.jpg",
+   "catalog/10377/9.jpg",
+   "catalog/10377/10.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/7/10377",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10367,
+  "slug": "honda-cbr650r-e-clutch-2025-10367",
+  "type": "moto",
+  "brand": "Honda",
+  "model": "CBR650R",
+  "name": "Honda CBR650R E-Clutch",
+  "raw": "Honda CBR650R E-Clutch",
+  "year": 2025,
+  "km": 6900,
+  "volume": "649 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1142000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-23T00:03:56+00:00",
+  "features": [
+   "Без ДТП и падений",
+   "Состояние близко к новому",
+   "Всё чисто и аккуратно"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Без ДТП и падений, состояние близко к новому, всё чисто и аккуратно. Пластик оригинальный Honda, цвет чёрный. Установлены крепление для телефона SP Connect, регулируемые рычаги и ветровое стекло PUIG. Стоят слайдеры Evotech на раме, а также слайдеры на вилке и маятнике."
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10367/1.jpg",
+   "catalog/10367/2.jpg",
+   "catalog/10367/3.jpg",
+   "catalog/10367/4.jpg",
+   "catalog/10367/5.jpg",
+   "catalog/10367/6.jpg",
+   "catalog/10367/7.jpg",
+   "catalog/10367/8.jpg",
+   "catalog/10367/9.jpg",
+   "catalog/10367/10.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10367",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10357,
+  "slug": "harley-davidson-fat-bob-114-2021-10357",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Fat Bob 114",
+  "name": "Harley-Davidson Fat Bob 114",
+  "raw": "Harley-Davidson Fat Bob 114",
+  "year": 2021,
+  "km": 9323,
+  "volume": "1868 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1407000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-23T00:03:15+00:00",
+  "features": [
+   "Стоит выхлоп Vance & Hines",
+   "Переоборудование официально оформлено",
+   "Дуги безопасности"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Из повреждений только мелкие царапины на дуге безопасности. Стоит выхлоп Vance & Hines, переоборудование официально оформлено. Двигатель доработан по Stage от Screamin' Eagle: впуск, высоковольтные провода и крышка сцепления (derby cover) Screamin' Eagle. Есть штатный подогрев ручек Harley-Davidson, дуги безопасности, двухканальный видеорегистратор и держатель телефона Alus. Масло в двигателе свежее, после покупки менять не нужно."
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10357/1.jpg",
+   "catalog/10357/2.jpg",
+   "catalog/10357/3.jpg",
+   "catalog/10357/4.jpg",
+   "catalog/10357/5.jpg",
+   "catalog/10357/6.jpg",
+   "catalog/10357/7.jpg",
+   "catalog/10357/8.jpg",
+   "catalog/10357/9.jpg",
+   "catalog/10357/10.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10357",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10347,
+  "slug": "yamaha-tmax-560-tech-max-2022-10347",
+  "type": "moto",
+  "brand": "Yamaha",
+  "model": "TMAX 560 Tech Max",
+  "name": "Yamaha TMAX 560 Tech Max",
+  "raw": "Yamaha TMAX 560 Tech Max",
+  "year": 2022,
+  "km": 13000,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1029000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-23T00:02:31+00:00",
+  "features": [
+   "Аккумулятор заменён на новый",
+   "Стоит двухканальный видеорегистратор",
+   "Стоят на кронштейнах"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Аккумулятор заменён на новый. Стоит двухканальный видеорегистратор (передняя и задняя камеры). Установлены багажник под центральный кофр и держатель телефона на руль. Зеркала перенесены на передний обтекатель, стоят на кронштейнах. Алюминиевые подножки золотистого цвета, козырёк над приборкой от солнца"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10347/1.jpg",
+   "catalog/10347/2.jpg",
+   "catalog/10347/3.jpg",
+   "catalog/10347/4.jpg",
+   "catalog/10347/5.jpg",
+   "catalog/10347/6.jpg",
+   "catalog/10347/7.jpg",
+   "catalog/10347/8.jpg",
+   "catalog/10347/9.jpg",
+   "catalog/10347/10.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10347",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10342,
+  "slug": "yamaha-tmax-560-2027-10342",
+  "type": "moto",
+  "brand": "Yamaha",
+  "model": "Tmax 560",
+  "name": "Yamaha Tmax 560",
+  "raw": "Yamaha TMAX 560",
+  "year": 2027,
+  "km": 2300,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1306000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-23T00:01:46+00:00",
+  "features": [
+   "Состояние как у нового",
+   "С салона меньше месяца",
+   "Первое бесплатное ТО пройдено"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Состояние как у нового, с салона меньше месяца. Первое бесплатное ТО пройдено, расходники практически не изношены. Из косметики только мелкие царапины на накладке глушителя и правой подножке. Дополнительно установлены грузики руля, накладки на подножки, клипса боковой подножки, задние слайдеры, кроссбар и держатель на два телефона с магнитным креплением и зарядкой"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10342/1.jpg",
+   "catalog/10342/2.jpg",
+   "catalog/10342/3.jpg",
+   "catalog/10342/4.jpg",
+   "catalog/10342/5.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10342",
+  "parser": 3,
+  "orig": true
+ },
+ {
   "id": 10329,
   "slug": "mini-cooper-countryman-classic-2nd-2023-10329",
   "type": "car",
@@ -8961,46 +10256,6 @@
    "catalog/9380/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/9380",
-  "parser": 3,
-  "orig": true,
-  "hd": true,
-  "hdv": 2
- },
- {
-  "id": 9376,
-  "slug": "yamaha-yzf-r6-2020-9376",
-  "type": "moto",
-  "brand": "Yamaha",
-  "model": "YZF-R6",
-  "name": "Yamaha YZF-R6",
-  "raw": "Yamaha YZF-R6",
-  "year": 2020,
-  "km": 13844,
-  "volume": "600 см³",
-  "power": null,
-  "drive": null,
-  "gearbox": null,
-  "price": 1324000,
-  "priceLabel": "под ключ",
-  "date": "2026-11-13T01:21:36+00:00",
-  "features": [
-   "Установлены рычаги XRT",
-   "Защита рычагов",
-   "Слайдеры рамы и переднего колеса"
-  ],
-  "body": [
-   {
-    "k": "p",
-    "t": "Мотоцикл в хорошем техническом состоянии. Установлены рычаги XRT, защита рычагов, слайдеры рамы и переднего колеса, крепёж Hook Bolt, боковая подставка R&G Side Stand Pad, двухканальный видеорегистратор, беспроводной держатель для зарядки телефона, литиевая аккумуляторная батарея 12V. Установлен Akrapovič Slip-on с официальной регистрацией изменений. Заменены моторное масло и масляный фильтр. По словам продавца, максимальная скорость составляет 280 км/ч, отсечка — 16 500 об/мин."
-   }
-  ],
-  "photos": [
-   "catalog/9376/1.jpg",
-   "catalog/9376/2.jpg",
-   "catalog/9376/3.jpg",
-   "catalog/9376/4.jpg"
-  ],
-  "post": "https://t.me/koreamotocycles_veltor/8/9376",
   "parser": 3,
   "orig": true,
   "hd": true,
@@ -19893,134 +21148,6 @@
   "hdv": 2
  },
  {
-  "id": 8528,
-  "slug": "bmw-s-1000-rr-race-package-2021-8528",
-  "type": "moto",
-  "brand": "BMW",
-  "model": "S 1000 RR",
-  "name": "BMW S 1000 RR Race Package",
-  "raw": "BMW S1000RR Race Package",
-  "year": 2021,
-  "km": 22427,
-  "volume": "999 см³",
-  "power": null,
-  "drive": null,
-  "gearbox": null,
-  "price": 1439000,
-  "priceLabel": "под ключ",
-  "date": "2026-10-31T13:39:24+00:00",
-  "features": [
-   "Выполнен переход на полную мощность",
-   "Фактический пробег подтверждён",
-   "Слайдеры двигателя Evotech"
-  ],
-  "body": [
-   {
-    "k": "p",
-    "t": "BMW S1000RR в комплектации Race Package. Установлена оригинальная выхлопная система Austin Racing, выполнен переход на полную мощность. Фактический пробег подтверждён."
-   },
-   {
-    "k": "h",
-    "t": "Тюнинг и дополнительное оборудование"
-   },
-   {
-    "k": "li",
-    "t": "Слайдеры двигателя Evotech"
-   },
-   {
-    "k": "li",
-    "t": "Защита двигателя GB Racing"
-   },
-   {
-    "k": "li",
-    "t": "Подножки LighTech"
-   },
-   {
-    "k": "li",
-    "t": "Рычаг сцепления LighTech"
-   },
-   {
-    "k": "li",
-    "t": "Карбоновая защита нижней части RCM"
-   },
-   {
-    "k": "li",
-    "t": "Карбоновая защита маятника RCM"
-   },
-   {
-    "k": "li",
-    "t": "Карбоновые накладки на раму"
-   },
-   {
-    "k": "li",
-    "t": "Карбоновые накладки на крепления подножек LighTech"
-   },
-   {
-    "k": "li",
-    "t": "Карбоновые накладки на маятник"
-   },
-   {
-    "k": "li",
-    "t": "Карбоновая защита цепи"
-   },
-   {
-    "k": "li",
-    "t": "Карбоновые боковые накладки"
-   },
-   {
-    "k": "li",
-    "t": "Декоративные наклейки MMX"
-   },
-   {
-    "k": "li",
-    "t": "Оригинальный выхлоп Austin Racing с завершённой перенастройкой"
-   },
-   {
-    "k": "li",
-    "t": "Чёрное ветровое стекло WRS"
-   },
-   {
-    "k": "li",
-    "t": "Двухканальный видеорегистратор"
-   },
-   {
-    "k": "li",
-    "t": "Дополнительный свет Canopy"
-   },
-   {
-    "k": "li",
-    "t": "Разъём SP Connect"
-   },
-   {
-    "k": "li",
-    "t": "Цифровой зарядный порт"
-   },
-   {
-    "k": "li",
-    "t": "Защитные элементы на передней части мотоцикла"
-   },
-   {
-    "k": "li",
-    "t": "Проведён ремонт незначительного подтекания передней вилки"
-   },
-   {
-    "k": "li",
-    "t": "Без скользящих падений. Был один незначительный завал на левую сторону на месте"
-   }
-  ],
-  "photos": [
-   "catalog/8528/1.jpg",
-   "catalog/8528/2.jpg",
-   "catalog/8528/3.jpg",
-   "catalog/8528/4.jpg"
-  ],
-  "post": "https://t.me/koreamotocycles_veltor/8/8528",
-  "parser": 3,
-  "orig": true,
-  "hd": true,
-  "hdv": 2
- },
- {
   "id": 8524,
   "slug": "triumph-bonneville-t120-black-2023-8524",
   "type": "moto",
@@ -21463,210 +22590,6 @@
    "catalog/8450/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/8450",
-  "parser": 3,
-  "orig": true,
-  "hd": true,
-  "hdv": 2
- },
- {
-  "id": 8441,
-  "slug": "honda-cbr600rr-2025-8441",
-  "type": "moto",
-  "brand": "Honda",
-  "model": "CBR600RR",
-  "name": "Honda CBR600RR",
-  "raw": "Honda CBR600RR",
-  "year": 2025,
-  "km": 9100,
-  "volume": null,
-  "power": null,
-  "drive": null,
-  "gearbox": null,
-  "price": 1674000,
-  "priceLabel": "под ключ",
-  "date": "2026-10-30T06:41:52+00:00",
-  "features": [
-   "Мотоцикл в ухоженном состоянии",
-   "Без аварий и падений",
-   "Бережная эксплуатация"
-  ],
-  "body": [
-   {
-    "k": "p",
-    "t": "Мотоцикл в ухоженном состоянии, без аварий и падений. Бережная эксплуатация, регулярное обслуживание. Все оригинальные детали сохранены."
-   },
-   {
-    "k": "p",
-    "t": "В июле пройдена официальная отзывная кампания Honda с проверкой двигателя. По результатам диагностики двигатель признан исправным, замена не потребовалась. Подтверждающие документы имеются."
-   },
-   {
-    "k": "h",
-    "t": "Тюнинг и дополнительное оборудование"
-   },
-   {
-    "k": "li",
-    "t": "Выхлоп Akrapovič (изменение конструкции зарегистрировано)"
-   },
-   {
-    "k": "li",
-    "t": "Оригинальный выхлоп в комплекте"
-   },
-   {
-    "k": "li",
-    "t": "Полностью окрашенный в чёрный цвет обтекатель, включая колёса"
-   },
-   {
-    "k": "li",
-    "t": "Ветровое стекло Puig"
-   },
-   {
-    "k": "li",
-    "t": "Зеркала Daytona"
-   },
-   {
-    "k": "li",
-    "t": "Чёрные эмблемы Honda"
-   },
-   {
-    "k": "li",
-    "t": "Чёрные болты номерного знака"
-   },
-   {
-    "k": "li",
-    "t": "Наклейки на колёсах"
-   },
-   {
-    "k": "li",
-    "t": "Подножки Gilles Tooling"
-   },
-   {
-    "k": "li",
-    "t": "Рычаги Gilles Tooling"
-   },
-   {
-    "k": "li",
-    "t": "Ручки Domino"
-   },
-   {
-    "k": "li",
-    "t": "Грипсы Epic"
-   },
-   {
-    "k": "li",
-    "t": "Карбоновая накладка на раму"
-   },
-   {
-    "k": "li",
-    "t": "Карбоновая накладка на маятник"
-   },
-   {
-    "k": "li",
-    "t": "Защита колёс R&G"
-   },
-   {
-    "k": "li",
-    "t": "Оригинальные слайдеры Honda"
-   },
-   {
-    "k": "li",
-    "t": "Защита слайдеров Evotech"
-   },
-   {
-    "k": "li",
-    "t": "Защита радиатора Evotech"
-   },
-   {
-    "k": "li",
-    "t": "Защитные болты Evotech"
-   },
-   {
-    "k": "li",
-    "t": "Защита двигателя GB Racing"
-   },
-   {
-    "k": "li",
-    "t": "Чёрные болты Daegong"
-   },
-   {
-    "k": "li",
-    "t": "Слайдеры двигателя Endurance (ранее установленные)"
-   },
-   {
-    "k": "li",
-    "t": "Новые слайдеры двигателя Moriwaki"
-   },
-   {
-    "k": "li",
-    "t": "Видеорегистратор Jinet"
-   },
-   {
-    "k": "li",
-    "t": "USB-C разъём"
-   },
-   {
-    "k": "li",
-    "t": "Крепление SP Connect"
-   },
-   {
-    "k": "li",
-    "t": "Крепление шлема Kijima"
-   },
-   {
-    "k": "li",
-    "t": "Защитная плёнка на топливном баке"
-   },
-   {
-    "k": "li",
-    "t": "Боковая подножка"
-   },
-   {
-    "k": "li",
-    "t": "Карбоновая защита выхлопа Raitake (не установлена)"
-   },
-   {
-    "k": "h",
-    "t": "Обслуживание"
-   },
-   {
-    "k": "li",
-    "t": "7’000 km — замена масла Motul 10W-40, общая проверка, очистка и смазка цепи"
-   },
-   {
-    "k": "p",
-    "t": "7’500 km — замена передней и задней шин. Передняя Rosso, задняя оригинальная Dunlop, остаток протектора более 90%"
-   },
-   {
-    "k": "li",
-    "t": "8’000 km — очистка и смазка цепи"
-   },
-   {
-    "k": "li",
-    "t": "8’500 km — очистка и смазка цепи"
-   },
-   {
-    "k": "h",
-    "t": "Состояние"
-   },
-   {
-    "k": "p",
-    "t": "Небольшой скол краски на правом винглете от попадания камня при движении. Есть краска для устранения дефекта."
-   },
-   {
-    "k": "li",
-    "t": "Незначительная царапина на боковом зеркале от контакта со стойкой на парковке"
-   },
-   {
-    "k": "li",
-    "t": "Небольшие следы эксплуатации на топливном баке"
-   }
-  ],
-  "photos": [
-   "catalog/8441/1.jpg",
-   "catalog/8441/2.jpg",
-   "catalog/8441/3.jpg",
-   "catalog/8441/4.jpg"
-  ],
-  "post": "https://t.me/koreamotocycles_veltor/8/8441",
   "parser": 3,
   "orig": true,
   "hd": true,
