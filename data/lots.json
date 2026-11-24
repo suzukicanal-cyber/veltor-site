@@ -1,5 +1,1203 @@
 [
  {
+  "id": 10919,
+  "slug": "honda-x-adv-750-2024-10919",
+  "type": "moto",
+  "brand": "Honda",
+  "model": "X-adv",
+  "name": "Honda X-adv 750",
+  "raw": "Honda X-ADV 750",
+  "year": 2024,
+  "km": 5100,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1250000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-24T14:42:00+00:00",
+  "features": [
+   "Один владелец с нового",
+   "Без ДТП",
+   "Без падений и без проскальзываний"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Один владелец с нового, на учёт поставлен в мае 2024 года. Без ДТП, без падений и без проскальзываний. Из опций: штатные подогревы ручек, видеорегистратор Gnet с передней и задней камерой, держатель для телефона с беспроводной зарядкой"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10919/1.jpg",
+   "catalog/10919/2.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10919",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 10913,
+  "slug": "honda-x-adv-2024-10913",
+  "type": "moto",
+  "brand": "Honda",
+  "model": "X-adv",
+  "name": "Honda X-adv",
+  "raw": "Honda X-ADV",
+  "year": 2024,
+  "km": 11200,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1250000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-24T14:40:42+00:00",
+  "features": [
+   "Ветровое стекло Givi",
+   "Комплект из трёх кофров Givi",
+   "Спинка пассажира"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Ветровое стекло Givi, комплект из трёх кофров Givi, спинка пассажира. Выхлоп Termignoni. Плюс мелкий полезный тюнинг для повседневной езды."
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10913/1.jpg",
+   "catalog/10913/2.jpg",
+   "catalog/10913/3.jpg",
+   "catalog/10913/4.jpg",
+   "catalog/10913/5.jpg",
+   "catalog/10913/6.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10913",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 10904,
+  "slug": "honda-x-adv-2024-10904",
+  "type": "moto",
+  "brand": "Honda",
+  "model": "X-adv",
+  "name": "Honda X-adv",
+  "raw": "Honda X-ADV",
+  "year": 2024,
+  "km": 6637,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1281000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-24T14:39:33+00:00",
+  "features": [
+   "Без ДТП и падений",
+   "Выхлоп LeoVince",
+   "Подогрев ручек и расширитель подножки"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Без ДТП и падений"
+   },
+   {
+    "k": "p",
+    "t": "Установлены двухканальный видеорегистратор Gnet, выхлоп LeoVince, подогрев ручек и расширитель подножки. Мотоцикл ещё на заводской гарантии. Штатную резину с внедорожным рисунком сменил на дорожную, передняя и задняя шины новые"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10904/1.jpg",
+   "catalog/10904/2.jpg",
+   "catalog/10904/3.jpg",
+   "catalog/10904/4.jpg",
+   "catalog/10904/5.jpg",
+   "catalog/10904/6.jpg",
+   "catalog/10904/7.jpg",
+   "catalog/10904/8.jpg",
+   "catalog/10904/9.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10904",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10894,
+  "slug": "harley-davidson-breakout-2015-10894",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Breakout",
+  "name": "Harley-Davidson Breakout",
+  "raw": "Harley-Davidson Breakout",
+  "year": 2015,
+  "km": 25400,
+  "volume": "1690 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1470000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-24T14:30:29+00:00",
+  "features": [
+   "Без ДТП",
+   "Стоит выхлоп Freedom Performance",
+   "Купить мотоцикл из Южной Кореи 🇰🇷"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Без ДТП. Цвет чёрный. Стоит выхлоп Freedom Performance"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10894/1.jpg",
+   "catalog/10894/2.jpg",
+   "catalog/10894/3.jpg",
+   "catalog/10894/4.jpg",
+   "catalog/10894/5.jpg",
+   "catalog/10894/6.jpg",
+   "catalog/10894/7.jpg",
+   "catalog/10894/8.jpg",
+   "catalog/10894/9.jpg",
+   "catalog/10894/10.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10894",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10885,
+  "slug": "harley-davidson-breakout-2014-10885",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Breakout",
+  "name": "Harley-Davidson Breakout",
+  "raw": "Harley-Davidson Breakout",
+  "year": 2014,
+  "km": 20000,
+  "volume": "1690 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1388000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-24T14:28:18+00:00",
+  "features": [
+   "Красно-чёрный окрас",
+   "Вживую смотрится ещё эффектнее",
+   "Чем на фото"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Красно-чёрный окрас, вживую смотрится ещё эффектнее, чем на фото. Состояние очень хорошее. Стоит выхлоп Vance & Hines, родной глушитель в комплекте. Аккуратный тюнинг: открытый воздушный фильтр, сиденье с ромбовидной прострочкой, сумка на маятнике, держатель для телефона. Все снятые родные детали сохранены. Звук отличный."
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10885/1.jpg",
+   "catalog/10885/2.jpg",
+   "catalog/10885/3.jpg",
+   "catalog/10885/4.jpg",
+   "catalog/10885/5.jpg",
+   "catalog/10885/6.jpg",
+   "catalog/10885/7.jpg",
+   "catalog/10885/8.jpg",
+   "catalog/10885/9.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10885",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10879,
+  "slug": "bmw-r-1300-gs-triple-black-2024-10879",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "R 1300 GS",
+  "name": "BMW R 1300 GS Triple Black",
+  "raw": "BMW R1300GS Triple Black",
+  "year": 2024,
+  "km": 12300,
+  "volume": "1300 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2040000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-24T13:59:33+00:00",
+  "features": [
+   "Полная комплектация",
+   "Один владелец с момента покупки",
+   "Гарантия ещё действует"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Полная комплектация, один владелец с момента покупки, гарантия ещё действует. Автоматическое опускание подвески при остановке и возвращение к стандартной высоте при движении. ACC Adaptive Cruise Control, электронное ветровое стекло с регулировкой на ходу. Установлены оригинальные боковые кофры BMW, алюминиевый центральный кофр LOBU с пассажирской спинкой, рамки боковых кофров Ronalder и двухканальный видеорегистратор. По истории — небольшое падение на левую сторону при попытке удержать мотоцикл."
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10879/1.jpg",
+   "catalog/10879/2.jpg",
+   "catalog/10879/3.jpg",
+   "catalog/10879/4.jpg",
+   "catalog/10879/5.jpg",
+   "catalog/10879/6.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10879",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10874,
+  "slug": "bmw-s-1000-rr-m-package-2022-10874",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR M Package",
+  "raw": "BMW S1000RR M Package",
+  "year": 2022,
+  "km": 14000,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1521000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-24T10:53:30+00:00",
+  "features": [
+   "Из тюнинга: защита двигателя GB Racing",
+   "Слип-он глушитель Akrapovic",
+   "Рычаги M"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "BMW S1000RR 2022 года в комплектации M Package. Из тюнинга: защита двигателя GB Racing, слип-он глушитель Akrapovic, рычаги M, подножки (рейсеты), передний и задний видеорегистраторы, слайдеры рамы Gilles. Был лёгкий занос с падением на правый бок. Мотоцикл уже снят с учёта, документы готовы к оформлению"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10874/1.jpg",
+   "catalog/10874/2.jpg",
+   "catalog/10874/3.jpg",
+   "catalog/10874/4.jpg",
+   "catalog/10874/5.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10874",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10867,
+  "slug": "harley-davidson-fat-boy-117-2025-10867",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Fat Boy",
+  "name": "Harley-Davidson Fat Boy 117",
+  "raw": "Harley-Davidson Fat Boy 117",
+  "year": 2025,
+  "km": 1264,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2467000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-24T10:42:20+00:00",
+  "features": [
+   "Без ДТП",
+   "Из тюнинга стоят спинка пассажира",
+   "Видеорегистратор и боковые кофры"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Harley-Davidson Fat Boy 117 2025 года в состоянии нового мотоцикла, без ДТП. Хранился только на подземной парковке и ни разу не был под дождём. Из тюнинга стоят спинка пассажира (sissy bar), видеорегистратор и боковые кофры, есть защитные дуги"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10867/1.jpg",
+   "catalog/10867/2.jpg",
+   "catalog/10867/3.jpg",
+   "catalog/10867/4.jpg",
+   "catalog/10867/5.jpg",
+   "catalog/10867/6.jpg",
+   "catalog/10867/7.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10867",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10857,
+  "slug": "volkswagen-golf-2-0-tdi-prestige-2023-10857",
+  "type": "car",
+  "brand": "Volkswagen",
+  "model": "Golf",
+  "name": "Volkswagen Golf 2.0 TDI Prestige",
+  "raw": "Volkswagen Golf 2.0 TDI Prestige",
+  "year": 2023,
+  "km": 56700,
+  "volume": "2.0 л",
+  "power": null,
+  "drive": "передний",
+  "gearbox": "робот",
+  "price": 3098000,
+  "priceLabel": "под ключ в Москве",
+  "date": "2026-11-24T10:36:23+00:00",
+  "features": [
+   "Двигатель: 150 л.с",
+   "Электроскладывание зеркал",
+   "Литые диски"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Двигатель: 150 л.с"
+   },
+   {
+    "k": "h",
+    "t": "Комплектация"
+   },
+   {
+    "k": "li",
+    "t": "Люк"
+   },
+   {
+    "k": "li",
+    "t": "Электроскладывание зеркал"
+   },
+   {
+    "k": "li",
+    "t": "Литые диски"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев руля"
+   },
+   {
+    "k": "li",
+    "t": "Подрулевые лепестки"
+   },
+   {
+    "k": "li",
+    "t": "Кнопки управления на руле"
+   },
+   {
+    "k": "li",
+    "t": "Автозатемняющееся зеркало заднего вида"
+   },
+   {
+    "k": "li",
+    "t": "Центральный замок"
+   },
+   {
+    "k": "li",
+    "t": "Усилитель руля"
+   },
+   {
+    "k": "li",
+    "t": "Электростеклоподъёмники"
+   },
+   {
+    "k": "li",
+    "t": "Фронтальные подушки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "Боковые подушки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "Шторки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "ABS"
+   },
+   {
+    "k": "li",
+    "t": "Антипробуксовочная система (TCS)"
+   },
+   {
+    "k": "li",
+    "t": "Система стабилизации (ESC)"
+   },
+   {
+    "k": "li",
+    "t": "Датчики давления в шинах"
+   },
+   {
+    "k": "li",
+    "t": "Система контроля полосы (LDWS)"
+   },
+   {
+    "k": "li",
+    "t": "Парктроники передние и задние"
+   },
+   {
+    "k": "li",
+    "t": "Контроль слепых зон"
+   },
+   {
+    "k": "li",
+    "t": "Камера заднего вида"
+   },
+   {
+    "k": "li",
+    "t": "Климат-контроль"
+   },
+   {
+    "k": "li",
+    "t": "Смарт-ключ"
+   },
+   {
+    "k": "li",
+    "t": "Центральный замок с ДУ"
+   },
+   {
+    "k": "li",
+    "t": "Датчик дождя"
+   },
+   {
+    "k": "li",
+    "t": "Автоматический свет фар"
+   },
+   {
+    "k": "li",
+    "t": "Мультимедийный экран"
+   },
+   {
+    "k": "li",
+    "t": "Bluetooth"
+   },
+   {
+    "k": "li",
+    "t": "USB"
+   },
+   {
+    "k": "li",
+    "t": "Кожаный салон"
+   },
+   {
+    "k": "li",
+    "t": "Электрорегулировка водительского сиденья"
+   },
+   {
+    "k": "li",
+    "t": "Память сиденья водителя"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев передних сидений"
+   },
+   {
+    "k": "li",
+    "t": "Массаж сидений"
+   }
+  ],
+  "photos": [
+   "catalog/10857/1.jpg",
+   "catalog/10857/2.jpg",
+   "catalog/10857/3.jpg",
+   "catalog/10857/4.jpg",
+   "catalog/10857/5.jpg",
+   "catalog/10857/6.jpg",
+   "catalog/10857/7.jpg",
+   "catalog/10857/8.jpg",
+   "catalog/10857/9.jpg",
+   "catalog/10857/10.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/7/10857",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10847,
+  "slug": "harley-davidson-fat-boy-114-2023-10847",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Fat Boy 114",
+  "name": "Harley-Davidson Fat Boy 114",
+  "raw": "Harley-Davidson Fat Boy 114",
+  "year": 2023,
+  "km": 2821,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2025000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-24T10:26:04+00:00",
+  "features": [
+   "Без ДТП и падений",
+   "Состояние как у нового",
+   "Без особых замечаний"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Без ДТП и падений"
+   },
+   {
+    "k": "p",
+    "t": "Состояние как у нового, без особых замечаний, полностью на ходу. Официальная гарантия Harley-Davidson действует до мая 2028 года, остались купоны на замену масла до 8000 км. Стоят прямоток Khrome Werks, спортивный воздушный фильтр, подогрев ручек, переключатель передач пятка-носок, боковой кофр, многопозиционная спинка с багажником и двухканальный видеорегистратор."
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10847/1.jpg",
+   "catalog/10847/2.jpg",
+   "catalog/10847/3.jpg",
+   "catalog/10847/4.jpg",
+   "catalog/10847/5.jpg",
+   "catalog/10847/6.jpg",
+   "catalog/10847/7.jpg",
+   "catalog/10847/8.jpg",
+   "catalog/10847/9.jpg",
+   "catalog/10847/10.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10847",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10842,
+  "slug": "harley-davidson-fat-boy-114-2024-10842",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Fat Boy 114",
+  "name": "Harley-Davidson Fat Boy 114",
+  "raw": "Harley-Davidson Fat Boy 114",
+  "year": 2024,
+  "km": 9000,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2158000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-24T10:24:59+00:00",
+  "features": [
+   "Внешне в очень хорошем состоянии",
+   "Чистый",
+   "Двигатель и расходники в порядке"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Внешне в очень хорошем состоянии, чистый. Двигатель и расходники в порядке, можно сразу ехать. На фото видно доп. оборудование: высокий руль, боковые кофры, спинка пассажира, защитные дуги и кожаная сумка."
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10842/1.jpg",
+   "catalog/10842/2.jpg",
+   "catalog/10842/3.jpg",
+   "catalog/10842/4.jpg",
+   "catalog/10842/5.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10842",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10832,
+  "slug": "harley-davidson-fat-boy-2026-10832",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Fat Boy",
+  "name": "Harley-Davidson Fat Boy",
+  "raw": "Harley-Davidson Fat Boy",
+  "year": 2026,
+  "km": 994,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2522000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-24T10:23:20+00:00",
+  "features": [
+   "Без ДТП и падений",
+   "Состояние нового мотоцикла",
+   "Установлены дуги безопасности"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Без ДТП и падений"
+   },
+   {
+    "k": "p",
+    "t": "Состояние нового мотоцикла. Установлены дуги безопасности, хайвей-педали, держатель телефона с беспроводной зарядкой и двухканальный видеорегистратор GNET. Также стоит двойной лягушачий переключатель передач (пятка-носок) и регулируемая спинка"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10832/1.jpg",
+   "catalog/10832/2.jpg",
+   "catalog/10832/3.jpg",
+   "catalog/10832/4.jpg",
+   "catalog/10832/5.jpg",
+   "catalog/10832/6.jpg",
+   "catalog/10832/7.jpg",
+   "catalog/10832/8.jpg",
+   "catalog/10832/9.jpg",
+   "catalog/10832/10.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10832",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10815,
+  "slug": "harley-davidson-fat-bob-114-2024-10815",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Fat Bob 114",
+  "name": "Harley-Davidson Fat Bob 114",
+  "raw": "Harley-Davidson Fat Bob 114",
+  "year": 2024,
+  "km": 5894,
+  "volume": "1868 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1596000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-24T09:05:31+00:00",
+  "features": [
+   "Техническое состояние хорошее",
+   "Двигатель",
+   "Установлены защитные дуги"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Цвет чёрный. Техническое состояние хорошее, двигатель, коробка и электрика без замечаний. Установлены защитные дуги, спинка пассажира с багажником и держатель для телефона на руле."
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10815/1.jpg",
+   "catalog/10815/2.jpg",
+   "catalog/10815/3.jpg",
+   "catalog/10815/4.jpg",
+   "catalog/10815/5.jpg",
+   "catalog/10815/6.jpg",
+   "catalog/10815/7.jpg",
+   "catalog/10815/8.jpg",
+   "catalog/10815/9.jpg",
+   "catalog/10815/10.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10815",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10805,
+  "slug": "chevrolet-spark-1-0-premier-2022-10805",
+  "type": "car",
+  "brand": "Chevrolet",
+  "model": "Spark",
+  "name": "Chevrolet Spark 1.0 Premier",
+  "raw": "Chevrolet Spark 1.0 Premier",
+  "year": 2022,
+  "km": 14547,
+  "volume": "1.0 л",
+  "power": null,
+  "drive": "передний",
+  "gearbox": "вариатор",
+  "price": 1354000,
+  "priceLabel": "под ключ в Москве",
+  "date": "2026-11-24T08:37:47+00:00",
+  "features": [
+   "Двигатель: 75 л.с",
+   "Электроскладывание зеркал",
+   "Литые диски"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Двигатель: 75 л.с"
+   },
+   {
+    "k": "h",
+    "t": "Комплектация"
+   },
+   {
+    "k": "li",
+    "t": "Электроскладывание зеркал"
+   },
+   {
+    "k": "li",
+    "t": "Литые диски"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев руля"
+   },
+   {
+    "k": "li",
+    "t": "Кнопки управления на руле"
+   },
+   {
+    "k": "li",
+    "t": "Центральный замок"
+   },
+   {
+    "k": "li",
+    "t": "Усилитель руля"
+   },
+   {
+    "k": "li",
+    "t": "Электростеклоподъёмники"
+   },
+   {
+    "k": "li",
+    "t": "Фронтальные подушки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "Боковые подушки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "Шторки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "ABS"
+   },
+   {
+    "k": "li",
+    "t": "Антипробуксовочная система (TCS)"
+   },
+   {
+    "k": "li",
+    "t": "Система стабилизации (ESC)"
+   },
+   {
+    "k": "li",
+    "t": "Датчики давления в шинах"
+   },
+   {
+    "k": "li",
+    "t": "Система контроля полосы (LDWS)"
+   },
+   {
+    "k": "li",
+    "t": "Задние парктроники"
+   },
+   {
+    "k": "li",
+    "t": "Контроль слепых зон"
+   },
+   {
+    "k": "li",
+    "t": "Камера заднего вида"
+   },
+   {
+    "k": "li",
+    "t": "Круиз-контроль"
+   },
+   {
+    "k": "li",
+    "t": "Смарт-ключ"
+   },
+   {
+    "k": "li",
+    "t": "Центральный замок с ДУ"
+   },
+   {
+    "k": "li",
+    "t": "Автоматический свет фар"
+   },
+   {
+    "k": "li",
+    "t": "Мультимедийный экран"
+   },
+   {
+    "k": "li",
+    "t": "Bluetooth"
+   },
+   {
+    "k": "li",
+    "t": "USB"
+   },
+   {
+    "k": "li",
+    "t": "Кожаный салон"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев передних сидений"
+   }
+  ],
+  "photos": [
+   "catalog/10805/1.jpg",
+   "catalog/10805/2.jpg",
+   "catalog/10805/3.jpg",
+   "catalog/10805/4.jpg",
+   "catalog/10805/5.jpg",
+   "catalog/10805/6.jpg",
+   "catalog/10805/7.jpg",
+   "catalog/10805/8.jpg",
+   "catalog/10805/9.jpg",
+   "catalog/10805/10.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/7/10805",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10795,
+  "slug": "bmw-s-1000-rr-m-package-2026-10795",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR M Package",
+  "raw": "BMW S 1000 RR M Package",
+  "year": 2026,
+  "km": 972,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2408000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-24T06:34:22+00:00",
+  "features": [
+   "Байк в состоянии нового",
+   "Без ДТП и замен",
+   "Еще на обкатке"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Байк в состоянии нового"
+   },
+   {
+    "k": "li",
+    "t": "Без ДТП и замен"
+   },
+   {
+    "k": "li",
+    "t": "Еще на обкатке"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10795/1.jpg",
+   "catalog/10795/2.jpg",
+   "catalog/10795/3.jpg",
+   "catalog/10795/4.jpg",
+   "catalog/10795/5.jpg",
+   "catalog/10795/6.jpg",
+   "catalog/10795/7.jpg",
+   "catalog/10795/8.jpg",
+   "catalog/10795/9.jpg",
+   "catalog/10795/10.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10795",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10786,
+  "slug": "harley-davidson-low-rider-st-2023-10786",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Low Rider ST",
+  "name": "Harley-Davidson Low Rider ST",
+  "raw": "Harley-Davidson Low Rider ST",
+  "year": 2023,
+  "km": 8900,
+  "volume": "1923 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1860000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-24T06:17:54+00:00",
+  "features": [
+   "Состояние очень хорошее",
+   "Купить мотоцикл из Южной Кореи 🇰🇷"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Лимитированная расцветка Fast Johnnie 2023 года. Состояние очень хорошее. Остался неиспользованный купон на плановое ТО на 8000 км, его можно пройти у официального дилера Harley-Davidson. Установлен держатель для телефона с беспроводной зарядкой"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10786/1.jpg",
+   "catalog/10786/2.jpg",
+   "catalog/10786/3.jpg",
+   "catalog/10786/4.jpg",
+   "catalog/10786/5.jpg",
+   "catalog/10786/6.jpg",
+   "catalog/10786/7.jpg",
+   "catalog/10786/8.jpg",
+   "catalog/10786/9.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10786",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10777,
+  "slug": "honda-cbr650r-2021-10777",
+  "type": "moto",
+  "brand": "Honda",
+  "model": "CBR650R",
+  "name": "Honda CBR650R",
+  "raw": "Honda CBR650R",
+  "year": 2021,
+  "km": 5826,
+  "volume": "649 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 934000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-24T05:22:12+00:00",
+  "features": [
+   "Состояние очень хорошее",
+   "Установлены квикшифтер",
+   "Боковые накладки-«жабры» на пластик"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Состояние очень хорошее. Стоит двухканальный видеорегистратор Innovv K3 с Wi-Fi-подключением к телефону. Установлены квикшифтер (вверх), боковые накладки-«жабры» на пластик, ветровое стекло, грипсы Domino, регулируемые рычаги XRT (сцепление и тормоз), наклейка на бак и боковые наклейки под колени, сетка радиатора и наклейки на диски. Также стоят задний обтекатель, крепление SP Connect (Motostem) и USB-зарядка Daytona. Стоковое стекло и стоковая задняя часть в комплекте"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10777/1.jpg",
+   "catalog/10777/2.jpg",
+   "catalog/10777/3.jpg",
+   "catalog/10777/4.jpg",
+   "catalog/10777/5.jpg",
+   "catalog/10777/6.jpg",
+   "catalog/10777/7.jpg",
+   "catalog/10777/8.jpg",
+   "catalog/10777/9.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10777",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10767,
+  "slug": "kia-ray-1-0-prestige-2022-10767",
+  "type": "car",
+  "brand": "Kia",
+  "model": "Ray",
+  "name": "Kia Ray 1.0 Prestige",
+  "raw": "Kia Ray 1.0 Prestige",
+  "year": 2022,
+  "km": 46233,
+  "volume": "1.0 л",
+  "power": null,
+  "drive": "передний",
+  "gearbox": "автомат",
+  "price": 1467000,
+  "priceLabel": "под ключ в Москве",
+  "date": "2026-11-24T05:16:47+00:00",
+  "features": [
+   "Двигатель: 76 л.с",
+   "Электроскладывание зеркал",
+   "Литые диски"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Двигатель: 76 л.с"
+   },
+   {
+    "k": "h",
+    "t": "Комплектация"
+   },
+   {
+    "k": "li",
+    "t": "Электроскладывание зеркал"
+   },
+   {
+    "k": "li",
+    "t": "Литые диски"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев руля"
+   },
+   {
+    "k": "li",
+    "t": "Кнопки управления на руле"
+   },
+   {
+    "k": "li",
+    "t": "Центральный замок"
+   },
+   {
+    "k": "li",
+    "t": "Усилитель руля"
+   },
+   {
+    "k": "li",
+    "t": "Электростеклоподъёмники"
+   },
+   {
+    "k": "li",
+    "t": "Фронтальные подушки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "Боковые подушки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "Шторки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "ABS"
+   },
+   {
+    "k": "li",
+    "t": "Антипробуксовочная система (TCS)"
+   },
+   {
+    "k": "li",
+    "t": "Система стабилизации (ESC)"
+   },
+   {
+    "k": "li",
+    "t": "Датчики давления в шинах"
+   },
+   {
+    "k": "li",
+    "t": "Задние парктроники"
+   },
+   {
+    "k": "li",
+    "t": "Камера заднего вида"
+   },
+   {
+    "k": "li",
+    "t": "Смарт-ключ"
+   },
+   {
+    "k": "li",
+    "t": "Центральный замок с ДУ"
+   },
+   {
+    "k": "li",
+    "t": "Автоматический свет фар"
+   },
+   {
+    "k": "li",
+    "t": "Мультимедийный экран"
+   },
+   {
+    "k": "li",
+    "t": "Bluetooth"
+   },
+   {
+    "k": "li",
+    "t": "USB"
+   },
+   {
+    "k": "li",
+    "t": "Кожаный салон"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев передних сидений"
+   },
+   {
+    "k": "li",
+    "t": "Вентиляция передних сидений"
+   }
+  ],
+  "photos": [
+   "catalog/10767/1.jpg",
+   "catalog/10767/2.jpg",
+   "catalog/10767/3.jpg",
+   "catalog/10767/4.jpg",
+   "catalog/10767/5.jpg",
+   "catalog/10767/6.jpg",
+   "catalog/10767/7.jpg",
+   "catalog/10767/8.jpg",
+   "catalog/10767/9.jpg",
+   "catalog/10767/10.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/7/10767",
+  "parser": 3,
+  "orig": true
+ },
+ {
   "id": 10746,
   "slug": "honda-cbr650r-e-clutch-2024-10746",
   "type": "moto",
@@ -384,7 +1582,7 @@
   "slug": "harley-davidson-street-bob-117-2025-10705",
   "type": "moto",
   "brand": "Harley-Davidson",
-  "model": "Street Bob",
+  "model": "Street Bob 117",
   "name": "Harley-Davidson Street Bob 117",
   "raw": "Harley-Davidson Street Bob 117",
   "year": 2025,
@@ -5944,50 +7142,6 @@
   "hdv": 2
  },
  {
-  "id": 9984,
-  "slug": "bmw-s-1000-rr-m-package-2022-9984",
-  "type": "moto",
-  "brand": "BMW",
-  "model": "S 1000 RR",
-  "name": "BMW S 1000 RR M Package",
-  "raw": "BMW S1000RR M Package",
-  "year": 2022,
-  "km": 14000,
-  "volume": "999 см³",
-  "power": null,
-  "drive": null,
-  "gearbox": null,
-  "price": 1537000,
-  "priceLabel": "под ключ",
-  "date": "2026-11-20T00:56:19+00:00",
-  "features": [
-   "Выхлоп Akrapovič Slip-On",
-   "Регулируемые рычаги M",
-   "Задние регулируемые подножки"
-  ],
-  "body": [
-   {
-    "k": "p",
-    "t": "BMW S1000RR в комплектации M Package. Указано падение со скольжением на правую сторону — этот момент необходимо учитывать при осмотре. Установлено дополнительное оборудование: защита двигателя GB Racing, выхлоп Akrapovič Slip-On, регулируемые рычаги M, задние регулируемые подножки, передний и задний видеорегистраторы, слайдеры рамы Gilles. Основные элементы тюнинга уже установлены, поэтому дополнительных вложений в базовое оснащение не требуется."
-   },
-   {
-    "k": "li",
-    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
-   }
-  ],
-  "photos": [
-   "catalog/9984/1.jpg",
-   "catalog/9984/2.jpg",
-   "catalog/9984/3.jpg",
-   "catalog/9984/4.jpg"
-  ],
-  "post": "https://t.me/koreamotocycles_veltor/8/9984",
-  "parser": 3,
-  "orig": true,
-  "hd": true,
-  "hdv": 2
- },
- {
   "id": 9980,
   "slug": "harley-davidson-nightster-975-2022-9980",
   "type": "moto",
@@ -8157,50 +9311,6 @@
    "catalog/9772/4.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/9772",
-  "parser": 3,
-  "orig": true,
-  "hd": true,
-  "hdv": 2
- },
- {
-  "id": 9768,
-  "slug": "harley-davidson-low-rider-st-2023-9768",
-  "type": "moto",
-  "brand": "Harley-Davidson",
-  "model": "Low Rider ST",
-  "name": "Harley-Davidson Low Rider ST",
-  "raw": "Harley-Davidson Low Rider ST",
-  "year": 2023,
-  "km": 8900,
-  "volume": null,
-  "power": null,
-  "drive": null,
-  "gearbox": null,
-  "price": 1854000,
-  "priceLabel": "под ключ",
-  "date": "2026-11-18T04:20:18+00:00",
-  "features": [
-   "Байк в очень хорошем состоянии",
-   "Обслуживание: заменены моторное масло",
-   "Масляный фильтр"
-  ],
-  "body": [
-   {
-    "k": "p",
-    "t": "Harley-Davidson Low Rider ST 2023 года в лимитированной расцветке Fast Johnnie. Байк в очень хорошем состоянии. Обслуживание: заменены моторное масло, масляный фильтр, воздушный фильтр и масло в трансмиссии. Тюнинг: держатель для телефона и защитные дуги двигателя"
-   },
-   {
-    "k": "li",
-    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
-   }
-  ],
-  "photos": [
-   "catalog/9768/1.jpg",
-   "catalog/9768/2.jpg",
-   "catalog/9768/3.jpg",
-   "catalog/9768/4.jpg"
-  ],
-  "post": "https://t.me/koreamotocycles_veltor/8/9768",
   "parser": 3,
   "orig": true,
   "hd": true,
@@ -21247,94 +22357,6 @@
   "hdv": 2
  },
  {
-  "id": 8605,
-  "slug": "bmw-r-1300-gs-triple-black-2024-8605",
-  "type": "moto",
-  "brand": "BMW",
-  "model": "R 1300 GS",
-  "name": "BMW R 1300 GS Triple Black",
-  "raw": "BMW R1300GS Triple Black",
-  "year": 2024,
-  "km": 12300,
-  "volume": "1300 см³",
-  "power": null,
-  "drive": null,
-  "gearbox": null,
-  "price": 2055000,
-  "priceLabel": "под ключ",
-  "date": "2026-11-01T07:11:36+00:00",
-  "features": [
-   "Один владелец с нового",
-   "Куплен у официального дилера",
-   "На гарантии"
-  ],
-  "body": [
-   {
-    "k": "p",
-    "t": "BMW R1300GS 2024 года в цвете Triple Black. Один владелец с нового, куплен у официального дилера, на гарантии, без ДТП. Обкатка и замены масла сделаны вовремя, расходники в хорошем состоянии."
-   },
-   {
-    "k": "h",
-    "t": "Комплектация"
-   },
-   {
-    "k": "li",
-    "t": "Адаптивное понижение высоты при остановке"
-   },
-   {
-    "k": "li",
-    "t": "Электрорегулировка ветрового стекла"
-   },
-   {
-    "k": "li",
-    "t": "Адаптивный круиз-контроль (ACC)"
-   },
-   {
-    "k": "li",
-    "t": "Подогрев ручек"
-   },
-   {
-    "k": "li",
-    "t": "Розетка питания"
-   },
-   {
-    "k": "li",
-    "t": "Сигнализация"
-   },
-   {
-    "k": "li",
-    "t": "Противотуманные фары"
-   },
-   {
-    "k": "h",
-    "t": "Тюнинг"
-   },
-   {
-    "k": "li",
-    "t": "Дуги Touratech (верх и низ), защита картера, боковые рамки"
-   },
-   {
-    "k": "li",
-    "t": "Оригинальные боковые кофры BMW (лев./прав.)"
-   },
-   {
-    "k": "li",
-    "t": "Алюминиевый кофр Lobo (чёрный)"
-   }
-  ],
-  "photos": [
-   "catalog/8605/1.jpg",
-   "catalog/8605/2.jpg",
-   "catalog/8605/3.jpg",
-   "catalog/8605/4.jpg"
-  ],
-  "post": "https://t.me/koreamotocycles_veltor/8/8605",
-  "parser": 3,
-  "orig": true,
-  "hd": true,
-  "hdv": 2
- },
- {
   "id": 8590,
   "slug": "renault-qm6-2-0-gde-re-signature-2022-8590",
   "type": "car",
@@ -29541,129 +30563,6 @@
   "origPhotos": [
    "catalog/8092/1.jpg",
    "catalog/8092/2.jpg"
-  ],
-  "hdv": 2
- },
- {
-  "id": 8088,
-  "slug": "bmw-s-1000-rr-m-package-2026-8088",
-  "type": "moto",
-  "brand": "BMW",
-  "model": "S 1000 RR",
-  "name": "BMW S 1000 RR M Package",
-  "raw": "BMW S1000RR M Package",
-  "year": 2026,
-  "km": 972,
-  "volume": "999 см³",
-  "power": null,
-  "drive": null,
-  "gearbox": null,
-  "price": 2414000,
-  "priceLabel": "под ключ",
-  "date": "2026-10-25T09:20:50+00:00",
-  "features": [
-   "Один владелец",
-   "Без ДТП",
-   "Без падений и скольжений"
-  ],
-  "body": [
-   {
-    "k": "li",
-    "t": "Один владелец. Первая регистрация — сентябрь 2026 года"
-   },
-   {
-    "k": "li",
-    "t": "Без ДТП"
-   },
-   {
-    "k": "li",
-    "t": "Без падений и скольжений"
-   },
-   {
-    "k": "li",
-    "t": "Без опрокидываний на месте"
-   },
-   {
-    "k": "li",
-    "t": "Оригинальная комплектация M Package"
-   },
-   {
-    "k": "li",
-    "t": "Передний и задний видеорегистратор"
-   },
-   {
-    "k": "li",
-    "t": "Оригинальный титановый глушитель Akrapovič"
-   },
-   {
-    "k": "li",
-    "t": "Защитные слайдеры передней вилки BMW"
-   },
-   {
-    "k": "li",
-    "t": "Слайдеры маятника BMW"
-   },
-   {
-    "k": "li",
-    "t": "Защита рычагов BMW"
-   },
-   {
-    "k": "li",
-    "t": "Защита правой стороны BMW"
-   },
-   {
-    "k": "li",
-    "t": "Слайдеры рамы Gilles"
-   },
-   {
-    "k": "li",
-    "t": "Подножки Gilles"
-   },
-   {
-    "k": "li",
-    "t": "Комплект защиты крышек двигателя GB Racing"
-   },
-   {
-    "k": "li",
-    "t": "Крепление для телефона SP Connect"
-   },
-   {
-    "k": "li",
-    "t": "Высокоскоростной зарядный порт DIZEL"
-   },
-   {
-    "k": "li",
-    "t": "Защитные накладки на бак и зоны контакта коленей"
-   },
-   {
-    "k": "li",
-    "t": "Карбоновая накладка на хвостовую часть"
-   },
-   {
-    "k": "li",
-    "t": "Оригинальное сиденье для тандемной езды в комплекте"
-   },
-   {
-    "k": "li",
-    "t": "Два ключа"
-   },
-   {
-    "k": "li",
-    "t": "Руководство пользователя"
-   }
-  ],
-  "photos": [
-   "catalog/8088/1.jpg",
-   "catalog/8088/2.jpg",
-   "catalog/8088/3.jpg",
-   "catalog/8088/4.jpg"
-  ],
-  "post": "https://t.me/koreamotocycles_veltor/8/8088",
-  "parser": 3,
-  "hd": true,
-  "origPhotos": [
-   "catalog/8088/1.jpg",
-   "catalog/8088/4.jpg"
   ],
   "hdv": 2
  },
