@@ -1,10 +1,426 @@
 [
  {
+  "id": 10955,
+  "slug": "harley-davidson-road-glide-2025-10955",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Road Glide",
+  "name": "Harley-Davidson Road Glide",
+  "raw": "Harley-Davidson Road Glide",
+  "year": 2025,
+  "km": 3,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2985000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-25T01:27:09+00:00",
+  "features": [
+   "Без падений и без следов эксплуатации",
+   "Купить мотоцикл из Южной Кореи 🇰🇷"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Новый мотоцикл: пройдена только предпродажная подготовка с тестовым выездом. Без падений и без следов эксплуатации. На вилку и боковые накладки крыльев наклеена защитная плёнка PPF."
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10955/1.jpg",
+   "catalog/10955/2.jpg",
+   "catalog/10955/3.jpg",
+   "catalog/10955/4.jpg",
+   "catalog/10955/5.jpg",
+   "catalog/10955/6.jpg",
+   "catalog/10955/7.jpg",
+   "catalog/10955/8.jpg",
+   "catalog/10955/9.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10955",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 10950,
+  "slug": "honda-cbr600rr-2025-10950",
+  "type": "moto",
+  "brand": "Honda",
+  "model": "CBR600RR",
+  "name": "Honda CBR600RR",
+  "raw": "Honda CBR600RR",
+  "year": 2025,
+  "km": 2427,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1344000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-25T01:10:13+00:00",
+  "features": [
+   "Используется для поездок на работу",
+   "Это сделал ещё прошлый владелец",
+   "Выше 8000 об/мин не крутили"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Используется для поездок на работу. Масло меняли на 1855 км и через месяц ещё раз на 2212 км: Motul 7100 10W-40 вместе с фильтром. На 1790 км прошёл отзывную кампанию по двигателю (картер), это сделал ещё прошлый владелец. Выше 8000 об/мин не крутили. Мастер при замене масла отметил, что мотор звучит хорошо. В комплекте два ключа."
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10950/1.jpg",
+   "catalog/10950/2.jpg",
+   "catalog/10950/3.jpg",
+   "catalog/10950/4.jpg",
+   "catalog/10950/5.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10950",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10948,
+  "slug": "harley-davidson-sportster-883-superlow-2016-10948",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Sportster 883 SuperLow",
+  "name": "Harley-Davidson Sportster 883 SuperLow",
+  "raw": "Harley-Davidson Sportster 883 SuperLow",
+  "year": 2016,
+  "km": 9000,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 966000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-25T00:30:49+00:00",
+  "features": [
+   "Полностью стоковый",
+   "Без ДТП и падений",
+   "В чистом состоянии"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Полностью стоковый, без ДТП и падений, в чистом состоянии. В комплекте дуги безопасности, штатные зеркала, а также два глушителя — штатный и ещё один дополнительный."
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10948/1.jpg",
+   "catalog/10948/2.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10948",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10941,
+  "slug": "yamaha-yzf-r6-2020-10941",
+  "type": "moto",
+  "brand": "Yamaha",
+  "model": "YZF-R6",
+  "name": "Yamaha YZF-R6",
+  "raw": "Yamaha YZF-R6",
+  "year": 2020,
+  "km": 608,
+  "volume": "599 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1959000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-25T00:30:14+00:00",
+  "features": [
+   "Без ДТП и падений",
+   "Мотоцикл в состоянии нового",
+   "Рулевой демпфер Öhlins"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Без ДТП и падений"
+   },
+   {
+    "k": "p",
+    "t": "Мотоцикл в состоянии нового. Доп. оборудование ставили из оригинального каталога Yamaha: подножки Gilles Tooling, рулевой демпфер Öhlins, выхлоп Akrapovič, ветровое стекло, защита радиатора, тюнинговый задний фонарь. Также установлен видеорегистратор G1 Pro. Резина Pirelli Diablo Supercorsa SP. Стоковые детали отдаются вместе с мотоциклом."
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10941/1.jpg",
+   "catalog/10941/2.jpg",
+   "catalog/10941/3.jpg",
+   "catalog/10941/4.jpg",
+   "catalog/10941/5.jpg",
+   "catalog/10941/6.jpg",
+   "catalog/10941/7.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10941",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10931,
+  "slug": "volkswagen-golf-2-0-tdi-prestige-2022-10931",
+  "type": "car",
+  "brand": "Volkswagen",
+  "model": "Golf",
+  "name": "Volkswagen Golf 2.0 TDI Prestige",
+  "raw": "Volkswagen Golf 2.0 TDI Prestige",
+  "year": 2022,
+  "km": 14607,
+  "volume": "2.0 л",
+  "power": null,
+  "drive": "передний",
+  "gearbox": "робот",
+  "price": 2842000,
+  "priceLabel": "под ключ в Москве",
+  "date": "2026-11-25T00:06:09+00:00",
+  "features": [
+   "Двигатель: 150 л.с",
+   "Электроскладывание зеркал",
+   "Литые диски"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Двигатель: 150 л.с"
+   },
+   {
+    "k": "h",
+    "t": "Комплектация"
+   },
+   {
+    "k": "li",
+    "t": "Люк"
+   },
+   {
+    "k": "li",
+    "t": "Электроскладывание зеркал"
+   },
+   {
+    "k": "li",
+    "t": "Литые диски"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев руля"
+   },
+   {
+    "k": "li",
+    "t": "Подрулевые лепестки"
+   },
+   {
+    "k": "li",
+    "t": "Кнопки управления на руле"
+   },
+   {
+    "k": "li",
+    "t": "Автозатемняющееся зеркало заднего вида"
+   },
+   {
+    "k": "li",
+    "t": "Центральный замок"
+   },
+   {
+    "k": "li",
+    "t": "Усилитель руля"
+   },
+   {
+    "k": "li",
+    "t": "Электростеклоподъёмники"
+   },
+   {
+    "k": "li",
+    "t": "Фронтальные подушки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "Боковые подушки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "Шторки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "ABS"
+   },
+   {
+    "k": "li",
+    "t": "Антипробуксовочная система (TCS)"
+   },
+   {
+    "k": "li",
+    "t": "Система стабилизации (ESC)"
+   },
+   {
+    "k": "li",
+    "t": "Датчики давления в шинах"
+   },
+   {
+    "k": "li",
+    "t": "Система контроля полосы (LDWS)"
+   },
+   {
+    "k": "li",
+    "t": "Парктроники передние и задние"
+   },
+   {
+    "k": "li",
+    "t": "Контроль слепых зон"
+   },
+   {
+    "k": "li",
+    "t": "Камера заднего вида"
+   },
+   {
+    "k": "li",
+    "t": "Климат-контроль"
+   },
+   {
+    "k": "li",
+    "t": "Смарт-ключ"
+   },
+   {
+    "k": "li",
+    "t": "Центральный замок с ДУ"
+   },
+   {
+    "k": "li",
+    "t": "Датчик дождя"
+   },
+   {
+    "k": "li",
+    "t": "Автоматический свет фар"
+   },
+   {
+    "k": "li",
+    "t": "Мультимедийный экран"
+   },
+   {
+    "k": "li",
+    "t": "Bluetooth"
+   },
+   {
+    "k": "li",
+    "t": "USB"
+   },
+   {
+    "k": "li",
+    "t": "Кожаный салон"
+   },
+   {
+    "k": "li",
+    "t": "Электрорегулировка водительского сиденья"
+   },
+   {
+    "k": "li",
+    "t": "Память сиденья водителя"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев передних сидений"
+   },
+   {
+    "k": "li",
+    "t": "Массаж сидений"
+   }
+  ],
+  "photos": [
+   "catalog/10931/1.jpg",
+   "catalog/10931/2.jpg",
+   "catalog/10931/3.jpg",
+   "catalog/10931/4.jpg",
+   "catalog/10931/5.jpg",
+   "catalog/10931/6.jpg",
+   "catalog/10931/7.jpg",
+   "catalog/10931/8.jpg",
+   "catalog/10931/9.jpg",
+   "catalog/10931/10.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/7/10931",
+  "parser": 3,
+  "orig": true
+ },
+ {
+  "id": 10921,
+  "slug": "harley-davidson-road-glide-2025-10921",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Road Glide",
+  "name": "Harley-Davidson Road Glide",
+  "raw": "Harley-Davidson Road Glide",
+  "year": 2025,
+  "km": 3500,
+  "volume": null,
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 4144000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-24T23:37:11+00:00",
+  "features": [
+   "Без ДТП и падений",
+   "Почти не ездил",
+   "Обе переделки оформлены официально"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Без ДТП и падений"
+   },
+   {
+    "k": "p",
+    "t": "Сразу после покупки аккуратно затюнингован, почти не ездил. Стоит руль-обезьянник 14 дюймов и нижние обтекатели с противотуманками, обе переделки оформлены официально. Есть подогрев, кофры, аудиосистема, сигнализация, тюнинговый выхлоп и LED-свет. На фото видно спицованное переднее колесо с белой боковиной на шине, кастомное сиденье с ромбовидной прострочкой, фрезерованные подножки и держатель с беспроводной зарядкой для телефона"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/10921/1.jpg",
+   "catalog/10921/2.jpg",
+   "catalog/10921/3.jpg",
+   "catalog/10921/4.jpg",
+   "catalog/10921/5.jpg",
+   "catalog/10921/6.jpg",
+   "catalog/10921/7.jpg",
+   "catalog/10921/8.jpg",
+   "catalog/10921/9.jpg",
+   "catalog/10921/10.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/10921",
+  "parser": 3,
+  "orig": true
+ },
+ {
   "id": 10919,
   "slug": "honda-x-adv-750-2024-10919",
   "type": "moto",
   "brand": "Honda",
-  "model": "X-adv",
+  "model": "X-adv 750",
   "name": "Honda X-adv 750",
   "raw": "Honda X-ADV 750",
   "year": 2024,
@@ -325,7 +741,7 @@
   "slug": "harley-davidson-fat-boy-117-2025-10867",
   "type": "moto",
   "brand": "Harley-Davidson",
-  "model": "Fat Boy",
+  "model": "Fat Boy 117",
   "name": "Harley-Davidson Fat Boy 117",
   "raw": "Harley-Davidson Fat Boy 117",
   "year": 2025,
