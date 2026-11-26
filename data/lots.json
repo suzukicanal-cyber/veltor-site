@@ -1,5 +1,304 @@
 [
  {
+  "id": 11054,
+  "slug": "bmw-s-1000-rr-2017-11054",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR",
+  "raw": "BMW S1000RR",
+  "year": 2017,
+  "km": 20000,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1217000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-26T00:18:59+00:00",
+  "features": [
+   "Мотоцикл в очень хорошем",
+   "Ухоженном состоянии",
+   "Золотистые элементы крепежа"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "BMW S1000RR с большим списком дополнительного оборудования. Мотоцикл в очень хорошем, ухоженном состоянии. В сентябре заменено моторное масло Motul 7100, установлены новые передняя и задняя шины Pirelli Diablo Rosso"
+   },
+   {
+    "k": "p",
+    "t": "Дополнительное оборудование: рычаги сцепления и тормоза Evotech, золотистые элементы крепежа, RAM Mount, ветровое стекло MRA, слайдеры двигателя Gilles, слайдеры вилки и задней оси, защита двигателя GB Racing, наклейки на колёса, крылья Winglets, короткий выхлоп Austin Racing"
+   },
+   {
+    "k": "li",
+    "t": "Также установлены держатель телефона и дополнительные защитные элементы"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/11054/1.jpg",
+   "catalog/11054/2.jpg",
+   "catalog/11054/3.jpg",
+   "catalog/11054/4.jpg",
+   "catalog/11054/5.jpg",
+   "catalog/11054/6.jpg",
+   "catalog/11054/7.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/11054",
+  "parser": 3,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 11044,
+  "slug": "renault-samsung-xm3-1-6-re-2022-11044",
+  "type": "car",
+  "brand": "Renault",
+  "model": "Samsung",
+  "name": "Renault Samsung XM3 1.6 RE",
+  "raw": "Renault Samsung XM3 1.6 RE",
+  "year": 2022,
+  "km": 13631,
+  "volume": "1.6 л",
+  "power": null,
+  "drive": "передний",
+  "gearbox": "вариатор",
+  "price": 1866000,
+  "priceLabel": "под ключ в Москве",
+  "date": "2026-11-26T00:16:48+00:00",
+  "features": [
+   "Двигатель: 123 л.с",
+   "LED-фары",
+   "Электроскладывание зеркал"
+  ],
+  "body": [
+   {
+    "k": "li",
+    "t": "Двигатель: 123 л.с"
+   },
+   {
+    "k": "h",
+    "t": "Комплектация"
+   },
+   {
+    "k": "li",
+    "t": "LED-фары"
+   },
+   {
+    "k": "li",
+    "t": "Электроскладывание зеркал"
+   },
+   {
+    "k": "li",
+    "t": "Литые диски"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев руля"
+   },
+   {
+    "k": "li",
+    "t": "Подрулевые лепестки"
+   },
+   {
+    "k": "li",
+    "t": "Кнопки управления на руле"
+   },
+   {
+    "k": "li",
+    "t": "Автозатемняющееся зеркало заднего вида"
+   },
+   {
+    "k": "li",
+    "t": "Hi-Pass"
+   },
+   {
+    "k": "li",
+    "t": "Центральный замок"
+   },
+   {
+    "k": "li",
+    "t": "Усилитель руля"
+   },
+   {
+    "k": "li",
+    "t": "Электростеклоподъёмники"
+   },
+   {
+    "k": "li",
+    "t": "Фронтальные подушки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "Боковые подушки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "Шторки безопасности"
+   },
+   {
+    "k": "li",
+    "t": "ABS"
+   },
+   {
+    "k": "li",
+    "t": "Антипробуксовочная система (TCS)"
+   },
+   {
+    "k": "li",
+    "t": "Система стабилизации (ESC)"
+   },
+   {
+    "k": "li",
+    "t": "Датчики давления в шинах"
+   },
+   {
+    "k": "li",
+    "t": "Система контроля полосы (LDWS)"
+   },
+   {
+    "k": "li",
+    "t": "Парктроники передние и задние"
+   },
+   {
+    "k": "li",
+    "t": "Камера заднего вида"
+   },
+   {
+    "k": "li",
+    "t": "Круиз-контроль"
+   },
+   {
+    "k": "li",
+    "t": "Электронный ручник"
+   },
+   {
+    "k": "li",
+    "t": "Климат-контроль"
+   },
+   {
+    "k": "li",
+    "t": "Смарт-ключ"
+   },
+   {
+    "k": "li",
+    "t": "Центральный замок с ДУ"
+   },
+   {
+    "k": "li",
+    "t": "Датчик дождя"
+   },
+   {
+    "k": "li",
+    "t": "Автоматический свет фар"
+   },
+   {
+    "k": "li",
+    "t": "Навигация"
+   },
+   {
+    "k": "li",
+    "t": "Мультимедийный экран"
+   },
+   {
+    "k": "li",
+    "t": "Bluetooth"
+   },
+   {
+    "k": "li",
+    "t": "USB"
+   },
+   {
+    "k": "li",
+    "t": "AUX"
+   },
+   {
+    "k": "li",
+    "t": "Кожаный салон"
+   },
+   {
+    "k": "li",
+    "t": "Подогрев передних сидений"
+   }
+  ],
+  "photos": [
+   "catalog/11044/1.jpg",
+   "catalog/11044/2.jpg",
+   "catalog/11044/3.jpg",
+   "catalog/11044/4.jpg",
+   "catalog/11044/5.jpg",
+   "catalog/11044/6.jpg",
+   "catalog/11044/7.jpg",
+   "catalog/11044/8.jpg",
+   "catalog/11044/9.jpg",
+   "catalog/11044/10.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/7/11044",
+  "parser": 3,
+  "orig": true,
+  "hd": true,
+  "hdv": 2
+ },
+ {
+  "id": 11035,
+  "slug": "bmw-s-1000-rr-m-package-2026-11035",
+  "type": "moto",
+  "brand": "BMW",
+  "model": "S 1000 RR",
+  "name": "BMW S 1000 RR M Package",
+  "raw": "BMW S1000RR M Package",
+  "year": 2026,
+  "km": 100,
+  "volume": "999 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 2287000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-26T00:13:07+00:00",
+  "features": [
+   "Практически новый мотоцикл",
+   "Полностью безаварийный",
+   "Состояние нового мотоцикла"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "BMW S1000RR в комплектации M Package. Практически новый мотоцикл, первая регистрация в 2026 году, пробег всего 100 km. Полностью безаварийный, состояние нового мотоцикла."
+   },
+   {
+    "k": "p",
+    "t": "Установлено дополнительное оборудование: штатный глушитель Akrapovič, видеорегистратор GNET MVR G1 PRO 2-канальный, защита двигателя GB Racing, SP Connect, защитные элементы рычагов сцепления и тормоза M, задние подножки Gilles Tooling, слайдеры рамы Gilles Tooling и другие опции."
+   },
+   {
+    "k": "p",
+    "t": "В наличии оригинальный тормозной рычаг, два ключа и заводская документация. Все расходные материалы и техническое обслуживание в порядке."
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/11035/1.jpg",
+   "catalog/11035/2.jpg",
+   "catalog/11035/3.jpg",
+   "catalog/11035/4.jpg",
+   "catalog/11035/5.jpg",
+   "catalog/11035/6.jpg",
+   "catalog/11035/7.jpg",
+   "catalog/11035/8.jpg",
+   "catalog/11035/9.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/11035",
+  "parser": 3,
+  "orig": true
+ },
+ {
   "id": 11025,
   "slug": "ducati-1299-superleggera-2017-11025",
   "type": "moto",
@@ -49,8 +348,7 @@
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/11025",
   "parser": 3,
-  "hd": true,
-  "hdv": 2
+  "orig": true
  },
  {
   "id": 11019,
@@ -107,7 +405,7 @@
   "slug": "ducati-diavel-v4-black-2024-11009",
   "type": "moto",
   "brand": "Ducati",
-  "model": "Diavel V4",
+  "model": "Diavel V4 Black",
   "name": "Ducati Diavel V4 Black",
   "raw": "Ducati Diavel V4 Black",
   "year": 2024,
@@ -211,7 +509,7 @@
   "slug": "harley-davidson-street-bob-114-low-rider-st-custom-2023-11002",
   "type": "moto",
   "brand": "Harley-Davidson",
-  "model": "Street Bob 114",
+  "model": "Street Bob 114 Low Rider ST Custom",
   "name": "Harley-Davidson Street Bob 114 Low Rider ST Custom",
   "raw": "Harley-Davidson Street Bob 114 Low Rider ST Custom",
   "year": 2023,
@@ -427,7 +725,8 @@
    "catalog/10964/10.jpg"
   ],
   "post": "https://t.me/koreamotocycles_veltor/8/10964",
-  "parser": 3
+  "parser": 3,
+  "orig": true
  },
  {
   "id": 10955,
