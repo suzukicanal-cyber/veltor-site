@@ -1,5 +1,50 @@
 [
  {
+  "id": 11214,
+  "slug": "harley-davidson-sportster-s-2023-11214",
+  "type": "moto",
+  "brand": "Harley-Davidson",
+  "model": "Sportster S",
+  "name": "Harley-Davidson Sportster S",
+  "raw": "Harley-Davidson Sportster S",
+  "year": 2023,
+  "km": 10269,
+  "volume": "1250 см³",
+  "power": null,
+  "drive": null,
+  "gearbox": null,
+  "price": 1250000,
+  "priceLabel": "под ключ",
+  "date": "2026-11-27T15:30:57+00:00",
+  "features": [
+   "На байке стоят защитные дуги",
+   "Купить мотоцикл из Южной Кореи 🇰🇷"
+  ],
+  "body": [
+   {
+    "k": "p",
+    "t": "Подножки пассажира куплены на AliExpress и установлены. Штатная карбоновая накладка на заднее сиденье есть в комплекте. На байке стоят защитные дуги, рамки под боковые кофры и держатель для телефона на руле"
+   },
+   {
+    "k": "li",
+    "t": "Купить мотоцикл из Южной Кореи 🇰🇷"
+   }
+  ],
+  "photos": [
+   "catalog/11214/1.jpg",
+   "catalog/11214/2.jpg",
+   "catalog/11214/3.jpg",
+   "catalog/11214/4.jpg",
+   "catalog/11214/5.jpg",
+   "catalog/11214/6.jpg",
+   "catalog/11214/7.jpg"
+  ],
+  "post": "https://t.me/koreamotocycles_veltor/8/11214",
+  "parser": 3,
+  "hd": true,
+  "hdv": 2
+ },
+ {
   "id": 11203,
   "slug": "harley-davidson-road-glide-2024-11203",
   "type": "moto",
